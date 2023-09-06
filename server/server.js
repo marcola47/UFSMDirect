@@ -5,7 +5,6 @@ import clear from 'clear';
 import { config } from 'dotenv';
 
 import router from './routes.js';
-import User from './models/User.js';
 
 clear();
 config();

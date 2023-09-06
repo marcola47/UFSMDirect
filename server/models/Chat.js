@@ -32,6 +32,13 @@ const chatSchema = new mongoose.Schema(
     type: Date,
     required: true,
     default: Date.now
+  },
+
+  deleted:
+  {
+    type: Boolean,
+    required: true,
+    default: false
   }
 });
 
