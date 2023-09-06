@@ -1,10 +1,14 @@
 import mongoose from 'mongoose';
+import idSchema from './_id.js';
 
 const userSchema = new mongoose.Schema(
 {
+  id: idSchema,
+
   name: 
   {
     type: String,
+    default: 'New User',
     required: true,
     maxlength: 128,
     trim: true
@@ -27,16 +31,29 @@ const userSchema = new mongoose.Schema(
     minlength: 8
   },
 
+  bio:
+  {
+    type: String,
+    default: 'New User Bio',
+    required: false,
+    trim: true,
+    maxlength: 512
+  },
+
   registration:
   {
     type: Number,
-    required: true,
+    default: null,
+    required: false,
     maxlength: 32
   },
 
   program:
   {
     type: String,
+    ref: 'Program',
+    default: null,
+    required: false
   }
 });
 

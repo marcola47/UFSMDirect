@@ -5,6 +5,7 @@ import clear from 'clear';
 import { config } from 'dotenv';
 
 import router from './routes.js';
+import User from './models/User.js';
 
 clear();
 config();
@@ -23,3 +24,15 @@ const dbHost = process.env.DB_HOST;
 mongoose.connect(dbHost);
 mongoose.connection.on("error", console.error.bind(console, "could not establish connection with mongodb"))
 mongoose.connection.once("open", () => {console.log("connected to mongodb\n")});
+
+// MODELS:
+//
+//      Chat: Chat
+//    Course: Disciplina
+//  Feedback: Feedback de importância/dificuldade
+//      Jobs: Áreas de atuação
+//   Nucleus: Núcleos formativos
+//   Program: Curso
+// Testimony: Depoimento
+//     Token: JWT de refresh
+//      User: Usuário

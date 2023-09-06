@@ -23,5 +23,4 @@ const tokenSchema = new mongoose.Schema(
 });
 
 tokenSchema.index({ token: 1, userID: 1 }, { unique: true })
-
 export default mongoose.model("Token", tokenSchema);
