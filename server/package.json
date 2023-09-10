@@ -17,7 +17,8 @@
     "nodemon": "^3.0.1"
   },
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "seed": "node scripts/seeder.js : -- "
   },
   "author": "marcola47, Strke12i, samue345, boniana",
   "license": "MIT",
