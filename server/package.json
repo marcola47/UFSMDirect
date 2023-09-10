@@ -1,6 +1,9 @@
 {
   "name": "ufsmdirect",
   "version": "0.0.1",
+  "author": "marcola47, Strke12i, samue345, boniana",
+  "license": "MIT",
+  "description": "",
   "main": "server.js",
   "type": "module",
   "dependencies": {
@@ -20,8 +23,5 @@
   "scripts": {
     "dev": "nodemon server.js",
     "seed": "node scripts/seeder.js : -- "
-  },
-  "author": "marcola47, Strke12i, samue345, boniana",
-  "license": "MIT",
-  "description": ""
+  }
 }
