@@ -2,8 +2,8 @@ import mongoose from 'mongoose';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 
-import User from '../models/User.js';
-import Token from '../models/Token.js';
+import User from '../db/models/User.js';
+import Token from '../db/models/Token.js';
 
 const userController = {};
 

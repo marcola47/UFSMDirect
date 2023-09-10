@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
 import idSchema from './_id.js';
+import paramsSchema from './_params.js'
 
 const programCourseSchema = new mongoose.Schema(
 {
@@ -20,6 +21,7 @@ const programCourseSchema = new mongoose.Schema(
 const programSchema = new mongoose.Schema(
 {
   id: idSchema,
+  params: paramsSchema,
 
   name: 
   {
@@ -54,11 +56,6 @@ const programSchema = new mongoose.Schema(
     required: true,
     maxlength: 64
   },
-
-  params:
-  {
-    // parametros do forms
-  }
 
   // relação entre cursos e areas de atução serão calculadas com base nas disciplinas
   // sem necessidade guardar no banco de dados

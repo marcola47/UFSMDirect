@@ -1,9 +1,11 @@
 import mongoose from 'mongoose';
 import idSchema from './_id.js';
+import paramsSchema from './_params.js'
 
 const userSchema = new mongoose.Schema(
 {
   id: idSchema,
+  params: paramsSchema,
 
   name: 
   {

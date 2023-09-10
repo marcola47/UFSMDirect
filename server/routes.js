@@ -4,6 +4,7 @@ import verifyToken from './middleware/verifyToken.js';
 import chatController from './controllers/chatController.js';
 import courseController from './controllers/courseController.js';
 import feedbackController from './controllers/feedbackController.js';
+import formController from './controllers/formController.js';
 import jobController from './controllers/jobController.js';
 import nucleusController from './controllers/nucleusController.js';
 import programController from './controllers/programController.js';
