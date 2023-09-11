@@ -1,7 +1,7 @@
 const param =
 {
   type: Number,
-  default: -10,
+  default: 0,
   required: true
 }
 
