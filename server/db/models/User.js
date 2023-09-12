@@ -2,10 +2,38 @@ import mongoose from 'mongoose';
 import idSchema from './_id.js';
 import paramsSchema from './_params.js'
 
+const userAffirmationSchema = new mongoose.Schema(
+{
+  id:
+  {
+    type: String,
+    ref: 'Affirmation',
+    required: true,
+  },
+
+  answer:
+  {
+    type: String,
+    enum: 
+    [
+      'completely disagree', 
+      'strongly disagree', 
+      'somewhat disagree',
+      'not sure',
+      'somewhat agree',
+      'strongly agree',
+      'completely agree'
+    ],
+    default: 'not sure',
+    required: true
+  }
+});
+
 const userSchema = new mongoose.Schema(
 {
   id: idSchema,
   params: paramsSchema,
+  affirmations: [userAffirmationSchema],
 
   name: 
   {
