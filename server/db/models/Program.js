@@ -21,7 +21,6 @@ const programCourseSchema = new mongoose.Schema(
 const programSchema = new mongoose.Schema(
 {
   id: idSchema,
-  params: paramsSchema,
 
   name: 
   {

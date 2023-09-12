@@ -1,7 +1,7 @@
 import React, { useRef, useLayoutEffect } from 'react';
 import { v4 as uuid } from 'uuid';
 
-export function List({ elements, ListItem, onClick, styles = null, classes = "", ids = "", unwrapped = false })
+export default function List({ elements, ListItem, onClick, styles = null, className = "", ids = "", unwrapped = false })
 {
   const listRef = useRef(null);
 
@@ -39,7 +39,7 @@ export function List({ elements, ListItem, onClick, styles = null, classes = "",
 
   return (
     <ul 
-      className={ classes } 
+      className={ className } 
       id={ ids } 
       ref={ listRef } 
       onScroll={ handleScroll } 
