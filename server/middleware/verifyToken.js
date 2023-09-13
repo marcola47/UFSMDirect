@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken';
-import Token from '../models/Token.js';
+import Token from '../db/models/Token.js';
 
 export default function verifyToken(req, res, next)
 {

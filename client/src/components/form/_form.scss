@@ -7,10 +7,138 @@
   justify-content: center;
   align-items: center;
 
-  background-color: #ccc;
+  max-width: 580px;
+  margin-inline: auto;
 
-  .affirmation
+  &__affirmations
   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+
+    .affirmation
+    {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      
+      padding: 16px;
+      border-bottom: 2px solid #dadada;
+      
+      text-align: center;
+
+      &__header
+      {
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+
+      &__content
+      { 
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: 1fr;
+        gap: 8px;
+      }
+
+      &__label
+      {
+        display: grid;
+        min-width: 128px;
+        
+        font-size: 1.2rem;
+        font-weight: 600;
+
+        &--negative
+        { 
+          grid-column: 1;
+          grid-row: 1;
+          
+          place-items: center left;
+          color: $red-500; 
+          text-align: left;
+        }
+
+        &--positive
+        { 
+          grid-column: 3;
+          grid-row: 1;
+          
+          place-items: center right;
+          color: $blue-500; 
+          text-align: right;
+        }
+      }
+
+      &__options
+      {
+        grid-column: 2;
+
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+
+        .option
+        {
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          border: 2px solid #00000000;
+
+          cursor: pointer;
+          @include transition;
+
+          &--negative
+          {
+            border-color: $red-500;
+
+            &--selected, &:hover
+            { background-color: $red-500 }
+          }
+
+          &--positive
+          {
+            border-color: $blue-500;
+
+            &--selected, &:hover
+            { background-color: $blue-500 }
+          }
+
+          &--neutral
+          {
+            border-color: rgb(141, 141, 141);
+
+            &--selected, &:hover
+            { background-color: rgb(141, 141, 141) }
+          }
+        }
+      }
+    }
+  }
+
+  &__submit
+  {
+    width: 100%;
+    padding: 8px;
+    margin-top: 24px;
+    border-radius: $br-s;
     
+    background-color: $blue-500;
+    color: $white-light;
+
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+
+    cursor: pointer;
+    user-select: none;
+    @include transition;
+
+    &:hover
+    { background-color: $blue-600 }
   }
 }
+
+// fazer responsivo

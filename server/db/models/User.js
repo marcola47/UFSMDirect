@@ -33,7 +33,6 @@ const userSchema = new mongoose.Schema(
 {
   id: idSchema,
   params: paramsSchema,
-  affirmations: [userAffirmationSchema],
 
   name: 
   {
@@ -70,12 +69,19 @@ const userSchema = new mongoose.Schema(
     maxlength: 512
   },
 
+  affirmations: 
+  {
+    type: [userAffirmationSchema],
+    default: null,
+    required: false
+  },
+
   registration:
   {
     type: Number,
     default: null,
     required: false,
-    maxlength: 32
+    maxlength: 16
   },
 
   program:

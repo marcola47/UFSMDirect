@@ -1,10 +1,252 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800;900&display=swap");
+@keyframes fade_in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade_out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
 .form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #ccc;
+  max-width: 580px;
+  margin-inline: auto;
+}
+.form__affirmations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.form__affirmations .affirmation {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  border-bottom: 2px solid #dadada;
+  text-align: center;
+}
+.form__affirmations .affirmation__header {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.form__affirmations .affirmation__content {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: 1fr;
+  gap: 8px;
+}
+.form__affirmations .affirmation__label {
+  display: grid;
+  min-width: 128px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.form__affirmations .affirmation__label--negative {
+  grid-column: 1;
+  grid-row: 1;
+  place-items: center left;
+  color: #F04438;
+  text-align: left;
+}
+.form__affirmations .affirmation__label--positive {
+  grid-column: 3;
+  grid-row: 1;
+  place-items: center right;
+  color: #2E90FA;
+  text-align: right;
+}
+.form__affirmations .affirmation__options {
+  grid-column: 2;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.form__affirmations .affirmation__options .option {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+.form__affirmations .affirmation__options .option--negative {
+  border-color: #F04438;
+}
+.form__affirmations .affirmation__options .option--negative--selected, .form__affirmations .affirmation__options .option--negative:hover {
+  background-color: #F04438;
+}
+.form__affirmations .affirmation__options .option--positive {
+  border-color: #2E90FA;
+}
+.form__affirmations .affirmation__options .option--positive--selected, .form__affirmations .affirmation__options .option--positive:hover {
+  background-color: #2E90FA;
+}
+.form__affirmations .affirmation__options .option--neutral {
+  border-color: rgb(141, 141, 141);
+}
+.form__affirmations .affirmation__options .option--neutral--selected, .form__affirmations .affirmation__options .option--neutral:hover {
+  background-color: rgb(141, 141, 141);
+}
+.form__submit {
+  width: 100%;
+  padding: 8px;
+  margin-top: 24px;
+  border-radius: 3px;
+  background-color: #2E90FA;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  transition: all 0.1s ease-in-out;
+}
+.form__submit:hover {
+  background-color: #1570EF;
+}
+
+@keyframes fade_in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade_out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.login {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 100dvh;
+  animation: fade_in 0.15s forwards ease-in-out;
+}
+.login__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 48px;
+  width: 420px;
+  height: 100dvh;
+  padding-top: 64px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(210, 13%, 15%);
+}
+.login__logo {
+  position: relative;
+  left: 10px;
+  max-width: 320px;
+  margin-bottom: 64px;
+}
+.login__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.login__inputs .login__input {
+  position: relative;
+}
+.login__inputs .fa-envelope, .login__inputs .fa-key {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 1.1rem;
+}
+.login__inputs input {
+  display: block;
+  width: 320px;
+  padding: 12px 16px 12px 40px;
+  border-radius: 3px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(210, 15%, 23%);
+  cursor: text;
+}
+.login__inputs input::-moz-placeholder {
+  color: hsl(0, 0%, 72%);
+}
+.login__inputs input::placeholder {
+  color: hsl(0, 0%, 72%);
+}
+.login__navigate {
+  width: 320px;
+  color: hsl(0, 0%, 85%);
+  cursor: pointer;
+  text-align: left;
+  text-decoration: underline;
+}
+.login__navigate:hover {
+  color: hsl(0, 0%, 100%);
+}
+.login__auth {
+  width: 320px;
+  padding: 12px 16px;
+  border-radius: 3px;
+  color: hsl(0, 0%, 100%);
+  background-color: #175CD3;
+  font-size: 1.2rem;
+}
+.login__auth:hover {
+  background-color: #1570EF;
+}
+.login__background {
+  display: grid;
+  place-items: center;
+  width: calc(100% - 420px);
+  height: 100dvh;
+}
+
+@media screen and (max-width: 720px) {
+  .login__form {
+    width: 100vw;
+  }
+  .login__background {
+    display: none;
+  }
+  .login input,
+  .login__logo,
+  .login__auth,
+  .login__navigate {
+    max-width: 280px;
+  }
+}
+@keyframes fade_in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade_out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 /***************************************************************************************************************/
 /* global styles */

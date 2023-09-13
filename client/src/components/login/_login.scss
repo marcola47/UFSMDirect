@@ -1,0 +1,131 @@
+@import '../../css/variables.scss';
+
+$wd: 320px;
+$wm: 280px;
+
+.login
+{
+  display: flex;
+
+  position: relative;
+  width: 100vw;
+  height: 100dvh;
+
+  @include anim_fade_in;
+
+  &__form
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 48px;
+
+    width: $menu-w;
+    height: 100dvh;
+    padding-top: 64px;
+
+    color: $white-light;
+    background-color: $bg-blue-mid-dim;
+  }
+
+  &__logo
+  {
+    position: relative;
+    left: 10px;
+
+    max-width: $wd;
+    margin-bottom: 64px;
+  }
+  
+  &__inputs
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+    .login__input
+    { 
+      position: relative; 
+    }
+
+    .fa-envelope, .fa-key
+    {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+
+      font-size: 1.1rem;
+    }
+
+    input
+    {
+      display: block;
+
+      width: $wd;
+      padding: 12px 16px 12px 40px;
+      border-radius: $br-s;
+
+      color: $white-light;
+      background-color: $bg-blue-light;
+
+      cursor: text;
+
+      &::placeholder
+      { color: $grey-light; }
+    }
+  }
+
+  &__navigate
+  {
+    width: $wd;
+
+    color: $white-dark;
+
+    cursor: pointer;
+    text-align: left;
+    text-decoration: underline;
+
+    &:hover
+    { color: $white-light; }
+  }
+
+  &__auth
+  {
+    width: $wd;
+    padding: 12px 16px;
+    border-radius: $br-s;
+
+    color: $white-light;
+    background-color: $blue-700;
+
+    font-size: 1.2rem;
+
+    &:hover
+    { background-color: $blue-600; }
+  }
+
+  &__background
+  {
+    display: grid;
+    place-items: center;
+
+    width: calc(100% - $menu-w);
+    height: 100dvh;
+  }
+}
+
+@media screen and (max-width: 720px) 
+{
+  .login__form
+  { width: 100vw; }
+
+  .login__background
+  { display: none; }
+
+  .login input,
+  .login__logo,
+  .login__auth, 
+  .login__navigate
+  { max-width: $wm; }
+}

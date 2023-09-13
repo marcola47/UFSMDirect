@@ -1,7 +1,9 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import { AffirmationsContext } from '../form';
 
 import List from '@/components/utils/list'; 
+
+export const OptionContext = React.createContext();
 
 function AffirmationOption({ itemData: option })
 {
@@ -35,44 +37,53 @@ function AffirmationOption({ itemData: option })
 
   return(
     <div 
-      className={`affirmation__option ${option.selected ? 'affirmation__option--selected' : ''}`}
+      className={`${option.className}${option.selected ? '--selected' : ''}`}
       id={ option.id }
       onClick={ () => {setAnswer(option.answer)} }
     />
   )
 }
 
-export const OptionContext = React.createContext();
-
 export default function Affirmation({ itemData: affirmation })
 {
   const [options, setOptions] = useState(
   [
-    { id: `${affirmation.id}:d2`, answer: 'completely_disagree', selected: false },
-    { id: `${affirmation.id}:d1`, answer: 'strongly_disagree'  , selected: false },
-    { id: `${affirmation.id}:d0`, answer: 'somewhat_disagree'  , selected: false },
-    { id: `${affirmation.id}:ns`, answer: 'not_sure'           , selected: false },
-    { id: `${affirmation.id}:a0`, answer: 'somewhat_agree'     , selected: false },
-    { id: `${affirmation.id}:a1`, answer: 'strongly_agree'     , selected: false },
-    { id: `${affirmation.id}:a2`, answer: 'completely_agree'   , selected: false }
+    { id: `${affirmation.id}:d2`, answer: 'completely_disagree', selected: false, className: 'option option--negative' },
+    { id: `${affirmation.id}:d1`, answer: 'strongly_disagree'  , selected: false, className: 'option option--negative' },
+    { id: `${affirmation.id}:d0`, answer: 'somewhat_disagree'  , selected: false, className: 'option option--negative' },
+    { id: `${affirmation.id}:ns`, answer: 'not_sure'           , selected: false, className: 'option option--neutral' },
+    { id: `${affirmation.id}:a0`, answer: 'somewhat_agree'     , selected: false, className: 'option option--positive' },
+    { id: `${affirmation.id}:a1`, answer: 'strongly_agree'     , selected: false, className: 'option option--positive' },
+    { id: `${affirmation.id}:a2`, answer: 'completely_agree'   , selected: false, className: 'option option--positive' }
   ]);
-
 
   return (
     <div className="affirmation">
-      <h1 
+      <div 
         className="affirmation__header"
         children={ affirmation.content }
       />
 
-      <OptionContext.Provider value={{ options, setOptions, affirmation }}>
-        <List
-          className="affirmation__options"
-          ids={`list:${affirmation.id}`}
-          elements={ options }
-          ListItem={ AffirmationOption }
+      <div className="affirmation__content">
+        <OptionContext.Provider value={{ options, setOptions, affirmation }}>
+          <List
+            className="affirmation__options"
+            ids={`list:${affirmation.id}`}
+            elements={ options }
+            ListItem={ AffirmationOption }
+          />
+        </OptionContext.Provider>
+
+        <div 
+          className="affirmation__label affirmation__label--negative"
+          children="Discordo"
         />
-      </OptionContext.Provider>
+
+        <div
+          className="affirmation__label affirmation__label--positive"
+          children="Concordo"
+        />
+      </div>
     </div>
   )
 }

@@ -1,3 +1,52 @@
 [
-  
+  {
+    "id": "5fd423e5-e00c-4589-a8e3-8711b7b38477",
+    "name": "Marcos Eduardo Mori Kaminski",
+    "email": "mekaminski@inf.ufsm.br",
+    "password": "Eunao!!Gostode4",
+    "bio": "Eu não gosto de dar a bunda",
+    "registration": 202121019,
+    "program": "f1912902-5717-484e-ac19-2c644240df1a"
+  },
+  {
+    "id": "ee7baa14-0e90-42b8-bc6b-ae624aad8134",
+    "name": "Felipe Cherequinha Bagaceira",
+    "email": "fcbagesteiro@inf.ufsm.br",
+    "password": "1234567890",
+    "bio": "Eu gosto de dar a bunda",
+    "registration": 202120052,
+    "program": "f1912902-5717-484e-ac19-2c644240df1a"
+  },
+  {
+    "id": "4bbafcda-0f96-4f05-bdf3-33bb59bbc272",
+    "name": "Ana Clara Boniatti Bordin",
+    "email": "acbordin@inf.ufsm.br",
+    "password": "1234567890",
+    "bio": "Eu não gosto de homens",
+    "registration": 202120197,
+    "program": "f1912902-5717-484e-ac19-2c644240df1a"
+  },
+  {
+    "id": "771c0520-4e47-4309-8d58-f3df244da309",
+    "name": "Samuel Souza",
+    "email": "ssnunes@inf.ufsm.br",
+    "password": "1234567890",
+    "bio": "Eu gosto de chupar penis",
+    "registration": 202120278,
+    "program": "f1912902-5717-484e-ac19-2c644240df1a"
+  },
+  {
+    "id": "27e42341-1239-475a-a8a4-9f54108fae72",
+    "name": "Sexo da Silva",
+    "email": "sexo@gmail.com",
+    "password": "1234567890",
+    "bio": "Prazer eu sou o sexo da silva da silva"
+  },
+  {
+    "id": "27e42341-1239-475a-a8a4-9f54108fae75",
+    "name": "Sexo de Oliveira",
+    "email": "sexozinho@gmail.com",
+    "password": "1234567890",
+    "bio": "Prazer eu sou o sexo da silva de oliveira"
+  }
 ]

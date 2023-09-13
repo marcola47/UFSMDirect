@@ -16,10 +16,12 @@ const guestRouter = express.Router();
 const authRouter = express.Router();
 authRouter.use(verifyToken);
 
-guestRouter.post('/user/login', userController.login)
-guestRouter.post('/user/token', userController.token)
-guestRouter.post('/user/create', userController.create)
-guestRouter.post('/user/logout', userController.logout)
+guestRouter.post('/user/login', userController.login);
+authRouter.post('/user/token', userController.token);
+guestRouter.post('/user/create', userController.create);
+authRouter.post('/user/logout', userController.logout);
+
+guestRouter.get('/form/getAffirmations', formController.getAffirmations);
 
 router.use('/a', authRouter);
 router.use('/g', guestRouter);

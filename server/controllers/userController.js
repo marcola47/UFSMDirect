@@ -11,7 +11,7 @@ userController.token = async (req, res) =>
 {
   try
   {
-    const user = await User.findOne({ id: req.body.userID });
+    const user = await User.findOne({ id: req.body.userID }).lean().select('-_id -__v');
 
     user.password = null;
     res.status(200).json({ accessToken: req.body.accessToken, result: user });
@@ -34,7 +34,7 @@ userController.login = async (req, res) =>
 
   try 
   {
-    const user = await User.findOne({ email: userData.email });
+    const user = await User.findOne({ email: userData.email }).lean().select('-_id -__v');
     if (!user)
     {
       return res.status(400).json(
