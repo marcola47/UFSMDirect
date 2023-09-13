@@ -20,7 +20,7 @@ const paramsSchema =
   infrastructure: param,
 
   design: param,
-  ux_ui: param,
+  ui_ux: param,
   mobile: param,
   desktop: param,
   web: param,

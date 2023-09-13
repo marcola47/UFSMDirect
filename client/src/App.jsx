@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useReducer } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useNavigate } from 'react-router-dom';
 import axios from '@/utils/axiosConfig';
 
 import '@/css/app.css';
@@ -15,6 +15,7 @@ export const ReducerContext = React.createContext();
 
 export default function App() 
 {
+  const navigate = useNavigate();
   const [user, setUser] = useState(null);
 
   const [state, dispatch] = useReducer(reducer, 
@@ -29,6 +30,7 @@ export default function App()
       default: return state;
     }
   }
+  
   function fetchUser()
   {
     if (user === null)
@@ -48,13 +50,10 @@ export default function App()
           setResponseError(err, dispatch)
         })
       }
-
-      else if (location.pathname !== '/register' && location.pathname !== '/login')
-        navigate('/login')
     }
   }
 
-  useEffect(() => { fetchUser(); console.log(user) }, [user]);
+  useEffect(() => { fetchUser() }, [user]);
 
   return (
     <UserContext.Provider value={{ user, setUser }}>

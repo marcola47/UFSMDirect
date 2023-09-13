@@ -1,7 +1,7 @@
 import { useContext, useRef } from 'react';
 import { UserContext, ReducerContext } from '@/app';
 import { useNavigate } from 'react-router-dom';
-import axios from '@/utils/axiosConfig';
+import axios, { setResponseError } from '@/utils/axiosConfig';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faKey } from '@fortawesome/free-solid-svg-icons';

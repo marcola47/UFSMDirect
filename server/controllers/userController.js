@@ -26,7 +26,7 @@ userController.token = async (req, res) =>
       message: "Internal server error on getting user" 
     });
   }
-};
+}
 
 userController.login = async (req, res) => 
 {
@@ -73,7 +73,7 @@ userController.login = async (req, res) =>
       message: "Internal server error on logging in" 
     });
   }
-};
+}
 
 userController.logout = async (req, res) => 
 {
@@ -95,7 +95,7 @@ userController.logout = async (req, res) =>
       message: "Internal server error on logging out" 
     });
   }
-};
+}
 
 userController.create = async (req, res) => 
 {
@@ -113,7 +113,7 @@ userController.create = async (req, res) =>
     const newUser = new User({ ...userData, password: hashedPassword });
     await User.create(newUser);
 
-    const accessToken = jwt.sign({ id: newUser.id }, process.env.JWT_ACCESS, { expiresIn: '30m' })
+    const accessToken = jwt.sign({ id: newUser.id }, process.env.JWT_ACCESS, { expiresIn: '180m' })
     const refreshToken = jwt.sign({ id: newUser.id }, process.env.JWT_REFRESH, { expiresIn: '30d' })
     await Token.create({ token: refreshToken, userID: newUser.id })
 
@@ -136,6 +136,26 @@ userController.create = async (req, res) =>
       message: "Internal server error on creating user" 
     });
   }
-};
+}
+
+userController.updateParams = async (req, res) =>
+{
+  try 
+  {
+    const { userID, params } = req.body;
+    await User.updateOne({ id: userID }, { $set: params });
+    res.status(200).send({ newAccessToken: req.newAccessToken });
+  }
+
+  catch (error)
+  {
+    console.log(error);
+    res.status(500).send(
+    {
+      header: "Failed to update user questionnaire",
+      message: "Internal server error on updating user questionnaire" 
+    });
+  }
+}
 
 export default userController;

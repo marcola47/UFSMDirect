@@ -37,6 +37,14 @@ const courseSchema = new mongoose.Schema(
     default: 0,
     required: true
   },
+
+  equivalents:
+  {
+    type: [String],
+    ref: 'Course',
+    default: [],
+    required: false
+  }
 });
 
 export default mongoose.model('Course', courseSchema);
