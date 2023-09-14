@@ -15,6 +15,13 @@ const programCourseSchema = new mongoose.Schema(
   {
     type: Number,
     required: true,
+  },
+
+  mandatory:
+  {
+    type: Boolean,
+    dafault: true,
+    required: true
   }
 });
 
