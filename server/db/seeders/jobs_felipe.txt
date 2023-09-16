@@ -1,27 +1,867 @@
-Trabalho foda
-* 
+Desenvolvedor de Jogos
+* Um Desenvolvedor de Jogos é um profissional que cria, projeta e programa jogos eletrônicos. Essa profissão envolve a aplicação de habilidades técnicas e criativas para criar experiências interativas de entretenimento. Os desenvolvedores de jogos trabalham em equipes multidisciplinares e são responsáveis por diferentes aspectos do processo de desenvolvimento de jogos, desde a programação até o design de personagens e a narrativa. Geralmente quem almeja trabalhar em jogos começa como desenvolvedor, mas com o tempo pode se especializar em uma área específica como design de jogos, arte ou programação.
 
 * Principais criações:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Desenvolvimento de Jogos para Dispositivos Móveis: Criar jogos para smartphones e tablets que podem ser baixados em lojas de aplicativos.
+  - Desenvolvimento de Jogos de Console/Computador: Trabalhar em equipes que criam jogos para computadores ou consoles de videogame, como PlayStation, Xbox e Nintendo Switch.
+  - Jogos de Simulação: Criar jogos de simulação que replicam situações da vida real, como simulações de voo ou gerenciamento de cidades.
+  - Desenvolvimento de Jogos para a Web: Criar jogos que podem ser jogados diretamente no navegador da web.
+  - Jogos de Realidade Virtual (VR) e Aumentada (AR): Criar experiências de jogos imersivas para dispositivos de VR e AR, como Oculus Rift e HoloLens.
 
 * Principais resposabilidades:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Programação de Jogos: Escrever código de computador para criar a funcionalidade do jogo, como mecânicas de jogo, física e interatividade.
+  - Design de Jogos: Projetar a estrutura do jogo, incluindo a jogabilidade, os níveis, personagens, regras e objetivos.
+  - Arte e Gráficos: Criar ou colaborar na criação de elementos visuais, como modelos 3D, texturas, animações e efeitos visuais.
+  - Otimização de Desempenho: Melhorar o desempenho do jogo para garantir que ele seja executado de maneira suave em diferentes plataformas.
+  - Testes e Depuração: Identificar e corrigir bugs e problemas de desempenho no jogo durante o desenvolvimento.
 
 * Principais empresas no ramo:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Rockstar Games: A Rockstar é conhecida por jogos como Grand Theft Auto (GTA) e Red Dead Redemption.
+  - Valve Corporation: A Valve é responsável pela plataforma Steam e pelos jogos Half-Life, Portal e Counter-Strike.
+  - Epic Games: A Epic Games é a criadora de Fortnite, um dos jogos mais populares do mundo, e do motor gráfico Unreal Engine.
+  - Capcom: A Capcom é famosa por séries como Resident Evil, Street Fighter e Monster Hunter.
+  - CD Projekt Red: Esta empresa polonesa é famosa pela série The Witcher e pelo jogo Cyberpunk 2077.
 
 * Parâmetros:
+  high_level_coding: 3,
+  low_level_coding: 9,
+  backend: 8,
+  frontend: 5,
+  databases: 4,
+  data_structures: 7,
+  algorithms: 8,
+  hardware: 6,
+  software: 9,
+  infrastructure: 1,
+  design: 8,
+  ui_ux: 4,
+  mobile: 7,
+  desktop: 9,
+  web: 4,
+  tangible_results: 2,
+  abstract_results: 10,
+  theory: 6,
+  practice: 10,
+  curiosity: 10,
+  practicality: 5,
+  creativity: 10,
+  logic: 7,
+  intuition: 9,
+  experimentation: 10,
+  methodology: 5,
+  analysis: 8,
+  adaptability: 10,
+  leadership: 4,
+  communication: 8,
+  team_work: 9,
+  individual_work: 5,
+  management: 4,
+  business: 3,
+  finance: 2,
+  math: 7,
+  physics: 6,
+  chemistry: 2,
+  teaching: 1,
+  mentoring: 2,
+  masters_degree: 4,
+  doctorate_degree: 3,
+  internship: 2,
+  apprenticeship: 2,
+  hiring_potential: 3
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Engenheiro de Dados
+* Um Engenheiro de Dados é um profissional que desempenha um papel fundamental na coleta, organização e análise de dados em uma empresa. Eles são responsáveis por projetar e construir sistemas e infraestruturas de dados que permitem a captura, o armazenamento e a transformação de grandes volumes de informações. Essa profissão é crucial para ajudar as empresas a tomar decisões informadas, identificar tendências e padrões, e desenvolver soluções baseadas em dados.
+
+* Principais criações:
+  - Análise de Negócios: Coletar e analisar dados de vendas, marketing e operações para identificar oportunidades de crescimento e eficiência.
+  - Personalização de Conteúdo: Desenvolver sistemas que personalizam conteúdo e recomendações com base no comportamento do usuário.
+  - Análise de Redes Sociais: Extrair insights de redes sociais para entender o comportamento do consumidor e melhorar o engajamento.
+  - Previsão e Recomendação: Criar modelos preditivos para prever tendências de mercado, demanda do cliente e recomendar ações.
+  - Ciência de Dados: Colaborar com cientistas de dados para desenvolver modelos preditivos e explorar dados em profundidade.
+
+* Principais resposabilidades:
+  - Coleta de Dados: Identificar fontes de dados relevantes para a empresa e criar mecanismos para coletar informações de diversas fontes, como bancos de dados, sensores, mídias sociais e muito mais.
+  - Análise de Dados: Utilizar ferramentas de análise de dados e técnicas estatísticas para extrair informações valiosas dos conjuntos de dados.
+  - Processamento de Dados em Tempo Real: Desenvolver sistemas que processam dados em tempo real, permitindo análises e ações imediatas.
+  - Integração de Dados: Integrar dados de diferentes fontes e sistemas para criar uma visão unificada.
+  - Automatização de Processos: Desenvolver scripts e sistemas automatizados para tarefas de rotina, como atualizações de dados.
+
+* Principais empresas no ramo:
+  - Google: A Google é conhecida por sua plataforma de nuvem, Google Cloud, que oferece serviços de armazenamento e análise de dados, como o BigQuery.
+  - Amazon Web Services (AWS): A AWS oferece uma ampla gama de serviços de armazenamento e processamento de dados, incluindo o Amazon Redshift para análise de dados.
+  - Snowflake: A Snowflake é uma empresa especializada em data warehousing na nuvem e fornece uma plataforma para análise de dados escalável.
+  - IBM: A IBM oferece soluções de dados e análise, como o IBM Db2 e o IBM Watson, para ajudar as empresas a gerenciar e analisar seus dados.
+  - Microsoft Azure: A Microsoft Azure fornece serviços de nuvem, incluindo o Azure Data Lake e o Azure Synapse Analytics, para análise de dados.
+
+* Parâmetros:
+  high_level_coding: 8,
+  low_level_coding: 4,
+  backend: 10,
+  frontend: 6,
+  databases: 10,
+  data_structures: 9,
+  algorithms: 6,
+  hardware: 3,
+  software: 9,
+  infrastructure: 4,
+  design: 5,
+  ui_ux: 1,
+  mobile: 6,
+  desktop: 7,
+  web: 6,
+  tangible_results: 3,
+  abstract_results: 10,
+  theory: 9,
+  practice: 7,
+  curiosity: 7,
+  practicality: 6,
+  creativity: 4,
+  logic: 8,
+  intuition: 7,
+  experimentation: 10,
+  methodology: 10,
+  analysis: 10,
+  adaptability: 8,
+  leadership: 2,
+  communication: 6,
+  team_work: 6,
+  individual_work: 8,
+  management: 5,
+  business: 5,
+  finance: 5,
+  math: 8,
+  physics: 0,
+  chemistry: 0,
+  teaching: 4,
+  mentoring: 6,
+  masters_degree: 8,
+  doctorate_degree: 9,
+  internship: 6,
+  apprenticeship: 6,
+  hiring_potential: 7
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Engenheiro de Machine Learning
+* Um Engenheiro de Machine Learning é um profissional que se dedica a desenvolver sistemas e aplicações de inteligência artificial (IA) e machine learning. Eles projetam, treinam e implementam algoritmos de aprendizado de máquina para resolver problemas complexos e criar soluções baseadas em dados. Essa profissão desempenha um papel crucial na criação de tecnologias que podem automatizar tarefas, tomar decisões baseadas em dados e melhorar a eficiência em diversos campos.
+
+* Principais criações:
+  - Recomendação de Conteúdo: Desenvolver sistemas de recomendação que sugerem produtos, filmes, músicas ou conteúdo personalizado com base no histórico do usuário.
+  - Detecção de Fraude: Criar modelos que identificam transações fraudulentas em serviços financeiros, como cartões de crédito.
+  - Processamento de Linguagem Natural (NLP): Desenvolver chatbots, assistentes virtuais e sistemas de tradução automática que entendem e geram texto humano.
+  - Automação Industrial: Criar sistemas de controle de máquinas e robôs para otimizar processos industriais.
+  - Saúde e Medicina: Desenvolver modelos de diagnóstico médico que auxiliam os profissionais de saúde na identificação de doenças.
+
+* Principais resposabilidades:
+  - Desenvolvimento de Modelos: Projetar e treinar modelos de machine learning, como redes neurais, árvores de decisão e algoritmos de clustering, para resolver problemas específicos.
+  - Análise de Dados: Realizar análise exploratória de dados para entender os padrões e as características dos dados.
+  - Coleta e Limpeza de Dados: Coletar dados relevantes e prepará-los para treinamento de modelos de machine learning, incluindo limpeza e formatação.
+  - Implementação de Modelos: Integrar os modelos de machine learning em sistemas ou aplicativos para automatizar tarefas ou fornecer funcionalidades baseadas em IA.
+  - Treinamento de Modelos em Escala: Treinar modelos em grande escala usando infraestrutura de computação distribuída e GPUs.
+
+* Principais empresas no ramo:
+  - Google: A Google é líder em IA e machine learning, com produtos como Google AI, TensorFlow (uma plataforma de código aberto) e assistentes virtuais como o Google Assistant.
+  - Amazon: A Amazon oferece serviços de machine learning por meio da Amazon Web Services (AWS), incluindo SageMaker e Comprehend para processamento de linguagem natural.
+  - Microsoft: A Microsoft possui a Azure Machine Learning e está envolvida em pesquisa de ponta em IA, além de aplicar IA em produtos como o Microsoft Azure e o Microsoft Office.
+  - OpenAI: A OpenAI é uma organização de pesquisa em IA que visa desenvolver inteligência artificial segura e avançada.
+  - NVIDIA: A NVIDIA fornece hardware e software para acelerar o treinamento de modelos de machine learning e IA.
+
+* Parâmetros:
+  high_level_coding: 8,
+  low_level_coding: 4,
+  backend: 10,
+  frontend: 1,
+  databases: 7,
+  data_structures: 9,
+  algorithms: 9,
+  hardware: 4,
+  software: 8,
+  infrastructure: 2,
+  design: 8,
+  ui_ux: 1,
+  mobile: 5,
+  desktop: 5,
+  web: 5,
+  tangible_results: 5,
+  abstract_results: 9,
+  theory: 9,
+  practice: 9,
+  curiosity: 9,
+  practicality: 7,
+  creativity: 6,
+  logic: 8,
+  intuition: 8,
+  experimentation: 10,
+  methodology: 9,
+  analysis: 9,
+  adaptability: 8,
+  leadership: 2,
+  communication: 5,
+  team_work: 4,
+  individual_work: 9,
+  management: 5,
+  business: 4,
+  finance: 3,
+  math: 8,
+  physics: 0,
+  chemistry: 0,
+  teaching: 5,
+  mentoring: 6,
+  masters_degree: 9,
+  doctorate_degree: 9,
+  internship: 7,
+  apprenticeship: 6,
+  hiring_potential: 8
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Engenheiro de Software de Redes
+* Um Engenheiro de Software de Redes é um profissional especializado em projetar, desenvolver e manter o software que controla e gerencia redes de computadores. Sua principal responsabilidade é garantir que as redes funcionem eficientemente, sejam seguras e atendam às necessidades das organizações. Eles desempenham um papel fundamental na conectividade e comunicação de dados em empresas e na Internet em geral.
+
+* Principais criações:
+  - Redes Definidas por Software (SDN): Implementar uma infraestrutura SDN, onde o controle da rede é centralizado em software para maior flexibilidade.
+  - Redes de Data Centers: Projetar e gerenciar redes em data centers para suportar a computação em nuvem e serviços web.
+  - Redes de Sensores IoT: Desenvolver soluções de rede para dispositivos de Internet das Coisas (IoT) que se comunicam em grande escala.
+  - Redes de Telecomunicações: Trabalhar em sistemas de telecomunicações para garantir a conectividade confiável de telefonia e internet.
+  - Segurança de Rede Avançada: Implementar soluções avançadas de segurança cibernética para proteger redes empresariais contra ameaças sofisticadas.
+
+* Principais resposabilidades:
+  - Design de Rede: Planejar e projetar a arquitetura de redes de computadores, incluindo a seleção de equipamentos e tecnologias apropriados.
+  - Desenvolvimento de Protocolos: Criar ou aprimorar protocolos de comunicação de rede para garantir a transferência eficiente de dados.
+  - Programação de Roteadores e Switches: Desenvolver software de controle para roteadores, switches e dispositivos de rede para gerenciamento e otimização.
+  - Segurança de Rede: Implementar medidas de segurança, como firewalls, VPNs e sistemas de detecção de intrusões, para proteger a rede contra ameaças cibernéticas.
+  - Gerenciamento de Tráfego: Desenvolver algoritmos e políticas para gerenciar o tráfego de rede e otimizar o desempenho.
+
+* Principais empresas no ramo:
+  - Cisco Systems: A Cisco é uma das maiores empresas de tecnologia de rede do mundo, fornecendo uma ampla gama de soluções de hardware e software para redes empresariais e provedores de serviços.
+  - Juniper Networks: A Juniper Networks é conhecida por seus produtos de rede de alto desempenho e soluções de segurança, incluindo roteadores e switches.
+  - Huawei: A Huawei é uma gigante de tecnologia que oferece soluções de rede, incluindo equipamentos de telecomunicações e soluções de rede definida por software (SDN).
+  - Nokia: A Nokia fornece infraestrutura de rede e serviços de telecomunicações, incluindo equipamentos para redes móveis e fixas.
+  - Ericsson: A Ericsson é uma líder global em tecnologia de comunicação e fornece soluções de rede, incluindo infraestrutura 5G e serviços de gerenciamento de rede.
+
+* Parâmetros:
+  high_level_coding: 4,
+  low_level_coding: 8,
+  backend: 7,
+  frontend: 1,
+  databases: 4,
+  data_structures: 6,
+  algorithms: 8,
+
+  hardware: 3,
+  software: 8,
+  infrastructure: 9,
+
+  design: 6,
+  ui_ux: 0,
+  mobile: 6,
+  desktop: 7,
+  web: 8,
+
+  tangible_results: 6,
+  abstract_results: 9,
+
+  theory: 9,
+  practice: 7,
+  curiosity: 6,
+  practicality: 8,
+  creativity: 4,
+  logic: 8,
+  intuition: 6,
+  experimentation: 7,
+  methodology: 9,
+  analysis: 9,
+  adaptability: 8,
+
+  leadership: 2,
+  communication: 4,
+  team_work: 4,
+  individual_work: 9,
+
+  management: 6,
+  business: 3,
+  finance: 2,
+
+  math: 5,
+  physics: 0,
+  chemistry: 0,
+
+  teaching: 4,
+  mentoring: 5,
+  masters_degree: 7,
+  doctorate_degree: 6,
+  internship: 6,
+  apprenticeship: 6,
+  hiring_potential: 6
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Engenheiro de QA
+* Um Engenheiro de QA, ou Engenheiro de Garantia de Qualidade, é um profissional que desempenha um papel fundamental no processo de desenvolvimento de software. Sua principal responsabilidade é garantir que o software seja de alta qualidade, livre de erros e atenda aos padrões e requisitos estabelecidos pela equipe de desenvolvimento e pelos clientes. Eles desempenham um papel crítico na identificação e correção de problemas antes que o software seja lançado ou implantado.
+
+* Principais criações:
+  - Desenvolvimento de Aplicativos Móveis: Testar aplicativos móveis em diferentes dispositivos e plataformas para garantir que funcionem sem problemas.
+  - Teste de Software de Jogos: Realizar testes extensivos em jogos eletrônicos para garantir que eles sejam livres de bugs e ofereçam uma experiência de jogo fluida.
+  - Teste de Software Empresarial: Avaliar sistemas de software usados por empresas para garantir que eles atendam às necessidades de negócios e sejam confiáveis.
+  - Teste de Software de Segurança: Realizar testes de segurança em aplicativos e sistemas para identificar e corrigir vulnerabilidades.
+  - Implantação de Sistemas: Garantir que a implantação de sistemas de software em ambientes de produção seja bem-sucedida e sem interrupções.
+
+* Principais resposabilidades:
+  - Teste de Software: Projetar e executar testes em software para identificar defeitos, bugs e problemas de usabilidade.
+  - Automação de Testes: Desenvolver scripts e ferramentas de automação de testes para agilizar o processo de teste e garantir a consistência.
+  - Revisão de Código: Analisar o código-fonte para identificar possíveis problemas de qualidade, como vazamentos de memória ou violações de segurança.
+  - Documentação de Testes: Criar documentação detalhada de casos de teste, planos de teste e relatórios de resultados de teste.
+  - Colaboração com a Equipe de Desenvolvimento: Trabalhar em estreita colaboração com os desenvolvedores para entender os requisitos e solucionar problemas de qualidade.
+
+* Principais empresas no ramo:
+  - IBM: A IBM oferece uma ampla gama de serviços de teste de software, incluindo automação de testes e testes de segurança.
+  - Accenture: A Accenture fornece serviços abrangentes de QA, incluindo testes de aplicativos, testes de segurança cibernética e automação de testes.
+  - Capgemini: A Capgemini é uma empresa global de serviços de consultoria que oferece serviços de teste de software, incluindo testes de qualidade e automação.
+  - Cognizant: A Cognizant é uma empresa líder em serviços de tecnologia e oferece soluções de teste de software personalizadas para seus clientes.
+  - Infosys: A Infosys oferece serviços de teste de software, incluindo testes de aplicativos móveis, automação de testes e testes de segurança.
+
+* Parâmetros:
+  high_level_coding: 3,
+  low_level_coding: 5,
+  backend: 6,
+  frontend: 6,
+  databases: 6,
+  data_structures: 8,
+  algorithms: 9,
+
+  hardware: 7,
+  software: 7,
+  infrastructure: 7,
+
+  design: 6,
+  ui_ux: 7,
+  mobile: 6,
+  desktop: 7,
+  web: 6,
+
+  tangible_results: 4,
+  abstract_results: 7,
+
+  theory: 3,
+  practice: 7,
+  curiosity: 7,
+  practicality: 7,
+  creativity: 6,
+  logic: 9,
+  intuition: 10,
+  experimentation: 10,
+  methodology: 9,
+  analysis: 10,
+  adaptability: 8,
+
+  leadership: 4,
+  communication: 8,
+  team_work: 9,
+  individual_work: 6,
+
+  management: 6,
+  business: 4,
+  finance: 1,
+
+  math: 4,
+  physics: 0,
+  chemistry: 0,
+
+  teaching: 6,
+  mentoring: 6,
+  masters_degree: 6,
+  doctorate_degree: 4,
+  internship: 5,
+  apprenticeship: 2,
+  hiring_potential: 7
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Pesquisador de IA
+* Um pesquisador de IA é um profissional altamente qualificado que se dedica a avançar no campo da Inteligência Artificial. Sua principal responsabilidade é realizar pesquisas, desenvolver algoritmos e modelos de aprendizado de máquina, e explorar novas técnicas para criar sistemas de IA mais inteligentes e eficazes. Esses pesquisadores estão na vanguarda da inovação tecnológica, trabalhando para resolver problemas complexos e impulsionar o desenvolvimento de aplicativos de IA em várias indústrias.
+
+* Principais criações:
+  - Desenvolvimento de Chatbots Inteligentes: Pesquisadores de IA podem trabalhar no desenvolvimento de chatbots avançados que compreendem a linguagem humana e podem responder a perguntas de forma mais precisa.
+  - Visão Computacional: Contribuir para a pesquisa em visão computacional para aprimorar a capacidade de sistemas de IA em reconhecer objetos, rostos e padrões em imagens e vídeos.
+  - Reconhecimento de Voz: Pesquisar e desenvolver algoritmos de reconhecimento de voz para assistentes de voz e sistemas de transcrição automática.
+  - Carros Autônomos: Contribuir para a pesquisa em sistemas de direção autônoma, incluindo percepção de ambiente, tomada de decisão e controle.
+  - Tradução Automática: Melhorar algoritmos de tradução automática para permitir a tradução mais precisa de idiomas.
+
+* Principais resposabilidades:
+  - Pesquisa e Desenvolvimento: Conduzir pesquisas científicas para criar algoritmos e modelos de IA avançados.
+  - Desenvolvimento de Algoritmos: Projetar algoritmos de aprendizado de máquina e técnicas de processamento de dados para melhorar o desempenho de sistemas de IA.
+  - Coleta e Análise de Dados: Coletar e analisar grandes conjuntos de dados para treinar modelos de IA e validar resultados.
+  - Experimentação: Realizar experimentos para testar novas abordagens e ideias em IA.
+  - Treinamento de Modelos de IA: Treinar modelos de IA usando técnicas de aprendizado de máquina supervisionado e não supervisionado.
+
+* Principais empresas no ramo:
+  - OpenAI: A OpenAI é uma organização de pesquisa de IA focada em desenvolver tecnologias de IA avançadas e éticas. Além de desenvolver IA avançada, a OpenAI realiza pesquisas para garantir que a IA seja segura e benéfica para a humanidade.
+  - DeepMind: Uma empresa de pesquisa em IA pertencente à Alphabet (empresa-mãe do Google) que se concentra em resolver problemas complexos de IA.
+  - Google AI: O Google tem uma divisão de pesquisa em IA dedicada a avançar na inteligência artificial e aplicá-la em produtos e serviços.
+  - Microsoft Research AI: A Microsoft possui uma divisão de pesquisa em IA que trabalha em projetos inovadores de IA e aprendizado de máquina.
+  - NVIDIA: A NVIDIA é conhecida por seus avanços em hardware de IA, mas também está envolvida em pesquisa em IA.
+
+* Parâmetros:
+  high_level_coding: 7,
+  low_level_coding: 6,
+  backend: 4,
+  frontend: 1,
+  databases: 7,
+  data_structures: 8,
+  algorithms: 10,
+
+  hardware: 3,
+  software: 8,
+  infrastructure: 1,
+
+  design: 8,
+  ui_ux: 1,
+  mobile: 3,
+  desktop: 5,
+  web: 4,
+
+  tangible_results: 3,
+  abstract_results: 9,
+
+  theory: 9,
+  practice: 6,
+  curiosity: 9,
+  practicality: 5,
+  creativity: 8,
+  logic: 9,
+  intuition: 5,
+  experimentation: 10,
+  methodology: 10,
+  analysis: 10,
+  adaptability: 8,
+
+  leadership: 3,
+  communication: 5,
+  team_work: 6,
+  individual_work: 8,
+
+  management: 4,
+  business: 3,
+  finance: 2,
+
+  math: 9,
+  physics: 0,
+  chemistry: 0,
+
+  teaching: 7,
+  mentoring: 7,
+  masters_degree: 10,
+  doctorate_degree: 10,
+  internship: 6,
+  apprenticeship: 5,
+  hiring_potential: 7
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Engenheiro de Hardware de Redes
+* Um engenheiro de hardware de redes é um profissional especializado em projetar, implementar e manter o hardware necessário para o funcionamento eficiente de redes de computadores. Essas redes podem variar em escala, desde redes locais (LANs) em empresas até redes de longa distância (WANs) que interconectam locais geograficamente separados. O trabalho desse engenheiro envolve garantir que os componentes físicos da rede, como roteadores, switches, cabos e outros dispositivos, estejam configurados e operando corretamente para fornecer conectividade confiável e segura.
+
+* Principais criações:
+  - Expansão de Rede Corporativa: Planejar e implementar a expansão de uma rede corporativa para acomodar um aumento no número de funcionários e dispositivos.
+  - Atualização de Infraestrutura de Data Center: Projetar e instalar uma nova infraestrutura de hardware de rede em um data center para melhorar o desempenho e a confiabilidade.
+  - Implantação de Redes sem Fio: Configurar uma rede sem fio (Wi-Fi) em um local empresarial para fornecer conectividade móvel aos funcionários e visitantes.
+  - Redes de Data Center: Projetar redes de data centers altamente eficientes e seguras para empresas que dependem de processamento de dados intensivo.
+  - Implantação de Redes de Voz sobre IP (VoIP): Configurar uma rede que permita a transmissão de voz por IP, economizando custos em comunicações telefônicas.
+
+* Principais resposabilidades:
+  - Projeto de Hardware de Rede: Projetar e dimensionar os componentes de hardware de redes com base nas necessidades específicas da organização.
+  - Instalação e Configuração: Instalar e configurar roteadores, switches, firewalls, servidores e outros dispositivos de rede.
+  - Segurança de Rede: Implementar medidas de segurança de rede para proteger os dados e as comunicações contra ameaças cibernéticas.
+  - Atualizações de Hardware: Gerenciar atualizações de hardware para garantir que a rede esteja atualizada com as tecnologias mais recentes.
+  - Teste e Monitoramento: Realizar testes de desempenho e monitorar o tráfego de rede para garantir um funcionamento eficiente.
+
+* Principais empresas no ramo:
+  - Cisco Systems: Cisco é uma das empresas líderes em equipamentos de rede, oferecendo uma ampla gama de produtos, desde roteadores e switches até soluções de segurança de rede.
+  - Juniper Networks: Juniper é conhecida por seus roteadores e switches de alto desempenho e soluções de rede segura.
+  - Huawei: A Huawei oferece uma variedade de produtos de rede, incluindo roteadores, switches e soluções de infraestrutura de telecomunicações.
+  - Fortinet: Fortinet é líder em segurança de rede e oferece dispositivos de firewall, dispositivos de segurança de rede e soluções de gerenciamento.
+  - Ericsson: Ericsson é outra grande empresa de telecomunicações que oferece soluções de infraestrutura de rede para operadoras móveis e provedores de serviços.
+
+* Parâmetros:
+  high_level_coding: 1,
+  low_level_coding: 4,
+  backend: 5,
+  frontend: 1,
+  databases: 6,
+  data_structures: 6,
+  algorithms: 4,
+
+  hardware: 10,
+  software: 2,
+  infrastructure: 10,
+
+  design: 6,
+  ui_ux: 0,
+  mobile: 2,
+  desktop: 4,
+  web: 6,
+
+  tangible_results: 10,
+  abstract_results: 4,
+
+  theory: 9,
+  practice: 7,
+  curiosity: 8,
+  practicality: 3,
+  creativity: 5,
+  logic: 9,
+  intuition: 3,
+  experimentation: 6,
+  methodology: 8,
+  analysis: 9,
+  adaptability: 8,
+
+  leadership: 2,
+  communication: 4,
+  team_work: 5,
+  individual_work: 8,
+
+  management: 3,
+  business: 2,
+  finance: 1,
+
+  math: 9,
+  physics: 7,
+  chemistry: 4,
+
+  teaching: 5,
+  mentoring: 4,
+  masters_degree: 5,
+  doctorate_degree: 5,
+  internship: 2,
+  apprenticeship: 5,
+  hiring_potential: 6
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Engenheiro de Hardware de Telecomunicações
+* Um engenheiro de hardware de telecomunicações é um profissional que projeta, desenvolve e mantém o hardware necessário para redes de telecomunicações, sistemas de comunicação e infraestruturas de telefonia. Esses engenheiros desempenham um papel fundamental na criação de dispositivos e equipamentos que possibilitam a transmissão eficiente de voz, dados e vídeo por meio de redes de comunicação. Seu trabalho envolve a pesquisa, projeto, teste e implementação de componentes de hardware de telecomunicações para garantir a qualidade e a confiabilidade das comunicações.
+
+* Principais criações:
+  - Implantação de Redes 5G: Participar do projeto e implementação de infraestrutura de hardware para redes 5G, que oferecem velocidades de comunicação muito mais rápidas.
+  - Infraestrutura de Rede de Data Center: Projetar e manter a infraestrutura de hardware de telecomunicações em data centers para garantir conectividade confiável e de alta velocidade.
+  - Redes de Fibra Óptica: Participar do desenvolvimento de equipamentos de hardware para redes de fibra óptica, que oferecem altas taxas de transferência de dados.
+  - Telefonia Móvel: Trabalhar em projetos relacionados a torres de celular, antenas e equipamentos de transmissão para melhorar a cobertura e a qualidade das redes móveis.
+  - Telecomunicações em Veículos: Desenvolver hardware para sistemas de comunicação em veículos, como GPS, sistemas de entretenimento e conectividade à internet.
+
+* Principais resposabilidades:
+  - Projeto de Hardware de Comunicação: Projetar componentes de hardware para sistemas de comunicação, como antenas, transceptores, roteadores e switches.
+  - Desenvolvimento de Equipamentos: Trabalhar no desenvolvimento de equipamentos de telecomunicações, como telefones celulares, modems e dispositivos de rede.
+  - Teste e Certificação: Realizar testes rigorosos para garantir que os dispositivos de hardware atendam aos padrões de qualidade e segurança estabelecidos.
+  - Resolução de Problemas: Diagnosticar e solucionar problemas de hardware em sistemas de telecomunicações para manter a integridade das comunicações.
+  - Otimização de Redes: Colaborar com engenheiros de software para otimizar o desempenho de redes de comunicação e garantir uma transferência de dados eficiente.
+
+* Principais empresas no ramo:
+  - Ericsson: Ericsson é uma das maiores empresas de telecomunicações do mundo, especializada em infraestrutura de redes móveis e telecomunicações.
+  - Nokia: Nokia é conhecida por seus equipamentos de rede, especialmente em telecomunicações móveis e redes de fibra óptica.
+  - Huawei: A Huawei é uma empresa líder em equipamentos de telecomunicações e infraestrutura de rede, incluindo 5G e tecnologias de comunicação.
+  - Cisco Systems: Cisco é uma das principais empresas em equipamentos de rede, oferecendo soluções para redes corporativas e de data center.
+  - ZTE Corporation: ZTE é uma empresa global de telecomunicações que oferece produtos e soluções de rede.
+
+* Parâmetros:
+  high_level_coding: 1,
+  low_level_coding: 3,
+  backend: 4,
+  frontend: 1,
+  databases: 5,
+  data_structures: 5,
+  algorithms: 7,
+
+  hardware: 10,
+  software: 2,
+  infrastructure: 10,
+
+  design: 7,
+  ui_ux: 0,
+  mobile: 5,
+  desktop: 5,
+  web: 2,
+
+  tangible_results: 10,
+  abstract_results: 5,
+
+  theory: 10,
+  practice: 7,
+  curiosity: 7,
+  practicality: 4,
+  creativity: 6,
+  logic: 8,
+  intuition: 2,
+  experimentation: 8,
+  methodology: 8,
+  analysis: 8,
+  adaptability: 6,
+
+  leadership: 1,
+  communication: 5,
+  team_work: 8,
+  individual_work: 6,
+
+  management: 3,
+  business: 2,
+  finance: 0,
+
+  math: 8,
+  physics: 7,
+  chemistry: 3,
+
+  teaching: 4,
+  mentoring: 3,
+  masters_degree: 5,
+  doctorate_degree: 5,
+  internship: 2,
+  apprenticeship: 4,
+  hiring_potential: 6
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Engenheiro de Internet das Coisas
+* Um engenheiro de Internet das Coisas (IoT) é um profissional responsável por projetar, desenvolver e implementar sistemas e dispositivos que permitem a conexão e a comunicação entre objetos físicos (como eletrodomésticos, veículos, sensores e máquinas) por meio da internet. Essa profissão está na vanguarda da revolução tecnológica, possibilitando a criação de soluções inteligentes e interconectadas para uma variedade de setores, desde a automação residencial até a indústria e a saúde.
+
+* Principais criações:
+  - Cidades Inteligentes: Desenvolver sistemas de iluminação pública inteligente que se ajustam automaticamente com base nas condições climáticas e no tráfego.
+  - Agricultura de Precisão: Criar sensores e dispositivos IoT para monitorar o solo, a umidade e as condições meteorológicas em fazendas, otimizando a produção agrícola.
+  - Casas Inteligentes: Desenvolver sistemas de automação residencial que permitem o controle de iluminação, segurança e eletrodomésticos por meio de smartphones.
+  - Veículos Autônomos: Contribuir para o desenvolvimento de veículos autônomos, projetando sistemas de sensores e comunicação para tornar os carros mais inteligentes e seguros
+  - Logística e Supply Chain: Implementar soluções de rastreamento de mercadorias e gestão de estoque usando dispositivos IoT para otimizar cadeias de suprimentos.
+
+* Principais resposabilidades:
+  - Projeto de Dispositivos IoT: Desenvolver hardware e firmware para dispositivos IoT, considerando a conectividade, sensores, eficiência energética e segurança.
+  - Desenvolvimento de Aplicações: Criar aplicativos e softwares que permitem o controle e a monitorização de dispositivos IoT por meio de dispositivos móveis ou computadores.
+  - Segurança IoT: Implementar medidas de segurança robustas para proteger dispositivos e dados contra ameaças cibernéticas.
+  - Integração de Dados: Configurar sistemas para coletar, transmitir e analisar dados gerados por dispositivos IoT.
+  - Redes IoT: Projetar e implementar redes de comunicação IoT, como LoRaWAN, Sigfox e MQTT.
+
+* Principais empresas no ramo:
+  - Cisco Systems: Cisco oferece soluções IoT abrangentes, incluindo hardware e software para redes IoT.
+  - IBM: A IBM é conhecida por sua plataforma Watson IoT, que fornece análise avançada e soluções de IoT para várias indústrias.
+  - Amazon Web Services (AWS): A AWS oferece serviços em nuvem para IoT, permitindo que as empresas criem e gerenciem aplicativos IoT escaláveis.
+  - Intel: A Intel produz uma ampla gama de chips e componentes para dispositivos IoT, além de fornecer soluções de software.
+  - Oracle: A Oracle oferece serviços de nuvem e soluções de IoT para empresas.
+
+* Parâmetros:
+  high_level_coding: 1,
+  low_level_coding: 3,
+  backend: 4,
+  frontend: 1,
+  databases: 5,
+  data_structures: 5,
+  algorithms: 7,
+
+  hardware: 10,
+  software: 2,
+  infrastructure: 10,
+
+  design: 7,
+  ui_ux: 0,
+  mobile: 5,
+  desktop: 5,
+  web: 2,
+
+  tangible_results: 10,
+  abstract_results: 5,
+
+  theory: 10,
+  practice: 7,
+  curiosity: 7,
+  practicality: 4,
+  creativity: 6,
+  logic: 8,
+  intuition: 2,
+  experimentation: 8,
+  methodology: 8,
+  analysis: 8,
+  adaptability: 6,
+
+  leadership: 1,
+  communication: 5,
+  team_work: 8,
+  individual_work: 6,
+
+  management: 3,
+  business: 2,
+  finance: 0,
+
+  math: 8,
+  physics: 7,
+  chemistry: 3,
+
+  teaching: 4,
+  mentoring: 3,
+  masters_degree: 5,
+  doctorate_degree: 5,
+  internship: 2,
+  apprenticeship: 4,
+  hiring_potential: 6
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Engenheiro de Robótica
+* Um engenheiro de robótica é um profissional que projeta, desenvolve e constrói sistemas robóticos autônomos ou controlados remotamente. Esses sistemas são compostos por hardware (mecânica, eletrônica e sensores) e software (algoritmos e programação) que permitem que os robôs realizem tarefas específicas. Essas tarefas podem variar desde a automação de processos industriais até a criação de robôs para exploração espacial, cirurgia assistida por robô e muito mais.
+
+* Principais criações:
+  - Robôs Industriais: Projeto e implementação de robôs para linhas de montagem automatizadas em fábricas, que podem montar produtos, realizar inspeções e manusear materiais.
+  - Robótica Médica: Desenvolvimento de robôs cirúrgicos para auxiliar cirurgiões em procedimentos complexos, melhorando a precisão e minimizando o risco para os pacientes.
+  - Exploração Espacial: Construção de robôs espaciais para explorar planetas, asteroides e outros corpos celestes, coletando dados e amostras.
+  - Robótica de Serviço: Criação de robôs para aplicações de serviços, como limpeza, entrega de alimentos, assistência a idosos e entretenimento.
+  - Robótica Subaquática: Projeto de robôs submarinos para explorar o oceano, realizar inspeções em plataformas de petróleo e gás, e estudar a vida marinha.
+
+* Principais resposabilidades:
+  - Projeto Mecânico: Projetar a estrutura mecânica dos robôs, incluindo articulações, braços, rodas ou pernas, para garantir sua funcionalidade e eficiência.
+  - Eletrônica e Hardware: Desenvolver componentes eletrônicos, sensores e sistemas de controle para permitir o movimento e a interação dos robôs com o ambiente.
+  - Programação e Controle: Criar algoritmos e programação para controlar o comportamento e as ações dos robôs, tornando-os capazes de tomar decisões autônomas.
+  - Inteligência Artificial (IA): Implementar IA para permitir que os robôs aprendam e melhorem seu desempenho com o tempo, adaptando-se a diferentes situações.
+  - Visão Computacional: Desenvolver sistemas de visão que permitem que os robôs percebam e interajam com o ambiente, reconhecendo objetos, pessoas e obstáculos.
+
+* Principais empresas no ramo:
+  - Boston Dynamics: Conhecida por seus robôs avançados, como o Spot e o Atlas, a Boston Dynamics trabalha em robótica móvel e autônoma.
+  - iRobot: A iRobot é famosa por sua linha de robôs aspiradores de pó Roomba, além de robôs de limpeza e desinfecção para uso doméstico e comercial.
+  - ROBOTIS: A ROBOTIS se concentra na criação de robôs educacionais e kits de robótica para fins de aprendizado e ensino.
+  - Universal Robots: Conhecida por seus robôs colaborativos (cobots), a Universal Robots fabrica robôs flexíveis que podem trabalhar lado a lado com humanos.
+  - KUKA Robotics: Especializada em robótica industrial, a KUKA projeta e fabrica robôs industriais para uma ampla gama de aplicações.
+
+* Parâmetros:
+  high_level_coding: 1,
+  low_level_coding: 4,
+  backend: 3,
+  frontend: 1,
+  databases: 5,
+  data_structures: 5,
+  algorithms: 7,
+
+  hardware: 10,
+  software: 2,
+  infrastructure: 5,
+
+  design: 8,
+  ui_ux: 0,
+  mobile: 2,
+  desktop: 3,
+  web: 0,
+
+  tangible_results: 10,
+  abstract_results: 3,
+
+  theory: 10,
+  practice: 5,
+  curiosity: 9,
+  practicality: 5,
+  creativity: 9,
+  logic: 8,
+  intuition: 5,
+  experimentation: 9,
+  methodology: 7,
+  analysis: 8,
+  adaptability: 8,
+
+  leadership: 1,
+  communication: 7,
+  team_work: 9,
+  individual_work: 5,
+
+  management: 4,
+  business: 1,
+  finance: 0,
+
+  math: 10,
+  physics: 8,
+  chemistry: 4,
+
+  teaching: 5,
+  mentoring: 4,
+  masters_degree: 8,
+  doctorate_degree: 8,
+  internship: 4,
+  apprenticeship: 6,
+  hiring_potential: 7
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Engenheiro de Sistemas Embarcados
+* Um engenheiro de sistemas embarcados é um profissional que projeta, desenvolve e mantém sistemas eletrônicos incorporados em dispositivos e produtos cotidianos. Esses sistemas, conhecidos como sistemas embarcados, são essenciais para o funcionamento de uma ampla variedade de dispositivos, desde eletrodomésticos e veículos até equipamentos médicos e eletrônicos de consumo. O papel do engenheiro de sistemas embarcados envolve trabalhar na interseção da eletrônica, software e hardware para criar soluções eficientes e confiáveis.
+
+* Principais criações:
+  - Sistemas de Controle de Veículos: Desenvolver sistemas embarcados para controlar funções críticas em veículos, como freios, direção e transmissão.
+  - Eletrodomésticos Inteligentes: Projetar a eletrônica e o firmware para eletrodomésticos conectados à Internet, como geladeiras e termostatos inteligentes.
+  - Dispositivos Médicos: Criar sistemas embarcados para equipamentos médicos, como monitores de pacientes, desfibriladores e bombas de infusão.
+  - Drone e Robótica: Desenvolver o firmware para controlar drones, robôs e sistemas de automação industrial.
+  - Dispositivos IoT: Projetar sistemas embarcados para dispositivos de Internet das Coisas (IoT), como sensores de casa inteligente e rastreadores de atividade.
+
+* Principais resposabilidades:
+  - Projeto de Hardware: Desenvolver a parte de hardware dos sistemas embarcados, incluindo a seleção de componentes, o layout de placas de circuito impresso (PCB) e a integração de sensores e atuadores.
+  - Programação de Firmware: Escrever o firmware, que é o software incorporado no sistema, para controlar o hardware e executar tarefas específicas. Isso envolve programação em linguagens como C e C++.
+  - Integração de Sensores: Integrar sensores, como sensores de temperatura, pressão, aceleração e câmeras, para permitir que o sistema interaja com o ambiente.
+  - Segurança: Implementar medidas de segurança para proteger o sistema contra ameaças cibernéticas e garantir a integridade dos dados.
+  - Otimização de Desempenho: Otimizar o desempenho do sistema para garantir a eficiência do uso de recursos, como energia e memória.
+
+* Principais empresas no ramo:
+  - Intel: A Intel é uma das maiores fabricantes de processadores e chips do mundo, que são amplamente utilizados em sistemas embarcados.
+  - Texas Instruments: A Texas Instruments projeta e fabrica semicondutores e soluções de hardware para sistemas embarcados em uma variedade de indústrias.
+  - STMicroelectronics: Esta empresa fornece uma ampla gama de componentes eletrônicos, incluindo sensores e microcontroladores para sistemas embarcados.
+  - NXP Semiconductors: A NXP oferece soluções de semicondutores para sistemas embarcados em áreas como automotiva, segurança e IoT.
+  - Microchip Technology: A Microchip é conhecida por seus microcontroladores e controladores lógicos programáveis (PLCs) para sistemas embarcados.
+
+* Parâmetros:
+  high_level_coding: 2,
+  low_level_coding: 7,
+  backend: 6,
+  frontend: 2,
+  databases: 6,
+  data_structures: 7,
+  algorithms: 4,
+
+  hardware: 10,
+  software: 7,
+  infrastructure: 4,
+
+  design: 6,
+  ui_ux: 1,
+  mobile: 5,
+  desktop: 8,
+  web: 2,
+
+  tangible_results: 7,
+  abstract_results: 7,
+
+  theory: 7,
+  practice: 8,
+  curiosity: 7,
+  practicality: 6,
+  creativity: 7,
+  logic: 7,
+  intuition: 6,
+  experimentation: 8,
+  methodology: 7,
+  analysis: 7,
+  adaptability: 8,
+
+  leadership: 1,
+  communication: 6,
+  team_work: 7,
+  individual_work: 6,
+
+  management: 3,
+  business: 1,
+  finance: 0,
+
+  math: 7,
+  physics: 6,
+  chemistry: 3,
+
+  teaching: 4,
+  mentoring: 4,
+  masters_degree: 7,
+  doctorate_degree: 7,
+  internship: 3,
+  apprenticeship: 5,
+  hiring_potential: 6
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
