@@ -1,4 +1,523 @@
-Trabalho foda
+Administrador de Sistemas
+* Um administrador de sistemas, também conhecido como administrador de redes ou administrador de TI, é um profissional responsável por gerenciar e manter a infraestrutura de tecnologia da informação (TI) de uma organização. O papel do administrador de sistemas é garantir que os sistemas de computadores, servidores, redes e serviços funcionem de forma eficiente, segura e confiável para atender às necessidades da empresa. Eles desempenham um papel fundamental na manutenção da integridade e disponibilidade dos recursos de TI, além de implementar medidas de segurança e solucionar problemas técnicos.
+
+* Principais criações:
+  - Implantação de Servidores: Configurar e implantar servidores para hospedar sites, aplicativos ou serviços internos da empresa.
+  - Upgrade de Infraestrutura: Atualizar a infraestrutura de TI, substituindo hardware mais antigo e sistemas obsoletos por soluções mais modernas e eficientes.
+  - Reforço de Segurança: Implementar medidas de segurança adicionais, como firewalls de próxima geração, detecção de intrusões e análise de segurança.
+  - Recuperação de Desastres: Desenvolver e testar planos de recuperação de desastres para garantir a continuidade dos negócios em caso de falhas catastróficas.
+  - Automatização de Rotinas: Automatizar tarefas de rotina, como backups e provisionamento de usuários, para economizar tempo e recursos.
+
+* Principais resposabilidades:
+  - Instalação e Configuração: Implantar e configurar sistemas operacionais, aplicativos e serviços nos servidores e computadores da empresa.
+  - Monitoramento e Manutenção: Monitorar continuamente a infraestrutura de TI para identificar e resolver problemas de desempenho, falhas e interrupções.
+  - Segurança de TI: Implementar medidas de segurança, como firewalls, antivírus, autenticação e controle de acesso, para proteger os sistemas e dados da organização contra ameaças cibernéticas.
+  - Backup e Recuperação: Realizar backups regulares de dados e sistemas e desenvolver planos de recuperação de desastres para garantir a disponibilidade de dados críticos em caso de falha.
+  - Atualizações e Patches: Aplicar atualizações de software, patches de segurança e correções de vulnerabilidades para manter os sistemas atualizados e seguros.
+
+* Principais empresas no ramo:
+  - IBM: A IBM é uma das maiores empresas de tecnologia do mundo, oferecendo uma ampla gama de serviços de TI, incluindo administração de sistemas e consultoria.
+  - Oracle: A Oracle é conhecida por seus sistemas de banco de dados e soluções empresariais, e muitos administradores de sistemas se especializam em suas tecnologias.
+  - Microsoft: A Microsoft fornece soluções de TI, sistemas operacionais e serviços em nuvem, com muitos profissionais de administração de sistemas especializados em suas tecnologias.
+  - Amazon Web Services (AWS): A AWS é uma das principais provedoras de serviços em nuvem do mundo, com uma crescente demanda por administradores de sistemas especializados em cloud computing.
+  - Google Cloud: A divisão de computação em nuvem do Google oferece serviços e soluções de TI baseados em nuvem, atraindo profissionais de administração de sistemas.
+
+* Parâmetros:
+  high_level_coding: 3,
+  low_level_coding: 8,
+  backend: 6,
+  frontend: 1,
+  databases: 8,
+  data_structures: 7,
+  algorithms: 5,
+
+  hardware: 4,
+  software: 8,
+  infrastructure: 8,
+
+  design: 1,
+  ui_ux: 0,
+  mobile: 3,
+  desktop: 6,
+  web: 5,
+
+  tangible_results: 2,
+  abstract_results: 9,
+
+  theory: 8,
+  practice: 7,
+  curiosity: 6,
+  practicality: 7,
+  creativity: 6,
+  logic: 7,
+  intuition: 4,
+  experimentation: 8,
+  methodology: 8,
+  analysis: 9,
+  adaptability: 9,
+
+  leadership: 2,
+  communication: 4,
+  team_work: 3,
+  individual_work: 9,
+
+  management: 1,
+  business: 4,
+  finance: 0,
+
+  math: 5,
+  physics: 0,
+  chemistry: 0,
+
+  teaching: 2,
+  mentoring: 3,
+  masters_degree: 7,
+  doctorate_degree: 8,
+  internship: 4,
+  apprenticeship: 2,
+  hiring_potential: 7
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Desenvolvedor Backend Desktop
+* Um desenvolvedor backend para desktop é um profissional de tecnologia da informação que se concentra em criar a parte "invisível" de um software de desktop. Eles são responsáveis por desenvolver o código e a lógica que controlam o funcionamento do software e garantem que ele funcione corretamente nos computadores dos usuários. O trabalho de um desenvolvedor backend para desktop está intimamente relacionado à programação e envolve a criação de aplicativos de desktop robustos e eficientes.
+
+* Principais criações:
+  - Desenvolvimento de Aplicativos Empresariais: Criar sistemas de software de desktop para empresas que ajudem a gerenciar processos internos, como contabilidade, recursos humanos e gestão de estoque.
+  - Software de Design Gráfico: Desenvolver aplicativos de desktop usados por designers gráficos para criar gráficos, ilustrações e layouts.
+  - Sistemas de Gerenciamento de Banco de Dados: Desenvolver sistemas de gerenciamento de banco de dados de desktop para empresas que precisam armazenar e acessar grandes volumes de informações.
+  - Aplicativos de Edição de Vídeo e Áudio: Criar software de desktop usado para edição de vídeo, áudio e produção multimídia.
+  - Ferramentas de Automação de Escritório: Desenvolver ferramentas de automação de escritório para otimizar tarefas repetitivas, como geração de relatórios ou análise de dados.
+
+* Principais resposabilidades:
+  - Desenvolvimento de Lógica: Criar a lógica do software que permite que ele realize tarefas específicas, como processamento de dados, cálculos complexos ou interações com bancos de dados.
+  - Integração de Dados: Integrar o software com bancos de dados e sistemas de armazenamento para que os usuários possam acessar, inserir e modificar informações.
+  - Otimização de Desempenho: Otimizar o código para garantir que o software seja rápido e eficiente, minimizando a utilização de recursos do computador.
+  - Testes e Depuração: Realizar testes rigorosos para garantir que o software funcione sem problemas e depurar problemas que possam surgir.
+  - Correção de Bugs: Identificar e corrigir erros ou problemas no software para garantir que ele funcione corretamente.
+
+* Principais empresas no ramo:
+  - Microsoft: Uma das maiores empresas de tecnologia do mundo, a Microsoft desenvolve sistemas operacionais e software para desktop, constantemente procurando desenvolvedores para suas equipes de engenharia.
+  - Apple: A Apple é conhecida por seus produtos de desktop, como o Mac, e contrata desenvolvedores para trabalhar em seus sistemas operacionais e aplicativos.
+  - Google: Embora mais focado em tecnologias web e mobile, o Google também tem projetos de desktop, como o Chrome OS, que requerem desenvolvedores.
+  - Oracle: A Oracle é conhecida por seus sistemas de gerenciamento de banco de dados e softwares empresariais, que frequentemente têm componentes de desktop.
+  - Adobe: A Adobe é famosa por seus aplicativos de desktop, como o Adobe Photoshop e o Adobe Acrobat, e emprega desenvolvedores para aprimorar essas ferramentas.
+
+* Parâmetros:
+  high_level_coding: 3,
+  low_level_coding: 9,
+  backend: 10,
+  frontend: 3,
+  databases: 8,
+  data_structures: 9,
+  algorithms: 8,
+  hardware: 2,
+  software: 10,
+  infrastructure: 6,
+  design: 3,
+  ui_ux: 1,
+  mobile: 5,
+  desktop: 10,
+  web: 3,
+  tangible_results: 2,
+  abstract_results: 10,
+  theory: 5,
+  practice: 9,
+  curiosity: 8,
+  practicality: 9,
+  creativity: 7,
+  logic: 8,
+  intuition: 6,
+  experimentation: 5,
+  methodology: 8,
+  analysis: 5,
+  adaptability: 6,
+  leadership: 3,
+  communication: 6,
+  team_work: 9,
+  individual_work: 6,
+  management: 3,
+  business: 4,
+  finance: 4,
+  math: 6,
+  physics: 2,
+  chemistry: 1,
+  teaching: 5,
+  mentoring: 6,
+  masters_degree: 8,
+  doctorate_degree: 7,
+  internship: 8,
+  apprenticeship: 7,
+  hiring_potential: 8
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Desenvolvedor Backend Mobile
+* Um desenvolvedor backend para mobile é um profissional de tecnologia que desempenha um papel fundamental no desenvolvimento de aplicativos móveis. Sua principal responsabilidade é criar e manter a infraestrutura que permite que os aplicativos móveis funcionem de maneira eficiente e se conectem a servidores e bancos de dados.
+
+* Principais criações:
+  - Aplicativos de Redes Sociais: Desenvolver a infraestrutura de backend para aplicativos de redes sociais, permitindo que os usuários compartilhem conteúdo, se conectem com amigos e acessem feeds de notícias.
+  - Aplicativos de Comércio Eletrônico: Criar sistemas backend para aplicativos de compras online, gerenciando catálogos de produtos, carrinhos de compras e processamento de pedidos.
+  - Aplicativos de Streaming de Mídia: Desenvolver serviços de streaming de áudio e vídeo para aplicativos de entretenimento, como Spotify e Netflix.
+  - Aplicativos de Finanças: Desenvolver serviços de backend seguros para aplicativos bancários móveis, permitindo transações financeiras e gerenciamento de contas.
+  - Aplicativos de Produtividade: Criar serviços de sincronização de dados e colaboração em equipe para aplicativos de produtividade móvel, como aplicativos de notas e gerenciadores de tarefas.
+
+* Principais resposabilidades:
+  - Desenvolvimento de Serviços Web: Os desenvolvedores backend para mobile criam os serviços web e APIs (interfaces de programação de aplicativos) necessários para que os aplicativos móveis obtenham e enviem dados do servidor.
+  - Gerenciamento de Dados: Eles lidam com o armazenamento e a recuperação de dados, garantindo que os aplicativos móveis tenham acesso a informações atualizadas e relevantes.
+  - Integração de Terceiros: Integram serviços de terceiros, como redes sociais ou sistemas de pagamento, nos aplicativos móveis.
+  - Escalabilidade: Planejam e implementam a escalabilidade dos sistemas para lidar com um grande número de usuários e picos de tráfego.
+  - Atualizações e Manutenção: Fornecem atualizações regulares e manutenção contínua para garantir que os aplicativos permaneçam funcionais e seguros.
+
+* Principais empresas no ramo:
+  - Google: A Google oferece serviços como o Firebase, que inclui uma variedade de ferramentas de backend para aplicativos móveis, como armazenamento em nuvem, autenticação e análise.
+  - Amazon Web Services (AWS): A AWS fornece uma ampla gama de serviços em nuvem que são amplamente utilizados no desenvolvimento backend de aplicativos móveis, incluindo AWS Lambda, Amazon S3 e Amazon API Gateway.
+  - Microsoft Azure: A Microsoft Azure oferece soluções de backend para aplicativos móveis, como Azure Functions, Azure Mobile Apps e Azure Cosmos DB.
+  - Oracle Cloud: A Oracle oferece serviços em nuvem para desenvolvimento de aplicativos móveis, incluindo Oracle Mobile Cloud Service (MCS) e Oracle Database Cloud.
+  - Red Hat: A Red Hat oferece soluções de código aberto para desenvolvimento de aplicativos móveis, incluindo Red Hat Mobile Application Platform.
+
+* Parâmetros:
+  high_level_coding: 5,
+  low_level_coding: 9,
+  backend: 10,
+  frontend: 4,
+  databases: 8,
+  data_structures: 8,
+  algorithms: 8,
+  hardware: 2,
+  software: 9,
+  infrastructure: 3,
+  design: 2,
+  ui_ux: 1,
+  mobile: 9,
+  desktop: 5,
+  web: 4,
+  tangible_results: 2,
+  abstract_results: 9,
+  theory: 6,
+  practice: 9,
+  curiosity: 8,
+  practicality: 8,
+  creativity: 7,
+  logic: 7,
+  intuition: 6,
+  experimentation: 5,
+  methodology: 8,
+  analysis: 6,
+  adaptability: 8,
+  leadership: 3,
+  communication: 6,
+  team_work: 9,
+  individual_work: 5,
+  management: 5,
+  business: 4,
+  finance: 3,
+  math: 4,
+  physics: 0,
+  chemistry: 0,
+  teaching: 3,
+  mentoring: 4,
+  masters_degree: 5,
+  doctorate_degree: 4,
+  internship: 6,
+  apprenticeship: 6,
+  hiring_potential: 8
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Desenvolvedor Backend Web
+* Um desenvolvedor backend para web é um profissional de tecnologia da informação responsável por criar e manter a parte "invisível" dos sites e aplicativos web. Enquanto os desenvolvedores de frontend se concentram na parte visual e interativa que os usuários veem e interagem, os desenvolvedores backend trabalham nos bastidores, lidando com o processamento de dados, o armazenamento em bancos de dados, a lógica do servidor e a segurança. Sua principal função é garantir que um site ou aplicativo funcione de maneira eficiente e segura, processando solicitações dos usuários e entregando conteúdo dinâmico.
+
+* Principais criações:
+  - Plataforma de Comércio Eletrônico: Em um site de comércio eletrônico, o desenvolvedor backend gerencia o catálogo de produtos, processa pedidos, lida com o pagamento online e mantém um sistema de gerenciamento de estoque.
+  - Rede Social: Em uma rede social, eles cuidam da criação de perfis de usuário, do feed de notícias, da publicação de conteúdo e da interação entre usuários.
+  - Aplicativos da Web Empresariais: Muitas empresas usam aplicativos da web para gerenciar operações internas, como gestão de recursos humanos, contabilidade e comunicação interna. Desenvolvedores backend são responsáveis por construir essas ferramentas.
+  - Sistemas de Gerenciamento de Conteúdo (CMS): CMS como o WordPress são desenvolvidos e mantidos por especialistas em backend para facilitar a criação e a gestão de sites.
+  - Blog ou Portal de Notícias: Desenvolvedores backend mantêm a estrutura de um blog ou portal de notícias, permitindo a criação, edição e publicação de artigos.
+
+* Principais resposabilidades:
+  - Gerenciamento de Dados: Eles cuidam das informações que um site ou aplicativo precisa para funcionar, como registros de usuários, postagens de blog e produtos em uma loja online.
+  - Lógica do Aplicativo: Eles escrevem o código que permite que o site ou aplicativo faça coisas como processar formulários, fornecer resultados de pesquisa e calcular preços.
+  - Integração com Serviços: Eles conectam o site ou aplicativo a outros serviços, como sistemas de pagamento, redes sociais e ferramentas de análise.
+  - Desempenho e Escalabilidade: Eles otimizam o desempenho do site ou aplicativo, para que ele seja rápido e possa lidar com muitos usuários ao mesmo tempo.
+  - Segurança: Eles garantem que os dados dos usuários sejam mantidos em segurança, usando técnicas como criptografia e verificações de autenticação.
+
+* Principais empresas no ramo:
+  - IBM - A IBM é uma das empresas líderes em desenvolvimento de software empresarial, incluindo soluções de backend.
+  - Microsoft - A Microsoft oferece uma ampla gama de tecnologias e ferramentas de desenvolvimento backend, incluindo o ASP.NET.
+  - Oracle - A Oracle é conhecida por seus sistemas de gerenciamento de banco de dados, o que a torna uma escolha popular para desenvolvimento backend.
+  - GitHub - Embora seja conhecido principalmente como uma plataforma de controle de versão, o GitHub também oferece hospedagem de aplicativos web por meio do GitHub Pages.
+  - MongoDB - A MongoDB é uma empresa conhecida por seu banco de dados NoSQL, que é usado em muitos desenvolvimentos de backend.
+
+* Parâmetros:
+  high_level_coding: 6,
+  low_level_coding: 9,
+  backend: 10,
+  frontend: 4,
+  databases: 9,
+  data_structures: 8,
+  algorithms: 7,
+  hardware: 1,
+  software: 10,
+  infrastructure: 4,
+  design: 3,
+  ui_ux: 1,
+  mobile: 4,
+  desktop: 5,
+  web: 10,
+  tangible_results: 1,
+  abstract_results: 10,
+  theory: 5,
+  practice: 9,
+  curiosity: 8,
+  practicality: 9,
+  creativity: 7,
+  logic: 7,
+  intuition: 8,
+  experimentation: 6,
+  methodology: 9,
+  analysis: 5,
+  adaptability: 8,
+  leadership: 2,
+  communication: 7,
+  team_work: 8,
+  individual_work: 8,
+  management: 3,
+  business: 2,
+  finance: 3,
+  math: 3,
+  physics: 0,
+  chemistry: 0,
+  teaching: 6,
+  mentoring: 5,
+  masters_degree: 4,
+  doctorate_degree: 3,
+  internship: 8,
+  apprenticeship: 9,
+  hiring_potential: 10
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Desenvolvedor Frontend Desktop
+* Um desenvolvedor frontend para desktop é alguém que cria a parte visual e interativa de aplicativos de computador que são executados em desktops, como laptops ou PCs. Eles se concentram em tornar a interface do usuário (UI) desses aplicativos atraente, funcional e fácil de usar para os usuários finais.
+
+* Principais criações:
+  - Desenvolvimento de Aplicativos de Produtividade: Criar aplicativos de produtividade para desktop, como processadores de texto, planilhas, aplicativos de e-mail e software de apresentação.
+  - Aplicativos de Design Gráfico: Desenvolver aplicativos de design gráfico, como editores de imagem e software de modelagem 3D, que permitem aos usuários criar arte digital e designs.
+  - Sistemas de Gerenciamento de Banco de Dados: Desenvolver interfaces de usuário para aplicativos de gerenciamento de banco de dados, permitindo que os usuários interajam com os dados de forma eficiente.
+  - Aplicativos de Comunicação: Criar aplicativos de comunicação, como clientes de mensagens instantâneas e aplicativos de videoconferência, que facilitam a comunicação entre usuários.
+  - Aplicativos Financeiros: Construir aplicativos financeiros para desktop que ajudam na gestão de finanças pessoais, contabilidade e análise de investimento
+
+* Principais resposabilidades:
+  - Desenvolvimento de Interfaces Interativas: Eles escrevem código para criar interações entre o usuário e o aplicativo. Isso pode envolver a criação de formulários, campos de entrada, gráficos e outros elementos interativos.
+  - Compatibilidade com Diferentes Plataformas: Os desenvolvedores frontend precisam garantir que seus aplicativos funcionem em diferentes sistemas operacionais, como Windows, macOS e Linux, adaptando o código conforme necessário.
+  - Atualizações e Manutenção: Mantêm o aplicativo atualizado e garantem que ele continue funcionando bem após atualizações de sistemas operacionais ou mudanças de hardware.
+  - Melhoria de Desempenho: Eles otimizam o desempenho do aplicativo para garantir que ele seja responsivo e não apresente lentidão ou travamentos.
+  - Colaboração com Desenvolvedores Backend: Trabalham em conjunto com desenvolvedores backend para garantir que a interface do usuário funcione perfeitamente com a lógica do aplicativo que está sendo executada no servidor.
+
+* Principais empresas no ramo:
+  - Microsoft: A Microsoft é uma das maiores empresas de tecnologia do mundo e é conhecida por seus sistemas operacionais, como o Windows, e pelo desenvolvimento de software para desktop, como o Microsoft Office.
+  - Apple: A Apple é famosa por seus sistemas operacionais macOS e pelo desenvolvimento de software para desktop, incluindo o conjunto de aplicativos iWork e Final Cut Pro.
+  - Oracle: A Oracle é conhecida por seus sistemas de gerenciamento de banco de dados e software empresarial, que incluem o Oracle Database e o Oracle E-Business Suite.
+  - IBM: A IBM tem uma longa história no desenvolvimento de software para desktop, incluindo sistemas operacionais, aplicativos empresariais e ferramentas de desenvolvimento.
+  - Atlassian: A Atlassian desenvolve software de colaboração, incluindo o Jira, usado para gerenciamento de projetos e rastreamento de problemas, e o Confluence, uma plataforma de colaboração.
+
+* Parâmetros:
+  high_level_coding: 8,
+  low_level_coding: 4,
+  backend: 4,
+  frontend: 10,
+  databases: 4,
+  data_structures: 7,
+  algorithms: 6,
+  hardware: 2,
+  software: 10,
+  infrastructure: 2,
+  design: 7,
+  ui_ux: 6,
+  mobile: 4,
+  desktop: 10,
+  web: 5,
+  tangible_results: 2,
+  abstract_results: 10,
+  theory: 5,
+  practice: 10,
+  curiosity: 8,
+  practicality: 9,
+  creativity: 7,
+  logic: 8,
+  intuition: 6,
+  experimentation: 5,
+  methodology: 8,
+  analysis: 5,
+  adaptability: 6,
+  leadership: 3,
+  communication: 6,
+  team_work: 9,
+  individual_work: 8,
+  management: 3,
+  business: 4,
+  finance: 4,
+  math: 6,
+  physics: 2,
+  chemistry: 1,
+  teaching: 5,
+  mentoring: 6,
+  masters_degree: 8,
+  doctorate_degree: 7,
+  internship: 8,
+  apprenticeship: 7,
+  hiring_potential: 8
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Desenvolvedor Frontend Mobile
+* Um desenvolvedor frontend para mobile é alguém que cria a parte visual e interativa de aplicativos móveis, como os que você usa em smartphones e tablets. Eles se concentram em tornar a interface do usuário (UI) desses aplicativos atraente, funcional e fácil de usar para os usuários finais.
+
+* Principais criações:
+  - Aplicativos de Redes Sociais: Desenvolver a interface de usuário de aplicativos como Facebook, Instagram e Twitter, tornando a experiência de navegação e interação agradável para os usuários.
+  - Aplicativos de Comércio Eletrônico: Criar a interface de aplicativos de compras online, como Amazon e eBay, onde os usuários podem navegar por produtos, adicionar itens ao carrinho e efetuar compras.
+  - Aplicativos de Mensagens Instantâneas: Desenvolver a interface de usuário de aplicativos de mensagens como WhatsApp e Messenger, permitindo que os usuários enviem mensagens de texto, fotos e vídeos.
+  - Aplicativos de Bancos e Finanças: Criar interfaces de usuário para aplicativos bancários e de serviços financeiros, onde os usuários podem verificar saldos, realizar transferências e pagar contas.
+  - Aplicativos de Saúde e Bem-Estar: Desenvolver a interface de usuário para aplicativos de rastreamento de saúde, como Fitbit e MyFitnessPal, que monitoram atividades físicas e hábitos alimentares.
+
+* Principais resposabilidades:
+  - Design de Interface: Os desenvolvedores frontend para mobile projetam a aparência geral do aplicativo móvel, incluindo elementos como botões, menus, telas de login e ícones. Eles se certificam de que o aplicativo seja visualmente atraente e intuitivo.
+  - Adaptação a Diferentes Dispositivos: Os desenvolvedores frontend precisam garantir que seus aplicativos funcionem bem em diferentes dispositivos móveis, com telas de tamanhos variados e sistemas operacionais diferentes, como iOS e Android.
+  - Compatibilidade com Diferentes Versões do Sistema: Mantêm o aplicativo atualizado para funcionar bem em diferentes versões dos sistemas operacionais móveis, já que esses sistemas costumam passar por atualizações frequentes.
+  - Testes e Depuração: Testam rigorosamente o aplicativo em busca de erros e problemas de usabilidade, corrigindo quaisquer problemas que surjam.
+  - Colaboração com Desenvolvedores Backend: Trabalham em conjunto com desenvolvedores backend para garantir que a interface do usuário funcione perfeitamente com a lógica do aplicativo que está sendo executada no servidor.
+
+* Principais empresas no ramo:
+  - Apple: A Apple é a empresa por trás do sistema operacional iOS, usado em iPhones e iPads. Eles desenvolvem aplicativos nativos e também contratam desenvolvedores para criar aplicativos na App Store.
+  - Google: O Google é responsável pelo sistema operacional Android, e eles têm o Google Play Store como sua plataforma de distribuição de aplicativos. Desenvolvedores frontend para mobile trabalham em aplicativos Android.
+  - Facebook: O Facebook é conhecido por seus aplicativos sociais, como o Facebook, Instagram e WhatsApp, todos disponíveis em dispositivos móveis. Eles estão constantemente em busca de talentos para melhorar a experiência do usuário nesses aplicativos.
+  - Amazon: A Amazon possui aplicativos móveis para compras online, streaming de vídeo (Prime Video) e audiolivros (Audible), e contratam desenvolvedores frontend para melhorar a experiência do usuário.
+  - Microsoft: A Microsoft também desenvolve aplicativos móveis, incluindo o Microsoft Office e o Microsoft Teams. Eles contratam desenvolvedores para aprimorar a interface do usuário desses aplicativos.
+
+* Parâmetros:
+  high_level_coding: 9,
+  low_level_coding: 3,
+  backend: 2,
+  frontend: 10,
+  databases: 3,
+  data_structures: 7,
+  algorithms: 6,
+  hardware: 2,
+  software: 10,
+  infrastructure: 1,
+  design: 7,
+  ui_ux: 7,
+  mobile: 10,
+  desktop: 3,
+  web: 5,
+  tangible_results: 2,
+  abstract_results: 10,
+  theory: 5,
+  practice: 10,
+  curiosity: 8,
+  practicality: 9,
+  creativity: 7,
+  logic: 8,
+  intuition: 6,
+  experimentation: 5,
+  methodology: 8,
+  analysis: 5,
+  adaptability: 6,
+  leadership: 3,
+  communication: 6,
+  team_work: 9,
+  individual_work: 8,
+  management: 3,
+  business: 4,
+  finance: 4,
+  math: 6,
+  physics: 2,
+  chemistry: 1,
+  teaching: 5,
+  mentoring: 6,
+  masters_degree: 8,
+  doctorate_degree: 7,
+  internship: 8,
+  apprenticeship: 7,
+  hiring_potential: 8
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Desenvolvedor Frontend Web
+* Um desenvolvedor frontend para web é alguém que cria a parte visual e interativa de sites da internet. Eles são responsáveis por tornar os sites atraentes, funcionais e fáceis de usar para os visitantes
+
+* Principais criações:
+  - Sites de Comércio Eletrônico: Desenvolver a interface de lojas online, onde os usuários podem navegar por produtos, adicionar itens ao carrinho e efetuar compras.
+  - Blogs e Sites de Notícias: Criar sites de blogs e notícias onde os visitantes podem ler artigos, assistir a vídeos e interagir com conteúdo.
+  - Portfólios Profissionais: Desenvolver sites de portfólios para profissionais e artistas para exibir seus trabalhos e habilidades.
+  - Sites de Agências e Empresas: Criar sites corporativos que fornecem informações sobre empresas, produtos e serviços.
+  - Plataformas de Redes Sociais: Participar do desenvolvimento de redes sociais e comunidades online, onde os usuários podem se conectar e interagir.
+
+* Principais resposabilidades:
+  - Desenvolvimento de Interfaces Interativas: Eles escrevem código para criar interações entre os usuários e o site, permitindo coisas como cliques em botões, preenchimento de formulários e rolagem suave.
+  - Compatibilidade com Navegadores: Os desenvolvedores frontend precisam garantir que o site funcione bem em diferentes navegadores, como Chrome, Firefox, Safari e Edge, adaptando o código conforme necessário.
+  - Responsividade: Eles criam sites responsivos, o que significa que os sites se ajustam automaticamente a diferentes tamanhos de tela, como desktops, tablets e smartphones.
+  - Acessibilidade: Garantem que o site seja acessível para pessoas com deficiências, seguindo padrões de acessibilidade da web.
+  - Colaboração com Desenvolvedores Backend: Trabalham em conjunto com desenvolvedores backend para garantir que a interface do usuário funcione perfeitamente com a lógica do site que está sendo executada no servidor.
+
+* Principais empresas no ramo:
+  - Google: O Google é uma das maiores empresas de tecnologia do mundo e desenvolve produtos da web, como o mecanismo de busca Google Search e o serviço de e-mail Gmail.
+  - Meta: A Meta é conhecido por suas redes sociais, incluindo o Facebook, o Instagram e o WhatsApp, todos os quais têm interfaces web importantes.
+  - Amazon: A Amazon é uma gigante do comércio eletrônico e desenvolve a interface web para suas lojas online, serviços de streaming (Amazon Prime Video) e muito mais.
+  - Microsoft: A Microsoft tem uma presença significativa na web com produtos como o Office 365 e o serviço de armazenamento em nuvem OneDrive.
+  - X (Twitter): O X é uma plataforma de mídia social que depende de uma interface web eficaz para que os usuários possam criar e acessar seus tweets.
+
+* Parâmetros:
+  high_level_coding: 10,
+  low_level_coding: 2,
+  backend: 2,
+  frontend: 10,
+  databases: 3,
+  data_structures: 7,
+  algorithms: 5,
+  hardware: 2,
+  software: 10,
+  infrastructure: 1,
+  design: 8,
+  ui_ux: 7,
+  mobile: 4,
+  desktop: 3,
+  web: 10,
+  tangible_results: 2,
+  abstract_results: 10,
+  theory: 5,
+  practice: 10,
+  curiosity: 8,
+  practicality: 9,
+  creativity: 7,
+  logic: 8,
+  intuition: 6,
+  experimentation: 5,
+  methodology: 8,
+  analysis: 5,
+  adaptability: 6,
+  leadership: 3,
+  communication: 6,
+  team_work: 9,
+  individual_work: 8,
+  management: 3,
+  business: 4,
+  finance: 4,
+  math: 6,
+  physics: 2,
+  chemistry: 1,
+  teaching: 5,
+  mentoring: 6,
+  masters_degree: 8,
+  doctorate_degree: 7,
+  internship: 8,
+  apprenticeship: 7,
+  hiring_potential: 10
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Designer UI/UX
 * 
 
 * Principais criações:
@@ -25,3 +544,61 @@ Trabalho foda
 * Parâmetros:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Gerente de Produto
+* 
+
+* Principais criações:
+  - 
+  - 
+  - 
+  - 
+  - 
+
+* Principais resposabilidades:
+  - 
+  - 
+  - 
+  - 
+  - 
+
+* Principais empresas no ramo:
+  - 
+  - 
+  - 
+  - 
+  - 
+
+* Parâmetros:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Gerente de Projeto 
+* 
+
+* Principais criações:
+  - 
+  - 
+  - 
+  - 
+  - 
+
+* Principais resposabilidades:
+  - 
+  - 
+  - 
+  - 
+  - 
+
+* Principais empresas no ramo:
+  - 
+  - 
+  - 
+  - 
+  - 
+
+* Parâmetros:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
