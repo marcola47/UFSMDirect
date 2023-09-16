@@ -505,7 +505,7 @@ Desenvolvedor Frontend Web
   business: 4,
   finance: 4,
   math: 6,
-  physics: 2,
+  physics: 1,
   chemistry: 1,
   teaching: 5,
   mentoring: 6,
@@ -518,86 +518,221 @@ Desenvolvedor Frontend Web
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Designer UI/UX
-* 
+* Um designer UI/UX é alguém que projeta a aparência e a experiência geral que os usuários têm ao interagir com um produto digital, como um site, aplicativo móvel ou software. Essa profissão se concentra em tornar a interface do usuário (UI) atraente, funcional e fácil de usar, enquanto proporciona uma experiência do usuário (UX) satisfatória.
 
 * Principais criações:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Desenvolvimento de Sites: Projetar a interface e a experiência do usuário para sites, garantindo que a navegação seja fácil e que a aparência seja atraente.
+  - Aplicativos Móveis: Criar a interface e a experiência do usuário para aplicativos móveis, garantindo que sejam intuitivos e envolventes.
+  - Software Empresarial: Projetar a interface de software utilizado em ambientes corporativos, como sistemas de gerenciamento de recursos humanos ou de contabilidade.
+  - Plataformas de E-Commerce: Projetar a interface de lojas online, focando na facilidade de compra e na apresentação dos produtos.
+  - Redes Sociais: Criar a interface e a experiência do usuário para plataformas de mídia social, facilitando a interação e a comunicação entre os usuários.
 
 * Principais resposabilidades:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Design Visual: Criar a aparência geral do produto digital, incluindo elementos visuais como cores, tipografia, ícones e layout.
+  - Elementos Interativos: Projetar botões, menus, formulários e outros elementos com os quais os usuários interagem, tornando-os visualmente atraentes e intuitivos.
+  - Pesquisa do Usuário: Realizar pesquisas para entender as necessidades, preferências e comportamentos dos usuários, visando criar uma experiência centrada no usuário.
+  - Fluxo de Usuário: Projetar a jornada do usuário através do produto, garantindo que seja lógica e eficiente, desde a entrada até a conclusão de tarefas.
+  - Prototipagem: Criar protótipos interativos que permitem testar e iterar o design antes da implementação final.
 
 * Principais empresas no ramo:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Apple: A Apple é conhecida por seu compromisso com o design de alta qualidade em seus produtos, incluindo interfaces de usuário elegantes e intuitivas em dispositivos iOS, macOS e outros.
+  - Google: O Google foca em fornecer uma experiência de usuário consistente e amigável em seus produtos, como o mecanismo de busca Google, o sistema operacional Android e aplicativos relacionados.
+  - Microsoft: A Microsoft se concentra no design de interfaces de usuário para uma ampla gama de produtos, incluindo o sistema operacional Windows, a suíte Office e plataformas em nuvem como o Azure.
+  - Netflix: A Netflix oferece uma experiência de usuário intuitiva e agradável em seu serviço de streaming de vídeo.
+  - Spotify: O Spotify oferece uma experiência de usuário bem projetada em seu serviço de streaming de música.
 
 * Parâmetros:
+  high_level_coding: 3,
+  low_level_coding: 0,
+  backend: 0,
+  frontend: 10,
+  databases: 2,
+  data_structures: 3,
+  algorithms: 1,
+  hardware: 2,
+  software: 10,
+  infrastructure: 0,
+  design: 10,
+  ui_ux: 10,
+  mobile: 10,
+  desktop: 10,
+  web: 10,
+  tangible_results: 4,
+  abstract_results: 10,
+  theory: 9,
+  practice: 10,
+  curiosity: 10,
+  practicality: 10,
+  creativity: 10,
+  logic: 5,
+  intuition: 10,
+  experimentation: 7,
+  methodology: 9,
+  analysis: 10,
+  adaptability: 10,
+  leadership: 3,
+  communication: 9,
+  team_work: 8,
+  individual_work: 8,
+  management: 4,
+  business: 5,
+  finance: 2,
+  math: 2,
+  physics: 0,
+  chemistry: 0,
+  teaching: 7,
+  mentoring: 7,
+  masters_degree: 8,
+  doctorate_degree: 8,
+  internship: 7,
+  apprenticeship: 4,
+  hiring_potential: 8
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Gerente de Produto
-* 
+Gerente de Produto de Software
+* Um gerente de produto de software é um profissional que atua como um elo crucial entre a equipe de desenvolvimento de software e os usuários finais. Eles desempenham um papel fundamental no planejamento, desenvolvimento e lançamento de produtos de software. 
 
 * Principais criações:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Desenvolvimento de Aplicativos Móveis: Gerenciar o desenvolvimento de um aplicativo móvel, desde a ideia inicial até o lançamento, garantindo que atenda às necessidades dos usuários e às metas de negócios.
+  - Plataformas de Comércio Eletrônico: Gerenciar uma plataforma de comércio eletrônico, supervisionando a adição de novos recursos, melhorando a experiência do usuário e impulsionando as vendas online.
+  - Software de Gerenciamento de Projetos: Coordenar o desenvolvimento de um software de gerenciamento de projetos, facilitando a colaboração da equipe e o rastreamento de tarefas.
+  - Aplicativos de Saúde Digital: Gerenciar o desenvolvimento de aplicativos de saúde digital que ajudam os usuários a monitorar sua saúde e bem-estar, garantindo conformidade com regulamentações médicas.
+  - Software de Análise de Dados: Gerenciar um software de análise de dados que auxilia empresas na tomada de decisões com base em insights de dados.
 
 * Principais resposabilidades:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Definição de Visão e Estratégia: Os gerentes de produto definem a visão geral do produto, estabelecendo metas e estratégias para atingir o sucesso no mercado.
+  - Pesquisa de Mercado e Usuário: Eles conduzem pesquisas de mercado e coletam feedback dos usuários para entender as necessidades e preferências do público-alvo.
+  - Priorização de Recursos: Tomam decisões sobre quais recursos e funcionalidades devem ser desenvolvidos com base nas prioridades de negócios e nas necessidades dos usuários.
+  - Planejamento e Roadmap: Elaboram um plano estratégico de desenvolvimento (roadmap) que define o que será desenvolvido ao longo do tempo, levando em consideração prazos e recursos disponíveis.
+  - Comunicação com a Equipe: Trabalham em estreita colaboração com desenvolvedores, designers e outras equipes para garantir que o produto seja desenvolvido de acordo com as especificações.
 
 * Principais empresas no ramo:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Google: O Google é uma das maiores empresas de tecnologia do mundo, com uma ampla gama de produtos de software, incluindo o mecanismo de busca Google, o sistema operacional Android e aplicativos como o Gmail e o Google Maps.
+  - Apple: A Apple é conhecida por seus produtos de hardware, como iPhones e Macs, mas também desenvolve software, como o sistema operacional iOS e o macOS, além de aplicativos como o iTunes e o Safari.
+  - Microsoft: A Microsoft é uma líder em software empresarial, com produtos como o sistema operacional Windows, a suíte Office e soluções em nuvem como o Microsoft Azure.
+  - Amazon: A Amazon é uma gigante do comércio eletrônico, mas também oferece serviços em nuvem (Amazon Web Services - AWS) e desenvolve software para sua plataforma de e-commerce e dispositivos, como o Kindle.
+  - Atlassian: A Atlassian desenvolve ferramentas de software para gerenciamento de projetos e colaboração, incluindo o Jira e o Confluence.
 
 * Parâmetros:
+  high_level_coding: 2,
+  low_level_coding: 2,
+  backend: 2,
+  frontend: 2,
+  databases: 2,
+  data_structures: 2,
+  algorithms: 2,
+  hardware: 1,
+  software: 6,
+  infrastructure: 1,
+  design: 6,
+  ui_ux: 4,
+  mobile: 5,
+  desktop: 5,
+  web: 5,
+  tangible_results: 6,
+  abstract_results: 7,
+  theory: 10,
+  practice: 8,
+  curiosity: 8,
+  practicality: 10,
+  creativity: 9,
+  logic: 8,
+  intuition: 9,
+  experimentation: 8,
+  methodology: 10,
+  analysis: 10,
+  adaptability: 10,
+  leadership: 10,
+  communication: 10,
+  team_work: 10,
+  individual_work: 8,
+  management: 10,
+  business: 8,
+  finance: 7,
+  math: 3,
+  physics: 0,
+  chemistry: 0,
+  teaching: 8,
+  mentoring: 8,
+  masters_degree: 8,
+  doctorate_degree: 8,
+  internship: 5,
+  apprenticeship: 4,
+  hiring_potential: 6
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Gerente de Projeto 
-* 
+Gerente de Projeto de Software
+* Um gerente de projeto de software é um profissional responsável por planejar, coordenar e supervisionar todas as etapas do desenvolvimento de um projeto de software, desde a concepção até a entrega final. Eles desempenham um papel crucial na garantia de que os projetos de software sejam concluídos com sucesso, dentro do prazo e do orçamento
 
 * Principais criações:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Sistemas de Gestão Empresarial (ERP): Coordenar a implementação de um sistema ERP em uma empresa para melhorar a eficiência e a gestão de recursos.
+  - Desenvolvimento de Aplicativos Móveis: Gerenciar o desenvolvimento de um aplicativo móvel, desde o planejamento inicial até o lançamento na loja de aplicativos.
+  - Desenvolvimento de Sites: Supervisionar o desenvolvimento de um site, garantindo que ele atenda aos requisitos do cliente e seja lançado com sucesso.
+  - Sistemas de Gerenciamento de Projetos: Coordenar a implementação de sistemas de gerenciamento de projetos para melhorar a eficiência da equipe.
+  - Integração de Sistemas: Gerenciar a integração de diferentes sistemas de software em uma organização para garantir a interoperabilidade.
 
 * Principais resposabilidades:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Definição de Objetivos: Identificar os objetivos e metas do projeto de software, bem como os requisitos específicos dos clientes ou partes interessadas.
+  - Planejamento: Criar um plano detalhado do projeto, incluindo a alocação de recursos, cronogramas, orçamentos e marcos importantes.
+  - Comunicação: Manter uma comunicação eficaz entre a equipe, partes interessadas e clientes para garantir que todos estejam alinhados com os objetivos do projeto.
+  - Acompanhamento e Controle: Monitorar o progresso do projeto, gerenciar riscos e tomar medidas corretivas quando necessário para manter o projeto no caminho certo.
+  - Qualidade: Garantir que o produto final atenda aos padrões de qualidade e às expectativas do cliente.
 
 * Principais empresas no ramo:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Google: O Google é uma das maiores empresas de tecnologia do mundo, desenvolvendo uma variedade de produtos de software, como o mecanismo de busca Google, o sistema operacional Android e aplicativos como o Gmail e o Google Drive.
+  - Microsoft: A Microsoft é uma líder em software empresarial, produzindo o sistema operacional Windows, a suíte Office e soluções em nuvem como o Microsoft Azure.
+  - Amazon: A Amazon é uma gigante do comércio eletrônico e também oferece serviços em nuvem (Amazon Web Services - AWS), além de desenvolver software para sua plataforma de e-commerce e dispositivos como o Kindle.
+  - Salesforce: A Salesforce é líder em software de gerenciamento de relacionamento com o cliente (CRM), com uma ampla gama de produtos e soluções para empresas.
+  - Oracle: A Oracle é especializada em software empresarial, incluindo sistemas de gerenciamento de banco de dados e soluções de negócios.
 
 * Parâmetros:
+  high_level_coding: 4,
+  low_level_coding: 3,
+  backend: 3,
+  frontend: 3,
+  databases: 3,
+  data_structures: 3,
+  algorithms: 3,
+  hardware: 2,
+  software: 8,
+  infrastructure: 1,
+  design: 6,
+  ui_ux: 4,
+  mobile: 5,
+  desktop: 5,
+  web: 5,
+  tangible_results: 5,
+  abstract_results: 6,
+  theory: 9,
+  practice: 9,
+  curiosity: 9,
+  practicality: 9,
+  creativity: 9,
+  logic: 8,
+  intuition: 9,
+  experimentation: 8,
+  methodology: 10,
+  analysis: 10,
+  adaptability: 10,
+  leadership: 10,
+  communication: 10,
+  team_work: 10,
+  individual_work: 7,
+  management: 10,
+  business: 7,
+  finance: 6,
+  math: 3,
+  physics: 0,
+  chemistry: 0,
+  teaching: 7,
+  mentoring: 7,
+  masters_degree: 8,
+  doctorate_degree: 8,
+  internship: 6,
+  apprenticeship: 5,
+  hiring_potential: 7
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
