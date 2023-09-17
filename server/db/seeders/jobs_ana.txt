@@ -30,20 +30,16 @@ Administrador de Sistemas
   databases: 8,
   data_structures: 7,
   algorithms: 5,
-
   hardware: 4,
   software: 8,
   infrastructure: 8,
-
   design: 1,
   ui_ux: 0,
   mobile: 3,
   desktop: 6,
   web: 5,
-
   tangible_results: 2,
   abstract_results: 9,
-
   theory: 8,
   practice: 7,
   curiosity: 6,
@@ -55,20 +51,16 @@ Administrador de Sistemas
   methodology: 8,
   analysis: 9,
   adaptability: 9,
-
   leadership: 2,
   communication: 4,
   team_work: 3,
   individual_work: 9,
-
   management: 1,
   business: 4,
   finance: 0,
-
   math: 5,
   physics: 0,
   chemistry: 0,
-
   teaching: 2,
   mentoring: 3,
   masters_degree: 7,

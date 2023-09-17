@@ -454,27 +454,23 @@ Engenheiro de DevOps
   - Red Hat: A Red Hat oferece soluções de código aberto, como Ansible e OpenShift, que são usadas para automação e orquestração em ambientes de DevOps.
 
 * Parâmetros:
-high_level_coding: 5,
+  high_level_coding: 5,
   low_level_coding: 5,
   backend: 7,
   frontend: 3,
   databases: 6,
   data_structures: 5,
   algorithms: 4,
-
   hardware: 3,
   software: 9,
   infrastructure: 9,
-
   design: 3,
   ui_ux: 5,
   mobile: 4,
   desktop: 8,
   web: 6,
-
   tangible_results: 7,
   abstract_results: 6,
-
   theory: 3,
   practice: 8,
   curiosity: 7,
@@ -486,20 +482,16 @@ high_level_coding: 5,
   methodology: 8,
   analysis: 7,
   adaptability: 9,
-
   leadership: 6,
   communication: 8,
   team_work: 9,
   individual_work: 6,
-
   management: 5,
   business: 4,
   finance: 3,
-
   math: 6,
   physics: 0,
   chemistry: 0,
-
   teaching: 4,
   mentoring: 7,
   masters_degree: 7,
@@ -542,20 +534,16 @@ Engenheiro de Hardware de Aviônicos
   databases: 1,
   data_structures: 3,
   algorithms: 4,
-
   hardware: 10,
   software: 3,
   infrastructure: 7,
-
   design: 6,
   ui_ux: 1,
   mobile: 0,
   desktop: 0,
   web: 0,
-
   tangible_results: 9,
   abstract_results: 3,
-
   theory: 10,
   practice: 8,
   curiosity: 9,
@@ -567,20 +555,16 @@ Engenheiro de Hardware de Aviônicos
   methodology: 8,
   analysis: 9,
   adaptability: 8,
-
   leadership: 1,
   communication: 4,
   team_work: 7,
   individual_work: 8,
-
   management: 2,
   business: 1,
   finance: 1,
-
   math: 9,
   physics: 9,
   chemistry: 7,
-
   teaching: 2,
   mentoring: 5,
   masters_degree: 8,
@@ -622,20 +606,16 @@ Engenheiro de Segurança de Software
   databases: 7,
   data_structures: 7,
   algorithms: 8,
-
   hardware: 2,
   software: 7,
   infrastructure: 8,
-
   design: 4,
   ui_ux: 0,
   mobile: 5,
   desktop: 5,
   web: 5,
-
   tangible_results: 1,
   abstract_results: 10,
-
   theory: 7,
   practice: 10,
   curiosity: 10,
@@ -647,20 +627,16 @@ Engenheiro de Segurança de Software
   methodology: 7,
   analysis: 9,
   adaptability: 8,
-
   leadership: 2,
   communication: 4,
   team_work: 4,
   individual_work: 9,
-
   management: 1,
   business: 4,
   finance: 3,
-
   math: 5,
   physics: 0,
   chemistry: 0,
-
   teaching: 2,
   mentoring: 3,
   masters_degree: 7,
@@ -702,20 +678,16 @@ Técnico de Data Centers
   databases: 10,
   data_structures: 9,
   algorithms: 6,
-
   hardware: 10,
   software: 5,
   infrastructure: 8,
-
   design: 7,
   ui_ux: 0,
   mobile: 2,
   desktop: 5,
   web: 2,
-
   tangible_results: 8,
   abstract_results: 7,
-
   theory: 6,
   practice: 8,
   curiosity: 4,
@@ -727,20 +699,16 @@ Técnico de Data Centers
   methodology: 8,
   analysis: 9,
   adaptability: 9,
-
   leadership: 1,
   communication: 3,
   team_work: 7,
   individual_work: 6,
-
   management: 6,
   business: 5,
   finance: 1,
-
   math: 5,
   physics: 4,
   chemistry: 2,
-
   teaching: 2,
   mentoring: 3,
   masters_degree: 7,

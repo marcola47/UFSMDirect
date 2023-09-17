@@ -90,6 +90,14 @@ const userSchema = new mongoose.Schema(
     ref: 'Program',
     default: null,
     required: false
+  },
+
+  job:
+  {
+    type: String,
+    ref: 'Job',
+    default: null,
+    required: false
   }
 });
 

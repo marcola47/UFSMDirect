@@ -1,3 +1,143 @@
 [
-  
+  {
+    "id": "28662722-a323-40d9-991c-abdfb1cdc190",
+    "name": "Desenvolvedor de Jogos",
+    "description": "Um Desenvolvedor de Jogos é um profissional que cria, projeta e programa jogos eletrônicos. Essa profissão envolve a aplicação de habilidades técnicas e criativas para criar experiências interativas de entretenimento. Os desenvolvedores de jogos trabalham em equipes multidisciplinares e são responsáveis por diferentes aspectos do processo de desenvolvimento de jogos, desde a programação até o design de personagens e a narrativa. Geralmente quem almeja trabalhar em jogos começa como desenvolvedor, mas com o tempo pode se especializar em uma área específica como design de jogos, arte ou programação.",
+    "courses":
+    [
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "importance": 10
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "importance": 7
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "importance": 5
+      }
+    ],
+    "roles": 
+    [
+      { 
+        "name": "Desenvolvimento de Jogos para Dispositivos Móveis",
+        "description": "Criar jogos para smartphones e tablets que podem ser baixados em lojas de aplicativos."
+      },
+
+      { 
+        "name": "Desenvolvimento de Jogos de Console/Computador",
+        "description": "Trabalhar em equipes que criam jogos para computadores ou consoles de videogame, como PlayStation, Xbox e Nintendo Switch."
+      },
+
+      { 
+        "name": "Desenvolvimento de Jogos de Simulação",
+        "description": "Criar jogos de simulação que replicam situações da vida real, como simulações de voo ou gerenciamento de cidades."
+      },
+
+      { 
+        "name": "Desenvolvimento de Jogos para a Web",
+        "description": "Criar jogos que podem ser jogados diretamente no navegador da web."
+      },
+
+      { 
+        "name": "Desenvolvimento de Jogos de Realidade Virtual (VR) e Aumentada (AR)",
+        "description": "Criar experiências de jogos imersivas para dispositivos de VR e AR, como Oculus Rift e HoloLens."
+      }
+    ],
+    "responsabilities":
+    [
+      {
+        "name": "Programação de Jogos",
+        "description": "Criar jogos para smartphones e tablets que podem ser baixados em lojas de aplicativos."
+      },
+      {
+        "name": "Design de Jogos",
+        "description": "Projetar a estrutura do jogo, incluindo a jogabilidade, os níveis, personagens, regras e objetivos."
+      },
+      {
+        "name": "Arte e Gráficos",
+        "description": "Criar ou colaborar na criação de elementos visuais, como modelos 3D, texturas, animações e efeitos visuais."
+      },
+      {
+        "name": "Otimização de Desempenho",
+        "description": "Melhorar o desempenho do jogo para garantir que ele seja executado de maneira suave em diferentes plataformas."
+      },
+      {
+        "name": "Testes e Depuração",
+        "description": "Identificar e corrigir bugs e problemas de desempenho no jogo durante o desenvolvimento."
+      }
+    ],
+    "companies":
+    [
+      {
+        "name": "Rockstar Games",
+        "description": "A Rockstar é conhecida por jogos como Grand Theft Auto (GTA) e Red Dead Redemption."
+      },
+      {
+        "name": "Valve Corporation",
+        "description": "A Valve é responsável pela plataforma Steam e pelos jogos Half-Life, Portal e Counter-Strike."
+      },
+      {
+        "name": "Epic Games",
+        "description": "A Epic Games é a criadora de Fortnite, um dos jogos mais populares do mundo, e do motor gráfico Unreal Engine."
+      },
+      {
+        "name": "Capcom",
+        "description": "A Capcom é famosa por séries como Resident Evil, Street Fighter e Monster Hunter."
+      },
+      {
+        "name": "CD Projekt Red",
+        "description": "Esta empresa polonesa é famosa pela série The Witcher e pelo jogo Cyberpunk 2077."
+      }
+    ],
+    "params":
+    {
+      "high_level_coding": 3,
+      "low_level_coding": 9,
+      "backend": 8,
+      "frontend": 5,
+      "databases": 4,
+      "data_structures": 7,
+      "algorithms": 8,
+      "hardware": 6,
+      "software": 9,
+      "infrastructure": 1,
+      "design": 8,
+      "ui_ux": 4,
+      "mobile": 7,
+      "desktop": 9,
+      "web": 4,
+      "tangible_results": 2,
+      "abstract_results": 10,
+      "theory": 6,
+      "practice": 10,
+      "curiosity": 10,
+      "practicality": 5,
+      "creativity": 10,
+      "logic": 7,
+      "intuition": 9,
+      "experimentation": 10,
+      "methodology": 5,
+      "analysis": 8,
+      "adaptability": 10,
+      "leadership": 4,
+      "communication": 8,
+      "team_work": 9,
+      "individual_work": 5,
+      "management": 4,
+      "business": 3,
+      "finance": 2,
+      "math": 7,
+      "physics": 6,
+      "chemistry": 2,
+      "teaching": 1,
+      "mentoring": 2,
+      "masters_degree": 4,
+      "doctorate_degree": 3,
+      "internship": 2,
+      "apprenticeship": 2,
+      "hiring_potential": 3
+    }
+  }
 ]

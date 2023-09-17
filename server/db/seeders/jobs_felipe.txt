@@ -249,20 +249,16 @@ Engenheiro de Software de Redes
   databases: 4,
   data_structures: 6,
   algorithms: 8,
-
   hardware: 3,
   software: 8,
   infrastructure: 9,
-
   design: 6,
   ui_ux: 0,
   mobile: 6,
   desktop: 7,
   web: 8,
-
   tangible_results: 6,
   abstract_results: 9,
-
   theory: 9,
   practice: 7,
   curiosity: 6,
@@ -274,20 +270,16 @@ Engenheiro de Software de Redes
   methodology: 9,
   analysis: 9,
   adaptability: 8,
-
   leadership: 2,
   communication: 4,
   team_work: 4,
   individual_work: 9,
-
   management: 6,
   business: 3,
   finance: 2,
-
   math: 5,
   physics: 0,
   chemistry: 0,
-
   teaching: 4,
   mentoring: 5,
   masters_degree: 7,
@@ -330,20 +322,16 @@ Engenheiro de QA
   databases: 6,
   data_structures: 8,
   algorithms: 9,
-
   hardware: 7,
   software: 7,
   infrastructure: 7,
-
   design: 6,
   ui_ux: 7,
   mobile: 6,
   desktop: 7,
   web: 6,
-
   tangible_results: 4,
   abstract_results: 7,
-
   theory: 3,
   practice: 7,
   curiosity: 7,
@@ -355,20 +343,16 @@ Engenheiro de QA
   methodology: 9,
   analysis: 10,
   adaptability: 8,
-
   leadership: 4,
   communication: 8,
   team_work: 9,
   individual_work: 6,
-
   management: 6,
   business: 4,
   finance: 1,
-
   math: 4,
   physics: 0,
   chemistry: 0,
-
   teaching: 6,
   mentoring: 6,
   masters_degree: 6,
@@ -411,20 +395,16 @@ Pesquisador de IA
   databases: 7,
   data_structures: 8,
   algorithms: 10,
-
   hardware: 3,
   software: 8,
   infrastructure: 1,
-
   design: 8,
   ui_ux: 1,
   mobile: 3,
   desktop: 5,
   web: 4,
-
   tangible_results: 3,
   abstract_results: 9,
-
   theory: 9,
   practice: 6,
   curiosity: 9,
@@ -436,20 +416,16 @@ Pesquisador de IA
   methodology: 10,
   analysis: 10,
   adaptability: 8,
-
   leadership: 3,
   communication: 5,
   team_work: 6,
   individual_work: 8,
-
   management: 4,
   business: 3,
   finance: 2,
-
   math: 9,
   physics: 0,
   chemistry: 0,
-
   teaching: 7,
   mentoring: 7,
   masters_degree: 10,
@@ -492,20 +468,16 @@ Engenheiro de Hardware de Redes
   databases: 6,
   data_structures: 6,
   algorithms: 4,
-
   hardware: 10,
   software: 2,
   infrastructure: 10,
-
   design: 6,
   ui_ux: 0,
   mobile: 2,
   desktop: 4,
   web: 6,
-
   tangible_results: 10,
   abstract_results: 4,
-
   theory: 9,
   practice: 7,
   curiosity: 8,
@@ -517,20 +489,16 @@ Engenheiro de Hardware de Redes
   methodology: 8,
   analysis: 9,
   adaptability: 8,
-
   leadership: 2,
   communication: 4,
   team_work: 5,
   individual_work: 8,
-
   management: 3,
   business: 2,
   finance: 1,
-
   math: 9,
   physics: 7,
   chemistry: 4,
-
   teaching: 5,
   mentoring: 4,
   masters_degree: 5,
@@ -573,20 +541,16 @@ Engenheiro de Hardware de Telecomunicações
   databases: 5,
   data_structures: 5,
   algorithms: 7,
-
   hardware: 10,
   software: 2,
   infrastructure: 10,
-
   design: 7,
   ui_ux: 0,
   mobile: 5,
   desktop: 5,
   web: 2,
-
   tangible_results: 10,
   abstract_results: 5,
-
   theory: 10,
   practice: 7,
   curiosity: 7,
@@ -598,20 +562,16 @@ Engenheiro de Hardware de Telecomunicações
   methodology: 8,
   analysis: 8,
   adaptability: 6,
-
   leadership: 1,
   communication: 5,
   team_work: 8,
   individual_work: 6,
-
   management: 3,
   business: 2,
   finance: 0,
-
   math: 8,
   physics: 7,
   chemistry: 3,
-
   teaching: 4,
   mentoring: 3,
   masters_degree: 5,
@@ -654,20 +614,16 @@ Engenheiro de Internet das Coisas
   databases: 5,
   data_structures: 5,
   algorithms: 7,
-
   hardware: 10,
   software: 2,
   infrastructure: 10,
-
   design: 7,
   ui_ux: 0,
   mobile: 5,
   desktop: 5,
   web: 2,
-
   tangible_results: 10,
   abstract_results: 5,
-
   theory: 10,
   practice: 7,
   curiosity: 7,
@@ -679,20 +635,16 @@ Engenheiro de Internet das Coisas
   methodology: 8,
   analysis: 8,
   adaptability: 6,
-
   leadership: 1,
   communication: 5,
   team_work: 8,
   individual_work: 6,
-
   management: 3,
   business: 2,
   finance: 0,
-
   math: 8,
   physics: 7,
   chemistry: 3,
-
   teaching: 4,
   mentoring: 3,
   masters_degree: 5,
@@ -735,20 +687,16 @@ Engenheiro de Robótica
   databases: 5,
   data_structures: 5,
   algorithms: 7,
-
   hardware: 10,
   software: 2,
   infrastructure: 5,
-
   design: 8,
   ui_ux: 0,
   mobile: 2,
   desktop: 3,
   web: 0,
-
   tangible_results: 10,
   abstract_results: 3,
-
   theory: 10,
   practice: 5,
   curiosity: 9,
@@ -760,20 +708,16 @@ Engenheiro de Robótica
   methodology: 7,
   analysis: 8,
   adaptability: 8,
-
   leadership: 1,
   communication: 7,
   team_work: 9,
   individual_work: 5,
-
   management: 4,
   business: 1,
   finance: 0,
-
   math: 10,
   physics: 8,
   chemistry: 4,
-
   teaching: 5,
   mentoring: 4,
   masters_degree: 8,
@@ -816,20 +760,16 @@ Engenheiro de Sistemas Embarcados
   databases: 6,
   data_structures: 7,
   algorithms: 4,
-
   hardware: 10,
   software: 7,
   infrastructure: 4,
-
   design: 6,
   ui_ux: 1,
   mobile: 5,
   desktop: 8,
   web: 2,
-
   tangible_results: 7,
   abstract_results: 7,
-
   theory: 7,
   practice: 8,
   curiosity: 7,
@@ -841,20 +781,16 @@ Engenheiro de Sistemas Embarcados
   methodology: 7,
   analysis: 7,
   adaptability: 8,
-
   leadership: 1,
   communication: 6,
   team_work: 7,
   individual_work: 6,
-
   management: 3,
   business: 1,
   finance: 0,
-
   math: 7,
   physics: 6,
   chemistry: 3,
-
   teaching: 4,
   mentoring: 4,
   masters_degree: 7,
