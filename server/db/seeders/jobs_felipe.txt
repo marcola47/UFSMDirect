@@ -144,76 +144,76 @@ Engenheiro de Dados
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Engenheiro de Machine Learning
-* Um Engenheiro de Machine Learning é um profissional que se dedica a desenvolver sistemas e aplicações de inteligência artificial (IA) e machine learning. Eles projetam, treinam e implementam algoritmos de aprendizado de máquina para resolver problemas complexos e criar soluções baseadas em dados. Essa profissão desempenha um papel crucial na criação de tecnologias que podem automatizar tarefas, tomar decisões baseadas em dados e melhorar a eficiência em diversos campos.
-
-* Principais criações:
-  - Recomendação de Conteúdo: Desenvolver sistemas de recomendação que sugerem produtos, filmes, músicas ou conteúdo personalizado com base no histórico do usuário.
-  - Detecção de Fraude: Criar modelos que identificam transações fraudulentas em serviços financeiros, como cartões de crédito.
-  - Processamento de Linguagem Natural (NLP): Desenvolver chatbots, assistentes virtuais e sistemas de tradução automática que entendem e geram texto humano.
-  - Automação Industrial: Criar sistemas de controle de máquinas e robôs para otimizar processos industriais.
-  - Saúde e Medicina: Desenvolver modelos de diagnóstico médico que auxiliam os profissionais de saúde na identificação de doenças.
-
-* Principais resposabilidades:
-  - Desenvolvimento de Modelos: Projetar e treinar modelos de machine learning, como redes neurais, árvores de decisão e algoritmos de clustering, para resolver problemas específicos.
-  - Análise de Dados: Realizar análise exploratória de dados para entender os padrões e as características dos dados.
-  - Coleta e Limpeza de Dados: Coletar dados relevantes e prepará-los para treinamento de modelos de machine learning, incluindo limpeza e formatação.
-  - Implementação de Modelos: Integrar os modelos de machine learning em sistemas ou aplicativos para automatizar tarefas ou fornecer funcionalidades baseadas em IA.
-  - Treinamento de Modelos em Escala: Treinar modelos em grande escala usando infraestrutura de computação distribuída e GPUs.
-
-* Principais empresas no ramo:
-  - Google: A Google é líder em IA e machine learning, com produtos como Google AI, TensorFlow (uma plataforma de código aberto) e assistentes virtuais como o Google Assistant.
-  - Amazon: A Amazon oferece serviços de machine learning por meio da Amazon Web Services (AWS), incluindo SageMaker e Comprehend para processamento de linguagem natural.
-  - Microsoft: A Microsoft possui a Azure Machine Learning e está envolvida em pesquisa de ponta em IA, além de aplicar IA em produtos como o Microsoft Azure e o Microsoft Office.
-  - OpenAI: A OpenAI é uma organização de pesquisa em IA que visa desenvolver inteligência artificial segura e avançada.
-  - NVIDIA: A NVIDIA fornece hardware e software para acelerar o treinamento de modelos de machine learning e IA.
-
-* Parâmetros:
-  high_level_coding: 8,
-  low_level_coding: 4,
-  backend: 10,
-  frontend: 1,
-  databases: 7,
-  data_structures: 9,
-  algorithms: 9,
-  hardware: 4,
-  software: 8,
-  infrastructure: 2,
-  design: 8,
-  ui_ux: 1,
-  mobile: 5,
-  desktop: 5,
-  web: 5,
-  tangible_results: 5,
-  abstract_results: 9,
-  theory: 9,
-  practice: 9,
-  curiosity: 9,
-  practicality: 7,
-  creativity: 6,
-  logic: 8,
-  intuition: 8,
-  experimentation: 10,
-  methodology: 9,
-  analysis: 9,
-  adaptability: 8,
-  leadership: 2,
-  communication: 5,
-  team_work: 4,
-  individual_work: 9,
-  management: 5,
-  business: 4,
-  finance: 3,
-  math: 8,
-  physics: 0,
-  chemistry: 0,
-  teaching: 5,
-  mentoring: 6,
-  masters_degree: 9,
-  doctorate_degree: 9,
-  internship: 7,
-  apprenticeship: 6,
-  hiring_potential: 8
+ Engenheiro de Machine Learning
+ * Um Engenheiro de Machine Learning é um profissional que se dedica a desenvolver sistemas e aplicações de inteligência artificial (IA) e machine learning. Eles projetam, treinam e implementam algoritmos de aprendizado de máquina para resolver problemas complexos e criar soluções baseadas em dados. Essa profissão desempenha um papel crucial na criação de tecnologias que podem automatizar tarefas, tomar decisões baseadas em dados e melhorar a eficiência em diversos campos.
+ 
+ * Principais criações:
+   - Recomendação de Conteúdo: Desenvolver sistemas de recomendação que sugerem produtos, filmes, músicas ou conteúdo personalizado com base no histórico do usuário.
+   - Detecção de Fraude: Criar modelos que identificam transações fraudulentas em serviços financeiros, como cartões de crédito.
+   - Processamento de Linguagem Natural (NLP): Desenvolver chatbots, assistentes virtuais e sistemas de tradução automática que entendem e geram texto humano.
+   - Automação Industrial: Criar sistemas de controle de máquinas e robôs para otimizar processos industriais.
+   - Saúde e Medicina: Desenvolver modelos de diagnóstico médico que auxiliam os profissionais de saúde na identificação de doenças.
+ 
+ * Principais resposabilidades:
+   - Desenvolvimento de Modelos: Projetar e treinar modelos de machine learning, como redes neurais, árvores de decisão e algoritmos de clustering, para resolver problemas específicos.
+   - Análise de Dados: Realizar análise exploratória de dados para entender os padrões e as características dos dados.
+   - Coleta e Limpeza de Dados: Coletar dados relevantes e prepará-los para treinamento de modelos de machine learning, incluindo limpeza e formatação.
+   - Implementação de Modelos: Integrar os modelos de machine learning em sistemas ou aplicativos para automatizar tarefas ou fornecer funcionalidades baseadas em IA.
+   - Treinamento de Modelos em Escala: Treinar modelos em grande escala usando infraestrutura de computação distribuída e GPUs.
+ 
+ * Principais empresas no ramo:
+   - Google: A Google é líder em IA e machine learning, com produtos como Google AI, TensorFlow (uma plataforma de código aberto) e assistentes virtuais como o Google Assistant.
+   - Amazon: A Amazon oferece serviços de machine learning por meio da Amazon Web Services (AWS), incluindo SageMaker e Comprehend para processamento de linguagem natural.
+   - Microsoft: A Microsoft possui a Azure Machine Learning e está envolvida em pesquisa de ponta em IA, além de aplicar IA em produtos como o Microsoft Azure e o Microsoft Office.
+   - OpenAI: A OpenAI é uma organização de pesquisa em IA que visa desenvolver inteligência artificial segura e avançada.
+   - NVIDIA: A NVIDIA fornece hardware e software para acelerar o treinamento de modelos de machine learning e IA.
+ 
+ * Parâmetros:
+   high_level_coding: 8,
+   low_level_coding: 4,
+   backend: 10,
+   frontend: 1,
+   databases: 7,
+   data_structures: 9,
+   algorithms: 9,
+   hardware: 4,
+   software: 8,
+   infrastructure: 2,
+   design: 8,
+   ui_ux: 1,
+   mobile: 5,
+   desktop: 5,
+   web: 5,
+   tangible_results: 5,
+   abstract_results: 9,
+   theory: 9,
+   practice: 9,
+   curiosity: 9,
+   practicality: 7,
+   creativity: 6,
+   logic: 8,
+   intuition: 8,
+   experimentation: 10,
+   methodology: 9,
+   analysis: 9,
+   adaptability: 8,
+   leadership: 2,
+   communication: 5,
+   team_work: 4,
+   individual_work: 9,
+   management: 5,
+   business: 4,
+   finance: 3,
+   math: 8,
+   physics: 0,
+   chemistry: 0,
+   teaching: 5,
+   mentoring: 6,
+   masters_degree: 9,
+   doctorate_degree: 9,
+   internship: 7,
+   apprenticeship: 6,
+   hiring_potential: 8
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
