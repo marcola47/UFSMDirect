@@ -1,5 +1,19 @@
 [
 	{
+		"id": "6769cd2e-c928-40dd-b723-1616a15e0b0d",
+		"ufsm_code": "DPEE1112",
+		"name": "Acionamentos Elétricos",
+		"description": ".",
+		"workload": 60
+	},
+	{
+		"id": "47bf26d8-0c87-452e-b512-151056d1f9c1",
+		"ufsm_code": "DPEE1102",
+		"name": "Acionamentos Hidráulicos e Pneumáticos",
+		"description": ".",
+		"workload": 45
+	},
+	{
 		"id": "0e002d62-d429-4cb0-accb-6a5f29f5d93b",
 		"ufsm_code": "DPADI0191",
 		"name": "Administração de Sistemas de Redes",
@@ -274,6 +288,27 @@
 		"workload": 60
 	},
 	{
+		"id": "b84c686c-c667-4767-8756-0908db4fe14f",
+		"ufsm_code": "UFSM00061",
+		"name": "Controle Analógico e Digital",
+		"description": ".",
+		"workload": 60
+	},
+	{
+		"id": "b84c686c-c667-4767-8756-0908db4fe14f",
+		"ufsm_code": "UFSM00061",
+		"name": "Controle Analógico e Digital",
+		"description": ".",
+		"workload": 60
+	},
+	{
+		"id": "7ee59682-ddaf-4d57-862c-c20619b34842",
+		"ufsm_code": "UFSM00062",
+		"name": "Controle Multivariável",
+		"description": ".",
+		"workload": 60
+	},
+	{
 		"id": "a85f8b60-af2c-48a1-ab82-e15687ada041",
 		"ufsm_code": "DLSC811",
 		"name": "Criptografia Para Segurança de Dados",
@@ -457,6 +492,13 @@
 		"workload": 45
 	},
 	{
+		"id": "b267af1b-81e9-4e25-9947-ce6f7116ad37",
+		"ufsm_code": "UFSM00063",
+		"name": "Eletrônica de Potência",
+		"description": ".",
+		"workload": 60
+	},
+	{
 		"id": "38bc1d56-fe41-41fb-8226-cac44744b247",
 		"ufsm_code": "CAD1044",
 		"name": "Empreendedorismo B",
@@ -599,6 +641,13 @@
 		"workload": 60
 	},
 	{
+		"id": "01ebdb45-94f8-42fb-a6f7-093b3ccf2394",
+		"ufsm_code": "UFSM00064",
+		"name": "Estrutura de Dados",
+		"description": ".",
+		"workload": 45
+	},
+	{
 		"id": "032cafe5-bfc5-411a-8542-61af62e48d17",
 		"ufsm_code": "ELC1066",
 		"name": "Estrutura de Dados A",
@@ -614,7 +663,8 @@
 		"equivalents": [
 			"032cafe5-bfc5-411a-8542-61af62e48d17",
 			"46bf3545-0f9e-445d-841a-be46489cb013",
-			"4689fc31-73e2-47e6-be68-7618e06124b3"
+			"4689fc31-73e2-47e6-be68-7618e06124b3",
+			"01ebdb45-94f8-42fb-a6f7-093b3ccf2394"
 		]
 	},
 	{
@@ -674,7 +724,8 @@
 		"equivalents": [
 			"2e3d8876-ecb0-4d19-a675-4047315c6d1d",
 			"b8e2269a-4d19-4e7f-9ef5-4fb4fabf68c9",
-			"46585084-5529-43d5-869a-259b2ee232ba"
+			"46585084-5529-43d5-869a-259b2ee232ba",
+			"b267af1b-81e9-4e25-9947-ce6f7116ad37"
 		]
 	},
 	{
@@ -682,6 +733,13 @@
 		"ufsm_code": "DPADI844",
 		"name": "Fundamentos de Banco de Dados",
 		"workload": 45
+	},
+	{
+		"id": "55f2d0b3-0eeb-4ac1-b3b8-b199dbb0f1e1",
+		"ufsm_code": "DPEE1110",
+		"name": "Fundamentos de Ciência de Dados",
+		"description": ".",
+		"workload": 60
 	},
 	{
 		"id": "5b3901b5-f7f7-4ac7-a80a-6ba9641cb499",
@@ -705,6 +763,13 @@
 		"workload": 15
 	},
 	{
+		"id": "f3c398b0-915f-4c0c-8087-eec22ba22a37",
+		"ufsm_code": "UFSM00029",
+		"name": "Física Experimental 3",
+		"description": ".",
+		"workload": 15
+	},
+	{
 		"id": "ad78249e-3078-45f5-82c0-b8cbfd9002a7",
 		"ufsm_code": "UFSM00031",
 		"name": "Física Geral 1",
@@ -715,6 +780,13 @@
 		"id": "3f98fb87-39e0-48e8-b1a3-4d03ed8078fc",
 		"ufsm_code": "UFSM00032",
 		"name": "Física Geral 2",
+		"description": ".",
+		"workload": 60
+	},
+	{
+		"id": "d6b6ed0d-5de4-43e4-8f1a-80e9281c5cea",
+		"ufsm_code": "UFSM00033",
+		"name": "Física Geral 3",
 		"description": ".",
 		"workload": 60
 	},
@@ -806,6 +878,13 @@
 		"workload": 60
 	},
 	{
+		"id": "d236fffa-2dfa-403c-8965-f7d5694c7f99",
+		"ufsm_code": "DPEE1101",
+		"name": "Informática Industrial",
+		"description": ".",
+		"workload": 45
+	},
+	{
 		"id": "d28a7f23-0c45-4e98-811b-d22b362cdabb",
 		"ufsm_code": "LTE1254",
 		"name": "Inglês Para a Ciência da Computação 1",
@@ -826,11 +905,25 @@
 		"workload": 45
 	},
 	{
+		"id": "b96437e2-daf7-4da5-b483-e78dba0691c0",
+		"ufsm_code": "UFSM00058",
+		"name": "Instalações Elétricas Residenciais e Comerciais",
+		"description": ".",
+		"workload": 60
+	},
+	{
 		"id": "4b114baa-7f2e-4b56-a3c2-2b48222e46ba",
 		"ufsm_code": "UFSM00065",
 		"name": "Instrumentação Eletrônica",
 		"description": ".",
 		"workload": 60
+	},
+	{
+		"id": "859e6072-7e9f-442c-84f3-88ee2d46cead",
+		"ufsm_code": "DPEE1105",
+		"name": "Instrumentação de Processos",
+		"description": ".",
+		"workload": 45
 	},
 	{
 		"id": "ae10b0f9-33fe-4538-8ceb-65a91865289b",
@@ -870,13 +963,6 @@
 		"workload": 60
 	},
 	{
-		"id": "0981f331-1e02-445d-87e2-b33992bbde7e",
-		"ufsm_code": "DPADI0173",
-		"name": "Introdução a Redes de Computadores",
-		"description": ".",
-		"workload": 75
-	},
-	{
 		"id": "a63529b9-d71c-4615-9063-511bdbc11059",
 		"ufsm_code": "DCT1055",
 		"name": "Introdução à Ciência da Informação",
@@ -898,6 +984,13 @@
 		"workload": 30
 	},
 	{
+		"id": "68faabc1-c612-4dd4-9af9-5ad350464eca",
+		"ufsm_code": "DPEE1091",
+		"name": "Introdução à Engenharia de Controle e Automação",
+		"description": ".",
+		"workload": 15
+	},
+	{
 		"id": "ca2539d1-0a0f-4c94-a198-0703a7db5374",
 		"ufsm_code": "UFSM00045",
 		"name": "Introdução à Mecânica dos Sólidos",
@@ -905,9 +998,44 @@
 		"workload": 60
 	},
 	{
+		"id": "0981f331-1e02-445d-87e2-b33992bbde7e",
+		"ufsm_code": "DPADI0173",
+		"name": "Introdução à Redes de Computadores",
+		"description": ".",
+		"workload": 75
+	},
+	{
 		"id": "29459278-c41c-476c-99a9-bac5226449b2",
 		"ufsm_code": "ELC1075",
 		"name": "Introdução à Sistemas de Informação",
+		"description": ".",
+		"workload": 30
+	},
+	{
+		"id": "d6d4b154-f8cf-4a8d-b0b2-74d73972025b",
+		"ufsm_code": "DPEE1093",
+		"name": "Laboratório Integrado 1",
+		"description": ".",
+		"workload": 15
+	},
+	{
+		"id": "407bda55-20b5-4b98-82dd-37ea99e397d6",
+		"ufsm_code": "DPEE1095",
+		"name": "Laboratório Integrado 2",
+		"description": ".",
+		"workload": 30
+	},
+	{
+		"id": "dc0cfc8c-30ed-446c-a2dd-ac5538258005",
+		"ufsm_code": "DPEE1097",
+		"name": "Laboratório Integrado 3",
+		"description": ".",
+		"workload": 30
+	},
+	{
+		"id": "138ea498-ec39-4b6d-a49e-ff37ac1790b3",
+		"ufsm_code": "DPEE1099",
+		"name": "Laboratório Integrado 4",
 		"description": ".",
 		"workload": 30
 	},
@@ -1090,6 +1218,13 @@
 		"workload": 60
 	},
 	{
+		"id": "3ea357fa-d0c5-4c50-a346-55b6d6e9e002",
+		"ufsm_code": "DPEE1103",
+		"name": "Materiais e Processos de Fabricação Mecânica",
+		"description": ".",
+		"workload": 60
+	},
+	{
 		"id": "dc04e329-4254-4335-92c3-6415406d20ca",
 		"ufsm_code": "FSC1126",
 		"name": "Mecânica e Eletromagnetismo",
@@ -1142,6 +1277,20 @@
 		"id": "2f255e0c-4402-4054-a753-d54e6669c913",
 		"ufsm_code": "ELC132",
 		"name": "Modelagem e Simulação",
+		"description": ".",
+		"workload": 60
+	},
+	{
+		"id": "ba63dc70-6fe2-4c88-9136-fcc5bfa5782b",
+		"ufsm_code": "UFSM00024",
+		"name": "Modelamento 3D e Desenho Digital",
+		"description": ".",
+		"workload": 45
+	},
+	{
+		"id": "8423b270-d8bc-4e3b-b6bd-e1b1fb11e63b",
+		"ufsm_code": "DPEE1108",
+		"name": "Máquinas Elétricas Para Automação",
 		"description": ".",
 		"workload": 60
 	},
@@ -1203,7 +1352,8 @@
 		"equivalents": [
 			"6cdcf7dd-f5b7-425d-a6b1-c08531c2afc5",
 			"2b733346-a4c7-4fc6-ab4d-6af209e6b4cf",
-			"8e24cb1b-17a6-4a7f-8c42-530ccf1376ec"
+			"8e24cb1b-17a6-4a7f-8c42-530ccf1376ec",
+			"0f01f11e-8a02-4e66-addf-a425127f59f3"
 		]
 	},
 	{
@@ -1260,6 +1410,13 @@
 		"name": "Programação Orientada a Objetos",
 		"description": ".",
 		"workload": 60
+	},
+	{
+		"id": "0f01f11e-8a02-4e66-addf-a425127f59f3",
+		"ufsm_code": "DPEE1090",
+		"name": "Programação Orientada a Objetos Para Automação",
+		"description": ".",
+		"workload": 30
 	},
 	{
 		"id": "c44922aa-9056-4c5a-9c4a-02f04ec4b628",
@@ -1327,11 +1484,46 @@
 		"workload": 30
 	},
 	{
+		"id": "80ede3a3-af6e-4c48-8425-46b74351b408",
+		"ufsm_code": "UFSM00018",
+		"name": "Projeto Final de Curso",
+		"description": ".",
+		"workload": 30
+	},
+	{
 		"id": "a8614c88-bb28-4102-9c5b-5afb1ea0ab62",
 		"ufsm_code": "DPADP0348",
 		"name": "Projeto Integrador",
 		"description": ".",
 		"workload": 180
+	},
+	{
+		"id": "9dd7665d-dc2c-4a58-a1cf-dcb7aae162bf",
+		"ufsm_code": "DPEE1094",
+		"name": "Projeto Integrador em Controle e Automação 1",
+		"description": ".",
+		"workload": 75
+	},
+	{
+		"id": "e047c034-c38d-406a-9957-ac9a37902c8a",
+		"ufsm_code": "DPEE1096",
+		"name": "Projeto Integrador em Controle e Automação 2",
+		"description": ".",
+		"workload": 105
+	},
+	{
+		"id": "0e13fc88-3974-451b-b894-4a8101e74365",
+		"ufsm_code": "DPEE1098",
+		"name": "Projeto Integrador em Controle e Automação 3",
+		"description": ".",
+		"workload": 105
+	},
+	{
+		"id": "88eba445-6b2c-43cd-8f24-a2ce537ebef2",
+		"ufsm_code": "DPEE1100",
+		"name": "Projeto Integrador em Controle e Automação 4",
+		"description": ".",
+		"workload": 195
 	},
 	{
 		"id": "1de556e5-94c3-4236-8870-efcaa9d19353",
@@ -1486,6 +1678,13 @@
 		"workload": 60
 	},
 	{
+		"id": "f55d361a-6e64-4fba-b781-27b6735b1676",
+		"ufsm_code": "DPEE1109",
+		"name": "Redes Industriais",
+		"description": ".",
+		"workload": 45
+	},
+	{
 		"id": "0e8545c0-a64f-4ea8-a3a3-491b749b57fe",
 		"ufsm_code": "DPADI0195",
 		"name": "Redes Sem Fio",
@@ -1524,6 +1723,13 @@
 		"name": "Relações Humanas e Diversidade",
 		"description": ".",
 		"workload": 60
+	},
+	{
+		"id": "018b1f72-793c-4564-a3ba-0d3dda88532a",
+		"ufsm_code": "DPEE1114",
+		"name": "Robótica Industrial",
+		"description": ".",
+		"workload": 195
 	},
 	{
 		"id": "18c59483-062c-4426-a053-fb165ff82e4c",
@@ -1595,6 +1801,20 @@
 		"workload": 60
 	},
 	{
+		"id": "0053dc60-9e59-48b3-b132-cca0d9c3065e",
+		"ufsm_code": "DPEE1092",
+		"name": "Sistemas Lógicos Para Automação",
+		"description": ".",
+		"workload": 15
+	},
+	{
+		"id": "99543e1b-9a18-43ce-bb4b-18faf847888e",
+		"ufsm_code": "DPEE1107",
+		"name": "Sistemas Microcontrolados",
+		"description": ".",
+		"workload": 60
+	},
+	{
 		"id": "b839682c-362d-4f16-b3ec-0b342e0770dc",
 		"ufsm_code": "DPADI0185",
 		"name": "Sistemas Operacionais",
@@ -1634,8 +1854,16 @@
 		"description": ".",
 		"workload": 60,
 		"equivalents": [
-			"1d46bde7-12fd-4f1d-a334-9f03786cf205"
+			"1d46bde7-12fd-4f1d-a334-9f03786cf205",
+			"d19f9f19-b4db-43b3-bbfa-9ed4d24402a4"
 		]
+	},
+	{
+		"id": "927678d5-4bf2-4e9a-9c04-e2de5a2f99ee",
+		"ufsm_code": "DPEE1104",
+		"name": "Sistemas Scada",
+		"description": ".",
+		"workload": 45
 	},
 	{
 		"id": "9f15cf89-a07b-4a0d-b20b-9c0b447052de",
@@ -1652,9 +1880,23 @@
 		"workload": 60
 	},
 	{
+		"id": "d45d66b7-3b11-4128-a329-26e7594f516a",
+		"ufsm_code": "DPEE1106",
+		"name": "Sistemas de Comunicação",
+		"description": ".",
+		"workload": 45
+	},
+	{
 		"id": "a409c8a8-e759-4197-bd52-74fab21bf201",
 		"ufsm_code": "ELC137",
 		"name": "Sistemas de Informação Distribuidos A",
+		"description": ".",
+		"workload": 60
+	},
+	{
+		"id": "a3850d5c-dc86-41f7-a869-8e611ca413d0",
+		"ufsm_code": "UFSM00012",
+		"name": "Sistemas de Produção",
 		"description": ".",
 		"workload": 60
 	},
@@ -1664,6 +1906,13 @@
 		"name": "Sistemas de Tempo Real",
 		"description": ".",
 		"workload": 60
+	},
+	{
+		"id": "d19f9f19-b4db-43b3-bbfa-9ed4d24402a4",
+		"ufsm_code": "DPEE1113",
+		"name": "Sistemas de Tempo Real",
+		"description": ".",
+		"workload": 45
 	},
 	{
 		"id": "85840127-22e7-40d0-8df3-0dd07aec887e",
@@ -1761,6 +2010,13 @@
 		"name": "Trabalho de Graduação em Sistemas de Informação",
 		"description": ".",
 		"workload": 180
+	},
+	{
+		"id": "ec497d96-54da-4430-a0dc-cadd5a4ef82c",
+		"ufsm_code": "DPEE1111",
+		"name": "Técnicas de Comando Numérico",
+		"description": ".",
+		"workload": 45
 	},
 	{
 		"id": "49950426-a0e5-4a01-9fa2-39bba622ef30",
