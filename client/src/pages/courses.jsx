@@ -27,9 +27,9 @@ export default function CoursesPage()
               course.eqObjects.push(eqObject)
               duplicates.push(equivalent)
             })
-
-            delete course.equivalents;
           }
+
+          delete course.equivalents;
         })
 
         const coursesDuplicate = [];
@@ -55,6 +55,7 @@ export default function CoursesPage()
     return(
       <li style={{ marginBlock: 16, marginInline: 16 }}>
         <p><span style={{ fontWeight: 600 }}>id:</span> { course.id }</p>
+        <p><span style={{ fontWeight: 600 }}>ufsm:</span> { course.ufsm_code }</p>
         <p><span style={{ fontWeight: 600 }}>Nome:</span> { course.name }</p>
         {
           course.eqObjects &&
