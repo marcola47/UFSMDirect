@@ -22,6 +22,7 @@ guestRouter.post('/user/create', userController.create);
 authRouter.post('/user/logout', userController.logout);
 
 guestRouter.get('/form/getAffirmations', formController.getAffirmations);
+guestRouter.get('/course/getCourses', courseController.getCourses);
 
 router.use('/a', authRouter);
 router.use('/g', guestRouter);

@@ -11,7 +11,7 @@ config();
 
 const app = express();
 const port = process.env.PORT || 9000;
-const corsOrigin = process.env.CORS_ORIGIN || 'http://localhost:3000';
+const corsOrigin = process.env.CORS_ORIGIN || 'http://127.0.0.1:5173';
 const corsOptions = { origin: corsOrigin, credentials: true, optionsSuccessStatus: 200 };
 
 app.listen(port, () => console.log(`Server is running on port ${port}`));
