@@ -86,7 +86,7 @@
 		]
 	},
 	{
-		"id": "fb0e0ef3-3c29-4c86-82f9-d7f92843af95",
+		"id": "dfc0e829-d30c-4e00-8638-c3974d6b83a4",
 		"ufsm_code": "UFSM00284",
 		"name": "Arquitetura e Organização de Computadores 2",
 		"description": ".",
@@ -284,13 +284,6 @@
 		"id": "d131ed06-4095-47e9-a06a-03f41d3f8004",
 		"ufsm_code": "DPADP0330",
 		"name": "Construção de Sites",
-		"description": ".",
-		"workload": 60
-	},
-	{
-		"id": "b84c686c-c667-4767-8756-0908db4fe14f",
-		"ufsm_code": "UFSM00061",
-		"name": "Controle Analógico e Digital",
 		"description": ".",
 		"workload": 60
 	},
@@ -506,7 +499,7 @@
 		"workload": 60
 	},
 	{
-		"id": "8afaaaf2-5308-11ee-be56-0242ac120002",
+		"id": "bb7da363-108d-45d1-8e8a-7b74746d5956",
 		"ufsm_code": "UFSM00003",
 		"name": "Empreendedorismo de Startup",
 		"description": ".",
@@ -1074,7 +1067,7 @@
 		"workload": 60
 	},
 	{
-		"id": "6fd746c5-c2a4-401a-9da4-44f595039934",
+		"id": "46ed5823-ec8a-4a88-bc61-a1af0e5b86ed",
 		"ufsm_code": "EDE1131",
 		"name": "Libras: Bacharelado",
 		"description": ".",

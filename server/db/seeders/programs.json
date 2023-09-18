@@ -2,7 +2,7 @@
   {
     "id": "f1912902-5717-484e-ac19-2c644240df1a",
     "name": "Sistemas de Informação",
-    "description": "Sistemas de Informação",
+    "description": "Sistemas de Informação é uma graduação acadêmica que se concentra na intersecção entre tecnologia da informação e administração de negócios. Os alunos aprendem a projetar, desenvolver e gerenciar softwares/sistemas de informação que coletam, processam e distribuem dados para apoiar a tomada de decisões nas organizações. Isso envolve a aquisição de habilidades técnicas, como programação, gerenciamento de bancos de dados e segurança da informação, bem como a compreensão de como essas tecnologias podem ser aplicadas de forma estratégica para atender às metas e objetivos de uma empresa.<br/>Além disso, os estudantes exploram conceitos de gestão e estratégia de negócios para compreender como a tecnologia da informação pode ser alinhada com os objetivos organizacionais. Eles aprendem a avaliar as necessidades de informações das empresas, a propor soluções tecnológicas eficazes e a tomar decisões informadas com base em dados. Isso significa que os graduados em Sistemas de Informação estão bem preparados para desempenhar papéis essenciais em empresas e instituições, trabalhando para melhorar a eficiência operacional, inovação e competitividade por meio do uso eficaz da tecnologia e informação.<br/>Deste modo, o curso pode abranger tópicos relacionados à análise de dados, inteligência de negócios, gestão de projetos de TI e tendências emergentes, como a transformação digital. No geral, o campo de Sistemas de Informação oferece uma base sólida tanto em tecnologia quanto em princípios de negócios, capacitando os alunos a desempenhar um papel fundamental na era da informação, onde a tecnologia desempenha um papel crucial em todas as facetas das operações empresariais.",
     "courses":
     [
       { "id": "5cf0b393-3ae8-44f2-a212-c8c3726ffc08", "semester": 1, "mandatory": true },
@@ -63,7 +63,7 @@
       { "id": "6fd746c5-c2a4-401a-9da4-44f595039934", "semester": 0, "mandatory": false },
       { "id": "b3abdefc-0fa9-4b19-a806-29a864098d6c", "semester": 0, "mandatory": false },
       { "id": "3e8cfee7-b548-4fe9-b78d-c98f5ab6f9d9", "semester": 0, "mandatory": false },
-      { "id": "6fd746c5-c2a4-401a-9da4-44f595039934", "semester": 0, "mandatory": false },
+      { "id": "46ed5823-ec8a-4a88-bc61-a1af0e5b86ed", "semester": 0, "mandatory": false },
       { "id": "04d334da-d4c9-4560-b049-17c98371375f", "semester": 0, "mandatory": false },
       { "id": "64f17447-0485-4904-86df-6101e53526a4", "semester": 0, "mandatory": false },
       { "id": "e294fae1-3655-4f38-b8a0-0561167057a9", "semester": 0, "mandatory": false },
@@ -81,7 +81,7 @@
   {
     "id": "7f76f2cd-bd30-4470-b018-6bef7daa3e7f",
     "name": "Ciência da Computação",
-    "description": "Ciência da Computação",
+    "description": "A Ciência da Computação é uma área de estudo que se concentra na compreensão e no desenvolvimento de software e hardware de computadores. Os estudantes aprendem a criar programas de computador, a projetar sistemas de software e a entender como os computadores funcionam. Isso envolve aprender linguagens de programação, algoritmos e estruturas de dados.<br/>Além disso, os alunos exploram conceitos avançados, como inteligência artificial, aprendizado de máquina, segurança cibernética e redes de computadores. Eles também podem estudar tópicos relacionados à teoria da computação e resolução de problemas complexos. A Ciência da Computação oferece uma base sólida para carreiras em desenvolvimento de software, análise de dados, pesquisa e muito mais, sendo essencial em uma variedade de setores, desde tecnologia da informação até entretenimento digital.",
     "courses":
     [
       { "id": "5cf0b393-3ae8-44f2-a212-c8c3726ffc08", "semester": 1, "mandatory": true },
@@ -153,7 +153,7 @@
       { "id": "db2e1ece-a465-4d90-958d-1c91e14ea8a7", "semester": 0, "mandatory": false },
       { "id": "3e8cfee7-b548-4fe9-b78d-c98f5ab6f9d9", "semester": 0, "mandatory": false },
       { "id": "d3bd3ec4-b8f5-47e4-bb75-ec8edd177754", "semester": 0, "mandatory": false },
-      { "id": "6fd746c5-c2a4-401a-9da4-44f595039934", "semester": 0, "mandatory": false },
+      { "id": "46ed5823-ec8a-4a88-bc61-a1af0e5b86ed", "semester": 0, "mandatory": false },
       { "id": "04d334da-d4c9-4560-b049-17c98371375f", "semester": 0, "mandatory": false },
       { "id": "60204a03-a94b-49a6-b99e-71a554b175c0", "semester": 0, "mandatory": false },
       { "id": "bd014201-c627-4b6b-b1da-c388c6879d3e", "semester": 0, "mandatory": false },
@@ -181,9 +181,9 @@
     ]
   },
   {
-    "id": "7f76f2cd-bd30-4470-b018-6bef7daa3e7f",
+    "id": "7b478448-80d9-4e39-b494-9c0f54fd57fb",
     "name": "Engenharia da Computação",
-    "description": "Engenharia da Computação",
+    "description": "A Engenharia da Computação é um campo de estudo que combina conhecimentos de engenharia elétrica e Ciência da Computação. Os alunos dessa área aprendem a projetar, construir e manter tanto o hardware quanto o software de sistemas computacionais. Isso inclui o desenvolvimento de circuitos eletrônicos para computadores, bem como a criação de programas de software para fazê-los funcionar.<br/>Os estudantes de Engenharia da Computação exploram uma ampla gama de tópicos, desde eletrônica digital, microprocessadores e sistemas embutidos até redes de computadores e sistemas operacionais. Eles também podem se concentrar em áreas como automação industrial, robótica, comunicações sem fio e dispositivos móveis. A Engenharia da Computação prepara os graduados para carreiras em design de hardware, desenvolvimento de sistemas integrados, controle de processos industriais e muitas outras áreas onde a tecnologia computacional desempenha um papel fundamental. É um campo que está na vanguarda da inovação tecnológica e tem um impacto significativo em nossa sociedade moderna.",
     "courses":
     [
       { "id": "17706ab4-5178-4e9f-997e-75abb55a6161", "semester": 1, "mandatory": true },
@@ -231,7 +231,7 @@
       { "id": "e6648ae2-ddd9-4102-9787-aa4f2f6d34ce", "semester": 5, "mandatory": true },
       { "id": "442aac2b-323c-447a-8a89-6bc4384fdce0", "semester": 5, "mandatory": true },
 
-      { "id": "fb0e0ef3-3c29-4c86-82f9-d7f92843af95", "semester": 6, "mandatory": true },
+      { "id": "dfc0e829-d30c-4e00-8638-c3974d6b83a4", "semester": 6, "mandatory": true },
       { "id": "13e67a7c-122b-4a0a-9565-e64add0c7f8b", "semester": 6, "mandatory": true },
       { "id": "2e02146d-86b6-4c1a-9e4b-36993fa60152", "semester": 6, "mandatory": true },
       { "id": "437704ba-b416-4533-a849-760eaa8f7ed8", "semester": 6, "mandatory": true },
@@ -258,7 +258,7 @@
       { "id": "1d46bde7-12fd-4f1d-a334-9f03786cf205", "semester": 8, "mandatory": false },
 
       { "id": "ca2539d1-0a0f-4c94-a198-0703a7db5374", "semester": 9, "mandatory": true },
-      { "id": "8afaaaf2-5308-11ee-be56-0242ac120002", "semester": 9, "mandatory": true },
+      { "id": "bb7da363-108d-45d1-8e8a-7b74746d5956", "semester": 9, "mandatory": true },
       { "id": "bfc4b507-70cd-4015-84d1-2d5f21dad3ea", "semester": 9, "mandatory": true },
 
       { "id": "3280a5dc-cf5a-40a8-8af8-f2d24192165d", "semester": 10, "mandatory": true },
@@ -270,7 +270,7 @@
   {
     "id": "f0d2160c-fc18-41fd-a7ff-2695db8e6536",
     "name": "Engenharia de Controle e Automação",
-    "description": "Engenharia de Controle e Automação",
+    "description": "A Engenharia de Controle e Automação é uma graduação que se concentra no projeto, desenvolvimento e implementação de sistemas automatizados e sistemas de controle em uma ampla variedade de aplicações. Os estudantes nessa área aprendem a criar sistemas que podem operar de forma independente, controlando máquinas, processos industriais e sistemas complexos.<br/>Este curso abrange tópicos como eletrônica, instrumentação, programação de controladores, robótica e sistemas de automação industrial. Os engenheiros de controle e automação projetam sistemas que otimizam a eficiência, a segurança e a precisão em indústrias como manufatura, energia e até mesmo em veículos autônomos. Eles desempenham um papel fundamental na melhoria de processos industriais e na criação de sistemas autônomos que podem executar tarefas de forma consistente e confiável, tornando-os peças-chave em setores tecnologicamente avançados e altamente automatizados.",
     "courses":
     [
       { "id": "17706ab4-5178-4e9f-997e-75abb55a6161", "semester": 1, "mandatory": true },
@@ -344,7 +344,7 @@
       { "id": "018b1f72-793c-4564-a3ba-0d3dda88532a", "semester": 8, "mandatory": true },
       { "id": "a3850d5c-dc86-41f7-a869-8e611ca413d0", "semester": 8, "mandatory": true },
 
-      { "id": "8afaaaf2-5308-11ee-be56-0242ac120002", "semester": 9, "mandatory": true },
+      { "id": "bb7da363-108d-45d1-8e8a-7b74746d5956", "semester": 9, "mandatory": true },
       { "id": "437704ba-b416-4533-a849-760eaa8f7ed8", "semester": 9, "mandatory": true },
       { "id": "bfc4b507-70cd-4015-84d1-2d5f21dad3ea", "semester": 9, "mandatory": true },
 
@@ -354,7 +354,7 @@
   {
     "id": "cd1fa9e8-d14b-492b-827c-ebeb94a8ca67",
     "name": "Tecnologia em Sistemas para Internet",
-    "description": "Tecnologia em Sistemas para Internet",
+    "description": "O curso de Tecnologia em Sistemas para Internet é um tecnólogo voltada para a formação de profissionais capazes de projetar, desenvolver e gerenciar sistemas web e aplicações online. Os alunos aprendem a criar sites, aplicativos web e sistemas que funcionam na internet. Isso envolve o domínio de linguagens de programação web, bancos de dados, design de interfaces e segurança online.<br/>Além disso, os estudantes exploram tópicos relacionados à usabilidade, experiência do usuário e gerenciamento de servidores e máquinas virtuais, visando criar soluções eficazes e eficientes. O curso também aborda a integração de tecnologias emergentes, como computação em nuvem e mobilidade, para desenvolver aplicações modernas e interativas. Com uma base sólida em tecnologia web, os técnicos em Sistemas para Internet estão preparados para carreiras em desenvolvimento web e outras áreas relacionadas à tecnologia online. É um campo dinâmico que desempenha um papel central na nossa vida digital moderna.",
     "courses":
     [
       { "id": "cd8a0db4-4d0a-424e-9e80-6f5827946c63", "semester": 1, "mandatory": true },
@@ -397,7 +397,7 @@
   {
     "id": "ec17b59d-a7d2-45a7-b9b3-4b57f13202cd",
     "name": "Redes de Computadores",
-    "description": "Redes de Computadores",
+    "description": "O curso de Redes de Computadores é um tecnólogo que se concentra na concepção, construção, manutenção e gestão de sistemas de comunicação de dados. Os estudantes aprendem a criar redes de computadores que permitem a troca de informações e recursos entre dispositivos, sejam eles computadores pessoais, servidores, dispositivos móveis ou outros equipamentos.<br/>Durante o curso, os alunos estudam tópicos como protocolos de rede, segurança cibernética, administração de sistemas, roteamento e comutação, bem como a configuração de hardware de rede. Eles também podem se aprofundar em tecnologias emergentes, como redes sem fio, virtualização de redes e computação em nuvem. A formação em Redes de Computadores prepara os graduados para carreiras em administração de redes, segurança de rede, suporte técnico, design de infraestrutura de rede e muito mais. Este campo é fundamental para a conectividade global, uma vez que as redes de computadores desempenham um papel vital na comunicação e no compartilhamento de informações em todo o mundo.",
     "courses":
     [
       { "id": "a164869d-98fd-402c-b325-5c59c1849578", "semester": 1, "mandatory": true },
@@ -450,7 +450,7 @@
       { "id": "1de86fa8-19c9-49e6-82df-625c62de5a38", "semester": 0, "mandatory": false },
       { "id": "9a3710c7-f77d-484a-b447-7e643f9f6c81", "semester": 0, "mandatory": false },
       { "id": "dbfe1f18-814a-4bc6-bc99-692e8203ed32", "semester": 0, "mandatory": false },
-      { "id": "6fd746c5-c2a4-401a-9da4-44f595039934", "semester": 0, "mandatory": false },
+      { "id": "46ed5823-ec8a-4a88-bc61-a1af0e5b86ed", "semester": 0, "mandatory": false },
       { "id": "ea739f81-c922-4f3b-a9df-fe299285a33b", "semester": 0, "mandatory": false },
       { "id": "8e24cb1b-17a6-4a7f-8c42-530ccf1376ec", "semester": 0, "mandatory": false },
       { "id": "41561173-0f04-402d-b801-ec18d5237ac2", "semester": 0, "mandatory": false },
