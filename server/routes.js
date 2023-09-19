@@ -25,6 +25,7 @@ authRouter.post('/user/update/params', userController.updateParams);
 
 guestRouter.get('/form/getAffirmations', formController.getAffirmations);
 guestRouter.get('/course/getCourses', courseController.getCourses);
+guestRouter.get('/job/getJobs', jobController.getJobs);
 
 router.use('/a', authRouter);
 router.use('/g', guestRouter);
