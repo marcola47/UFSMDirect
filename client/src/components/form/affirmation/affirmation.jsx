@@ -37,7 +37,7 @@ function AffirmationOption({ itemData: option })
 
   return(
     <div 
-      className={`${option.className}${option.selected ? '--selected' : ''}`}
+      className={`${option.className} ${option.selected ? `option--selected` : ''}`}
       id={ option.id }
       onClick={ () => {setAnswer(option.answer)} }
     />
@@ -48,13 +48,13 @@ export default function Affirmation({ itemData: affirmation })
 {
   const [options, setOptions] = useState(
   [
-    { id: `${affirmation.id}:d2`, answer: 'completely_disagree', selected: false, className: 'option option--negative' },
-    { id: `${affirmation.id}:d1`, answer: 'strongly_disagree'  , selected: false, className: 'option option--negative' },
-    { id: `${affirmation.id}:d0`, answer: 'somewhat_disagree'  , selected: false, className: 'option option--negative' },
+    { id: `${affirmation.id}:d2`, answer: 'completely_disagree', selected: false, className: 'option option--n3'      },
+    { id: `${affirmation.id}:d1`, answer: 'strongly_disagree'  , selected: false, className: 'option option--n2'      },
+    { id: `${affirmation.id}:d0`, answer: 'somewhat_disagree'  , selected: false, className: 'option option--n1'      },
     { id: `${affirmation.id}:ns`, answer: 'not_sure'           , selected: false, className: 'option option--neutral' },
-    { id: `${affirmation.id}:a0`, answer: 'somewhat_agree'     , selected: false, className: 'option option--positive' },
-    { id: `${affirmation.id}:a1`, answer: 'strongly_agree'     , selected: false, className: 'option option--positive' },
-    { id: `${affirmation.id}:a2`, answer: 'completely_agree'   , selected: false, className: 'option option--positive' }
+    { id: `${affirmation.id}:a0`, answer: 'somewhat_agree'     , selected: false, className: 'option option--p1'      },
+    { id: `${affirmation.id}:a1`, answer: 'strongly_agree'     , selected: false, className: 'option option--p2'      },
+    { id: `${affirmation.id}:a2`, answer: 'completely_agree'   , selected: false, className: 'option option--p3'      }
   ]);
 
   return (

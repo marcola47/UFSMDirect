@@ -61,7 +61,18 @@ export default function Login()
 
   return (
     <div className="login">
+      <img 
+        src="img/logo--icon--lm.png" 
+        alt="logo" 
+        className="login__logo" 
+      />
+
       <div className="login__form">
+        <div 
+          className="login__welcome"
+          children="SEJA BEM-VINDO AO UFSMDirect!"
+        />
+        
         <div className="login__inputs">
           <div className="login__input">
             <FontAwesomeIcon icon={ faEnvelope }/>

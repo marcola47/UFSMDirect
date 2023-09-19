@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;800;900&display=swap");
 @keyframes fade_in {
   from {
     opacity: 0;
@@ -35,12 +36,13 @@
   flex-direction: column;
   gap: 16px;
   padding: 16px;
-  border-bottom: 2px solid #dadada;
+  border-bottom: 2px solid #B2DDFF;
   text-align: center;
 }
 .form__affirmations .affirmation__header {
   font-size: 1.5rem;
   font-weight: 500;
+  color: #194185;
 }
 .form__affirmations .affirmation__content {
   display: grid;
@@ -65,7 +67,7 @@
   grid-column: 3;
   grid-row: 1;
   place-items: center right;
-  color: #2E90FA;
+  color: #12B76A;
   text-align: right;
 }
 .form__affirmations .affirmation__options {
@@ -78,34 +80,46 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  border: 2px solid rgba(0, 0, 0, 0);
+  border: 4px solid rgba(0, 0, 0, 0);
   cursor: pointer;
   transition: all 0.1s ease-in-out;
 }
-.form__affirmations .affirmation__options .option--negative {
+.form__affirmations .affirmation__options .option:hover {
+  border-width: 10px;
+}
+.form__affirmations .affirmation__options .option--selected {
+  border-width: 16px;
+}
+.form__affirmations .affirmation__options .option--selected:hover {
+  border-width: 16px;
+}
+.form__affirmations .affirmation__options .option--n1 {
+  border-color: #FDA29B;
+}
+.form__affirmations .affirmation__options .option--n2 {
+  border-color: #F97066;
+}
+.form__affirmations .affirmation__options .option--n3 {
   border-color: #F04438;
 }
-.form__affirmations .affirmation__options .option--negative--selected, .form__affirmations .affirmation__options .option--negative:hover {
-  background-color: #F04438;
-}
-.form__affirmations .affirmation__options .option--positive {
-  border-color: #2E90FA;
-}
-.form__affirmations .affirmation__options .option--positive--selected, .form__affirmations .affirmation__options .option--positive:hover {
-  background-color: #2E90FA;
-}
 .form__affirmations .affirmation__options .option--neutral {
-  border-color: rgb(141, 141, 141);
+  border-color: #B2DDFF;
 }
-.form__affirmations .affirmation__options .option--neutral--selected, .form__affirmations .affirmation__options .option--neutral:hover {
-  background-color: rgb(141, 141, 141);
+.form__affirmations .affirmation__options .option--p1 {
+  border-color: #6CE9A6;
+}
+.form__affirmations .affirmation__options .option--p2 {
+  border-color: #32D583;
+}
+.form__affirmations .affirmation__options .option--p3 {
+  border-color: #12B76A;
 }
 .form__submit {
   width: 100%;
   padding: 8px;
   margin-top: 24px;
   border-radius: 3px;
-  background-color: #2E90FA;
+  background-color: #1570EF;
   color: hsl(0, 0%, 100%);
   font-size: 1.2rem;
   font-weight: 600;
@@ -117,7 +131,7 @@
   transition: all 0.1s ease-in-out;
 }
 .form__submit:hover {
-  background-color: #1570EF;
+  background-color: #175CD3;
 }
 
 @keyframes fade_in {
@@ -138,10 +152,22 @@
 }
 .login {
   display: flex;
-  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
   width: 100vw;
   height: 100dvh;
+  background-color: #EFF8FF;
   animation: fade_in 0.15s forwards ease-in-out;
+}
+.login__welcome {
+  width: 320px;
+  padding: 16px;
+  border-radius: 6px;
+  color: #1849A9;
+  background-color: #D1E9FF;
+  text-align: center;
+  font-weight: 600;
 }
 .login__form {
   display: flex;
@@ -149,17 +175,17 @@
   justify-content: flex-start;
   align-items: center;
   gap: 48px;
-  width: 420px;
-  height: 100dvh;
+  width: 512px;
+  height: 800px;
   padding-top: 64px;
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(210, 13%, 15%);
+  border-radius: 12px;
+  color: #194185;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 0px 35px rgba(25, 65, 133, 0.1098039216);
 }
 .login__logo {
-  position: relative;
-  left: 10px;
-  max-width: 320px;
-  margin-bottom: 64px;
+  width: 480px;
+  height: 348px;
 }
 .login__inputs {
   display: flex;
@@ -171,42 +197,49 @@
 }
 .login__inputs .fa-envelope, .login__inputs .fa-key {
   position: absolute;
-  top: 12px;
-  left: 12px;
+  top: 16px;
+  left: 16px;
   font-size: 1.1rem;
 }
 .login__inputs input {
   display: block;
   width: 320px;
   padding: 12px 16px 12px 40px;
-  border-radius: 3px;
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(210, 15%, 23%);
+  border-radius: 6px;
+  color: #194185;
+  background-color: #EFF8FF;
+  border: 3px solid #D1E9FF;
   cursor: text;
+  transition: all 0.1s ease-in-out;
 }
 .login__inputs input::-moz-placeholder {
-  color: hsl(0, 0%, 72%);
+  color: #98b7ec;
 }
 .login__inputs input::placeholder {
-  color: hsl(0, 0%, 72%);
+  color: #98b7ec;
+}
+.login__inputs input:focus, .login__inputs input:hover {
+  background-color: #D1E9FF;
 }
 .login__navigate {
   width: 320px;
-  color: hsl(0, 0%, 85%);
-  cursor: pointer;
+  color: hsl(0, 0%, 60%);
   text-align: left;
   text-decoration: underline;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
 }
 .login__navigate:hover {
-  color: hsl(0, 0%, 100%);
+  color: #194185;
 }
 .login__auth {
   width: 320px;
   padding: 12px 16px;
-  border-radius: 3px;
+  border-radius: 6px;
   color: hsl(0, 0%, 100%);
   background-color: #175CD3;
   font-size: 1.2rem;
+  transition: all 0.1s ease-in-out;
 }
 .login__auth:hover {
   background-color: #1570EF;
@@ -289,7 +322,9 @@ input, button {
 .app {
   position: relative;
   width: 100dvw;
+  min-height: 100dvh;
   overflow-y: hidden;
   overflow-x: hidden;
+  background-color: #F5FAFF;
   animation: ease-in-out 1s forwards fade_in;
 }/*# sourceMappingURL=app.css.map */

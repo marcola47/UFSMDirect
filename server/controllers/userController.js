@@ -143,7 +143,9 @@ userController.updateParams = async (req, res) =>
   try 
   {
     const { userID, params } = req.body;
-    await User.updateOne({ id: userID }, { $set: params });
+    console.log(params);
+
+    await User.updateOne({ id: userID }, { $set: { params: params } });
     res.status(200).send({ newAccessToken: req.newAccessToken });
   }
 

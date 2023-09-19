@@ -6,36 +6,53 @@ $wm: 280px;
 .login
 {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
 
-  position: relative;
   width: 100vw;
   height: 100dvh;
+  
+  background-color: $blue-50;
 
   @include anim_fade_in;
 
+  &__welcome
+  {
+    width: $wd;
+    padding: 16px;
+    border-radius: $br-m;
+
+    color: $blue-800;
+    background-color: $blue-100;
+
+    text-align: center;
+    font-weight: 600;
+  }
+
   &__form
   {
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     gap: 48px;
 
-    width: $menu-w;
-    height: 100dvh;
+    width: 512px;
+    height: 800px;
     padding-top: 64px;
+    border-radius: $br-g;
 
-    color: $white-light;
-    background-color: $bg-blue-mid-dim;
+    color: $blue-900;
+    background-color: $white-light;
+    box-shadow: 0px 0px 35px #1941851c;
   }
 
   &__logo
   {
-    position: relative;
-    left: 10px;
-
-    max-width: $wd;
-    margin-bottom: 64px;
+    width: 480px;
+    height: 348px;
   }
   
   &__inputs
@@ -45,15 +62,13 @@ $wm: 280px;
     gap: 16px;
     
     .login__input
-    { 
-      position: relative; 
-    }
+    { position: relative }
 
     .fa-envelope, .fa-key
     {
       position: absolute;
-      top: 12px;
-      left: 12px;
+      top: 16px;
+      left: 16px;
 
       font-size: 1.1rem;
     }
@@ -64,15 +79,20 @@ $wm: 280px;
 
       width: $wd;
       padding: 12px 16px 12px 40px;
-      border-radius: $br-s;
+      border-radius: $br-m;
 
-      color: $white-light;
-      background-color: $bg-blue-light;
+      color: $blue-900;
+      background-color: $blue-50;
+      border: 3px solid $blue-100;
 
       cursor: text;
+      @include transition;
 
       &::placeholder
-      { color: $grey-light; }
+      { color: lighten($blue-900, 45%); }
+
+      &:focus, &:hover
+      { background-color: $blue-100; }
     }
   }
 
@@ -80,26 +100,30 @@ $wm: 280px;
   {
     width: $wd;
 
-    color: $white-dark;
+    color: $grey-dark;
 
-    cursor: pointer;
     text-align: left;
     text-decoration: underline;
+    cursor: pointer;
+    @include transition;
+    
 
     &:hover
-    { color: $white-light; }
+    { color: $blue-900; }
   }
 
   &__auth
   {
     width: $wd;
     padding: 12px 16px;
-    border-radius: $br-s;
+    border-radius: $br-m;
 
     color: $white-light;
     background-color: $blue-700;
 
     font-size: 1.2rem;
+
+    @include transition;
 
     &:hover
     { background-color: $blue-600; }
