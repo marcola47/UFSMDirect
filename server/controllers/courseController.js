@@ -5,7 +5,7 @@ const courseController = {};
 
 courseController.getCourses = async (req, res) => 
 {
-  const courses = await Course.find({});
+  const courses = await Course.find({}).select('-_id -__v');
   res.status(200).send(courses);
 }
 
