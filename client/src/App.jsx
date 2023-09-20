@@ -9,6 +9,7 @@ import FormPage from './pages/form';
 import LoginPage from './pages/login';
 import RegisterPage from './pages/register';
 import CoursesPage from './pages/courses';
+import JobsPage from './pages/jobs';
 import Error404Page from './pages/404';
 
 export const UserContext = React.createContext();
@@ -66,6 +67,7 @@ export default function App()
             <Route path="/login" element={ <LoginPage/> }/>
             <Route path="/register" element={ <RegisterPage/> }/>
             <Route path="/courses" element={ <CoursesPage/> }/>
+            <Route path="/jobs" element={ <JobsPage/> }/>
             <Route path="*" element={ <Error404Page/> }/>
           </Routes>
         </div>

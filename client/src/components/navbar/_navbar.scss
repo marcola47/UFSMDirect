@@ -1,0 +1,68 @@
+@import '../../css/variables.scss';
+
+.navbar
+{
+  z-index: 10;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  width: $w12;
+  height: 96px;
+
+  background-color: $white-light;
+  box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.08);
+
+  &__content
+  { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: $w11; 
+  }
+
+  &__logo
+  { 
+    max-width: 216px;
+    @include transition;
+    
+    &:hover
+    { filter: drop-shadow(0px 0px 3px #80afff65) }
+  }
+
+  &__links
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    color: $blue-900;
+
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  &__link
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+
+    padding: 16px;
+    border-radius: $br-s;
+
+    cursor: pointer;
+    @include transition;
+
+    &:hover
+    {
+      color: $blue-50;
+      background-color: $blue-900;
+    }
+  }
+}

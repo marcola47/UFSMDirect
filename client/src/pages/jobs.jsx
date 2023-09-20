@@ -1,12 +1,12 @@
 import Navbar from '@/components/navbar/navbar';
-import Home from '@/components/home/home'
+import Jobs from '@/components/jobs/jobs'
 
-export default function HomePage()
+export default function JobsPage()
 {
   return (
     <>
       <Navbar/>
-      <Home/>
+      <Jobs/>
     </>
   )
 }

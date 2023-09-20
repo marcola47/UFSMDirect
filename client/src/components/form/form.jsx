@@ -76,7 +76,18 @@ export default function Form()
 
   return (
     <div className="form">
+      <h1 
+        className="form__header"
+        children="DESCUBRA SUA CARREIRA"
+      />
+
       <AffirmationsContext.Provider value={{ affirmations, setAffirmations }}>
+        <List
+          className="form__affirmations"
+          items={ affirmations }
+          elements={ affirmations }
+          ListItem={ Affirmation }
+        />
         <List
           className="form__affirmations"
           items={ affirmations }
