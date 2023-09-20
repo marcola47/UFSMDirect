@@ -1162,14 +1162,14 @@
 		"id": "bec693f7-9092-483b-921a-86c8fe105344",
 		"ufsm_code": "UFSM00046",
 		"name": "Matemática Básica",
-		"description": ".",
+		"description": "Na disciplina de Matemática Básica do curso de Engenharia de Controle e Automação, você vai embarcar em uma jornada que é o alicerce de toda a engenharia. Aqui você irá aprender os fundamentos matemáticos para sistemas de controle e automação! <br/> Nesta jornada, você vai explorar os conceitos fundamentais da matemática que são essenciais para a engenharia. Vamos aprender sobre álgebra, trigonometria, cálculo e muito mais. É como aprender o idioma que os engenheiros usam para projetar sistemas inteligentes. <br/> Essa disciplina é como o mapa do tesouro que leva ao entendimento profundo de como as coisas funcionam na engenharia. Você vai aprender a resolver problemas complexos, modelar sistemas e criar soluções inovadoras. <br/> Então, se você gosta de desafios, é fascinado pela ideia de criar máquinas inteligentes e sistemas automatizados, esta disciplina é o ponto de partida para um mundo emocionante de engenharia!",
 		"workload": 45
 	},
 	{
 		"id": "9409b090-c4d7-476a-99e3-fb937a25f29b",
 		"ufsm_code": "UFSM00040",
 		"name": "Matemática Computacional 1",
-		"description": ".",
+		"description": "Na disciplina de Matemática Computacional 1 do curso de Engenharia da Computação, você vai entrar em um mundo onde a matemática e a computação se encontram de maneira fascinante. Imagine-se como um explorador digital, desvendando os segredos da matemática por trás do funcionamento dos computadores! <br/> Nesta jornada, você explorará como a matemática é usada para resolver problemas complexos na computação. Vamos abordar tópicos como álgebra linear, análise numérica e algoritmos matemáticos. É como aprender as ferramentas que os engenheiros de computação usam para criar software e sistemas avançados. <br/> Essa disciplina é como o código-fonte dos computadores: é o conhecimento fundamental que impulsiona a tecnologia moderna. Compreender a matemática por trás da computação é essencial para criar software eficiente e soluções tecnológicas inovadoras. <br/> Então, se você é fascinado pela tecnologia, deseja entender como os computadores funcionam por dentro e está pronto para se tornar um especialista em matemática computacional, esta disciplina é o primeiro passo emocionante!  ",
 		"workload": 30
 	},
 	{
