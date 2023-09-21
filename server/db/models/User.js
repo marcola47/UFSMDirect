@@ -34,6 +34,12 @@ const userSchema = new mongoose.Schema(
   id: idSchema,
   params: paramsSchema,
 
+  verified: {
+    type: Boolean,
+    required: true,
+    default: false
+  },
+
   name: 
   {
     type: String,
@@ -100,5 +106,11 @@ const userSchema = new mongoose.Schema(
     required: false
   }
 });
+
+userSchema.methods.generateVerificationToken = function() {
+  const user = this;
+  const token = jwt.sign({ id: user.id }, process.env.JWT_SECRET, { expiresIn: '1d' });
+  return token;
+}
 
 export default mongoose.model('User', userSchema);

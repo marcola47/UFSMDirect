@@ -7,6 +7,9 @@ import Token from '../db/models/Token.js';
 
 const userController = {};
 
+const mailer = require('../scripts/mailer.js');
+
+
 userController.token = async (req, res) =>
 {
   try
