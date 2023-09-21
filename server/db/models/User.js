@@ -34,6 +34,13 @@ const userSchema = new mongoose.Schema(
   id: idSchema,
   params: paramsSchema,
 
+  picture:
+  {
+    type: String,
+    default: null,
+    required: false
+  },
+
   name: 
   {
     type: String,
@@ -72,7 +79,7 @@ const userSchema = new mongoose.Schema(
   affirmations: 
   {
     type: [userAffirmationSchema],
-    default: null,
+    default: [],
     required: false
   },
 

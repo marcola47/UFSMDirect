@@ -1,14 +1,11 @@
 import mongoose from 'mongoose';
-import idSchema from './_id.js';
 
-const feedbackSchema = new mongoose.Schema(
+const importanceSchema = new mongoose.Schema(
 {
-  id: idSchema,
-
-  user:
+  job:
   {
     type: String,
-    ref: 'User',
+    ref: 'Job',
     required: true
   },
 
@@ -19,18 +16,21 @@ const feedbackSchema = new mongoose.Schema(
     required: true
   },
 
-  type:
+  user:
   {
-    type: Boolean,
-    required: true,
-    default: false
+    type: String,
+    ref: 'User',
+    default: 'system',
+    required: true
   },
 
   value:
   {
     type: Number,
+    default: 10,
     required: true,
-    default: 10
+    min: 0,
+    max: 10
   },
 
   created_at:
@@ -41,4 +41,4 @@ const feedbackSchema = new mongoose.Schema(
   }
 });
 
-export default mongoose.model('Feedback', feedbackSchema);
+export default mongoose.model('Importance', importanceSchema);

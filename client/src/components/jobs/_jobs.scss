@@ -8,7 +8,7 @@
   gap: 24px;
 
   width: $w8;
-  margin-top: 128px;
+  margin-block: 128px 96px;
   margin-inline: auto;
 
   &__header
@@ -30,50 +30,136 @@
   {
     display: flex;
     flex-direction: column;
-    gap: 16px;
 
+    overflow: hidden;
     position: relative;
-    padding: 32px;
+    height: fit-content;
     border-radius: $br-m;
 
     background-color: $white-light;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 
+    &__main
+    {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      z-index: 3;
+
+      padding: 32px;
+      border-radius: $br-m;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+      
+      color: $blue-1000;
+    }
+
     &__sub
     {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      column-gap: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      
+      opacity: 1;
+      z-index: 1;
+      position: relative;
+      top: -8px;
+      padding: 40px 32px 48px 32px;
+
+      @include transition;
     }
+
+    &__icon
+    { font-size: 1.6rem }
 
     &__name
     {
-      color: $blue-1000;
+      position: relative;
+
       font-size: 2rem;
       font-weight: 700;
+
+      cursor: pointer;
+      @include transition;
+
+      &::before
+      {
+        content: "";
+        position: absolute;
+        bottom: -4px;
+        width: 0%;
+        height: 4px;
+        border-radius: $br-s;
+
+        background-color: $blue-900;
+
+        @include transition;
+      }
+
+      &:hover::before
+      { width: 100% }
     }
 
-    .fa-chevron-down
+    &__toggle
     {
       position: absolute;
-      right: 32px;
-      top: 32px;
+      right: 36px;
+      top: 36px;
 
       font-size: 2rem;
+      cursor: pointer;
+      @include transition;
     }
 
     &__desc
     {
       grid-column: span 3;
-      margin-bottom: 24px;
       font-size: 1.2rem;
     }
 
-    &__info__header
+    &__infos
     {
-      margin-bottom: 20px;
-      font-size: 1.5rem;
-      font-weight: 600;
+      display: flex;
+      gap: 64px;
+    }
+
+    &__info
+    {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      
+      padding-bottom: 32px;
+
+      &__header
+      {
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+
+      &__list
+      {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+    }
+
+    &__item
+    {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      font-size: 1.1rem;
+
+      &__decorator
+      {
+        width: 16px;
+        height: 16px;
+        border: 3px solid $blue-400;
+        border-radius: 50%;
+      }
     }
 
     .programs
@@ -82,51 +168,58 @@
       {
         display: flex;
         flex-direction: column;
-        gap: 12px;
+        gap: 24px;
 
         .program
         {
           display: flex;
           flex-direction: column;
           justify-content: center;
-          gap: 8px;
+          gap: 4px;
+
+          cursor: pointer;
+
+          &:hover > .program__content > .program__name
+          { color: $blue-500 }
+
+          &__content
+          {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
+            padding-inline: 12px;
+          }
 
           &__name
           {
-            max-width: 284px;
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             font-weight: 600;
+            @include transition;
           }
 
           &__progress
           {
-            display: grid;
-            place-items: center;
+            display: flex;
 
             width: 100%;
             height: 4px;
             border-radius: 3px;
 
-            background: conic-gradient($blue-400 180deg, $blue-200 0deg);
+            background-color: $blue-200;
+
+            span
+            {
+              height: 100%;
+              background-color: $blue-400;
+            }
           }
 
           &__comp
           {
-            span
-            {
-              display: grid;
-              place-items: center;
-
-              width: 32px;
-              height: 32px;
-              border-radius: 24px;
-
-              color: $blue-1000;
-              background-color: $white-light;
-
-              font-weight: 600;
-              font-size: 0.8rem;
-            }
+            color: $blue-1000;
+            font-weight: 600;
+            font-size: 0.8rem;
           }
         }
       }

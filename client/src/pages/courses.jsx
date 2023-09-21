@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import axios from '@/utils/axiosConfig';
 
+import Navbar from '@/components/navbar/navbar';
+
 export default function CoursesPage() 
 {
   const [courses, setCourses] = useState([]);
@@ -80,11 +82,14 @@ export default function CoursesPage()
   }
 
   return (
-    <ul>
-      { 
-        courses.length > 0 &&
-        courses.map(course => { return <Course key={ course.id } course={ course }/> }) 
-      }
-    </ul>
+    <>
+      <Navbar />
+      <ul>
+        { 
+          courses.length > 0 &&
+          courses.map(course => { return <Course key={ course.id } course={ course }/> }) 
+        }
+      </ul>
+    </>
   )
 }

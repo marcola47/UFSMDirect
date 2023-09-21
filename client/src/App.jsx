@@ -4,12 +4,15 @@ import axios from '@/utils/axiosConfig';
 
 import '@/css/app.css';
 
-import HomePage from './pages/home';
 import FormPage from './pages/form';
-import LoginPage from './pages/login';
-import RegisterPage from './pages/register';
-import CoursesPage from './pages/courses';
+import HomePage from './pages/home';
 import JobsPage from './pages/jobs';
+import LoginPage from './pages/login';
+import NucleiPage from './pages/nuclei';
+import CoursesPage from './pages/courses';
+import ProfilePage from './pages/profile';
+import ProgramsPage from './pages/programs';
+import RegisterPage from './pages/register';
 import Error404Page from './pages/404';
 
 export const UserContext = React.createContext();
@@ -64,10 +67,13 @@ export default function App()
           <Routes>
             <Route path="/" element={ <HomePage/> }/>
             <Route path="/form" element={ <FormPage/> }/>
-            <Route path="/login" element={ <LoginPage/> }/>
-            <Route path="/register" element={ <RegisterPage/> }/>
-            <Route path="/courses" element={ <CoursesPage/> }/>
             <Route path="/jobs" element={ <JobsPage/> }/>
+            <Route path="/login" element={ <LoginPage/> }/>
+            <Route path="/nuclei" element={ <NucleiPage/> }/>
+            <Route path="/courses" element={ <CoursesPage/> }/>
+            <Route path="/profile" element={ <ProfilePage/> }/>
+            <Route path="/programs" element={ <ProgramsPage/> }/>
+            <Route path="/register" element={ <RegisterPage/> }/>
             <Route path="*" element={ <Error404Page/> }/>
           </Routes>
         </div>

@@ -17,6 +17,7 @@ const seedProjects = async () =>
     const user = new User(
     {
       id: userSeed.id,
+      picture: userSeed.picture,
       params: userSeed.params,
       name: userSeed.name,
       email: userSeed.email,

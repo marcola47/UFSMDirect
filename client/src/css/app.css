@@ -161,7 +161,7 @@
   align-items: center;
   gap: 24px;
   width: 66.6666%;
-  margin-top: 128px;
+  margin-block: 128px 96px;
   margin-inline: auto;
 }
 .jobs__header {
@@ -178,72 +178,140 @@
 .jobs .job {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  overflow: hidden;
   position: relative;
-  padding: 32px;
+  height: -moz-fit-content;
+  height: fit-content;
   border-radius: 6px;
   background-color: hsl(0, 0%, 100%);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+.jobs .job__main {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  z-index: 3;
+  padding: 32px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  color: hsl(220, 70%, 25%);
+}
 .jobs .job__sub {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  -moz-column-gap: 32px;
-       column-gap: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  opacity: 1;
+  z-index: 1;
+  position: relative;
+  top: -8px;
+  padding: 40px 32px 48px 32px;
+  transition: all 0.1s ease-in-out;
+}
+.jobs .job__icon {
+  font-size: 1.6rem;
 }
 .jobs .job__name {
-  color: hsl(220, 70%, 25%);
+  position: relative;
   font-size: 2rem;
   font-weight: 700;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
 }
-.jobs .job .fa-chevron-down {
+.jobs .job__name::before {
+  content: "";
   position: absolute;
-  right: 32px;
-  top: 32px;
+  bottom: -4px;
+  width: 0%;
+  height: 4px;
+  border-radius: 3px;
+  background-color: hsl(220, 70%, 35%);
+  transition: all 0.1s ease-in-out;
+}
+.jobs .job__name:hover::before {
+  width: 100%;
+}
+.jobs .job__toggle {
+  position: absolute;
+  right: 36px;
+  top: 36px;
   font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
 }
 .jobs .job__desc {
   grid-column: span 3;
-  margin-bottom: 24px;
   font-size: 1.2rem;
 }
+.jobs .job__infos {
+  display: flex;
+  gap: 64px;
+}
+.jobs .job__info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-bottom: 32px;
+}
 .jobs .job__info__header {
-  margin-bottom: 20px;
   font-size: 1.5rem;
   font-weight: 600;
+}
+.jobs .job__info__list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.jobs .job__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.1rem;
+}
+.jobs .job__item__decorator {
+  width: 16px;
+  height: 16px;
+  border: 3px solid hsl(220, 95%, 60%);
+  border-radius: 50%;
 }
 .jobs .job .programs__list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 24px;
 }
 .jobs .job .programs__list .program {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 8px;
+  gap: 4px;
+  cursor: pointer;
+}
+.jobs .job .programs__list .program:hover > .program__content > .program__name {
+  color: hsl(220, 90%, 55%);
+}
+.jobs .job .programs__list .program__content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-inline: 12px;
 }
 .jobs .job .programs__list .program__name {
-  max-width: 284px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 600;
+  transition: all 0.1s ease-in-out;
 }
 .jobs .job .programs__list .program__progress {
-  display: grid;
-  place-items: center;
+  display: flex;
   width: 100%;
   height: 4px;
   border-radius: 3px;
-  background: conic-gradient(hsl(220, 95%, 60%) 180deg, hsl(220, 100%, 80%) 0deg);
+  background-color: hsl(220, 100%, 80%);
 }
-.jobs .job .programs__list .program__comp span {
-  display: grid;
-  place-items: center;
-  width: 32px;
-  height: 32px;
-  border-radius: 24px;
+.jobs .job .programs__list .program__progress span {
+  height: 100%;
+  background-color: hsl(220, 95%, 60%);
+}
+.jobs .job .programs__list .program__comp {
   color: hsl(220, 70%, 25%);
-  background-color: hsl(0, 0%, 100%);
   font-weight: 600;
   font-size: 0.8rem;
 }
@@ -435,6 +503,26 @@
 .navbar__link:hover {
   color: hsl(220, 100%, 95%);
   background-color: hsl(220, 70%, 35%);
+}
+
+@keyframes fade_in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade_out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.profile {
+  margin-block: 128px 96px;
 }
 
 @keyframes fade_in {
@@ -654,6 +742,18 @@ input, button {
   font-size: inherit;
   font-family: inherit;
   cursor: pointer;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: hsl(0, 0%, 85%);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: hsl(220, 70%, 25%);
 }
 
 /***************************************************************************************************************/
