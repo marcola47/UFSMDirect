@@ -16,7 +16,6 @@ const guestRouter = express.Router();
 const authRouter = express.Router();
 authRouter.use(verifyToken);
 
-
 guestRouter.post('/user/login', userController.login);
 guestRouter.post('/user/create', userController.create);
 authRouter.post('/user/logout', userController.logout);
