@@ -40,13 +40,13 @@ export default function Profile()
         children="Choose Image"
       />
 
-      {selectedImage && (
+      {/* {
+        selectedImage && 
         <div>
           <p>Selected Image:</p>
           <img src={ selectedImage } alt="Selected" width='500'/>
         </div>
-      )}
-
+      } */}
 
       {
         user?.picture &&

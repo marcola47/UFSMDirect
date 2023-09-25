@@ -1,10 +1,7 @@
 import mongoose from 'mongoose';
-import idSchema from './_id.js';
 
-const feedbackSchema = new mongoose.Schema(
+const difficultySchema = new mongoose.Schema(
 {
-  id: idSchema,
-
   user:
   {
     type: String,
@@ -17,13 +14,6 @@ const feedbackSchema = new mongoose.Schema(
     type: String,
     ref: 'Course',
     required: true
-  },
-
-  type:
-  {
-    type: Boolean,
-    required: true,
-    default: false
   },
 
   value:
@@ -41,4 +31,4 @@ const feedbackSchema = new mongoose.Schema(
   }
 });
 
-export default mongoose.model('Feedback', feedbackSchema);
+export default mongoose.model('Difficulty', difficultySchema);
