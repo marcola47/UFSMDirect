@@ -1,0 +1,450 @@
+dev web fullstack
+
+1_Administração de Sistemas de Redes
+3_Análise e Projeto de Sistemas Orientados a Objetos
+2_Arquitetura e Organização de Computadores 1
+2_Arquitetura e Organização de Computadores 2
+1_Arquitetura e Organização de Computadores 3
+1_Atitude em Rede
+3_Circuitos Digitais
+3_Compiladores
+1_Computação Gráfica
+1_Computação Gráfica Avançada
+1_Comunicação de Dados
+10_Construção de Sites
+5_Criptografia Para Segurança de Dados
+2_Custos A
+2_Cálculo A
+2_Cálculo B
+1_Deep Learning
+4_Desenvolvimento de Software Educacional
+10_Desenvolvimento de Software Para a Web
+7_Design Para Dispositivos Móveis
+2_Engenharia Econômica
+7_Engenharia de Software
+5_Estatística
+10_Estruturas de Dados
+7_Fundamentos da Matemática
+10_Fundamentos de Banco de Dados
+10_Fundamentos de Ciência de Dados
+3_Games e Gamificação no Ensino de Línguas
+4_Gerenciamento de Infraestrutura de TI
+6_Gerência de Projetos de Software
+5_Gestão de Pessoas A
+5_Grafos
+3_Implementação de Banco de Dados
+3_Implementação de Linguagens de Programação
+7_Inglês Para a Ciência da Computação 1
+7_Inglês Para a Ciência da Computação 2
+2_Inteligência Artificial
+2_Interconexão de Redes
+6_Interface Humano-Computador
+1_Internet das Coisas
+3_Introdução à Ciência da Informação
+3_Introdução à Computação A
+3_Introdução à Sistemas de Informação
+9_Laboratório de Orientação a Objetos
+10_Laboratório de Programação 1
+10_Laboratório de Programação 2
+6_Laboratório de Sistemas Operacionais
+2_Linguagens Formais A
+5_Linguagens de Marcação Extensíveis
+9_Língua Inglesa Instrumental 1
+9_Língua Inglesa Instrumental 2
+4_Lógica Formal Para Computação
+8_Lógica Matemática
+1_Lógica Para Inteligência Artificial e Games
+10_Lógica e Algorítmo
+5_Marketing C
+9_Matemática Básica
+2_Matemática Computacional 1
+2_Matemática Computacional 2
+2_Matemática Computacional 3
+2_Matemática Computacional 4
+6_Matemática Discreta
+5_Metodologia de Pesquisa em Informática
+5_Metodologia de Pesquisa em Sistemas de Informação
+1_Microcontroladores
+1_Middleware Para Sistemas Distribuídos
+1_Mineração de Dados
+2_Modelamento 3D e Desenho Digital
+2_Métodos Numéricos Computacionais
+1_Números e Funções Complexas
+5_Padrões de Projeto
+10_Paradigmas de Programação
+4_Pesquisa Aplicada
+8_Pesquisa e Ordenação de Dados A
+1_Processamento Digital de Imagens
+10_Programação Orientada a Objetos Para Web 1
+10_Programação Orientada a Objetos Para Web 2
+6_Programação Para Dispositivos Móveis
+5_Programação Paralela
+3_Programação Python
+10_Projeto de Software 1
+10_Projeto de Software 2
+5_Projeto e Análise de Algoritmos
+10_Projeto e Gerência de Banco de Dados
+3_Protocolos de Aplicação
+5_Prática em Sistemas Operacionais
+4_Pré-Cálculo
+9_Qualidade de Software
+1_Redes Industriais
+2_Redes Sem Fio
+5_Redes de Computadores
+4_Segurança em Redes de Computadores
+2_Sistemas Colaborativos
+5_Sistemas Distribuídos
+3_Sistemas Inteligentes
+1_Sistemas Microcontrolados
+6_Sistemas Operacionais A
+5_Sistemas Operacionais de Tempo Real
+5_Sistemas de Computação Móvel
+3_Sistemas de Comunicação
+3_Sistemas de Informação Distribuidos A
+1_Sistemas de Produção
+1_Tecnologia de Redes Industriais
+2_Tecnologias Emergentes
+2_Tecnologias da Informação
+4_Teoria Econômica
+4_Teoria Geral da Administração
+4_Teoria da Computação
+10_Tópicos Avançados em Programação Web
+2_Tópicos Especiais em Linguagens Formais
+2_Álgebra Linear e Geometria Analítica
+
+dev web frontend
+
+1_Administração de Sistemas de Redes
+3_Análise e Projeto de Sistemas Orientados a Objetos
+1_Arquitetura e Organização de Computadores 1
+1_Arquitetura e Organização de Computadores 2
+1_Atitude em Rede
+3_Circuitos Digitais
+3_Compiladores
+2_Computação Gráfica
+2_Computação Gráfica Avançada
+1_Comunicação de Dados
+10_Construção de Sites
+5_Criptografia Para Segurança de Dados
+2_Custos A
+2_Cálculo A
+2_Cálculo B
+1_Deep Learning
+4_Desenvolvimento de Software Educacional
+10_Desenvolvimento de Software Para a Web
+9_Design Para Dispositivos Móveis
+2_Engenharia Econômica
+7_Engenharia de Software
+5_Estatística
+9_Estruturas de Dados
+7_Fundamentos da Matemática
+8_Fundamentos de Banco de Dados
+8_Fundamentos de Ciência de Dados
+4_Games e Gamificação no Ensino de Línguas
+3_Gerenciamento de Infraestrutura de TI
+7_Gerência de Projetos de Software
+5_Gestão de Pessoas A
+5_Grafos
+3_Implementação de Banco de Dados
+3_Implementação de Linguagens de Programação
+7_Inglês Para a Ciência da Computação 1
+7_Inglês Para a Ciência da Computação 2
+2_Inteligência Artificial
+2_Interconexão de Redes
+10_Interface Humano-Computador
+1_Internet das Coisas
+4_Introdução à Ciência da Informação
+2_Introdução à Computação A
+4_Introdução à Sistemas de Informação
+9_Laboratório de Orientação a Objetos
+10_Laboratório de Programação 1
+10_Laboratório de Programação 2
+5_Laboratório de Sistemas Operacionais
+2_Linguagens Formais A
+8_Linguagens de Marcação Extensíveis
+9_Língua Inglesa Instrumental 1
+9_Língua Inglesa Instrumental 2
+4_Lógica Formal Para Computação
+7_Lógica Matemática
+1_Lógica Para Inteligência Artificial e Games
+10_Lógica e Algorítmo
+6_Marketing C
+8_Matemática Básica
+2_Matemática Computacional 1
+2_Matemática Computacional 2
+2_Matemática Computacional 3
+2_Matemática Computacional 4
+6_Matemática Discreta
+5_Metodologia de Pesquisa em Informática
+5_Metodologia de Pesquisa em Sistemas de Informação
+1_Microcontroladores
+1_Middleware Para Sistemas Distribuídos
+1_Mineração de Dados
+3_Modelamento 3D e Desenho Digital
+2_Métodos Numéricos Computacionais
+1_Números e Funções Complexas
+5_Padrões de Projeto
+10_Paradigmas de Programação
+4_Pesquisa Aplicada
+8_Pesquisa e Ordenação de Dados A
+1_Processamento Digital de Imagens
+10_Programação Orientada a Objetos Para Web 1
+10_Programação Orientada a Objetos Para Web 2
+8_Programação Para Dispositivos Móveis
+4_Programação Paralela
+3_Programação Python
+10_Projeto de Software 1
+10_Projeto de Software 2
+4_Projeto e Análise de Algoritmos
+10_Projeto e Gerência de Banco de Dados
+3_Protocolos de Aplicação
+6_Prática em Sistemas Operacionais
+4_Pré-Cálculo
+9_Qualidade de Software
+1_Redes Industriais
+2_Redes Sem Fio
+5_Redes de Computadores
+4_Segurança em Redes de Computadores
+2_Sistemas Colaborativos
+5_Sistemas Distribuídos
+3_Sistemas Inteligentes
+1_Sistemas Microcontrolados
+6_Sistemas Operacionais A
+5_Sistemas Operacionais de Tempo Real
+6_Sistemas de Computação Móvel
+3_Sistemas de Comunicação
+3_Sistemas de Informação Distribuidos A
+1_Sistemas de Produção
+1_Tecnologia de Redes Industriais
+2_Tecnologias Emergentes
+2_Tecnologias da Informação
+5_Teoria Econômica
+5_Teoria Geral da Administração
+4_Teoria da Computação
+10_Tópicos Avançados em Programação Web
+2_Tópicos Especiais em Linguagens Formais
+2_Álgebra Linear e Geometria Analítica
+
+dev web frontend
+
+1_Administração de Sistemas de Redes
+3_Análise e Projeto de Sistemas Orientados a Objetos
+1_Arquitetura e Organização de Computadores 1
+1_Arquitetura e Organização de Computadores 2
+1_Atitude em Rede
+3_Circuitos Digitais
+3_Compiladores
+2_Computação Gráfica
+2_Computação Gráfica Avançada
+1_Comunicação de Dados
+10_Construção de Sites
+5_Criptografia Para Segurança de Dados
+2_Custos A
+2_Cálculo A
+2_Cálculo B
+1_Deep Learning
+4_Desenvolvimento de Software Educacional
+10_Desenvolvimento de Software Para a Web
+9_Design Para Dispositivos Móveis
+2_Engenharia Econômica
+7_Engenharia de Software
+5_Estatística
+9_Estruturas de Dados
+7_Fundamentos da Matemática
+8_Fundamentos de Banco de Dados
+8_Fundamentos de Ciência de Dados
+4_Games e Gamificação no Ensino de Línguas
+3_Gerenciamento de Infraestrutura de TI
+7_Gerência de Projetos de Software
+5_Gestão de Pessoas A
+5_Grafos
+3_Implementação de Banco de Dados
+3_Implementação de Linguagens de Programação
+7_Inglês Para a Ciência da Computação 1
+7_Inglês Para a Ciência da Computação 2
+2_Inteligência Artificial
+2_Interconexão de Redes
+10_Interface Humano-Computador
+1_Internet das Coisas
+4_Introdução à Ciência da Informação
+2_Introdução à Computação A
+4_Introdução à Sistemas de Informação
+9_Laboratório de Orientação a Objetos
+10_Laboratório de Programação 1
+10_Laboratório de Programação 2
+5_Laboratório de Sistemas Operacionais
+2_Linguagens Formais A
+8_Linguagens de Marcação Extensíveis
+9_Língua Inglesa Instrumental 1
+9_Língua Inglesa Instrumental 2
+4_Lógica Formal Para Computação
+7_Lógica Matemática
+1_Lógica Para Inteligência Artificial e Games
+10_Lógica e Algorítmo
+6_Marketing C
+8_Matemática Básica
+2_Matemática Computacional 1
+2_Matemática Computacional 2
+2_Matemática Computacional 3
+2_Matemática Computacional 4
+6_Matemática Discreta
+5_Metodologia de Pesquisa em Informática
+5_Metodologia de Pesquisa em Sistemas de Informação
+1_Microcontroladores
+1_Middleware Para Sistemas Distribuídos
+1_Mineração de Dados
+3_Modelamento 3D e Desenho Digital
+2_Métodos Numéricos Computacionais
+1_Números e Funções Complexas
+5_Padrões de Projeto
+10_Paradigmas de Programação
+4_Pesquisa Aplicada
+8_Pesquisa e Ordenação de Dados A
+1_Processamento Digital de Imagens
+10_Programação Orientada a Objetos Para Web 1
+10_Programação Orientada a Objetos Para Web 2
+8_Programação Para Dispositivos Móveis
+4_Programação Paralela
+3_Programação Python
+10_Projeto de Software 1
+10_Projeto de Software 2
+4_Projeto e Análise de Algoritmos
+10_Projeto e Gerência de Banco de Dados
+3_Protocolos de Aplicação
+6_Prática em Sistemas Operacionais
+4_Pré-Cálculo
+9_Qualidade de Software
+1_Redes Industriais
+2_Redes Sem Fio
+5_Redes de Computadores
+4_Segurança em Redes de Computadores
+2_Sistemas Colaborativos
+5_Sistemas Distribuídos
+3_Sistemas Inteligentes
+1_Sistemas Microcontrolados
+6_Sistemas Operacionais A
+5_Sistemas Operacionais de Tempo Real
+6_Sistemas de Computação Móvel
+3_Sistemas de Comunicação
+3_Sistemas de Informação Distribuidos A
+1_Sistemas de Produção
+1_Tecnologia de Redes Industriais
+2_Tecnologias Emergentes
+2_Tecnologias da Informação
+5_Teoria Econômica
+5_Teoria Geral da Administração
+4_Teoria da Computação
+10_Tópicos Avançados em Programação Web
+2_Tópicos Especiais em Linguagens Formais
+2_Álgebra Linear e Geometria Analítica
+
+dev web back
+
+1_Administração de Sistemas de Redes
+4_Análise e Projeto de Sistemas Orientados a Objetos
+2_Arquitetura e Organização de Computadores 1
+2_Arquitetura e Organização de Computadores 2
+1_Atitude em Rede
+3_Circuitos Digitais
+3_Compiladores
+2_Comunicação de Dados
+7_Construção de Sites
+6_Criptografia Para Segurança de Dados
+2_Custos A
+3_Cálculo A
+3_Cálculo B
+1_Deep Learning
+4_Desenvolvimento de Software Educacional
+10_Desenvolvimento de Software Para a Web
+9_Design Para Dispositivos Móveis
+2_Engenharia Econômica
+7_Engenharia de Software
+5_Estatística
+10_Estruturas de Dados
+8_Fundamentos da Matemática
+10_Fundamentos de Banco de Dados
+10_Fundamentos de Ciência de Dados
+2_Games e Gamificação no Ensino de Línguas
+5_Gerenciamento de Infraestrutura de TI
+7_Gerência de Projetos de Software
+4_Gestão de Pessoas A
+6_Grafos
+4_Implementação de Banco de Dados
+4_Implementação de Linguagens de Programação
+7_Inglês Para a Ciência da Computação 1
+7_Inglês Para a Ciência da Computação 2
+2_Inteligência Artificial
+3_Interconexão de Redes
+4_Interface Humano-Computador
+2_Internet das Coisas
+5_Introdução à Ciência da Informação
+6_Introdução à Computação A
+5_Introdução à Sistemas de Informação
+9_Laboratório de Orientação a Objetos
+10_Laboratório de Programação 1
+10_Laboratório de Programação 2
+6_Laboratório de Sistemas Operacionais
+2_Linguagens Formais A
+5_Linguagens de Marcação Extensíveis
+9_Língua Inglesa Instrumental 1
+9_Língua Inglesa Instrumental 2
+5_Lógica Formal Para Computação
+9_Lógica Matemática
+2_Lógica Para Inteligência Artificial e Games
+10_Lógica e Algorítmo
+4_Marketing C
+9_Matemática Básica
+4_Matemática Computacional 1
+4_Matemática Computacional 2
+4_Matemática Computacional 3
+4_Matemática Computacional 4
+8_Matemática Discreta
+6_Metodologia de Pesquisa em Informática
+6_Metodologia de Pesquisa em Sistemas de Informação
+1_Microcontroladores
+1_Middleware Para Sistemas Distribuídos
+1_Mineração de Dados
+3_Modelamento 3D e Desenho Digital
+2_Métodos Numéricos Computacionais
+1_Números e Funções Complexas
+5_Padrões de Projeto
+10_Paradigmas de Programação
+5_Pesquisa Aplicada
+10_Pesquisa e Ordenação de Dados A
+1_Processamento Digital de Imagens
+10_Programação Orientada a Objetos Para Web 1
+10_Programação Orientada a Objetos Para Web 2
+5_Programação Para Dispositivos Móveis
+6_Programação Paralela
+2_Programação Python
+10_Projeto de Software 1
+10_Projeto de Software 2
+6_Projeto e Análise de Algoritmos
+10_Projeto e Gerência de Banco de Dados
+4_Protocolos de Aplicação
+6_Prática em Sistemas Operacionais
+4_Pré-Cálculo
+8_Qualidade de Software
+1_Redes Industriais
+2_Redes Sem Fio
+5_Redes de Computadores
+4_Segurança em Redes de Computadores
+2_Sistemas Colaborativos
+5_Sistemas Distribuídos
+3_Sistemas Inteligentes
+1_Sistemas Microcontrolados
+6_Sistemas Operacionais A
+5_Sistemas Operacionais de Tempo Real
+6_Sistemas de Computação Móvel
+3_Sistemas de Comunicação
+3_Sistemas de Informação Distribuidos A
+1_Sistemas de Produção
+1_Tecnologia de Redes Industriais
+2_Tecnologias Emergentes
+2_Tecnologias da Informação
+5_Teoria Econômica
+5_Teoria Geral da Administração
+6_Teoria da Computação
+10_Tópicos Avançados em Programação Web
+2_Tópicos Especiais em Linguagens Formais
+2_Álgebra Linear e Geometria Analítica

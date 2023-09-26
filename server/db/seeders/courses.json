@@ -947,7 +947,10 @@
 		"ufsm_code": "DLSC808",
 		"name": "Internet das Coisas",
 		"description": ".",
-		"workload": 60
+		"workload": 60,
+    "equivalents": [
+      "9a3710c7-f77d-484a-b447-7e643f9f6c81"
+    ]
 	},
 	{
 		"id": "9a3710c7-f77d-484a-b447-7e643f9f6c81",
@@ -1421,7 +1424,7 @@
 	{
 		"id": "1b718b45-d705-413d-b16a-6ed1780df01a",
 		"ufsm_code": "DPADP0346",
-		"name": "Programação Orientada a Objetos Para Web II",
+		"name": "Programação Orientada a Objetos Para Web 2",
 		"description": ".",
 		"workload": 60
 	},
@@ -2045,6 +2048,10 @@
 		"ufsm_code": "UFSM00035",
 		"name": "Álgebra Linear e Geometria Analítica",
 		"description": ".",
-		"workload": 90
+		"workload": 90,
+    "equivalents": [
+      "15e84fae-ae58-4c7e-8736-85fa7a914794",
+      "a7b2c724-1864-41f9-be3f-b4f46200af3c"
+    ]
 	}
 ]
