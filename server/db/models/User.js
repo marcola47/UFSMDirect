@@ -73,7 +73,7 @@ const userSchema = new mongoose.Schema(
     default: 'New User Bio',
     required: false,
     trim: true,
-    maxlength: 512
+    maxlength: 1024
   },
 
   affirmations: 

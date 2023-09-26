@@ -2,5 +2,112 @@
 
 .profile
 {
+  display: grid;
+  grid-template-columns: 256px auto;
+  gap: 16px;
+
+  width: $w9;
   margin-block: 128px 96px;
+  margin-inline: auto;
+
+  &__picture
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    width: 256px;
+    height: 316px;
+
+    object-fit: cover;
+    border-radius: $br-m;
+
+    color: $blue-1000;
+    background-color: $white-light;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    &--alt
+    {
+      padding: 16px;
+
+      .fa-circle-question
+      { font-size: 4rem }
+    }
+  }
+
+  &__data
+  {
+    padding: 16px;
+    border-radius: $br-m;
+
+    color: $blue-1000;
+    background-color: $white-light;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  &__name
+  {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  &__program
+  {
+    color: $blue-600;
+    font-size: 1.4rem;
+    font-weight: 600;
+    
+    cursor: pointer;
+    @include transition;
+
+    &:hover
+    { color: $blue-300; }
+  }
+
+  &__job
+  {
+    color: $blue-500;
+    font-size: 1rem;
+    font-weight: 600;
+
+    cursor: pointer;
+    @include transition;
+
+    &:hover
+    { color: $blue-200; }
+  }
+
+  &__bio
+  {
+    margin-top: 16px;
+  }
+
+  &__info
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    padding: 16px;
+    border-radius: $br-m;
+
+    color: $blue-1000;
+    background-color: $white-light;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+    & > *
+    {
+      display: flex;
+      flex-direction: column;
+
+      .label
+      { font-weight: 600; }
+    }
+  }
 }

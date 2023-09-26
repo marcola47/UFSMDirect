@@ -24,7 +24,8 @@ const seedProjects = async () =>
       password: hash,
       bio: userSeed.bio,
       registration: userSeed.registration,
-      program: userSeed.program
+      program: userSeed.program,
+      job: userSeed.job
     });
 
     await User.create(user);

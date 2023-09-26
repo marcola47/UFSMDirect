@@ -5,7 +5,7 @@ const jobController = {};
 
 jobController.getJobs = async (req, res) => 
 {
-  const jobs = await Job.find({}).select('-_id -__v');
+  const jobs = await Job.find({ active: true }).select('-_id -__v');
   res.status(200).send(jobs);
 }
 

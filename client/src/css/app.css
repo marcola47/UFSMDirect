@@ -16,6 +16,26 @@
     opacity: 0;
   }
 }
+.courses {
+  margin-block: 128px 96px;
+}
+
+@keyframes fade_in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade_out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
 .form {
   display: flex;
   flex-direction: column;
@@ -224,7 +244,7 @@
   width: 0%;
   height: 4px;
   border-radius: 3px;
-  background-color: hsl(220, 70%, 35%);
+  background-color: hsl(220, 70%, 25%);
   transition: all 0.1s ease-in-out;
 }
 .jobs .job__name:hover::before {
@@ -522,7 +542,87 @@
   }
 }
 .profile {
+  display: grid;
+  grid-template-columns: 256px auto;
+  gap: 16px;
+  width: 75%;
   margin-block: 128px 96px;
+  margin-inline: auto;
+}
+.profile__picture {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 256px;
+  height: 316px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 6px;
+  color: hsl(220, 70%, 25%);
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.profile__picture--alt {
+  padding: 16px;
+}
+.profile__picture--alt .fa-circle-question {
+  font-size: 4rem;
+}
+.profile__data {
+  padding: 16px;
+  border-radius: 6px;
+  color: hsl(220, 70%, 25%);
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.profile__name {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.profile__program {
+  color: hsl(220, 85%, 50%);
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+.profile__program:hover {
+  color: hsl(220, 100%, 70%);
+}
+.profile__job {
+  color: hsl(220, 90%, 55%);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+.profile__job:hover {
+  color: hsl(220, 100%, 80%);
+}
+.profile__bio {
+  margin-top: 16px;
+}
+.profile__info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  border-radius: 6px;
+  color: hsl(220, 70%, 25%);
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.profile__info > * {
+  display: flex;
+  flex-direction: column;
+}
+.profile__info > * .label {
+  font-weight: 600;
 }
 
 @keyframes fade_in {

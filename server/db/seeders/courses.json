@@ -1619,7 +1619,8 @@
 		"description": ".",
 		"workload": 60,
 		"equivalents": [
-			"13e67a7c-122b-4a0a-9565-e64add0c7f8b"
+			"13e67a7c-122b-4a0a-9565-e64add0c7f8b",
+      "afc78e1c-16b9-4801-a0f0-b824ff425b3c"
 		]
 	},
 	{

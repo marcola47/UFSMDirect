@@ -92,6 +92,13 @@ const jobSchema = new mongoose.Schema(
     required: true,
   },
 
+  active:
+  {
+    type: Boolean,
+    default: true,
+    required: true
+  }
+
   // ideia futura: hard e soft skills
 });
 
