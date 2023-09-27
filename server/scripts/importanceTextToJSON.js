@@ -22,7 +22,7 @@ async function readTextFile()
       const [value, name] = line.trim().split('_');
       const course = await Course.findOne({ name }).select('id -_id');
       
-      if (course)
+      if (course &&  parseInt(value) !== 0)
       {
         objects.push(
         { 
