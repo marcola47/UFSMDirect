@@ -1580,14 +1580,14 @@
 		"id": "1e4826e1-0c03-4c2c-b659-8cbba7661d5a",
 		"ufsm_code": "UFSM00292",
 		"name": "Projeto de Sistemas Embarcados",
-		"description": ".",
+		"description": "Se você é fascinado pela ideia de fazer a tecnologia interagir com o mundo físico, a disciplina de Projeto de Sistemas Embarcados é a chave para entrar nesse emocionante universo. Nessa<br/>disciplina, você será introduzido ao mundo dos sistemas embarcados e ciberfísicos, que são sistemas que combinam hardware e software para controlar e monitorar processos do mundo real.<br/>Os objetivos principais aqui são modelar, projetar e analisar sistemas embarcados e ciberfísicos. <br/>Você aprenderá a programar o software embarcado, levando em consideração a precisão lógica e temporal, a concorrência entre processos, as limitações de recursos e as restrições físicas que esses sistemas enfrentam.<br/> Imagine-se como um engenheiro de sistemas embarcados, criando sistemas inteligentes que podem controlar carros autônomos,<br/>dispositivos médicos avançados ou até mesmo robôs. Você estará na vanguarda da tecnologia, projetando sistemas que interagem perfeitamente com o mundo real.<br/> Prepare-se para uma jornada desafiadora, onde você desenvolverá habilidades essenciais para criar sistemas que integram a computação ao mundo físico. Esta disciplina abrirá portas para <br/>carreiras empolgantes na área de sistemas embarcados, <br/> onde você poderá contribuir para a criação de tecnologias que melhoram a qualidade de vida das pessoas e impulsionam a inovação. É uma jornada emocionante em direção ao futuro dos sistemas embarcados!",
 		"workload": 60
 	},
 	{
 		"id": "038ea04d-89e9-49dd-9e90-550a11c6a936",
 		"ufsm_code": "ELC1048",
 		"name": "Projeto de Sistemas Embarcados",
-		"description": ".",
+		"description": "Se você é fascinado pela ideia de fazer a tecnologia interagir com o mundo físico, a disciplina de Projeto de Sistemas Embarcados é a chave para entrar nesse emocionante universo. Nessa<br/>disciplina, você será introduzido ao mundo dos sistemas embarcados e ciberfísicos, que são sistemas que combinam hardware e software para controlar e monitorar processos do mundo real.<br/>Os objetivos principais aqui são modelar, projetar e analisar sistemas embarcados e ciberfísicos. <br/>Você aprenderá a programar o software embarcado, levando em consideração a precisão lógica e temporal, a concorrência entre processos, as limitações de recursos e as restrições físicas que esses sistemas enfrentam.<br/> Imagine-se como um engenheiro de sistemas embarcados, criando sistemas inteligentes que podem controlar carros autônomos,<br/>dispositivos médicos avançados ou até mesmo robôs. Você estará na vanguarda da tecnologia, projetando sistemas que interagem perfeitamente com o mundo real.<br/> Prepare-se para uma jornada desafiadora, onde você desenvolverá habilidades essenciais para criar sistemas que integram a computação ao mundo físico. Esta disciplina abrirá portas para <br/>carreiras empolgantes na área de sistemas embarcados, <br/> onde você poderá contribuir para a criação de tecnologias que melhoram a qualidade de vida das pessoas e impulsionam a inovação. É uma jornada emocionante em direção ao futuro dos sistemas embarcados!",
 		"workload": 60,
 		"equivalents": [
 			"1e4826e1-0c03-4c2c-b659-8cbba7661d5a"
@@ -1597,28 +1597,28 @@
 		"id": "f50b3189-8616-4fdb-a50f-ee36f34fd45b",
 		"ufsm_code": "ELC1073",
 		"name": "Projeto de Software 1",
-		"description": ".",
+		"description": "Nessa cadeira você irá criar soluções de software incríveis. A disciplina de Projeto de Software 1 é uma ótima oportunidade para entrar no mundo do desenvolvimento de software. <br/>Nessa disciplina, você aplicará conceitos e técnicas avançadas de Projeto e Gerência de Software, com foco na construção piloto de aplicações, produtos ou serviços computacionais.<br/> Os objetivos principais aqui são aplicar esses conceitos e técnicas na prática, trabalhando em equipe para criar soluções reais.<br/> Você aprenderá a usar técnicas de trabalho em grupo, o que é fundamental para o sucesso na indústria de software.<br/> Imagine-se como um engenheiro de software, enfrentando problemas reais que precisam ser resolvidos por meio do desenvolvimento de aplicações de software.<br/>Você terá a oportunidade de identificar um problema real, propor uma solução e construir uma aplicação de software que atenda às necessidades do mundo real.<br/>Prepare-se para uma jornada desafiadora e recompensadora, onde você desenvolverá habilidades essenciais para projetar, desenvolver e gerenciar projetos de software complexos. <br/>Esta disciplina abrirá portas para carreiras empolgantes na área de sistemas de informação, onde você poderá contribuir para a criação de soluções tecnológicas que melhoram processos e <br/> impulsionam a inovação. É uma jornada emocionante em direção ao futuro do desenvolvimento de software!",
 		"workload": 120
 	},
 	{
 		"id": "053c649a-765b-4479-b961-bad1187f495d",
 		"ufsm_code": "ELC1074",
 		"name": "Projeto de Software 2",
-		"description": ".",
+		"description": "Nessa cadeira você irá criar soluções de software incríveis. A disciplina de Projeto de Software 2 é uma ótima oportunidade para entrar no mundo do desenvolvimento de software. <br/>Nessa disciplina, você aplicará conceitos e técnicas avançadas de Projeto e Gerência de Software, com foco na construção piloto de aplicações, produtos ou serviços computacionais.<br/> Os objetivos principais aqui são aplicar esses conceitos e técnicas na prática, trabalhando em equipe para criar soluções reais.<br/> Você aprenderá a usar técnicas de trabalho em grupo, o que é fundamental para o sucesso na indústria de software.<br/> Imagine-se como um engenheiro de software, enfrentando problemas reais que precisam ser resolvidos por meio do desenvolvimento de aplicações de software.<br/>Você terá a oportunidade de identificar um problema real, propor uma solução e construir uma aplicação de software que atenda às necessidades do mundo real.<br/>Prepare-se para uma jornada desafiadora e recompensadora, onde você desenvolverá habilidades essenciais para projetar, desenvolver e gerenciar projetos de software complexos. <br/>Esta disciplina abrirá portas para carreiras empolgantes na área de sistemas de informação, onde você poderá contribuir para a criação de soluções tecnológicas que melhoram processos e <br/> impulsionam a inovação. É uma jornada emocionante em direção ao futuro do desenvolvimento de software!",
 		"workload": 120
 	},
 	{
 		"id": "89f85d2b-9917-49eb-a27b-1648d5de6819",
 		"ufsm_code": "ELC120",
 		"name": "Projeto e Análise de Algoritmos",
-		"description": ".",
+		"description": "Se você gosta de resolver quebra-cabeças e criar soluções eficientes, a disciplina de Projeto e Análise de Algoritmos é como um mergulho profundo no mundo dos algoritmos. <br/>Aqui, você aprenderá a projetar algoritmos inteligentes para resolver problemas complexos. É como se tornar um verdadeiro mestre da lógica e da eficiência computacional,<br/>criando soluções que podem ser aplicadas em diversas áreas. Prepare-se para desvendar os segredos por trás dos algoritmos que impulsionam a tecnologia!",
 		"workload": 60
 	},
 	{
 		"id": "b5d76e97-36c1-4f02-bfe7-11481c3c8e74",
 		"ufsm_code": "ELC1071",
 		"name": "Projeto e Gerência de Banco de Dados",
-		"description": ".",
+		"description": "Nessa cadeira você está entender em como as informações são organizadas e acessadas, a disciplina de Projeto e Gerência de Banco de Dados é como a chave para desbloquear esse mundo.<br/> Aqui, você aprenderá a projetar sistemas de gerenciamento de banco de dados e a administrar o fluxo de informações de maneira eficiente. <br/>É como se tornar o guardião das informações digitais, garantindo que elas estejam sempre disponíveis e seguras.",
 		"workload": 60,
 		"equivalents": [
 			"13e67a7c-122b-4a0a-9565-e64add0c7f8b"
@@ -1628,55 +1628,56 @@
 		"id": "462370e7-2257-44c0-bb64-5400f23aec28",
 		"ufsm_code": "DPADI0183",
 		"name": "Protocolos de Aplicação",
-		"description": ".",
+		"description": "Imagine que a internet é como uma rede de estradas digitais, e os protocolos são as regras que garantem que tudo funcione perfeitamente. <br/>Nessa disciplina, você explorará os protocolos de aplicação que permitem que dados sejam transmitidos pela internet de maneira confiável. <br/>É como aprender o idioma da internet, onde você se tornará um mestre na comunicação digital.",
 		"workload": 60
 	},
 	{
 		"id": "d9e97819-8ce9-4691-ada6-458e878a98a6",
 		"ufsm_code": "ELC1035",
 		"name": "Prática em Sistemas Operacionais",
-		"description": ".",
+		"description": "Se você quer entender como os computadores funcionam por dentro, a disciplina de Prática em Sistemas Operacionais é como uma viagem ao coração da tecnologia. <br/>Aqui, você aprenderá como os sistemas operacionais controlam e gerenciam recursos computacionais. <br/>É como aprender a ser o maestro de uma orquestra de computadores, garantindo que tudo funcione em harmonia.",
 		"workload": 60
 	},
 	{
 		"id": "ea739f81-c922-4f3b-a9df-fe299285a33b",
 		"ufsm_code": "DPADI0207",
 		"name": "Pré-Cálculo",
+		"description": "Se você está se preparando para mergulhar no mundo da matemática mais avançada, a disciplina de Pré-Cálculo é como a base sólida em que você construirá seu conhecimento.<br/>Aqui, você revisitará conceitos matemáticos fundamentais que são essenciais para as disciplinas mais avançadas.<br/>É como construir os alicerces de uma casa antes de erguer as paredes.<br/>Prepare-se para dominar os fundamentos da matemática!",
 		"workload": 45
 	},
 	{
 		"id": "4965fa9e-d9b3-415d-a2de-d7596c945374",
 		"ufsm_code": "ELC133",
 		"name": "Qualidade de Software",
-		"description": ".",
+		"description": "Se você está interessado em criar programas de computador confiáveis e eficientes, a disciplina de Qualidade de Software é como um guia para alcançar esse objetivo. <br/>Aqui, você aprenderá a aplicar práticas e técnicas para garantir que o software seja livre de erros e atenda aos padrões de qualidade.<br/> É como se tornar um inspetor de qualidade digital, assegurando que os programas funcionem perfeitamente.",
 		"workload": 60
 	},
 	{
 		"id": "e2555def-76a3-4658-a493-5e2708ced16c",
 		"ufsm_code": "UFSM00047",
 		"name": "Química Geral Experimental Para Engenharia",
-		"description": ".",
+		"description": "Nessa disciplina, você mergulhará no mundo da química experimental, explorando reações químicas na prática. <br/>É como se tornar um cientista em um laboratório, realizando experimentos para entender como os elementos e compostos interagem. <br/>Prepare-se para uma experiência hands-on que o levará ao mundo da química de forma concreta.",
 		"workload": 15
 	},
 	{
 		"id": "32074dde-feba-46e4-8eb8-39c7d0770603",
 		"ufsm_code": "UFSM00048",
 		"name": "Química Geral Teórica Para Engenharia",
-		"description": ".",
+		"description": "A teoria por trás da química é fascinante, e esta disciplina é como um mapa para explorar esse mundo. <br/>Você aprenderá os princípios fundamentais que governam as reações químicas e as propriedades da matéria. <br/>É como aprender o alfabeto da química, que o ajudará a compreender como os elementos se combinam e reagem.",
 		"workload": 30
 	},
 	{
 		"id": "55a27fbe-fd90-4d0f-a5d5-d06caee30528",
 		"ufsm_code": "DPADI0187",
 		"name": "Redes Aplicadas a Telecomunicações",
-		"description": ".",
+		"description": "Se você deseja entender como as informações são transmitidas de um lugar para outro,<br/>a disciplina de Redes Aplicadas a Telecomunicações é como abrir as portas para o mundo das comunicações digitais.<br/> Você aprenderá como as redes de telecomunicações funcionam, permitindo a troca de informações em todo o mundo. <br/>É como se tornar um arquiteto de comunicações digitais, criando infraestruturas para conectar pessoas e dispositivos.",
 		"workload": 60
 	},
 	{
 		"id": "f55d361a-6e64-4fba-b781-27b6735b1676",
 		"ufsm_code": "DPEE1109",
 		"name": "Redes Industriais",
-		"description": ".",
+		"description": "Imagine como as fábricas e indústrias modernas funcionam em sintonia. Nessa disciplina, você explorará as redes industriais, que são o sistema nervoso das instalações industriais. <br/>Você aprenderá como essas redes garantem que máquinas e processos estejam em perfeita sincronia, otimizando a produção.<br/>É como se tornar um engenheiro especializado em manter as engrenagens da indústria funcionando perfeitamente. <br/>Prepare-se para uma jornada no mundo da automação industrial e da eficiência!",
 		"workload": 45
 	},
 	{
