@@ -1684,28 +1684,28 @@
 		"id": "0e8545c0-a64f-4ea8-a3a3-491b749b57fe",
 		"ufsm_code": "DPADI0195",
 		"name": "Redes Sem Fio",
-		"description": ".",
+		"description": "Se você se imagina navegando na internet em qualquer lugar, a disciplina de Redes Sem Fio é como uma janela para o mundo da conectividade móvel. <br/>Aqui, você vai aprender como as redes sem fio, como o Wi-Fi e o 4G/5G, funcionam e como são projetadas. <br/>É como se tornar um especialista em conectar dispositivos sem a necessidade de fios, tornando a comunicação mais flexível e acessível.",
 		"workload": 60
 	},
 	{
 		"id": "a53421fa-2865-4b36-a0d5-b6f9bc5d39c9",
 		"ufsm_code": "UFSM00288",
 		"name": "Redes de Computadores",
-		"description": ".",
+		"description": "Se você já se perguntou como a internet e as redes que conectam o mundo funcionam, a disciplina de Redes de Computadores é como uma janela para<br/>desvendar esses mistérios tecnológicos. Aqui, você aprenderá sobre a estrutura e o funcionamento das redes de computadores, <br/>permitindo que você entenda como computadores em todo o mundo se comunicam entre si.<br/>O principal objetivo desta disciplina é apresentar a você os conceitos fundamentais que tornam a comunicação digital possível.<br/>Você vai aprender sobre os protocolos de comunicação em diferentes camadas, seguindo os modelos de referência OSI e TCP/IP, que são como as regras que os computadores usam para se entenderem.<br/>Além disso, você terá a oportunidade de analisar o desempenho desses protocolos usando modelos matemáticos e simulações, <br/>o que é como criar cenários virtuais para ver como as redes se comportam em diferentes situações.<br/>Por fim, você também implementará aplicações práticas em redes de computadores, o que significa que poderá criar seus próprios programas e serviços que funcionam na internet.<br/>Imagine-se como um construtor digital, projetando soluções que conectam pessoas e dispositivos em todo o mundo.<br/>Prepare-se para uma jornada fascinante no mundo das redes de computadores, onde você se tornará um especialista em como a informação flui pelo mundo digital, <br/>abrindo portas para inúmeras oportunidades na área de engenharia da computação. É uma jornada emocionante em direção ao futuro da tecnologia!",
 		"workload": 60
 	},
 	{
 		"id": "74f433cc-b3f3-41ad-92ff-bb1ec65abb49",
 		"ufsm_code": "DPADP0344",
 		"name": "Redes de Computadores",
-		"description": ".",
+		"description": "Se você já se perguntou como a internet e as redes que conectam o mundo funcionam, a disciplina de Redes de Computadores é como uma janela para<br/>desvendar esses mistérios tecnológicos. Aqui, você aprenderá sobre a estrutura e o funcionamento das redes de computadores, <br/>permitindo que você entenda como computadores em todo o mundo se comunicam entre si.<br/>O principal objetivo desta disciplina é apresentar a você os conceitos fundamentais que tornam a comunicação digital possível.<br/>Você vai aprender sobre os protocolos de comunicação em diferentes camadas, seguindo os modelos de referência OSI e TCP/IP, que são como as regras que os computadores usam para se entenderem.<br/>Além disso, você terá a oportunidade de analisar o desempenho desses protocolos usando modelos matemáticos e simulações, <br/>o que é como criar cenários virtuais para ver como as redes se comportam em diferentes situações.<br/>Por fim, você também implementará aplicações práticas em redes de computadores, o que significa que poderá criar seus próprios programas e serviços que funcionam na internet.<br/>Imagine-se como um construtor digital, projetando soluções que conectam pessoas e dispositivos em todo o mundo.<br/>Prepare-se para uma jornada fascinante no mundo das redes de computadores, onde você se tornará um especialista em como a informação flui pelo mundo digital, <br/>abrindo portas para inúmeras oportunidades na área de engenharia da computação. É uma jornada emocionante em direção ao futuro da tecnologia!",
 		"workload": 60
 	},
 	{
 		"id": "3ae17abe-979e-4caa-b404-370e4b0e59d0",
 		"ufsm_code": "ELC1017",
 		"name": "Redes de Computadores",
-		"description": ".",
+		"description": "Se você já se perguntou como a internet e as redes que conectam o mundo funcionam, a disciplina de Redes de Computadores é como uma janela para<br/>desvendar esses mistérios tecnológicos. Aqui, você aprenderá sobre a estrutura e o funcionamento das redes de computadores, <br/>permitindo que você entenda como computadores em todo o mundo se comunicam entre si.<br/>O principal objetivo desta disciplina é apresentar a você os conceitos fundamentais que tornam a comunicação digital possível.<br/>Você vai aprender sobre os protocolos de comunicação em diferentes camadas, seguindo os modelos de referência OSI e TCP/IP, que são como as regras que os computadores usam para se entenderem.<br/>Além disso, você terá a oportunidade de analisar o desempenho desses protocolos usando modelos matemáticos e simulações, <br/>o que é como criar cenários virtuais para ver como as redes se comportam em diferentes situações.<br/>Por fim, você também implementará aplicações práticas em redes de computadores, o que significa que poderá criar seus próprios programas e serviços que funcionam na internet.<br/>Imagine-se como um construtor digital, projetando soluções que conectam pessoas e dispositivos em todo o mundo.<br/>Prepare-se para uma jornada fascinante no mundo das redes de computadores, onde você se tornará um especialista em como a informação flui pelo mundo digital, <br/>abrindo portas para inúmeras oportunidades na área de engenharia da computação. É uma jornada emocionante em direção ao futuro da tecnologia!",
 		"workload": 75,
 		"equivalents": [
 			"a53421fa-2865-4b36-a0d5-b6f9bc5d39c9",
@@ -1717,14 +1717,14 @@
 		"id": "362e018e-d773-41b0-9a1b-93b7ff87621b",
 		"ufsm_code": "DPADI838",
 		"name": "Relações Humanas e Diversidade",
-		"description": ".",
+		"description": "Esta disciplina é uma janela para o entendimento e a valorização da diversidade humana.<br/>Você explorará as relações entre pessoas de diferentes origens culturais, étnicas e sociais. É como desenvolver habilidades para se relacionar melhor com os outros, independentemente de suas diferenças.<br/>Prepare-se para uma jornada de crescimento pessoal e cultural.",
 		"workload": 60
 	},
 	{
 		"id": "018b1f72-793c-4564-a3ba-0d3dda88532a",
 		"ufsm_code": "DPEE1114",
 		"name": "Robótica Industrial",
-		"description": ".",
+		"description": "Se você se imagina projetando e controlando robôs que fazem tarefas em fábricas,<br/>a disciplina de Robótica Industrial é como a porta de entrada para esse mundo emocionante.<br/>Aqui, você aprenderá a criar sistemas robóticos que automatizam processos industriais.<br/>É como se tornar o mestre das máquinas, projetando robôs que podem trabalhar lado a lado com os seres humanos em ambientes industriais.",
 		"workload": 195
 	},
 	{
@@ -1738,14 +1738,14 @@
 		"id": "e01659e4-eda6-4a1a-aed3-9e7d59c5d4f8",
 		"ufsm_code": "ELC1097",
 		"name": "Sistemas Colaborativos",
-		"description": ".",
+		"description": "Se você se imagina trabalhando em equipe e usando a tecnologia para facilitar a colaboração,<br/>a disciplina de Sistemas Colaborativos é como uma janela para esse mundo. <br/>Aqui, você aprenderá como as ferramentas digitais podem ajudar pessoas a trabalhar juntas de maneira eficiente,<br/>independentemente de onde estejam. É como se tornar um mestre na arte de utilizar a tecnologia para unir esforços e atingir metas em conjunto.",
 		"workload": 60
 	},
 	{
 		"id": "740b7fb5-6485-432c-9718-3d8dcc91584a",
 		"ufsm_code": "DPADI0188",
 		"name": "Sistemas Digitais",
-		"description": ".",
+		"description": "Imagine aprender a linguagem das máquinas e entender como os circuitos eletrônicos funcionam. <br/>Nessa disciplina, você explorará os fundamentos dos Sistemas Digitais, que são como o cérebro por trás de dispositivos eletrônicos.<br/>É como desvendar os segredos da eletrônica digital, capacitando você a projetar e entender como os dispositivos eletrônicos funcionam.",
 		"workload": 60
 	},
 	{
@@ -1776,7 +1776,7 @@
 		"id": "05ee6d4a-7e9d-4085-9960-1c0464490341",
 		"ufsm_code": "ELC1018",
 		"name": "Sistemas Distribuídos",
-		"description": ".",
+		"description": "Se você se imagina trabalhando com sistemas complexos que envolvem a comunicação e coordenação de computadores em diferentes locais,<br/>a disciplina de Sistemas Distribuídos é como uma porta para esse emocionante mundo.<br/>Nessa disciplina, você mergulhará nos fundamentos necessários para entender e implementar sistemas distribuídos,<br/>que são como equipes de computadores trabalhando juntos para realizar tarefas incríveis.<br/>O objetivo principal dessa disciplina é capacitá-lo a compreender os conceitos fundamentais por trás dos sistemas distribuídos.<br/>Você aprenderá a aplicar as principais tecnologias que permitem a comunicação eficaz entre processos em diferentes computadores.<br/>É como aprender a linguagem que os computadores usam para conversar entre si,<br/> independentemente de onde estejam localizados.<br/>Além disso, você explorará os principais tipos de serviços oferecidos por sistemas distribuídos, <br/>permitindo que você compreenda como aplicar esses serviços em cenários do mundo real. Você também terá noções de algoritmos distribuídos, <br/>que são como receitas matemáticas para coordenar ações entre computadores em uma rede distribuída.<br/>Imagine-se como um arquiteto digital, projetando sistemas que podem conectar pessoas e recursos de maneira eficiente, mesmo que estejam a quilômetros de distância.<br/>Esta disciplina abrirá portas para carreiras empolgantes na área de redes de computadores,<br/>onde você poderá contribuir para a construção de sistemas distribuídos avançados que impulsionam o mundo da tecnologia. <br/>É uma jornada emocionante em direção ao futuro da computação distribuída!",
 		"workload": 60,
 		"equivalents": [
 			"e14ede47-0274-44fa-b9bf-faf1380a3313"
@@ -1786,7 +1786,7 @@
 		"id": "e14ede47-0274-44fa-b9bf-faf1380a3313",
 		"ufsm_code": "DPADI0192",
 		"name": "Sistemas Distribuídos",
-		"description": ".",
+		"description": "Se você se imagina trabalhando com sistemas complexos que envolvem a comunicação e coordenação de computadores em diferentes locais,<br/>a disciplina de Sistemas Distribuídos é como uma porta para esse emocionante mundo.<br/>Nessa disciplina, você mergulhará nos fundamentos necessários para entender e implementar sistemas distribuídos,<br/>que são como equipes de computadores trabalhando juntos para realizar tarefas incríveis.<br/>O objetivo principal dessa disciplina é capacitá-lo a compreender os conceitos fundamentais por trás dos sistemas distribuídos.<br/>Você aprenderá a aplicar as principais tecnologias que permitem a comunicação eficaz entre processos em diferentes computadores.<br/>É como aprender a linguagem que os computadores usam para conversar entre si,<br/> independentemente de onde estejam localizados.<br/>Além disso, você explorará os principais tipos de serviços oferecidos por sistemas distribuídos, <br/>permitindo que você compreenda como aplicar esses serviços em cenários do mundo real. Você também terá noções de algoritmos distribuídos, <br/>que são como receitas matemáticas para coordenar ações entre computadores em uma rede distribuída.<br/>Imagine-se como um arquiteto digital, projetando sistemas que podem conectar pessoas e recursos de maneira eficiente, mesmo que estejam a quilômetros de distância.<br/>Esta disciplina abrirá portas para carreiras empolgantes na área de redes de computadores,<br/>onde você poderá contribuir para a construção de sistemas distribuídos avançados que impulsionam o mundo da tecnologia.<br/>É uma jornada emocionante em direção ao futuro da computação distribuída!",
 		"workload": 45
 	},
 	{
