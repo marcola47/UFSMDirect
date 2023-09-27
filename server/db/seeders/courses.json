@@ -1731,7 +1731,7 @@
 		"id": "18c59483-062c-4426-a053-fb165ff82e4c",
 		"ufsm_code": "DPADI0193",
 		"name": "Segurança em Redes de Computadores",
-		"description": ".",
+		"description": "Se você está interessado em proteger o mundo digital contra ameaças virtuais,<br/>a disciplina de Segurança em Redes de Computadores é como um escudo que o preparará para essa batalha cibernética.<br/>Nessa disciplina, você aprenderá a identificar ameaças e vulnerabilidades nas redes de computadores e, o mais importante,<br/>como utilizar as ferramentas e mecanismos de segurança para manter essas redes protegidas.<br/>O principal objetivo dessa disciplina é capacitá-lo a se tornar um guardião digital,<br/>alguém capaz de identificar os perigos que rondam as redes de computadores e tomar medidas para mantê-las seguras.<br/>Você aprenderá sobre as ameaças que podem afetar a integridade e a privacidade dos dados, bem como os métodos e tecnologias utilizados para combatê-las.<br/>Imagine-se como um detetive da internet, investigando atividades suspeitas e tomando medidas para manter as <br/>informações e sistemas protegidos contra invasões maliciosas. Esta disciplina abrirá portas para carreiras<br/>empolgantes na área de segurança cibernética, onde você poderá contribuir para a defesa do mundo digital contra<br/>ameaças virtuais e garantir que a comunicação na internet seja segura e confiável. É uma jornada emocionante em direção ao futuro da cibersegurança!",
 		"workload": 60
 	},
 	{
@@ -1752,7 +1752,7 @@
 		"id": "772f9595-8df4-4629-bbc0-3296fb080fb0",
 		"ufsm_code": "UFSM00275",
 		"name": "Sistemas Digitais 1",
-		"description": ".",
+		"description": "Se você está curioso sobre como os computadores e dispositivos eletrônicos são construídos,<br/>a disciplina de Sistemas Digitais 1 é como a porta de entrada para esse mundo fascinante. Aqui, você explorará os conceitos iniciais dos sistemas digitais, como portas lógicas e circuitos combinacionais. <br/>É como aprender a construir os blocos de construção que formam a base da tecnologia digital.",
 		"workload": 60,
 		"equivalents": [
 			"740b7fb5-6485-432c-9718-3d8dcc91584a"
@@ -1762,14 +1762,14 @@
 		"id": "6bd5965b-d765-468a-b4a3-dbfa3720b4f1",
 		"ufsm_code": "UFSM00277",
 		"name": "Sistemas Digitais 2",
-		"description": ".",
+		"description": "Se você está curioso sobre como os computadores e dispositivos eletrônicos são construídos,<br/>a disciplina de Sistemas Digitais 2 é como a porta de entrada para esse mundo fascinante. Aqui, você explorará os conceitos iniciais dos sistemas digitais, como portas lógicas e circuitos combinacionais. <br/>É como aprender a construir os blocos de construção que formam a base da tecnologia digital.",
 		"workload": 60
 	},
 	{
 		"id": "f8f9718e-74b7-4514-a585-a7f806c45a34",
 		"ufsm_code": "UFSM00066",
 		"name": "Sistemas Dinâmicos",
-		"description": ".",
+		"description": "Imagine poder prever o comportamento de sistemas complexos que mudam com o tempo, como o clima ou a economia.<br/>Nessa disciplina, você estudará Sistemas Dinâmicos, que são como quebra-cabeças matemáticos que envolvem equações e variáveis em constante evolução.<br/>É como se tornar um detetive matemático, analisando como as coisas mudam e interagem ao longo do tempo.",
 		"workload": 60
 	},
 	{
