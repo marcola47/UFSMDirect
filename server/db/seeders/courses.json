@@ -1872,28 +1872,28 @@
 		"id": "712776be-b0c4-4a5e-bb92-9ecfb5e8cfd9",
 		"ufsm_code": "ELC1001",
 		"name": "Sistemas de Computação Móvel",
-		"description": ".",
+		"description": "Se você é apaixonado por dispositivos móveis como smartphones e tablets,<br/>a disciplina de Sistemas de Computação Móvel é como uma porta para explorar esse mundo em constante evolução.<br/>Nessa disciplina, você aprenderá sobre como os sistemas de computação móvel funcionam e como criar aplicativos e soluções para esses dispositivos. <br/>É como entrar no mundo da mobilidade, onde você poderá desenvolver tecnologias que cabem no bolso das pessoas.",
 		"workload": 60
 	},
 	{
 		"id": "d45d66b7-3b11-4128-a329-26e7594f516a",
 		"ufsm_code": "DPEE1106",
 		"name": "Sistemas de Comunicação",
-		"description": ".",
+		"description": "Imagine entender como as informações são transmitidas pelo mundo, desde chamadas de telefone até a internet.<br/>Nessa disciplina, você explorará os princípios dos Sistemas de Comunicação, que são como as estradas digitais que conectam o mundo.<br/>É como se tornar um especialista em fazer com que as informações cheguem de um lugar a outro.",
 		"workload": 45
 	},
 	{
 		"id": "a409c8a8-e759-4197-bd52-74fab21bf201",
 		"ufsm_code": "ELC137",
 		"name": "Sistemas de Informação Distribuidos A",
-		"description": ".",
+		"description": "Se você está curioso sobre como as informações são compartilhadas entre computadores em diferentes locais,<br/>a disciplina de Sistemas de Informação Distribuídos A é como uma porta de entrada para esse mundo.<br/>Aqui, você aprenderá sobre como criar sistemas que permitem o compartilhamento de dados e recursos em redes distribuídas.",
 		"workload": 60
 	},
 	{
 		"id": "a3850d5c-dc86-41f7-a869-8e611ca413d0",
 		"ufsm_code": "UFSM00012",
 		"name": "Sistemas de Produção",
-		"description": ".",
+		"description": "Imagine ser capaz de otimizar processos industriais para tornar a produção mais eficiente.<br/>Nessa disciplina, você estudará Sistemas de Produção, que são como as engrenagens por trás das fábricas e indústrias.<br/>É como se tornar um engenheiro que garante que tudo funcione perfeitamente na produção de bens.",
 		"workload": 60
 	},
 	{
@@ -1907,55 +1907,56 @@
 		"id": "d19f9f19-b4db-43b3-bbfa-9ed4d24402a4",
 		"ufsm_code": "DPEE1113",
 		"name": "Sistemas de Tempo Real",
-		"description": ".",
+		"description": "Se você deseja entender como sistemas respondem instantaneamente a eventos, como sistemas de controle de tráfego ou robôs autônomos,<br/>a disciplina de Sistemas de Tempo Real é como uma chave para esse mundo emocionante. Nessa disciplina, você aprenderá sobre como criar<br/> sistemas que reagem imediatamente a estímulos do mundo real, garantindo que tudo funcione no tempo certo.<br/>É como entrar no mundo da automação e da precisão.",
 		"workload": 45
 	},
 	{
 		"id": "85840127-22e7-40d0-8df3-0dd07aec887e",
 		"ufsm_code": "DPADI0179",
 		"name": "Tecnologia de Comunicação de Dados",
-		"description": ".",
+		"description": "Se você se pergunta como a informação viaja pelo mundo digital, a disciplina de Tecnologia de Comunicação de Dados é como uma porta para explorar esse universo.<br/>Nessa disciplina, você aprenderá sobre como os dados são transmitidos, desde e-mails até vídeos em streaming, e como as tecnologias por trás disso funcionam.<br/>É como se tornar um mestre da comunicação digital, garantindo que as informações cheguem ao destino com rapidez e eficiência.",
 		"workload": 60
 	},
 	{
 		"id": "7e9bd11e-7f6d-4a41-b411-2eb8700dd19d",
 		"ufsm_code": "DPADI0189",
 		"name": "Tecnologia de Redes Industriais",
-		"description": ".",
+		"description": "Imagine trabalhar com sistemas que mantêm as fábricas e indústrias funcionando sem problemas.<br/>Nessa disciplina, você estudará Tecnologia de Redes Industriais, que são como as veias e artérias da automação industrial.<br/>É como se tornar um engenheiro especializado em manter os processos industriais em perfeita sincronia, garantindo que a produção seja eficiente e segura.",
 		"workload": 60
 	},
 	{
 		"id": "9d7696c1-011b-4310-85ae-76f03301a924",
 		"ufsm_code": "DPADI842",
 		"name": "Tecnologias Emergentes",
+		"description": "Se você está curioso sobre as tecnologias do futuro, a disciplina de Tecnologias Emergentes é como uma janela para esse mundo emocionante.<br/> Nessa disciplina, você explorará as tecnologias que estão moldando o mundo, como inteligência artificial, realidade virtual e blockchain.<br/>É como entrar no futuro e se preparar para as inovações que estão por vir.",
 		"workload": 45
 	},
 	{
 		"id": "01935a35-453d-4f92-86ed-273e85c0d434",
 		"ufsm_code": "DCOM3106",
 		"name": "Tecnologias da Informação",
-		"description": ".",
+		"description": "Imagine aprender sobre como as informações são armazenadas, processadas e protegidas em ambientes digitais. Nessa disciplina,<br/>você estudará Tecnologias da Informação, que são como as ferramentas que tornam possível o mundo da informação digital.<br/>É como se tornar um guardião dos dados, garantindo que a informação seja acessível e segura.",
 		"workload": 30
 	},
 	{
 		"id": "15eb4ca0-8265-416f-b5b0-d0b8d0ca8f62",
 		"ufsm_code": "CLM1035",
 		"name": "Tecnologias de Informação e Computação Aplicada em Saúde",
-		"description": ".",
+		"description": "Se você se interessa pela interseção entre tecnologia e saúde, a disciplina de Tecnologias de Informação e Computação Aplicada em Saúde<br/>é como uma porta para esse campo em crescimento. Nessa disciplina, você aprenderá como a tecnologia está transformando a área da saúde,<br/>desde registros médicos eletrônicos até dispositivos médicos avançados. É como entrar no mundo da saúde digital,<br/>onde você pode ajudar a melhorar o atendimento médico usando a tecnologia como aliada.<br/>Prepare-se para uma jornada emocionante em direção ao futuro da saúde!",
 		"workload": 45
 	},
 	{
 		"id": "46a969be-8bcc-4a4a-ae5c-e561750f43fb",
 		"ufsm_code": "CIE1002",
 		"name": "Teoria Econômica",
-		"description": ".",
+		"description": "Se você está curioso sobre como as decisões econômicas afetam o<br/>mundo, a disciplina de Teoria Econômica é como uma janela para explorar esse<br/> fascinante campo. Nessa disciplina, você estudará os princípios que regem a economia,<br/>desde oferta e demanda até políticas governamentais. É como aprender a linguagem dos<br/>números por trás das decisões financeiras globais.",
 		"workload": 60
 	},
 	{
 		"id": "cb58d8d5-d889-45f8-b82f-36cdd2da0961",
 		"ufsm_code": "CAD1002",
 		"name": "Teoria Geral da Administração",
-		"description": ".",
+		"description": "Imagine entender como as organizações são gerenciadas e lideradas. Nessa disciplina,<br/>você explorará a Teoria Geral da Administração, que é como o guia para liderar<br/>equipes e fazer com que as organizações alcancem seus objetivos.<br/>É como se tornar um líder e gestor habilidoso, capaz de tomar decisões<br/>estratégicas em qualquer contexto.",
 		"workload": 60
 	},
 	{
