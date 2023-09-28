@@ -1963,7 +1963,7 @@
 		"id": "e7a6b626-08eb-4cca-8a16-25a460a54805",
 		"ufsm_code": "ELC1008",
 		"name": "Teoria da Computação",
-		"description": ".",
+		"description": "Se você está interessado em entender os fundamentos da computação, a disciplina de Teoria da Computação é como uma<br/>porta de entrada para esse mundo. Nessa disciplina, você estudará os conceitos fundamentais da ciência da computação,<br/>como algoritmos, automatos e linguagens formais. É como desvendar os segredos por trás do funcionamento dos computadores e da programação.",
 		"workload": 60
 	},
 	{
@@ -2012,42 +2012,42 @@
 		"id": "ec497d96-54da-4430-a0dc-cadd5a4ef82c",
 		"ufsm_code": "DPEE1111",
 		"name": "Técnicas de Comando Numérico",
-		"description": ".",
+		"description": "Imagine aprender a controlar máquinas de forma precisa e automatizada. Nessa disciplina, você explorará<br/>Técnicas de Comando Numérico, que são como as instruções que fazem máquinas industriais funcionarem.<br/>É como se tornar um especialista em automatizar processos de fabricação e produção.",
 		"workload": 45
 	},
 	{
 		"id": "49950426-a0e5-4a01-9fa2-39bba622ef30",
 		"ufsm_code": "DPADP0353",
 		"name": "Tópicos Avançados em Programação Web",
-		"description": ".",
+		"description": "Se você deseja se tornar um mestre na criação de sites e aplicativos web, a disciplina de Tópicos Avançados em Programação Web é<br/>como uma porta para esse mundo. Nessa disciplina, você estudará técnicas avançadas de desenvolvimento web, como frameworks e <br/>tecnologias modernas. É como se tornar um desenvolvedor web que pode criar soluções avançadas para a internet.br/<>Prepare-se para uma jornada emocionante no mundo da programação web!",
 		"workload": 60
 	},
 	{
 		"id": "64f74d3a-3235-4de5-8652-fe1ed2dc501e",
 		"ufsm_code": "DLSC812",
 		"name": "Tópicos Especiais em Linguagens Formais",
-		"description": ".",
+		"description": "Se você tem interesse em linguagens de programação e comunicação, a disciplina de Tópicos Especiais em Linguagens Formais é como<br/>uma janela para esse campo complexo e intrigante. Nessa disciplina, você explorará linguagens formais, que são como códigos<br/>secretos usados ​​para comunicar com computadores. É como aprender a falar a língua dos algoritmos e das máquinas, abrindo<br/>portas para a programação avançada e a comunicação eficiente.",
 		"workload": 15
 	},
 	{
 		"id": "6d3171d6-9ebb-4655-bfd9-4c75b71a581e",
 		"ufsm_code": "FSC1127",
 		"name": "Tópicos em Física Moderna",
-		"description": ".",
+		"description": " Imagine explorar os mistérios do universo em um nível subatômico. Nessa disciplina, você estudará Tópicos em Física Moderna, que são como a chave para entender fenômenos físicos avançados, como a relatividade e a mecânica quântica. É como entrar no mundo da física de ponta, onde você poderá desvendar os segredos do cosmos em escalas minúsculas e cósmicas.",
 		"workload": 30
 	},
 	{
 		"id": "15e84fae-ae58-4c7e-8736-85fa7a914794",
 		"ufsm_code": "MTM1018",
 		"name": "Álgebra Linear",
-		"description": ".",
+		"description": " Se você tem curiosidade sobre como a matemática pode ser aplicada para resolver problemas do mundo real,<br/>a disciplina de Álgebra Linear é como uma ferramenta poderosa para essa jornada. Nessa disciplina, você estudará<br/>conceitos matemáticos que ajudam a resolver sistemas de equações e modelar transformações geométricas. É como aprender<br/>a linguagem da matemática que impulsiona a ciência, a engenharia e muitas outras áreas.",
 		"workload": 60
 	},
 	{
 		"id": "4cf12f97-4101-488e-b6a4-46eb4aaabc39",
 		"ufsm_code": "UFSM00035",
 		"name": "Álgebra Linear e Geometria Analítica",
-		"description": ".",
+		"description": "Imagine combinar a matemática da álgebra linear com a visualização da geometria analítica. Nessa disciplina,<br/>você explorará a interseção desses dois campos, que são como ferramentas essenciais para resolver problemas<br/>matemáticos e geométricos. É como se tornar um mestre em representar e resolver questões que envolvem números<br/> e formas. Prepare-se para uma jornada empolgante no mundo da matemática!",
 		"workload": 90
 	}
 ]
