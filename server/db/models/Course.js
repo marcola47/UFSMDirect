@@ -45,6 +45,6 @@ const courseSchema = new mongoose.Schema(
     default: [],
     required: false
   }
-});
+}, { strict: false });
 
 export default mongoose.model('Course', courseSchema);
