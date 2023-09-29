@@ -14,23 +14,36 @@ jobController.getJobs = async (req, res) =>
 
 jobController.rankPrograms = async (req, res) =>
 {
-  // job course in program course
-	//   check if master is in job
-
-  // yes: importance = workload * value 
-  //   sum += importance
-
   const { jobID } = req.params;
   const courses = await Course.find({});
   const programs = await Program.find({});
   const importances = await Importance.find({ job: jobID });
 
-  
-  let score = 0;
+  programs.forEach(program => 
+  {
+    let score = 0;
 
-  courses.forEach
+    importances.forEach(importance => 
+    {
+      const programCourse = program.courses.find(course => course.id === importance.course);
 
-  res.sendStatus(200)
+      if (programCourse)
+      {
+        const course = courses.find(course => course.id === importance.course);
+
+        score += importance.value * course.workload;
+
+        if (course.mandatory === false)
+          score *= 0.8;
+      }
+    })
+
+    program.score = Math.round(score / program.courses.length);
+
+    console.log(program);
+  })
+
+  res.status(200).send(programs.sort((a, b) => b.score - a.score));
 }
 
 export default jobController;
