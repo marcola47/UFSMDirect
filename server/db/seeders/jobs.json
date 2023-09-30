@@ -4428,7 +4428,7 @@
     "active": true,
 		"name": "Técnico de Redes",
 		"description": "Um técnico de redes é um profissional especializado em configurar, manter e solucionar problemas em redes de computadores. Essas redes podem variar de pequenas redes locais em residências e empresas até redes empresariais complexas que abrangem múltiplos locais. A principal responsabilidade de um técnico de redes é garantir que os dispositivos de rede funcionem corretamente e que os usuários possam se conectar e compartilhar informações de maneira eficaz e segura.",
-		"creations": [
+		"roles": [
 			{
 				"name": "Implantação de Redes Empresariais",
 				"description": "Configurar e implantar redes de computadores para empresas, garantindo que todos os dispositivos estejam conectados e funcionando corretamente."
@@ -4450,7 +4450,7 @@
 				"description": "Desenvolver planos de recuperação de desastres para garantir que a rede possa ser restaurada rapidamente em caso de falhas."
 			}
 		],
-		"responsibilities": [
+		"responsabilities": [
 			{
 				"name": "Instalação de Hardware de Rede",
 				"description": "Configurar e instalar dispositivos de rede, como roteadores, switches e firewalls, garantindo que estejam conectados corretamente."

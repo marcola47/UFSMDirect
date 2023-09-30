@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp, /*faGear, faTerminal, faClipboard, faServer, faObjectGroup, faListCheck, faDatabase*/ } from '@fortawesome/free-solid-svg-icons';
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
 import List from '@/components/utils/list';
 
@@ -19,7 +19,7 @@ function JobProgram({ itemData: program })
       <div className="program__content">
         <div 
           className="program__comp"
-          children={ `${program.compatibility * 100}%` }
+          children={ `${Math.round(program.compatibility * 100)}%` }
         />
 
         <div 
@@ -51,28 +51,17 @@ function JobListItem({ itemData })
 
 export default function Job({ itemData: job })
 {
-
-  const programs =
-  [
-    { id: 0, name: 'Sistemas de Informação', compatibility: 0.87 },
-    { id: 1, name: 'Ciência da Computação', compatibility: 0.82 },
-    { id: 2, name: 'Tecnologia em Sistemas para Internet', compatibility: 0.75 },
-    { id: 3, name: 'Redes de Computadores', compatibility: 0.62 },
-    { id: 4, name: 'Engenharia da Computação', compatibility: 0.42 },
-    { id: 5, name: 'Engenharia de Automação e Controle', compatibility: 0.23 }
-  ]
-
   const [isHidden, setIsHidden] = useState(true)
   const navigate = useNavigate();
 
+  useEffect(() => { console.log(job) }, [job])
+
   return (
     <div className='job'>
-      <div className="job__main">
-        {/* <div 
-          className="job__icon"
-          children={ <FontAwesomeIcon icon={ faTerminal }/> }
-        /> */}
-        
+      <div 
+        className="job__main"
+        onClick={ ()=> {setIsHidden(!isHidden)} }
+      >        
         <div 
           className="job__name"
           children={ job.name }
@@ -104,7 +93,7 @@ export default function Job({ itemData: job })
               <List
                 className='job__info__list programs__list'
                 ids={`${job.id}:programs`}
-                elements={ programs }
+                elements={ job.programs }
                 ListItem={ JobProgram }
               />
             </div>
