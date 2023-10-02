@@ -1,6 +1,6 @@
 @import '../../css/variables.scss';
 
-$wd: 320px;
+$wd: 360px;
 $wm: 280px;
 
 .register
@@ -38,7 +38,7 @@ $wm: 280px;
 
     overflow: hidden;
     position: relative;
-    width: 512px;
+    width: 520px;
     height: 800px;
     padding-top: 64px;
     border-radius: $br-g;
@@ -105,11 +105,14 @@ $wm: 280px;
     .register__input
     { position: relative }
 
+    .fa-user,
     .fa-envelope, 
     .fa-key, 
     .fa-address-card,
-    .fa-graduation-cap
+    .fa-graduation-cap,
+    .fa-chevron-down
     {
+      z-index: 1;
       position: absolute;
       top: 16px;
       left: 16px;
@@ -117,7 +120,17 @@ $wm: 280px;
       font-size: 1.1rem;
     }
 
-    input
+    .fa-chevron-down
+    {
+      z-index: 5;
+      left: initial;
+      right: 16px;
+    }
+
+    .fa-graduation-cap
+    { z-index: 4; }
+
+    input, &__program
     {
       display: block;
 
@@ -137,6 +150,40 @@ $wm: 280px;
 
       &:focus, &:hover
       { background-color: $blue-100; }
+    }
+
+    &__program
+    { 
+      position: relative;
+      z-index: 3;
+      user-select: none;
+      cursor: pointer;
+    }
+  }
+
+  .program__list
+  {
+    z-index: 2;
+    position: absolute;
+    top: 24px;
+    width: 100%;
+    padding-top: 20px;
+
+    color: $blue-900;
+    background-color: $blue-50;
+    border: 3px solid $blue-100;
+    border-radius: $br-m;
+
+    .program
+    {
+      padding: 16px;
+
+      user-select: none;
+      cursor: pointer;
+      @include transition;
+
+      &:hover, &--selected
+      { background-color: $blue-100 }
     }
   }
 
@@ -175,6 +222,7 @@ $wm: 280px;
 
   &__coa
   {
+    z-index: -1;
     position: absolute;
     bottom: -80px;
     right: -40px;

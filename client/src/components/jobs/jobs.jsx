@@ -15,7 +15,7 @@ export default function Jobs()
   {
     if (jobs.length <= 0)
     {
-      axios.get('/g/job/getJobs')
+      axios.get('/g/job/get-jobs')
       .then(res => setJobs(res.data))
       .catch(err => setResponseError(err, dispatch))
     }

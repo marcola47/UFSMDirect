@@ -32,7 +32,7 @@ export default function Navbar()
       <div className="navbar__content">
         <a href="/">
           <img 
-            src="img/logo--name--lm.png" 
+            src="/img/logo--name--lm.png" 
             alt="logo-name"
             className="navbar__logo"
           />

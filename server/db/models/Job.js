@@ -19,7 +19,7 @@ const subSchema = new mongoose.Schema(
     maxlength: 1024,
     trim: true
   }
-});
+}, { _id: false });
 
 const jobSchema = new mongoose.Schema(
 {
@@ -44,7 +44,7 @@ const jobSchema = new mongoose.Schema(
     trim: true
   },
 
-  roles:
+  creations:
   {
     type: [subSchema],
     default: [],
@@ -73,7 +73,7 @@ const jobSchema = new mongoose.Schema(
   }
 
   // ideia futura: hard e soft skills
-});
+}, { strict: false });
 
 export default mongoose.model("Job", jobSchema);
 

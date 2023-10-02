@@ -26,7 +26,10 @@ authRouter.post('/user/update/params', userController.updateParams);
 guestRouter.get('/form/getAffirmations', formController.getAffirmations);
 guestRouter.get('/course/getCourses', courseController.getCourses);
 
-guestRouter.get('/job/getJobs', jobController.getJobs);
+guestRouter.get('/program/get-reg-programs', programController.getRegPrograms);
+
+guestRouter.get('/job/get-jobs', jobController.getJobs);
+guestRouter.get('/job/:jobID', jobController.getJob);
 guestRouter.get('/job/:jobID/rank-programs', jobController.rankPrograms);
 
 router.use('/a', authRouter);

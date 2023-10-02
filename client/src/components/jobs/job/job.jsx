@@ -8,14 +8,9 @@ import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
 import List from '@/components/utils/list';
 
-export const MaxScoreContext = React.createContext();
-
 function JobProgram({ itemData: program })
 {
-  const maxScore = useContext(MaxScoreContext);
   const navigate = useNavigate();
-
-  program.compatibility = program.score / maxScore;
 
   return (
     <div 
@@ -25,7 +20,7 @@ function JobProgram({ itemData: program })
       <div className="program__content">
         <div 
           className="program__comp"
-          children={ `${Math.round(program.compatibility * 100)}%` }
+          children={ `${Math.round(program.score * 100)}%` }
         />
 
         <div 
@@ -35,7 +30,7 @@ function JobProgram({ itemData: program })
       </div>
 
       <div className="program__progress">
-        <span style={{ width: `${program.compatibility * 100}%` }} />
+        <span style={{ width: `${program.score * 100}%` }} />
       </div>
     </div>
   )
@@ -72,10 +67,7 @@ export default function Job({ itemData: job })
         jobsCopy.map(listJob => 
         {
           if (listJob.id === job.id)
-          {
-            listJob.programs = res.data.programs;
-            listJob.maxScore = res.data.maxScore;
-          }
+            listJob.programs = res.data;
 
           return listJob;
         })
@@ -119,14 +111,12 @@ export default function Job({ itemData: job })
                 className="job__info__header"
                 children="CURSOS MAIS COMPATÍVEIS"
               />
-              <MaxScoreContext.Provider value={ job.maxScore }>
-                <List
-                  className='job__info__list programs__list'
-                  ids={`${job.id}:programs`}
-                  elements={ job.programs }
-                  ListItem={ JobProgram }
-                />
-              </MaxScoreContext.Provider>
+              <List
+                className='job__info__list programs__list'
+                ids={`${job.id}:programs`}
+                elements={ job.programs }
+                ListItem={ JobProgram }
+              />
             </div>
 
             <div className="job__info job__companies">
