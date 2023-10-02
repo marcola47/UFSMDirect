@@ -501,14 +501,14 @@
 		"id": "38bc1d56-fe41-41fb-8226-cac44744b247",
 		"ufsm_code": "CAD1044",
 		"name": "Empreendedorismo B",
-		"description": ".",
+		"description": "O Empreendedorismo B é uma introdução emocionante ao mundo dos negócios e do empreendedorismo. Você aprenderá<br/>sobre a criação e gestão de empresas, identificação de oportunidades de negócios,estratégias de marketing e<br/>desenvolvimento de planos de negócios. Essa disciplina ajudará a desenvolver suas habilidades empreendedoras e a<br/>compreender os princípios fundamentais dos negócios.",
 		"workload": 60
 	},
 	{
 		"id": "bb7da363-108d-45d1-8e8a-7b74746d5956",
 		"ufsm_code": "UFSM00003",
 		"name": "Empreendedorismo de Startup",
-		"description": ".",
+		"description": "Empreendedorismo de Startup é uma introdução emocionante ao mundo dos negócios e do empreendedorismo. Você aprenderá<br/>sobre a criação e gestão de empresas, identificação de oportunidades de negócios,estratégias de marketing e<br/>desenvolvimento de planos de negócios. Essa disciplina ajudará a desenvolver suas habilidades empreendedoras e a<br/>compreender os princípios fundamentais dos negócios.",
 		"workload": 60,
 		"equivalents": [
 			"38bc1d56-fe41-41fb-8226-cac44744b247",
@@ -520,20 +520,21 @@
 		"id": "1821e878-57b7-4125-9210-f46e2417491d",
 		"ufsm_code": "DPADP0347",
 		"name": "Empreendedorismo e Inovação",
-		"description": ".",
+		"description": "Empreendedorismo e Inovação é uma introdução emocionante ao mundo dos negócios e do empreendedorismo. Você aprenderá<br/>sobre a criação e gestão de empresas, identificação de oportunidades de negócios,estratégias de marketing e<br/>desenvolvimento de planos de negócios. Essa disciplina ajudará a desenvolver suas habilidades empreendedoras e a<br/>compreender os princípios fundamentais dos negócios.",
 		"workload": 60
 	},
 	{
 		"id": "bbd1c002-a954-48a0-ac19-c79d4d70226c",
 		"ufsm_code": "DPADI843",
 		"name": "Empreendedorismo e Sustentabilidade",
+    "description": "Empreendedorismo e Sustentabilidade é uma introdução emocionante ao mundo dos negócios e do empreendedorismo. Você aprenderá<br/>sobre a criação e gestão de empresas, identificação de oportunidades de negócios,estratégias de marketing e<br/>desenvolvimento de planos de negócios. Essa disciplina ajudará a desenvolver suas habilidades empreendedoras e a<br/>compreender os princípios fundamentais dos negócios.",
 		"workload": 45
 	},
 	{
 		"id": "41d37999-716a-4ca5-b96f-b235bf5ffae3",
 		"ufsm_code": "UFSM00006",
 		"name": "Engenharia Econômica",
-		"description": ".",
+		"description": "Se você deseja compreender como as decisões econômicas afetam projetos e investimentos em engenharia, a disciplina de Engenharia Econômica<br/>é como uma porta de entrada para esse campo crucial. Nessa disciplina, você estudará os princípios financeiros que orientam as decisões<br/>de engenheiros e gerentes, analisando custos, benefícios e riscos. É como aprender a linguagem que ajuda a tomar decisões informadas<br/>em projetos de engenharia.",
 		"workload": 60,
 		"equivalents": [
 			"f077af15-eaed-4394-95f6-f94fb513ee5f"
@@ -543,28 +544,28 @@
 		"id": "f077af15-eaed-4394-95f6-f94fb513ee5f",
 		"ufsm_code": "DPS1057",
 		"name": "Engenharia Econômica A",
-		"description": ".",
+		"description": "Se você deseja compreender como as decisões econômicas afetam projetos e investimentos em engenharia, a disciplina de Engenharia Econômica<br/>é como uma porta de entrada para esse campo crucial. Nessa disciplina, você estudará os princípios financeiros que orientam as decisões<br/>de engenheiros e gerentes, analisando custos, benefícios e riscos. É como aprender a linguagem que ajuda a tomar decisões informadas<br/>em projetos de engenharia.",
 		"workload": 60
 	},
 	{
 		"id": "1caa7414-be72-48cc-b03a-4ff8f9776fb9",
 		"ufsm_code": "DLSC815",
 		"name": "Engenharia de Ontologias",
-		"description": ".",
+		"description": "Imagine explorar como a inteligência artificial e a ciência da computação lidam com a organização e o compartilhamento de conhecimento.<br/>Nessa disciplina, você se aprofundará na Engenharia de Ontologias, que é como a arte de criar estruturas de dados semânticas para<br/>representar informações em sistemas computacionais. É como se tornar um arquiteto de sistemas inteligentes que entendem e<br/>processam informações de maneira mais eficaz.",
 		"workload": 60
 	},
 	{
 		"id": "437704ba-b416-4533-a849-760eaa8f7ed8",
 		"ufsm_code": "UFSM00005",
 		"name": "Engenharia de Segurança do Trabalho",
-		"description": ".",
+		"description": "Se você se preocupa com a segurança e o bem-estar no local de trabalho, a disciplina de Engenharia de Segurança do Trabalho é como<br/>uma exploração das práticas e regulamentações que protegem os trabalhadores. Nessa disciplina, você aprenderá como identificar<br/>riscos, planejar medidas de segurança e promover um ambiente de trabalho mais seguro. É como se tornar um defensor da saúde e<br/>da segurança ocupacional.",
 		"workload": 60
 	},
 	{
 		"id": "c6b60526-6efa-4981-881d-1af74f2a2b36",
 		"ufsm_code": "UFSM00280",
 		"name": "Engenharia de Software",
-		"description": ".",
+		"description": "Se você está interessado na criação de software de alta qualidade, a disciplina de Engenharia de Software é como<br/>uma porta de entrada para esse campo em constante evolução. Nessa disciplina, você explorará os princípios e<br/>práticas que orientam o desenvolvimento de software, desde a concepção até a entrega. É como aprender a arte<br/>e a ciência por trás dos aplicativos e sistemas de software que usamos diariamente.",
 		"workload": 60,
 		"equivalents": [
 			"e6648ae2-ddd9-4102-9787-aa4f2f6d34ce",
@@ -576,42 +577,42 @@
 		"id": "e6648ae2-ddd9-4102-9787-aa4f2f6d34ce",
 		"ufsm_code": "ELC1069",
 		"name": "Engenharia de Software",
-		"description": ".",
+		"description": "Se você está interessado na criação de software de alta qualidade, a disciplina de Engenharia de Software é como<br/>uma porta de entrada para esse campo em constante evolução. Nessa disciplina, você explorará os princípios e<br/>práticas que orientam o desenvolvimento de software, desde a concepção até a entrega. É como aprender a arte<br/>e a ciência por trás dos aplicativos e sistemas de software que usamos diariamente.",
 		"workload": 60
 	},
 	{
 		"id": "450165dc-e0a3-46c6-97c3-ffbf2455de25",
 		"ufsm_code": "DPADP0339",
 		"name": "Engenharia de Software 1",
-		"description": ".",
+		"description": "Se você está interessado na criação de software de alta qualidade, a disciplina de Engenharia de Software é como<br/>uma porta de entrada para esse campo em constante evolução. Nessa disciplina, você explorará os princípios e<br/>práticas que orientam o desenvolvimento de software, desde a concepção até a entrega. É como aprender a arte<br/>e a ciência por trás dos aplicativos e sistemas de software que usamos diariamente.",
 		"workload": 60
 	},
 	{
 		"id": "321b4e7f-1fba-4bdc-aba5-885bfc95fb39",
 		"ufsm_code": "DPADP0343",
 		"name": "Engenharia de Software 2",
-		"description": ".",
+		"description": "Se você está interessado na criação de software de alta qualidade, a disciplina de Engenharia de Software é como<br/>uma porta de entrada para esse campo em constante evolução. Nessa disciplina, você explorará os princípios e<br/>práticas que orientam o desenvolvimento de software, desde a concepção até a entrega. É como aprender a arte<br/>e a ciência por trás dos aplicativos e sistemas de software que usamos diariamente.",
 		"workload": 60
 	},
 	{
 		"id": "304d27cc-268b-4c4e-8da4-077b2fe87f41",
 		"ufsm_code": "UFSM00038",
 		"name": "Equações Diferenciais 1",
-		"description": ".",
+		"description": "Imagine dominar a matemática por trás das mudanças e variações em sistemas físicos e naturais. Nessa disciplina,<br/>você estudará Equações Diferenciais 1, que são como ferramentas fundamentais para modelar fenômenos científicos <br/>e de engenharia. É como desvendar os segredos matemáticos que explicam o comportamento de sistemas dinâmicos.",
 		"workload": 60
 	},
 	{
 		"id": "9d343a7f-5008-4836-9a9a-a41f9adab86c",
 		"ufsm_code": "UFSM00039",
 		"name": "Equações Diferenciais 2",
-		"description": ".",
+		"description": "Se você deseja levar seus conhecimentos em matemática a um nível mais avançado, a disciplina de Equações Diferenciais 2<br/>é como uma oportunidade para explorar tópicos mais complexos e desafiadores. Nessa disciplina, você se aprofundará em<br/>equações diferenciais, estudando soluções avançadas e aplicando-as a uma variedade de problemas científicos e de<br/>engenharia. É como expandir seu domínio sobre uma linguagem matemática poderosa.",
 		"workload": 60
 	},
 	{
 		"id": "9bb3fb72-52fa-4eb6-852a-9d58c3f11402",
 		"ufsm_code": "STC303",
 		"name": "Estatística",
-		"description": ".",
+		"description": "Esta cadeira é uma introdução ao mundo da estatística, onde você aprenderá a coletar, analisar e interpretar dados.<br/>A estatística é uma ferramenta poderosa usada em diversas áreas, desde a pesquisa científica até o mundo dos negócios,<br/>para tomar decisões informadas com base em evidências numéricas.",
 		"workload": 60,
 		"equivalents": [
 			"f5f1f3d2-74f7-4cbd-9ab0-f6d9b34fb6c5",
@@ -622,42 +623,42 @@
 		"id": "f5f1f3d2-74f7-4cbd-9ab0-f6d9b34fb6c5",
 		"ufsm_code": "DPADP0345",
 		"name": "Estatística",
-		"description": ".",
+		"description": "Esta cadeira é uma introdução ao mundo da estatística, onde você aprenderá a coletar, analisar e interpretar dados.<br/>A estatística é uma ferramenta poderosa usada em diversas áreas, desde a pesquisa científica até o mundo dos negócios,<br/>para tomar decisões informadas com base em evidências numéricas.",
 		"workload": 60
 	},
 	{
 		"id": "a1226a31-2c17-4e2c-bcb4-68582a0acc1a",
 		"ufsm_code": "DPADI0180",
 		"name": "Estatística",
-		"description": ".",
+		"description": "Esta cadeira é uma introdução ao mundo da estatística, onde você aprenderá a coletar, analisar e interpretar dados.<br/>A estatística é uma ferramenta poderosa usada em diversas áreas, desde a pesquisa científica até o mundo dos negócios,<br/>para tomar decisões informadas com base em evidências numéricas.",
 		"workload": 60
 	},
 	{
 		"id": "7ee1448c-9282-4a06-b36b-86f5817c42c7",
 		"ufsm_code": "UFSM00020",
 		"name": "Estatística Aplicada Para a Engenharia",
-		"description": ".",
+		"description": "Nesta cadeira, você aplicará os princípios da estatística a problemas específicos da engenharia. Você aprenderá como usar a<br/>estatística para tomar decisões importantes em projetos e análises de engenharia, fornecendo as habilidades necessárias para<br/>resolver problemas do mundo real.",
 		"workload": 60
 	},
 	{
 		"id": "01ebdb45-94f8-42fb-a6f7-093b3ccf2394",
 		"ufsm_code": "UFSM00064",
 		"name": "Estrutura de Dados",
-		"description": ".",
+		"description": "Esta cadeira se concentra no estudo das estruturas de dados, que são fundamentais para a organização e manipulação eficiente<br/>de informações em programas de computador. Você aprenderá como projetar e implementar estruturas de dados que podem ser usadas<br/>para resolver uma variedade de problemas computacionais.",
 		"workload": 45
 	},
 	{
 		"id": "032cafe5-bfc5-411a-8542-61af62e48d17",
 		"ufsm_code": "ELC1066",
 		"name": "Estrutura de Dados A",
-		"description": ".",
+		"description": "Esta cadeira se concentra no estudo das estruturas de dados, que são fundamentais para a organização e manipulação eficiente<br/>de informações em programas de computador. Você aprenderá como projetar e implementar estruturas de dados que podem ser usadas<br/>para resolver uma variedade de problemas computacionais.",
 		"workload": 60
 	},
 	{
 		"id": "e558a1a5-8bac-4942-ac71-8c406c906026",
 		"ufsm_code": "DPADP0333",
 		"name": "Estruturas de Dados",
-		"description": ".",
+		"description": "Esta cadeira se concentra no estudo das estruturas de dados, que são fundamentais para a organização e manipulação eficiente<br/>de informações em programas de computador. Você aprenderá como projetar e implementar estruturas de dados que podem ser usadas<br/>para resolver uma variedade de problemas computacionais.",
 		"workload": 90,
 		"equivalents": [
 			"032cafe5-bfc5-411a-8542-61af62e48d17",
@@ -670,55 +671,56 @@
 		"id": "46bf3545-0f9e-445d-841a-be46489cb013",
 		"ufsm_code": "DPADI0181",
 		"name": "Estruturas de Dados",
-		"description": ".",
+		"description": "Esta cadeira se concentra no estudo das estruturas de dados, que são fundamentais para a organização e manipulação eficiente<br/>de informações em programas de computador. Você aprenderá como projetar e implementar estruturas de dados que podem ser usadas<br/>para resolver uma variedade de problemas computacionais.",
 		"workload": 45
 	},
 	{
 		"id": "4689fc31-73e2-47e6-be68-7618e06124b3",
 		"ufsm_code": "UFSM00272",
 		"name": "Estruturas de Dados e Programação",
-		"description": ".",
+		"description": "Esta cadeira se concentra no estudo das estruturas de dados, que são fundamentais para a organização e manipulação eficiente<br/>de informações em programas de computador. Você aprenderá como projetar e implementar estruturas de dados que podem ser usadas<br/>para resolver uma variedade de problemas computacionais.",
 		"workload": 60
 	},
 	{
 		"id": "42199c0b-81b1-4d29-bacc-5194ed85dbac",
 		"ufsm_code": "DPADI0197",
 		"name": "Estágio Profissional Supervisionado",
-		"description": ".",
+		"description": "Esta cadeira oferece a oportunidade de aplicar o conhecimento adquirido em sala de aula em um ambiente profissional.<br/>Você realizará um estágio em uma empresa ou organização relacionada ao seu campo de estudo, ganhando experiência<br/>prática e desenvolvendo habilidades profissionais sob supervisão.",
 		"workload": 300
 	},
 	{
 		"id": "3280a5dc-cf5a-40a8-8af8-f2d24192165d",
 		"ufsm_code": "UFSM00016",
 		"name": "Estágio Supervisionado em Engenharia",
-		"description": ".",
+		"description": "Nessa cadeira, o estágio é focado especificamente em experiências de engenharia. Você<br/>terá a oportunidade de trabalhar em projetos de engenharia do mundo real, aplicando seus conhecimentos<br/>teóricos em situações práticas e obtendo uma visão valiosa do campo da engenharia.",
 		"workload": 160
 	},
 	{
 		"id": "4b14f81d-c8fa-4a1e-818c-c7fea167524e",
 		"ufsm_code": "DPADP0331",
 		"name": "Fundamentos da Computação",
-		"description": ".",
+		"description": "Esta cadeira é uma introdução aos conceitos fundamentais da ciência da computação. Você explorará tópicos como algoritmos,<br/>estruturas de controle, linguagens de programação e princípios de computação. É um curso essencial para quem deseja<br/>compreender os fundamentos subjacentes da tecnologia da informação e da programação.",
 		"workload": 60
 	},
 	{
 		"id": "e69dec55-9034-4cde-9351-4531d69ec456",
 		"ufsm_code": "DPADI0171",
 		"name": "Fundamentos da Computação",
-		"description": ".",
+		"description": "Esta cadeira é uma introdução aos conceitos fundamentais da ciência da computação. Você explorará tópicos como algoritmos,<br/>estruturas de controle, linguagens de programação e princípios de computação. É um curso essencial para quem deseja<br/>compreender os fundamentos subjacentes da tecnologia da informação e da programação.",
 		"workload": 60
 	},
 	{
 		"id": "303f1d11-c04d-42fb-895f-0bb673b6c8d4",
 		"ufsm_code": "DPADI0211",
 		"name": "Fundamentos da Matemática",
+    "description": "Os Fundamentos da Matemática são essenciais para qualquer carreira relacionada à computação e tecnologia.<br/>Nesta cadeira, você explorará os princípios fundamentais da matemática, incluindo álgebra, geometria e<br/>trigonometria. Aprenderá a aplicar esses conceitos para resolver problemas complexos e aprimorar suas<br/>habilidades analíticas.",
 		"workload": 60
 	},
 	{
 		"id": "f2b56fcc-c1a7-461d-9857-967a951b6b5f",
 		"ufsm_code": "ELC119",
 		"name": "Fundamentos de Banco de Dados",
-		"description": ".",
+		"description": "Os dados são o coração da tecnologia da informação. Em Fundamentos de Banco de Dados você mergulhará, aprendendo<br/>como armazenar, organizar e acessar informações de maneira eficaz. Você explorará os conceitos de modelagem de dados, linguagens<br/>de consulta e gerenciamento de sistemas de banco de dados, habilidades cruciais para a gestão de informações em qualquer setor.",
 		"workload": 60,
 		"equivalents": [
 			"2e3d8876-ecb0-4d19-a675-4047315c6d1d",
@@ -731,41 +733,42 @@
 		"id": "46585084-5529-43d5-869a-259b2ee232ba",
 		"ufsm_code": "DPADI844",
 		"name": "Fundamentos de Banco de Dados",
+    "description": "Os dados são o coração da tecnologia da informação. Em Fundamentos de Banco de Dados você mergulhará, aprendendo<br/>como armazenar, organizar e acessar informações de maneira eficaz. Você explorará os conceitos de modelagem de dados, linguagens<br/>de consulta e gerenciamento de sistemas de banco de dados, habilidades cruciais para a gestão de informações em qualquer setor.",
 		"workload": 45
 	},
 	{
 		"id": "55f2d0b3-0eeb-4ac1-b3b8-b199dbb0f1e1",
 		"ufsm_code": "DPEE1110",
 		"name": "Fundamentos de Ciência de Dados",
-		"description": ".",
+		"description": "Os dados são o coração da tecnologia da informação. Em Fundamentos de Ciência de Dados você mergulhará, aprendendo<br/>como armazenar, organizar e acessar informações de maneira eficaz. Você explorará os conceitos de modelagem de dados, linguagens<br/>de consulta e gerenciamento de sistemas de banco de dados, habilidades cruciais para a gestão de informações em qualquer setor.",
 		"workload": 60
 	},
 	{
 		"id": "5b3901b5-f7f7-4ac7-a80a-6ba9641cb499",
 		"ufsm_code": "UFSM00025",
 		"name": "Fundamentos de Transferência de Calor",
-		"description": ".",
+		"description": "A Transferência de Calor é uma disciplina fundamental que desempenha um papel crucial em muitas aplicações,<br/>desde eletrônica até engenharia. Nessa cadeira, você compreenderá os princípios da transferência de calor,<br/>como convecção, condução e radiação. Esses conceitos são importantes para o projeto de sistemas de<br/>refrigeração, aquecimento e muito mais.",
 		"workload": 60
 	},
 	{
 		"id": "5cc1279b-7796-4d17-aede-8588b6d9ed69",
 		"ufsm_code": "UFSM00027",
 		"name": "Física Experimental 1",
-		"description": ".",
+		"description": "A Física Experimental 1 é uma introdução empolgante à exploração do mundo físico através da experimentação.<br/>Você realizará experimentos práticos para compreender os princípios fundamentais da física, como movimento,<br/>força e energia. Este curso é um primeiro passo emocionante para desenvolver habilidades experimentais<br/>e analíticas.",
 		"workload": 15
 	},
 	{
 		"id": "7f16291e-9cef-4db7-adcd-0868d83b14cd",
 		"ufsm_code": "UFSM00028",
 		"name": "Física Experimental 2",
-		"description": ".",
+		"description": "Na Física Experimental 2, vc irá expandir seus conhecimentos e habilidades em experimentação.<br/>Você explorará tópicos mais avançados, como eletricidade, magnetismo e óptica, por meio de experimentos práticos. A física<br/>experimental é fundamental para entender o funcionamento do mundo natural e é aplicável a uma variedade de campos.",
 		"workload": 15
 	},
 	{
 		"id": "f3c398b0-915f-4c0c-8087-eec22ba22a37",
 		"ufsm_code": "UFSM00029",
 		"name": "Física Experimental 3",
-		"description": ".",
+		"description": "A cadeira de Física Experimental 3 é aprofundado e abrange tópicos avançados em física experimental.<br/>Você se envolverá em experimentos que exploram fenômenos complexos, como mecânica quântica e física<br/>nuclear. Este curso é ideal para alunos que desejam uma compreensão profunda e prática dos princípios<br/>físicos que governam nosso universo.",
 		"workload": 15
 	},
 	{
