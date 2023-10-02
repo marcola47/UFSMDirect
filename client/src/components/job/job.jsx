@@ -20,7 +20,7 @@ export default function Job({ jobID })
     ["1 / 1 / 2 / 3", "2 / 1 / 3 / 3", "3 / 1 / 4 / 3", "1 / 3 / 3 / 4", "3 / 3 / 4 / 4"]
   ]
 
-  const bgColors = ["#FFFFFF", "#84CAFF", "#194185"];
+  const bgColors = ["#FFFFFF", "#84CAFF", "#194185", "#1570EF"];
   
   function JobProgram({ itemData: program })
   {
@@ -54,7 +54,7 @@ export default function Job({ jobID })
   {
     function GridItem({ index, itemData, gridIndex })
     {
-      const bgColor = bgColors[Math.floor(Math.random() * 3)];
+      const bgColor = bgColors[Math.floor(Math.random() * 4)];
       const color = getTextColor(bgColor); 
 
       const style = 
