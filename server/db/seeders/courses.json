@@ -775,56 +775,56 @@
 		"id": "ad78249e-3078-45f5-82c0-b8cbfd9002a7",
 		"ufsm_code": "UFSM00031",
 		"name": "Física Geral 1",
-		"description": ".",
+		"description": "Se você está curioso sobre como o mundo funciona, a disciplina de Física Geral 1 é como a porta de entrada para explorar<br/>os princípios fundamentais da física. Nessa disciplina, você estudará conceitos como movimento, força e energia, obtendo<br/>uma compreensão mais profunda das leis que regem o universo ao nosso redor. É como desvendar os segredos da natureza<br/>através da matemática e do pensamento crítico.",
 		"workload": 60
 	},
 	{
 		"id": "3f98fb87-39e0-48e8-b1a3-4d03ed8078fc",
 		"ufsm_code": "UFSM00032",
 		"name": "Física Geral 2",
-		"description": ".",
+		"description": "Imagine levar sua jornada de exploração da física para o próximo nível. Na disciplina de Física Geral 2,<br/>você aprofundará seus conhecimentos, abordando tópicos como eletricidade, magnetismo e óptica. É como<br/>mergulhar em fenômenos elétricos e magnéticos que impulsionam a tecnologia moderna e entender como a<br/>luz se comporta.",
 		"workload": 60
 	},
 	{
 		"id": "d6b6ed0d-5de4-43e4-8f1a-80e9281c5cea",
 		"ufsm_code": "UFSM00033",
 		"name": "Física Geral 3",
-		"description": ".",
+		"description": "Se você está ansioso para explorar os mistérios da física além do que é visível a olho nu, a disciplina de Física Geral 3<br/>é como uma jornada às profundezas do cosmos e do mundo subatômico. Nessa disciplina, você estudará a física quântica e a<br/>relatividade, desvendando os segredos do espaço, tempo e partículas subatômicas. É como explorar os limites do nosso<br/>entendimento do universo.",
 		"workload": 60
 	},
 	{
 		"id": "46bc347f-5dd6-466a-acde-f47b2316f9ff",
 		"ufsm_code": "LTE1239",
 		"name": "Games e Gamificação no Ensino de Línguas",
-		"description": ".",
+		"description": "Se você gosta de jogos e idiomas, a disciplina de Games e Gamificação no Ensino de Línguas é como uma combinação<br/>emocionante desses interesses. Nessa disciplina, você aprenderá como usar jogos e estratégias de gamificação para<br/>tornar o ensino de línguas mais envolvente e eficaz. É como descobrir maneiras divertidas de aprender e ensinar idiomas.",
 		"workload": 60
 	},
 	{
 		"id": "a7b2c724-1864-41f9-be3f-b4f46200af3c",
 		"ufsm_code": "MTM1025",
 		"name": "Geometria Analítica",
-		"description": ".",
+		"description": "Se você está intrigado com a relação entre a matemática e a geometria, a disciplina de Geometria Analítica é como uma<br/>exploração dos pontos, linhas e figuras geométricas através de equações e coordenadas. Nessa disciplina, você aprenderá<br/>a traduzir problemas geométricos em linguagem algébrica e vice-versa. É como desvendar os segredos da geometria com a<br/>ajuda da matemática.",
 		"workload": 60
 	},
 	{
 		"id": "db5068ba-0cae-473f-8f64-fd2c395cacc4",
 		"ufsm_code": "DPADI0190",
 		"name": "Gerenciamento de Infraestrutura de TI",
-		"description": ".",
+		"description": "Se você está interessado em como a tecnologia da informação é gerenciada em ambientes empresariais, a disciplina de Gerenciamento<br/>de Infraestrutura de TI é como uma introdução ao mundo do gerenciamento de recursos de tecnologia. Nessa disciplina, você estudará<br/>como planejar, implantar e manter infraestruturas de TI em organizações, garantindo que os sistemas de computadores funcionem<br/>eficientemente. É como se tornar um administrador de tecnologia, mantendo a infraestrutura de TI em funcionamento.",
 		"workload": 60
 	},
 	{
 		"id": "0a3609c3-42b9-49e8-87dc-caab92a8c3ee",
 		"ufsm_code": "DPADP0352",
 		"name": "Gerência de Projetos",
-		"description": ".",
+		"description": "Se você deseja aprender a liderar e executar projetos com sucesso, a disciplina de Gerência de Projetos é como uma<br/>oportunidade de adquirir habilidades de gestão essenciais. Nessa disciplina, você aprenderá a planejar, executar e<br/>controlar projetos, gerenciando recursos, prazos e orçamentos. É como se tornar um líder de projetos, garantindo que<br/>metas sejam alcançadas de maneira eficaz.",
 		"workload": 60
 	},
 	{
 		"id": "77dcd91e-ffd6-44b4-a1d2-a72b0ace3407",
 		"ufsm_code": "ELC1070",
 		"name": "Gerência de Projetos de Software",
-		"description": ".",
+		"description": "Se você deseja aprender a liderar e executar projetos com sucesso, a disciplina de Gerência de Projetos é como uma<br/>oportunidade de adquirir habilidades de gestão essenciais. Nessa disciplina, você aprenderá a planejar, executar e<br/>controlar projetos, gerenciando recursos, prazos e orçamentos. É como se tornar um líder de projetos, garantindo que<br/>metas sejam alcançadas de maneira eficaz.",
 		"workload": 60,
 		"equivalents": [
 			"0a3609c3-42b9-49e8-87dc-caab92a8c3ee"
@@ -834,118 +834,119 @@
 		"id": "6fd746c5-c2a4-401a-9da4-44f595039934",
 		"ufsm_code": "ELC616",
 		"name": "Gerência de Redes",
-		"description": ".",
+		"description": "Se você está interessado em como as redes de computadores funcionam e como mantê-las seguras e eficientes,<br/>a disciplina de Gerência de Redes é como uma exploração do mundo das redes de TI. Nessa disciplina, você<br/>estudará como projetar, implementar e administrar redes, bem como garantir a segurança dos dados transmitidos.<br/>É como se tornar um guardião da conectividade digital, mantendo sistemas interconectados em funcionamento.",
 		"workload": 60
 	},
 	{
 		"id": "b3abdefc-0fa9-4b19-a806-29a864098d6c",
 		"ufsm_code": "DCOM1000",
 		"name": "Gerência de Redes A",
-		"description": ".",
+		"description": "Se você está interessado em como as redes de computadores funcionam e como mantê-las seguras e eficientes,<br/>a disciplina de Gerência de Redes é como uma exploração do mundo das redes de TI. Nessa disciplina, você<br/>estudará como projetar, implementar e administrar redes, bem como garantir a segurança dos dados transmitidos.<br/>É como se tornar um guardião da conectividade digital, mantendo sistemas interconectados em funcionamento.",
 		"workload": 60
 	},
 	{
 		"id": "17d5a674-d5b7-48c5-be64-3ba5952bd246",
 		"ufsm_code": "CAD1042",
 		"name": "Gestão de Pessoas A",
-		"description": ".",
+		"description": "Esta cadeira aborda os princípios e práticas de gestão de recursos humanos. Você aprenderá como recrutar, treinar, motivar e gerenciar<br/>pessoas de forma eficaz em um ambiente de trabalho. Essas habilidades são essenciais para liderar equipes de maneira eficaz em qualquer campo.",
 		"workload": 60
 	},
 	{
 		"id": "170fb60c-6c74-4ff1-aa01-b7445d978f0f",
 		"ufsm_code": "DPADI0194",
 		"name": "Governança de TI",
-		"description": ".",
+		"description": "Nesta cadeira, você explorará a governança de tecnologia da informação, que se concentra na gestão e controle de recursos de TI em uma organização.<br/>Você aprenderá a alinhar os objetivos de negócios com as estratégias de TI, garantindo eficiência e conformidade nas operações de tecnologia.",
 		"workload": 60
 	},
 	{
 		"id": "08f653a3-df25-43b9-b48b-5235f68d5209",
 		"ufsm_code": "DLSC807",
 		"name": "Grafos",
-		"description": ".",
+		"description": "Esta cadeira trata do estudo de grafos, que são estruturas matemáticas usadas para representar relacionamentos entre objetos.<br/>Você aprenderá sobre algoritmos e teoria dos grafos, que têm aplicações em áreas como redes sociais, sistemas de transporte e muito mais.",
 		"workload": 60
 	},
 	{
 		"id": "e73eb286-6d46-4491-9095-13e9a229f56d",
 		"ufsm_code": "ELC131",
 		"name": "Implementação de Banco de Dados",
-		"description": ".",
+		"description": "Se você deseja entender como os sistemas de banco de dados são construídos e implementados na indústria, a disciplina<br/>de Implementação de Banco de Dados é uma janela para esse mundo essencial da tecnologia da informação. Nessa disciplina,<br/>você explorará as técnicas utilizadas para implantar Sistemas Gerenciadores de Banco de Dados (SGBDs) em ambientes práticos.<br/>Você aprenderá a identificar as principais características e funcionalidades que os SGBDs devem possuir e como adaptá-los a<br/>projetos do mundo real. É como aprender a linguagem dos sistemas que armazenam, organizam e recuperam informações vitais para<br/>empresas e organizações em geral.",
 		"workload": 60
 	},
 	{
 		"id": "be267a45-6150-4f64-b3d7-aeb9ab5fb351",
 		"ufsm_code": "ELC1088",
 		"name": "Implementação de Linguagens de Programação",
-		"description": ".",
+		"description": "Esta cadeira aborda a implementação de linguagens de programação e compiladores. Você aprenderá como as linguagens de programação<br/>são traduzidas em código executável, ganhando insights valiosos sobre como os computadores interpretam e executam o código.",
 		"workload": 60
 	},
 	{
 		"id": "d236fffa-2dfa-403c-8965-f7d5694c7f99",
 		"ufsm_code": "DPEE1101",
 		"name": "Informática Industrial",
-		"description": ".",
+		"description": "Nesta cadeira, você explorará a aplicação da informática em ambientes industriais. Isso inclui automação de processos,<br/>controle de máquinas, monitoramento de produção e muito mais. A informática industrial é fundamental para a eficiência<br/>e segurança nas operações industriais modernas.",
 		"workload": 45
 	},
 	{
 		"id": "d28a7f23-0c45-4e98-811b-d22b362cdabb",
 		"ufsm_code": "LTE1254",
 		"name": "Inglês Para a Ciência da Computação 1",
-		"description": ".",
+		"description": "Este curso se concentra em desenvolver habilidades de comunicação em inglês específicas<br/>para a área de ciência da computação.Você aprenderá vocabulário técnico e práticas de<br/>escrita e comunicação necessárias para colaborar em um ambiente global de TI.",
 		"workload": 60
 	},
 	{
 		"id": "d726170c-9a52-471b-a6b0-ed378becf233",
 		"ufsm_code": "LTE1255",
 		"name": "Inglês Para a Ciência da Computação 2",
-		"description": ".",
+		"description": "Continuando a partir do curso anterior, esta cadeira aprofunda suas habilidades de comunicação em inglês,<br/>incluindo tópicos mais avançados relacionados à ciência da computação. Isso o preparará para interações<br/>profissionais e colaborações em um contexto internacional.",
 		"workload": 60
 	},
 	{
 		"id": "1de86fa8-19c9-49e6-82df-625c62de5a38",
 		"ufsm_code": "DPADI841",
 		"name": "Inglês Técnico 1",
+		"description": "Esta cadeira oferece uma base sólida em inglês técnico, cobrindo vocabulário e habilidades de comunicação necessárias em<br/>várias áreas técnicas. Isso o ajudará a se comunicar de forma eficaz em ambientes profissionais onde o inglês é a língua<br/>predominante.",
 		"workload": 45
 	},
 	{
 		"id": "b96437e2-daf7-4da5-b483-e78dba0691c0",
 		"ufsm_code": "UFSM00058",
 		"name": "Instalações Elétricas Residenciais e Comerciais",
-		"description": ".",
+		"description": "Esta cadeira explora os princípios por trás das instalações elétricas em residências e estabelecimentos comerciais.<br/>Você aprenderá a projetar, instalar e manter sistemas elétricos seguros e eficientes. Essas habilidades são essenciais<br/>em uma variedade de indústrias e podem abrir portas para carreiras na engenharia elétrica e construção civil.",
 		"workload": 60
 	},
 	{
 		"id": "4b114baa-7f2e-4b56-a3c2-2b48222e46ba",
 		"ufsm_code": "UFSM00065",
 		"name": "Instrumentação Eletrônica",
-		"description": ".",
+		"description": "A Instrumentação Eletrônica trata da criação e utilização de dispositivos de medição eletrônica. Nesta cadeira,<br/>você aprenderá a projetar e operar instrumentos eletrônicos usados para medir variáveis físicas como temperatura,<br/>pressão e tensão. Essas habilidades são fundamentais em setores como automação industrial e pesquisa científica.",
 		"workload": 60
 	},
 	{
 		"id": "859e6072-7e9f-442c-84f3-88ee2d46cead",
 		"ufsm_code": "DPEE1105",
 		"name": "Instrumentação de Processos",
-		"description": ".",
+		"description": "A Instrumentação de Processos se concentra na monitorização e controle de processos industriais. Você explorará<br/>como os sistemas de medição e controle são usados para otimizar a produção em indústrias como química, petróleo<br/>e alimentos. Essa cadeira pode levar a carreiras em engenharia de controle e automação.",
 		"workload": 45
 	},
 	{
 		"id": "ae10b0f9-33fe-4538-8ceb-65a91865289b",
 		"ufsm_code": "ELC1014",
 		"name": "Inteligência Artificial",
-		"description": ".",
+		"description": "A Inteligência Artificial (IA) é um campo empolgante que se concentra na criação de sistemas de computador<br/>que podem realizar tarefas inteligentes sem intervenção humana. Neste curso, você mergulhará em algoritmos,<br/>aprendizado de máquina e redes neurais, explorando como a IA está transformando a tecnologia e a sociedade.",
 		"workload": 60
 	},
 	{
 		"id": "f9a719dd-440a-4eab-9b11-8802ef4ceee2",
 		"ufsm_code": "DPADI0186",
 		"name": "Interconexão de Redes",
-		"description": ".",
+		"description": "A Interconexão de Redes é a chave para a conectividade global na era digital. Você aprenderá como os dispositivos se<br/>comunicam em redes de computadores, desde a internet até redes corporativas. Essa cadeira é essencial para carreiras<br/>em administração de redes e cibersegurança.",
 		"workload": 60
 	},
 	{
 		"id": "db2e1ece-a465-4d90-958d-1c91e14ea8a7",
 		"ufsm_code": "ELC1072",
 		"name": "Interface Humano-Computador",
-		"description": ".",
+		"description": "A Interface Humano-Computador explora como os seres humanos interagem com a tecnologia. Você estudará o design<br/>de interfaces de usuário eficazes e intuitivas, tornando os sistemas de computador mais acessíveis e amigáveis.<br/>Essa cadeira é relevante para carreiras em design de UX/UI e usabilidade.",
 		"workload": 60,
 		"equivalents": [
 			"d6dc9949-c436-4ce7-a974-0363168425b7"
@@ -955,27 +956,28 @@
 		"id": "3e8cfee7-b548-4fe9-b78d-c98f5ab6f9d9",
 		"ufsm_code": "DLSC808",
 		"name": "Internet das Coisas",
-		"description": ".",
+		"description": "A Internet das Coisas (IoT) trata da conexão de dispositivos cotidianos à internet para coleta e troca de dados.<br/>Neste curso, você explorará como a IoT está transformando nossa vida cotidiana, desde casas inteligentes até a<br/>indústria. Aprender sobre IoT abre portas para carreiras em desenvolvimento de dispositivos conectados.",
 		"workload": 60
 	},
 	{
 		"id": "9a3710c7-f77d-484a-b447-7e643f9f6c81",
 		"ufsm_code": "DPADI0208",
 		"name": "Internet das Coisas",
+		"description": "A Internet das Coisas (IoT) trata da conexão de dispositivos cotidianos à internet para coleta e troca de dados.<br/>Neste curso, você explorará como a IoT está transformando nossa vida cotidiana, desde casas inteligentes até a<br/>indústria. Aprender sobre IoT abre portas para carreiras em desenvolvimento de dispositivos conectados.",
 		"workload": 60
 	},
 	{
 		"id": "a63529b9-d71c-4615-9063-511bdbc11059",
 		"ufsm_code": "DCT1055",
 		"name": "Introdução à Ciência da Informação",
-		"description": ".",
+		"description": "Esta cadeira é uma introdução emocionante à ciência da Informação. Você explorará<br/>os princípios básicos da programação, algoritmos e estruturas de dados. É o ponto<br/>de partida perfeito para quem deseja entender como os computadores funcionam e<br/>como criar software. As habilidades adquiridas aqui são aplicáveis a diversas<br/>carreiras na área de tecnologia.",
 		"workload": 30
 	},
 	{
 		"id": "12bc3af9-b2b0-4ed8-bd7e-e71db54466b3",
 		"ufsm_code": "ELC1085",
 		"name": "Introdução à Computação A",
-		"description": ".",
+		"description": "Esta cadeira é uma introdução emocionante à ciência da computação. Você explorará<br/>os princípios básicos da programação, algoritmos e estruturas de dados. É o ponto<br/>de partida perfeito para quem deseja entender como os computadores funcionam e<br/>como criar software. As habilidades adquiridas aqui são aplicáveis a diversas<br/>carreiras na área de tecnologia.",
 		"workload": 30
 	},
 	{
