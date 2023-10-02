@@ -8,7 +8,14 @@
   align-items: center;
 
   max-width: 580px;
+  margin-top: 128px;
   margin-inline: auto;
+
+  &__header
+  {
+    margin-bottom: 32px;
+    color: $blue-900;
+  }
 
   &__affirmations
   {

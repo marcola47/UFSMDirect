@@ -21,25 +21,6 @@ const subSchema = new mongoose.Schema(
   }
 });
 
-const jobCourseSchema = new mongoose.Schema(
-{
-  id: 
-  {
-    type: String,
-    ref: 'Course',
-    required: true
-  },
-
-  importance:
-  {
-    type: Number,
-    default: 1,
-    required: true,
-    min: 1,
-    max: 10
-  }
-});
-
 const jobSchema = new mongoose.Schema(
 {
   id: idSchema,
@@ -63,14 +44,6 @@ const jobSchema = new mongoose.Schema(
     trim: true
   },
 
-  courses:
-  {
-    type: [jobCourseSchema],
-    default: [],
-    required: true,
-    maxlength: 256,
-  },
-
   roles:
   {
     type: [subSchema],
@@ -91,6 +64,13 @@ const jobSchema = new mongoose.Schema(
     default: [],
     required: true,
   },
+
+  active:
+  {
+    type: Boolean,
+    default: true,
+    required: true
+  }
 
   // ideia futura: hard e soft skills
 });

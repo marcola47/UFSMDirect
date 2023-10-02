@@ -17,13 +17,15 @@ const seedProjects = async () =>
     const user = new User(
     {
       id: userSeed.id,
+      picture: userSeed.picture,
       params: userSeed.params,
       name: userSeed.name,
       email: userSeed.email,
       password: hash,
       bio: userSeed.bio,
       registration: userSeed.registration,
-      program: userSeed.program
+      program: userSeed.program,
+      job: userSeed.job
     });
 
     await User.create(user);

@@ -1,0 +1,199 @@
+@import '../../css/variables.scss';
+
+$wd: 320px;
+$wm: 280px;
+
+.register
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100dvh;
+  
+  background-color: $blue-50;
+
+  @include anim_fade_in;
+
+  &__welcome
+  {
+    width: $wd;
+    padding: 16px;
+    border-radius: $br-m;
+
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  &__form
+  {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 48px;
+
+    overflow: hidden;
+    position: relative;
+    width: 512px;
+    height: 800px;
+    padding-top: 64px;
+    border-radius: $br-g;
+
+    background-color: $white-light;
+    box-shadow: 0px 0px 35px #1941853d;
+  }
+
+  #guest
+  { 
+    z-index: 3;
+
+    margin-top: 24px;
+    margin-right: -16px; 
+
+    color: $blue-100;
+    background-color: $bg-blue-dim;
+
+    .register__welcome
+    {
+      color: $blue-100;
+      background-color: $bg-blue-light;
+    }
+
+    input
+    {
+      color: $blue-100;
+      background-color: $bg-blue-mid-light;
+      border: 3px solid $bg-blue-bright;
+
+      &::placeholder
+      { color: lighten($bg-blue-light, 30%); }
+
+      &:focus, &:hover
+      { background-color: $bg-blue-bright; }
+    }
+
+    .register__navigate:hover
+    { color: $grey-light; }
+  }
+
+  #academic
+  { 
+    z-index: 2;
+
+    margin-top: -24px;
+    margin-left: -16px;
+
+    color: $blue-900;
+
+    .register__welcome
+    {
+      color: $blue-800;
+      background-color: $blue-100;
+    }
+  }
+  
+  &__inputs
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+    .register__input
+    { position: relative }
+
+    .fa-envelope, 
+    .fa-key, 
+    .fa-address-card,
+    .fa-graduation-cap
+    {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+
+      font-size: 1.1rem;
+    }
+
+    input
+    {
+      display: block;
+
+      width: $wd;
+      padding: 12px 16px 12px 40px;
+      border-radius: $br-m;
+
+      color: $blue-900;
+      background-color: $blue-50;
+      border: 3px solid $blue-100;
+
+      cursor: text;
+      @include transition;
+
+      &::placeholder
+      { color: lighten($blue-900, 35%); }
+
+      &:focus, &:hover
+      { background-color: $blue-100; }
+    }
+  }
+
+  &__navigate
+  {
+    width: $wd;
+
+    color: $grey-dark;
+
+    text-align: left;
+    text-decoration: underline;
+    cursor: pointer;
+    @include transition;
+    
+
+    &:hover
+    { color: $blue-900; }
+  }
+
+  &__auth
+  {
+    width: $wd;
+    padding: 12px 16px;
+    border-radius: $br-m;
+
+    color: $white-light;
+    background-color: $blue-700;
+
+    font-size: 1.2rem;
+
+    @include transition;
+
+    &:hover
+    { background-color: $blue-600; }
+  }
+
+  &__coa
+  {
+    position: absolute;
+    bottom: -80px;
+    right: -40px;
+
+    filter: drop-shadow(0px 0px 5px #19418518);
+  }
+}
+
+@media screen and (max-width: 720px) 
+{
+  .register__form
+  { width: 100vw; }
+
+  .register__background
+  { display: none; }
+
+  .register input,
+  .register__logo,
+  .register__auth, 
+  .register__navigate
+  { max-width: $wm; }
+}

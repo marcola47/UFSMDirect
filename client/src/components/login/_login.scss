@@ -128,15 +128,6 @@ $wm: 280px;
     &:hover
     { background-color: $blue-600; }
   }
-
-  &__background
-  {
-    display: grid;
-    place-items: center;
-
-    width: calc(100% - $menu-w);
-    height: 100dvh;
-  }
 }
 
 @media screen and (max-width: 720px) 

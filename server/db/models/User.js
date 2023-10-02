@@ -34,6 +34,13 @@ const userSchema = new mongoose.Schema(
   id: idSchema,
   params: paramsSchema,
 
+  picture:
+  {
+    type: String,
+    default: null,
+    required: false
+  },
+
   name: 
   {
     type: String,
@@ -66,13 +73,13 @@ const userSchema = new mongoose.Schema(
     default: 'New User Bio',
     required: false,
     trim: true,
-    maxlength: 512
+    maxlength: 1024
   },
 
   affirmations: 
   {
     type: [userAffirmationSchema],
-    default: null,
+    default: [],
     required: false
   },
 

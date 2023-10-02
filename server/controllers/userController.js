@@ -3,6 +3,8 @@ import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 
 import User from '../db/models/User.js';
+import Job from '../db/models/Job.js';
+import Program from '../db/models/Program.js';
 import Token from '../db/models/Token.js';
 
 const userController = {};
@@ -11,10 +13,20 @@ userController.token = async (req, res) =>
 {
   try
   {
+    // deixar mais otimizado 
     const user = await User.findOne({ id: req.body.userID }).lean().select('-_id -__v');
+    const userJob = await Job.findOne({ id: user.job }).lean().select('-_id -__v');
+    const userProgram = await Program.findOne({ id: user.program }).lean().select('-_id -__v');
 
     user.password = null;
-    res.status(200).json({ accessToken: req.body.accessToken, result: user });
+    user.program = userProgram;
+    user.job = userJob;
+
+    res.status(200).json(
+    { 
+      accessToken: req.body.accessToken, 
+      result: user 
+    });
   }
 
   catch (error)
@@ -60,8 +72,19 @@ userController.login = async (req, res) =>
     await Token.create({ token: refreshToken, userID: user.id })
     .catch(err => console.log(err))
 
+    const userJob = await Job.findOne({ id: user.job }).lean().select('-_id -__v');
+    const userProgram = await Program.findOne({ id: user.program }).lean().select('-_id -__v');
+
     user.password = null;
-    res.status(200).json({ auth: true, result: user, accessToken: accessToken, refreshToken: refreshToken });
+    user.program = userProgram;
+    user.job = userJob;
+
+    res.status(200).json(
+    { 
+      result: user, 
+      accessToken: accessToken,
+      refreshToken: refreshToken 
+    });
   } 
 
   catch (error) 
