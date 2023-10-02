@@ -108,53 +108,56 @@
 		"id": "74f04493-d93e-47b5-814a-2025b5646474",
 		"ufsm_code": "DPADI0204",
 		"name": "Aspectos Gerais da Cultura Indígena, Africana e Afro-Brasileira",
+    "description": "Se você deseja entender e valorizar a diversidade cultural do Brasil, a disciplina de Aspectos Gerais da Cultura<br/>Indígena, Africana e Afro-Brasileira é como uma janela para explorar esses ricos patrimônios culturais.<br/>Nessa disciplina, você aprenderá sobre as culturas indígenas, africanas e afro-brasileiras, suas histórias,<br/>tradições e contribuições para a formação da sociedade brasileira. É como embarcar em uma viagem cultural<br/>fascinante, onde você ampliará sua compreensão sobre a história e a diversidade do nosso país.",
 		"workload": 30
 	},
 	{
 		"id": "07ba354f-3eb0-4064-bc2c-1b34ddca7033",
 		"ufsm_code": "FSC1125",
 		"name": "Atitude em Rede",
-		"description": ".",
+		"description": "",
 		"workload": 30
 	},
 	{
 		"id": "2e3d8876-ecb0-4d19-a675-4047315c6d1d",
 		"ufsm_code": "DPADP0336",
 		"name": "Banco de Dados 1",
-		"description": ".",
+		"description": "Se você está interessado em como os sistemas de informação organizam e gerenciam dados,<br/>a disciplina de Banco de Dados 1 é como uma porta de entrada para esse mundo fundamental<br/>da ciência da computação. Nessa disciplina, você estudará os conceitos essenciais relacionados<br/>a bancos de dados, aprendendo como projetá-los e manipulá-los. É como aprender a linguagem que<br/>permite que sistemas de software organizem e recuperem informações de forma eficiente.",
 		"workload": 60
 	},
 	{
 		"id": "afc78e1c-16b9-4801-a0f0-b824ff425b3c",
 		"ufsm_code": "DPADP0341",
 		"name": "Banco de Dados 2",
-		"description": ".",
+		"description": "Se você está interessado em como os sistemas de informação organizam e gerenciam dados,<br/>a disciplina de Banco de Dados 1 é como uma porta de entrada para esse mundo fundamental<br/>da ciência da computação. Nessa disciplina, você estudará os conceitos essenciais relacionados<br/>a bancos de dados, aprendendo como projetá-los e manipulá-los. É como aprender a linguagem que<br/>permite que sistemas de software organizem e recuperem informações de forma eficiente.",
 		"workload": 60
 	},
 	{
 		"id": "fd26c29e-599d-4e6b-af49-1dd026ccccfc",
 		"ufsm_code": "DCT1051",
 		"name": "Bases da Gestão Eletrônica de Documento e Suas Linhas de Pesquisa",
-		"description": ".",
+		"description": "Se você deseja explorar como a tecnologia está transformando a forma como lidamos com documentos e informações,<br/>a disciplina de Bases da Gestão Eletrônica de Documentos é como uma porta para esse campo inovador.<br/>Nessa disciplina, você estudará como os sistemas eletrônicos de gerenciamento de documentos funcionam<br/>e as linhas de pesquisa que estão moldando esse campo. É como entrar no mundo da gestão de informações<br/>do século XXI, onde você pode contribuir para tornar a documentação mais eficiente e acessível.",
 		"workload": 60
 	},
 	{
 		"id": "c3d6ce6c-27a5-400c-8528-787606f5ce60",
 		"ufsm_code": "DPADI0206",
 		"name": "CCNA: Módulo 1",
+    "description": "Se você está interessado em se tornar um especialista em redes de computadores, a disciplina de CCNA: Módulo 1 é como o primeiro passo<br/>nessa emocionante jornada. Nessa disciplina, você começará a explorar os conceitos básicos de redes, aprendendo como os dispositivos se<br/>comunicam e como configurar e solucionar problemas em uma rede. É como se tornar um arquiteto de estradas digitais, garantindo que os<br/>dados fluam sem problemas pela internet.",
 		"workload": 75
 	},
 	{
 		"id": "2119c93f-fd26-4983-aac9-c287b9914548",
 		"ufsm_code": "DPADI0209",
 		"name": "CCNA: Switching, Routing And Wireless Essentials",
+    "description": "Imagine dar um passo adiante em sua jornada de especialização em redes de computadores. Nessa disciplina, você estudará os aspectos<br/>mais avançados das redes, incluindo comutação, roteamento e tecnologias sem fio. É como se tornar um engenheiro de tráfego digital<br/>dominando as complexidades das redes modernas.",
 		"workload": 75
 	},
 	{
 		"id": "95a4ee0b-12b8-4099-9c16-99ed9a5b5a18",
 		"ufsm_code": "ELC1010",
 		"name": "Circuitos Digitais",
-		"description": ".",
+		"description": "Imagine aprender como os dispositivos eletrônicos funcionam por dentro, desde computadores até smartphones.<br/>Nessa disciplina, você explorará os Circuitos Digitais, que são como os blocos de construção dos dispositivos<br/>eletrônicos modernos. É como se tornar um especialista em eletrônica digital, capaz de projetar e entender os<br/>circuitos que impulsionam a tecnologia digital. Prepare-se para uma jornada empolgante no coração da eletrônica!",
 		"workload": 60,
 		"equivalents": [
 			"740b7fb5-6485-432c-9718-3d8dcc91584a",
@@ -166,49 +169,49 @@
 		"id": "d3389748-13d2-4d75-8125-821bf84559af",
 		"ufsm_code": "UFSM00059",
 		"name": "Circuitos Elétricos 1",
-		"description": ".",
+		"description": "Se você deseja entender os princípios fundamentais que tornam a eletricidade possível, a disciplina de Circuitos Elétricos 1 é como uma porta<br/>de entrada para esse mundo eletrizante. Nessa disciplina, você estudará os conceitos essenciais relacionados aos circuitos elétricos, aprendendo<br/>como a corrente flui e como os componentes elétricos interagem. É como desvendar os segredos por trás da energia elétrica que alimenta nossas<br/>vidas cotidianas.",
 		"workload": 60
 	},
 	{
 		"id": "ed2cb86e-2d06-4d7a-aee3-b151a4927cc7",
 		"ufsm_code": "UFSM00060",
 		"name": "Circuitos Elétricos 2",
-		"description": ".",
+		"description": "Se você deseja entender os princípios fundamentais que tornam a eletricidade possível, a disciplina de Circuitos Elétricos 1 é como uma porta<br/>de entrada para esse mundo eletrizante. Nessa disciplina, você estudará os conceitos essenciais relacionados aos circuitos elétricos, aprendendo<br/>como a corrente flui e como os componentes elétricos interagem. É como desvendar os segredos por trás da energia elétrica que alimenta nossas<br/>vidas cotidianas.",
 		"workload": 60
 	},
 	{
 		"id": "9e2664c3-b6bf-4e8d-b4c2-08a2e74f24bd",
 		"ufsm_code": "UFSM00049",
 		"name": "Circuitos Integrados Analógicos",
-		"description": ".",
+		"description": "Imagine aprender sobre os materiais que constituem o mundo ao nosso redor e como suas propriedades podem ser manipuladas para criar tecnologias incríveis. Nessa disciplina, você explorará a Ciência dos Materiais, que é como a chave para entender a estrutura, as propriedades e as aplicações dos materiais, desde metais e polímeros até semicondutores e materiais avançados. É como desvendar os segredos dos materiais que impulsionam a tecnologia moderna.",
 		"workload": 60
 	},
 	{
 		"id": "b8e2269a-4d19-4e7f-9ef5-4fb4fabf68c9",
 		"ufsm_code": "UFSM00279",
 		"name": "Ciência de Dados 1",
-		"description": ".",
+		"description": "Se você está interessado em como os sistemas de informação organizam e gerenciam dados,<br/>a disciplina de Banco de Dados 1 é como uma porta de entrada para esse mundo fundamental<br/>da ciência da computação. Nessa disciplina, você estudará os conceitos essenciais relacionados<br/>a bancos de dados, aprendendo como projetá-los e manipulá-los. É como aprender a linguagem que<br/>permite que sistemas de software organizem e recuperem informações de forma eficiente.",
 		"workload": 60
 	},
 	{
 		"id": "13e67a7c-122b-4a0a-9565-e64add0c7f8b",
 		"ufsm_code": "UFSM00283",
 		"name": "Ciência de Dados 2",
-		"description": ".",
+		"description": "Se você está interessado em como os sistemas de informação organizam e gerenciam dados,<br/>a disciplina de Banco de Dados 1 é como uma porta de entrada para esse mundo fundamental<br/>da ciência da computação. Nessa disciplina, você estudará os conceitos essenciais relacionados<br/>a bancos de dados, aprendendo como projetá-los e manipulá-los. É como aprender a linguagem que<br/>permite que sistemas de software organizem e recuperem informações de forma eficiente.",
 		"workload": 60
 	},
 	{
 		"id": "57914db7-6bff-470b-9c17-62026d730362",
 		"ufsm_code": "UFSM00014",
 		"name": "Ciência dos Materiais",
-		"description": ".",
+		"description": "Imagine aprender sobre os materiais que constituem o mundo ao nosso redor e como suas propriedades podem ser manipuladas para criar<br/>tecnologias incríveis. Nessa disciplina, você explorará a Ciência dos Materiais, que é como a chave para entender a estrutura, as<br/>propriedades e as aplicações dos materiais, desde metais e polímeros até semicondutores e materiais avançados. É como desvendar os<br/>segredos dos materiais que impulsionam a tecnologia moderna.",
 		"workload": 60
 	},
 	{
 		"id": "47a01d7e-d409-4147-9a6b-187afd94cdf1",
 		"ufsm_code": "ELC408",
 		"name": "Compiladores",
-		"description": ".",
+		"description": "Se você está interessado em como os programas de computador são traduzidos de linguagens de alto nível para linguagem de máquina,<br/>a disciplina de Compiladores é como uma porta de entrada para o mundo da criação de compiladores e interpretadores. Nessa disciplina,<br/>você estudará os princípios e técnicas por trás da tradução de código-fonte em código executável. É como aprender a linguagem que permite<br/>que os computadores entendam e executem programas de software.",
 		"workload": 60
 	},
 	{
