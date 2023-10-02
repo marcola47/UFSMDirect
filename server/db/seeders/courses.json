@@ -218,7 +218,7 @@
 		"id": "bf034747-2b1a-4ddd-a907-71df49d3b79b",
 		"ufsm_code": "DPADP0332",
 		"name": "Computadores e Sociedade",
-		"description": ".",
+		"description": "Se você se preocupa com o impacto da tecnologia na sociedade e nas questões éticas associadas à computação, a disciplina de<br/>Computadores e Sociedade é como uma exploração crítica desses temas importantes. Nessa disciplina, você analisará como os<br/>computadores afetam nossa vida cotidiana, desde questões de privacidade até o uso responsável da tecnologia. É como se<br/> tornar um pensador crítico sobre o papel dos computadores na sociedade e como podemos moldar um futuro tecnológico ético<br/> e sustentável.",
 		"workload": 60,
 		"equivalents": [
 			"ba74d9b6-8a68-4dc5-a3ab-61afd68d376b",
@@ -229,42 +229,42 @@
 		"id": "ba74d9b6-8a68-4dc5-a3ab-61afd68d376b",
 		"ufsm_code": "ELC1076",
 		"name": "Computadores e Sociedade A",
-		"description": ".",
+		"description": "Se você se preocupa com o impacto da tecnologia na sociedade e nas questões éticas associadas à computação, a disciplina de<br/>Computadores e Sociedade é como uma exploração crítica desses temas importantes. Nessa disciplina, você analisará como os<br/>computadores afetam nossa vida cotidiana, desde questões de privacidade até o uso responsável da tecnologia. É como se<br/> tornar um pensador crítico sobre o papel dos computadores na sociedade e como podemos moldar um futuro tecnológico ético<br/> e sustentável.",
 		"workload": 60
 	},
 	{
 		"id": "16bdfb8c-31be-4ccf-95ec-6660cd2fe131",
 		"ufsm_code": "ELC1015",
 		"name": "Computação Gráfica",
-		"description": ".",
+		"description": "Se você é fascinado por imagens, animações e gráficos digitais, a disciplina de Computação Gráfica é como uma porta de<br>entrada para o mundo da criação visual. Nessa disciplina, você explorará os princípios e técnicas por trás da geração <br/>de gráficos computacionais, desde a criação de imagens estáticas até a animação de personagens em filmes e videogames.<br/> É como aprender a linguagem que dá vida a mundos virtuais.",
 		"workload": 60
 	},
 	{
 		"id": "79a0aaeb-d5b3-4533-b466-1d2eff8ef289",
 		"ufsm_code": "ELC1051",
 		"name": "Computação Gráfica Avançada",
-		"description": ".",
+		"description": "Imagine aprofundar ainda mais seus conhecimentos em computação gráfica, explorando técnicas avançadas e desafiadoras. Nessa disciplina,<br/>você se aprofundará na criação de gráficos 3D, renderização de alta qualidade e efeitos visuais complexos. É como se tornar um mestre<br/> na arte de criar imagens digitais impressionantes.",
 		"workload": 60
 	},
 	{
 		"id": "11b3ee0f-2168-4add-b811-7a340b5c8f7a",
 		"ufsm_code": "DLSC0001",
 		"name": "Computação Quântica",
-		"description": ".",
+		"description": "Se você está curioso sobre o futuro da computação e como a física quântica pode revolucionar a maneira como processamos informações,<br/>a disciplina de Computação Quântica é como uma introdução empolgante a esse campo de vanguarda. Nessa disciplina, você explorará os<br/>princípios quânticos que permitem a criação de computadores quânticos, que têm o potencial de resolver problemas que desafiam os<br/>supercomputadores tradicionais. É como embarcar em uma jornada rumo a um novo paradigma da computação.",
 		"workload": 60
 	},
 	{
 		"id": "b851bc27-32f0-4e49-943e-19fc3a2f7ced",
 		"ufsm_code": "DPADP0387",
 		"name": "Comunicação Integrada e Estratégica",
-		"description": ".",
+		"description": "Se você está interessado em como a informação é transmitida e compartilhada por meio de redes de computadores, a disciplina<br/>de Comunicação de Dados é como uma porta de entrada para esse mundo interconectado. Nessa disciplina, você estudará os<br/>princípios de transmissão de dados, protocolos de comunicação e tecnologias de redes. É como aprender o idioma que<br/>permite que dispositivos em todo o mundo se comuniquem uns com os outros.",
 		"workload": 60
 	},
 	{
 		"id": "7f37ae67-5da7-443b-97ad-93e8e58df78e",
 		"ufsm_code": "ELC123",
 		"name": "Comunicação de Dados",
-		"description": ".",
+		"description": "Se você está interessado em como a informação é transmitida e compartilhada por meio de redes de computadores, a disciplina<br/>de Comunicação de Dados é como uma porta de entrada para esse mundo interconectado. Nessa disciplina, você estudará os<br/>princípios de transmissão de dados, protocolos de comunicação e tecnologias de redes. É como aprender o idioma que<br/>permite que dispositivos em todo o mundo se comuniquem uns com os outros.",
 		"workload": 60,
 		"equivalents": [
 			"85840127-22e7-40d0-8df3-0dd07aec887e"
@@ -274,41 +274,42 @@
 		"id": "31a0d479-a85a-443e-9585-dcda2378c13b",
 		"ufsm_code": "UFSM00051",
 		"name": "Concepção de Circuitos Integrados",
-		"description": ".",
+		"description": "Se você deseja entender como os chips eletrônicos são projetados e fabricados, a disciplina de Concepção de <br/>Circuitos Integrados é como uma oportunidade para explorar o mundo dos semicondutores. Nessa disciplina, você<br/>aprenderá a projetar circuitos integrados personalizados, que estão no coração de muitos dispositivos eletrônicos <br/>modernos. É como se tornar um arquiteto de microeletrônica, moldando a tecnologia que impulsiona nossa vida digital.",
 		"workload": 60
 	},
 	{
 		"id": "ce4993ff-2933-4249-b7db-5745c30e119d",
 		"ufsm_code": "DPADI0210",
 		"name": "Concepção, Projeto, Implementação e Operação em Redes de Computadores",
+    "description": "Essa cadeira oferece uma visão completa do mundo das redes de computadores. Você aprenderá como conceber, projetar, <br/>implementar e operar redes que conectam dispositivos, permitindo a comunicação e o compartilhamento de informações <br/>em todo o mundo. Desde a criação da infraestrutura até a manutenção e o aprimoramento contínuo, este curso o levará <br/>a explorar os bastidores da conectividade digital, preparando-o para uma carreira vital em uma sociedade cada vez <br/>mais interconectada.",
 		"workload": 60
 	},
 	{
 		"id": "d131ed06-4095-47e9-a06a-03f41d3f8004",
 		"ufsm_code": "DPADP0330",
 		"name": "Construção de Sites",
-		"description": ".",
+		"description": "Essa cadeira é uma introdução empolgante ao mundo da criação de sites. Você aprenderá a projetar e desenvolver sites <br/>interativos e atraentes, dominando habilidades essenciais de programação e design web. Criar sites é uma habilidade <br/>valiosa no mercado atual, e este curso oferece a você as ferramentas para dar vida às suas ideias na forma de páginas <br/>web dinâmicas e atraentes.",
 		"workload": 60
 	},
 	{
 		"id": "b84c686c-c667-4767-8756-0908db4fe14f",
 		"ufsm_code": "UFSM00061",
 		"name": "Controle Analógico e Digital",
-		"description": ".",
+		"description": "Nessa cadeira, você explorará como sistemas analógicos e digitais funcionam e interagem. Você aprenderá sobre eletrônica,<br/>circuitos e como controlar dispositivos eletrônicos, desde dispositivos simples até sistemas mais complexos. Esta base <br/>em controle analógico e digital é crucial em campos como automação industrial, eletrônica e robótica, proporcionando-lhe <br/>habilidades essenciais para criar e melhorar tecnologias do dia a dia.",
 		"workload": 60
 	},
 	{
 		"id": "7ee59682-ddaf-4d57-862c-c20619b34842",
 		"ufsm_code": "UFSM00062",
 		"name": "Controle Multivariável",
-		"description": ".",
+		"description": "Essa cadeira é um aprofundamento no mundo do controle de sistemas complexos com múltiplas variáveis. Você descobrirá como <br/>controlar processos que envolvem várias entradas e saídas, essenciais em áreas como engenharia, automação industrial e <br/>até mesmo na gestão de recursos naturais. Compreender o controle multivariável é fundamental para otimizar sistemas e <br/> melhorar a eficiência em diversas indústrias.",
 		"workload": 60
 	},
 	{
 		"id": "a85f8b60-af2c-48a1-ab82-e15687ada041",
 		"ufsm_code": "DLSC811",
 		"name": "Criptografia Para Segurança de Dados",
-		"description": ".",
+		"description": "A segurança de dados é uma preocupação crescente em nosso mundo digital. Este curso o levará a explorar o mundo da criptografia,<br/>a ciência de proteger informações confidenciais através de técnicas avançadas de codificação. Você aprenderá como proteger dados <br/>sensíveis, desde comunicações online até informações pessoais, e se tornará um defensor da privacidade digital em um mundo cada vez <br/>mais conectado.",
 		"workload": 60,
 		"equivalents": [
 			"8fe3f6fa-6b51-49e0-9a90-c14aa42f00f4"
@@ -318,20 +319,21 @@
 		"id": "8fe3f6fa-6b51-49e0-9a90-c14aa42f00f4",
 		"ufsm_code": "DPADI0212",
 		"name": "Criptografia: da Introdução à Prática",
+    "description": "Criptografia: da Introdução à Prática é como desvendar os segredos por trás da segurança da informação. Aprenda a transformar mensagens<br/>em códigos indecifráveis e a proteger informações confidenciais. Desde os conceitos básicos até a aplicação prática, você descobrirá <br/>como a criptografia é usada para manter suas mensagens seguras na era digital.",
 		"workload": 45
 	},
 	{
 		"id": "51ee39a5-a935-4a43-b437-2556b88da9f6",
 		"ufsm_code": "CTB1074",
 		"name": "Custos A",
-		"description": ".",
+		"description": "Nessa cadeira, você mergulhará no mundo dos custos e finanças, fundamentais para qualquer empreendedor ou profissional de negócios.<br/>Aprenda a analisar, gerenciar e otimizar os recursos financeiros de uma organização. Entenda como tomar decisões financeiras <br/>sólidas e contribua para o sucesso de empresas em diversos setores.",
 		"workload": 60
 	},
 	{
 		"id": "d33149e3-f6ca-432c-9b81-f88356c19bba",
 		"ufsm_code": "UFSM00036",
 		"name": "Cálculo A",
-		"description": ".",
+		"description": "O Cálculo A é a base da matemática avançada e é fundamental para diversas áreas, incluindo ciência da computação.<br/>Neste curso, você explorará os conceitos fundamentais de cálculo, como limites, derivadas e integrais. Aprenda a modelar e <br/>resolver problemas do mundo real usando ferramentas matemáticas poderosas.",
 		"workload": 90,
 		"equivalents": [
 			"5cf0b393-3ae8-44f2-a212-c8c3726ffc08",
@@ -342,14 +344,14 @@
 		"id": "5cf0b393-3ae8-44f2-a212-c8c3726ffc08",
 		"ufsm_code": "MTM1019",
 		"name": "Cálculo A",
-		"description": ".",
+		"description": "O Cálculo A é a base da matemática avançada e é fundamental para diversas áreas, incluindo ciência da computação.<br/>Neste curso, você explorará os conceitos fundamentais de cálculo, como limites, derivadas e integrais. Aprenda a modelar e <br/>resolver problemas do mundo real usando ferramentas matemáticas poderosas.",
 		"workload": 90
 	},
 	{
 		"id": "03687f5c-2829-4177-adb5-992b48fd7eca",
 		"ufsm_code": "DPADI0169",
 		"name": "Cálculo A",
-		"description": ".",
+		"description": "O Cálculo A é a base da matemática avançada e é fundamental para diversas áreas, incluindo ciência da computação.<br/>Neste curso, você explorará os conceitos fundamentais de cálculo, como limites, derivadas e integrais. Aprenda a modelar e <br/>resolver problemas do mundo real usando ferramentas matemáticas poderosas.",
 		"workload": 60
 	},
 	{
@@ -367,42 +369,42 @@
 		"id": "a14fee21-5af5-42f9-9997-f2b7df8ea6e5",
 		"ufsm_code": "MTM1020",
 		"name": "Cálculo B",
-		"description": ".",
+		"description": "Calculo B é a continuação do Cálculo A e aprofunda ainda mais seus conhecimentos em matemática. Você explorará tópicos <br/>avançados, como séries, equações diferenciais e aplicações em várias disciplinas, incluindo a física e a engenharia. O <br/>Essa cadeira abrirá portas para a compreensão profunda de fenômenos naturais e projetos complexos.",
 		"workload": 90
 	},
 	{
 		"id": "11a6b84b-80d9-4665-98de-92e6bf419b8f",
 		"ufsm_code": "DPADI0175",
 		"name": "Cálculo B",
-		"description": ".",
+		"description": "Calculo B é a continuação do Cálculo A e aprofunda ainda mais seus conhecimentos em matemática. Você explorará tópicos <br/>avançados, como séries, equações diferenciais e aplicações em várias disciplinas, incluindo a física e a engenharia. O <br/>Essa cadeira abrirá portas para a compreensão profunda de fenômenos naturais e projetos complexos.",
 		"workload": 45
 	},
 	{
 		"id": "3224fc0e-e3cc-4efc-bf90-c77d09517a1f",
 		"ufsm_code": "DPEE1085",
 		"name": "Deep Learning",
-		"description": ".",
+		"description": "Imagine mergulhar no universo da inteligência artificial e aprender como as máquinas podem aprender e tomar decisões complexas.<br/>Nessa disciplina, você estudará o Deep Learning, que é como o coração da revolução da IA. Você explorará algoritmos avançados<br/>de redes neurais profundas e como eles são aplicados em campos como reconhecimento de imagem, processamento de linguagem natural<br/>e muito mais. É como desvendar os segredos da próxima geração de tecnologia inteligente.",
 		"workload": 60
 	},
 	{
 		"id": "bc94ca70-55dd-4b83-aa02-6c58283ae2df",
 		"ufsm_code": "UFSM00022",
 		"name": "Desenho Técnico Para Engenharia 1",
-		"description": ".",
+		"description": "Se você tem interesse em design, engenharia ou arquitetura, este curso é um ponto de partida emocionante. <br/>Aprenda a criar desenhos técnicos precisos que servem como planos para a construção de estruturas e produtos. <br/> Você explorará ferramentas e técnicas essenciais para a comunicação visual em projetos de engenharia.",
 		"workload": 45
 	},
 	{
 		"id": "66e2abed-01ee-411d-920b-0a248754539b",
 		"ufsm_code": "DCOM3110",
 		"name": "Desenvolvimento de Software Educacional",
-		"description": ".",
+		"description": "Se você está interessado em combinar tecnologia e educação, a disciplina de Desenvolvimento de Software Educacional é como uma oportunidade<br/>emocionante para criar ferramentas que ajudam as pessoas a aprender. Nessa disciplina, você aprenderá a projetar e desenvolver software<br/>voltado para a educação, criando experiências de aprendizado interativas e eficazes. É como se tornar um arquiteto de soluções que podem<br/>melhorar a forma como as pessoas adquirem conhecimento.",
 		"workload": 60
 	},
 	{
 		"id": "26aeff50-b0db-4721-b978-d67832c766b1",
 		"ufsm_code": "ELC1090",
 		"name": "Desenvolvimento de Software Para a Web",
-		"description": ".",
+		"description": "Se você deseja dominar a criação de aplicativos e sites para a web, a disciplina de Desenvolvimento de Software Para a Web<br/>é como uma porta de entrada para esse campo em constante evolução. Nessa disciplina, você aprenderá as linguagens de <br/>programação e as tecnologias necessárias para criar aplicativos web dinâmicos e sites interativos. É como entrar no<br/>mundo da criação digital na internet.",
 		"workload": 60,
 		"equivalents": [
 			"de7b374a-f148-49b2-99d5-95644c630590"
@@ -412,35 +414,35 @@
 		"id": "707e332b-4816-4a7a-955b-c6a97cb037aa",
 		"ufsm_code": "DPADP0388",
 		"name": "Design Para Dispositivos Móveis",
-		"description": ".",
+		"description": "Se você está interessado em como criar experiências de usuário atraentes em dispositivos móveis, a disciplina de Design<br/>Para Dispositivos Móveis é como uma oportunidade para explorar a interface do usuário e o design de aplicativos móveis.<br/>Nessa disciplina, você aprenderá os princípios de design que tornam os aplicativos móveis intuitivos e agradáveis de<br/>usar. É como se tornar um designer de experiência móvel, moldando a forma como interagimos com nossos smartphones e<br/>tablets.",
 		"workload": 60
 	},
 	{
 		"id": "d6dc9949-c436-4ce7-a974-0363168425b7",
 		"ufsm_code": "DPADP0340",
 		"name": "Design de Interação",
-		"description": ".",
+		"description": "Esta cadeira é uma introdução emocionante ao mundo do design de interação, onde você aprenderá a criar experiências de usuário<br/>envolventes e intuitivas para produtos digitais. Você explorará como projetar interfaces amigáveis, sites e aplicativos que<br/>atendem às necessidades e expectativas dos usuários. Ao longo da cadeira, você desenvolverá habilidades valiosas para criar<br/>experiências digitais que se destacam no mercado.",
 		"workload": 60
 	},
 	{
 		"id": "e2f5cce1-2595-4977-a78b-621599cc351c",
 		"ufsm_code": "DPADI0170",
 		"name": "Eletricidade Básica",
-		"description": ".",
+		"description": "Esta cadeira oferece uma compreensão fundamental da eletricidade, começando do básico. Você aprenderá sobre circuitos<br/>elétricos, corrente, tensão e como funciona a eletricidade em aparelhos e sistemas do dia a dia. Este é um ótimo<br/>ponto de partida para quem deseja explorar carreiras em eletricidade, eletrônica ou manutenção de equipamentos<br/>elétricos.",
 		"workload": 45
 	},
 	{
 		"id": "57858a91-b993-41d1-925d-172672b3358a",
 		"ufsm_code": "FSC135",
 		"name": "Eletricidade e Magnetismo A",
-		"description": ".",
+		"description": "Nessa cadeira, você mergulhará mais fundo nos princípios da eletricidade e do magnetismo. Você aprenderá sobre campos<br/>elétricos e magnéticos, leis de Gauss e Ampère e como esses conceitos são aplicados em aplicações do mundo real.<br/>Esta base sólida em eletricidade e magnetismo é crucial para uma variedade de carreiras em engenharia e física.",
 		"workload": 90
 	},
 	{
 		"id": "3996214e-9365-4ac7-ae69-69ef87a930f2",
 		"ufsm_code": "UFSM00068",
 		"name": "Eletromagnetismo 1",
-		"description": ".",
+		"description": "Esta cadeira expande seu conhecimento em eletromagnetismo, abrangendo tópicos avançados, como equações de Maxwell, propagação de<br/>ondas eletromagnéticas e a teoria por trás de dispositivos eletromagnéticos. Você explorará como a eletricidade e o magnetismo<br/>estão intrinsecamente ligados e como eles desempenham um papel vital na tecnologia moderna.",
 		"workload": 60,
 		"equivalents": [
 			"1848d9b4-666f-4e43-ac59-42070a25566f"
@@ -450,48 +452,49 @@
 		"id": "8af443b0-031f-4b69-a7ed-ed2ec2a9c75a",
 		"ufsm_code": "UFSM00069",
 		"name": "Eletromagnetismo 2",
-		"description": ".",
+		"description": "Esta cadeira aprofunda ainda mais seus conhecimentos em eletromagnetismo, focando em tópicos avançados, como ondas eletromagnéticas<br/>em meios materiais, propagação de ondas em guias de onda eletromagnéticos, eletrodinâmica e muito mais. O conhecimento adquirido<br/>neste curso é essencial para carreiras em pesquisa, engenharia elétrica e comunicações.",
 		"workload": 60
 	},
 	{
 		"id": "1848d9b4-666f-4e43-ac59-42070a25566f",
 		"ufsm_code": "DPADI0184",
 		"name": "Eletromagnetismo e Propagação",
-		"description": ".",
+		"description": "Esta cadeira aprofunda ainda mais seus conhecimentos em eletromagnetismo, focando em tópicos avançados, como ondas eletromagnéticas<br/>em meios materiais, propagação de ondas em guias de onda eletromagnéticos, eletrodinâmica e muito mais. O conhecimento adquirido<br/>neste curso é essencial para carreiras em pesquisa, engenharia elétrica e comunicações.",
 		"workload": 60
 	},
 	{
 		"id": "07f7ccef-73b9-4cd2-9864-16c4ce4186d2",
 		"ufsm_code": "UFSM00053",
 		"name": "Eletrônica 1",
-		"description": ".",
+		"description": "Na disciplina de Eletrônica 1, você terá a oportunidade de explorar o fascinante mundo da eletrônica, desde os princípios<br/>básicos até as aplicações práticas. Aprenda sobre componentes eletrônicos, circuitos simples e eletrônica digital.<br/>Este é um primeiro passo emocionante para entender como dispositivos eletrônicos funcionam e como são construídos.",
 		"workload": 60
 	},
 	{
 		"id": "2e02146d-86b6-4c1a-9e4b-36993fa60152",
 		"ufsm_code": "UFSM00054",
 		"name": "Eletrônica 2",
-		"description": ".",
+		"description": "Eletrônica 2 aprofunda ainda mais seus conhecimentos em eletrônica. Você explorará tópicos mais avançados, como amplificadores,<br/>circuitos integrados e dispositivos semicondutores. Esta cadeira é ideal para aqueles que desejam aprofundar suas habilidades<br/>técnicas em eletrônica e preparar-se para projetos mais complexos.",
 		"workload": 60
 	},
 	{
 		"id": "eabf4964-fe31-4f40-a84e-9df6c7ec69a3",
 		"ufsm_code": "UFSM00052",
 		"name": "Eletrônica Aplicada",
-		"description": ".",
+		"description": "Na Eletrônica Aplicada, você aprenderá a aplicar seus conhecimentos em eletrônica para resolver problemas do mundo real.<br/>Esta cadeira abrange a concepção e construção de sistemas eletrônicos para uma variedade de aplicações, como automação,<br/>telecomunicações e controle de processos. Explore como a eletrônica impulsiona a tecnologia moderna.",
 		"workload": 60
 	},
 	{
 		"id": "42b172fd-cb8a-4a8e-9ae3-877a49e364a7",
 		"ufsm_code": "DPADI840",
 		"name": "Eletrônica Básica",
+    "description": "Eletrônica Básica é a porta de entrada para compreender os princípios fundamentais da eletrônica. Essa cadeira é<br/>perfeita para alunos que desejam construir uma base sólida em eletrônica antes de avançar para tópicos mais<br/>avançados. Você aprenderá sobre resistores, capacitores, diodos e transistores, que são blocos de construção<br/>essenciais para dispositivos eletrônicos.",
 		"workload": 45
 	},
 	{
 		"id": "b267af1b-81e9-4e25-9947-ce6f7116ad37",
 		"ufsm_code": "UFSM00063",
 		"name": "Eletrônica de Potência",
-		"description": ".",
+		"description": "Eletrônica de Potência é o ramo da eletrônica que lida com a conversão, controle e distribuição de energia elétrica.<br/>Nessa cadeira, você explorará sistemas de eletrônica de potência, como inversores, retificadores e conversores DC-DC,<br/>que são vitais para a eficiência energética e a gestão de energia em diversas indústrias.",
 		"workload": 60
 	},
 	{
