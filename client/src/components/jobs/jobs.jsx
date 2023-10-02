@@ -1,10 +1,11 @@
-import { useState, useContext, useEffect } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import { ReducerContext } from '@/app';
 import axios, { setResponseError } from '@/utils/axiosConfig'
 
 import List from '@/components/utils/list';
 import Job from './job/job';
 
+export const JobsContext = React.createContext();
 export default function Jobs()
 {
   const { dispatch } = useContext(ReducerContext);
@@ -27,12 +28,14 @@ export default function Jobs()
         children="PRINCIPAIS CARREIRAS EM TECNOLOGIA"
       />
 
-      <List
-        className='jobs__list'
-        ids='jobs__list'
-        elements={ jobs }
-        ListItem={ Job } 
-      />
+      <JobsContext.Provider value={{ jobs, setJobs }}>
+        <List
+          className='jobs__list'
+          ids='jobs__list'
+          elements={ jobs }
+          ListItem={ Job } 
+        />
+      </JobsContext.Provider>
     </div>
   )
 }

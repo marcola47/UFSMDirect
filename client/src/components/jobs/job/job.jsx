@@ -1,21 +1,27 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
+import { JobsContext } from '../jobs';
 import { useNavigate } from 'react-router-dom';
+import axios from '@/utils/axiosConfig';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
 import List from '@/components/utils/list';
 
+export const MaxScoreContext = React.createContext();
+
 function JobProgram({ itemData: program })
 {
+  const maxScore = useContext(MaxScoreContext);
   const navigate = useNavigate();
-  
+
+  program.compatibility = program.score / maxScore;
+
   return (
     <div 
       className="program"
       onClick={ () => {navigate(`/program/${program.id}`)  } }
     >
-
       <div className="program__content">
         <div 
           className="program__comp"
@@ -51,10 +57,33 @@ function JobListItem({ itemData })
 
 export default function Job({ itemData: job })
 {
+  const { jobs, setJobs } = useContext(JobsContext);
   const [isHidden, setIsHidden] = useState(true)
   const navigate = useNavigate();
 
-  useEffect(() => { console.log(job) }, [job])
+  useEffect(() => 
+  {
+    if (!job.programs && !isHidden)
+    {
+      axios.get(`/g/job/${job.id}/rank-programs`)
+      .then(res => 
+      {
+        const jobsCopy = structuredClone(jobs);
+        jobsCopy.map(listJob => 
+        {
+          if (listJob.id === job.id)
+          {
+            listJob.programs = res.data.programs;
+            listJob.maxScore = res.data.maxScore;
+          }
+
+          return listJob;
+        })
+
+        setJobs(jobsCopy);
+      })
+    }
+  }, [isHidden])
 
   return (
     <div className='job'>
@@ -77,7 +106,7 @@ export default function Job({ itemData: job })
       </div>
 
       {
-        !isHidden &&
+        !isHidden && job.programs && job.responsabilities && job.companies &&
         <div className="job__sub">
           <div 
             className="job__desc"
@@ -90,12 +119,14 @@ export default function Job({ itemData: job })
                 className="job__info__header"
                 children="CURSOS MAIS COMPATÍVEIS"
               />
-              <List
-                className='job__info__list programs__list'
-                ids={`${job.id}:programs`}
-                elements={ job.programs }
-                ListItem={ JobProgram }
-              />
+              <MaxScoreContext.Provider value={ job.maxScore }>
+                <List
+                  className='job__info__list programs__list'
+                  ids={`${job.id}:programs`}
+                  elements={ job.programs }
+                  ListItem={ JobProgram }
+                />
+              </MaxScoreContext.Provider>
             </div>
 
             <div className="job__info job__companies">

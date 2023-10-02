@@ -27,7 +27,7 @@ guestRouter.get('/form/getAffirmations', formController.getAffirmations);
 guestRouter.get('/course/getCourses', courseController.getCourses);
 
 guestRouter.get('/job/getJobs', jobController.getJobs);
-guestRouter.get('/job/rankPrograms/:jobID', jobController.rankPrograms);
+guestRouter.get('/job/:jobID/rank-programs', jobController.rankPrograms);
 
 router.use('/a', authRouter);
 router.use('/g', guestRouter);
