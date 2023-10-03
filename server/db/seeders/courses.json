@@ -984,104 +984,105 @@
 		"id": "7487e03e-c8c3-4b83-8f61-e1d8753ef421",
 		"ufsm_code": "UFSM00070",
 		"name": "Introdução à Engenharia",
-		"description": ".",
+		"description": "Se você está dando os primeiros passos em direção a uma carreira na engenharia, a disciplina de Introdução à<br/>Engenharia é como uma base sólida para começar. Nessa disciplina, você explorará os princípios fundamentais<br/>da engenharia, aprendendo sobre as várias disciplinas e os desafios que os engenheiros enfrentam. É como<br/>abrir a porta para um mundo de possibilidades na solução de problemas complexos.",
 		"workload": 30
 	},
 	{
 		"id": "68faabc1-c612-4dd4-9af9-5ad350464eca",
 		"ufsm_code": "DPEE1091",
 		"name": "Introdução à Engenharia de Controle e Automação",
-		"description": ".",
+		"description": "Se você tem interesse em sistemas automatizados e controle de processos, a disciplina de Introdução à Engenharia de<br/>Controle e Automação é como uma introdução emocionante a esse campo. Nessa disciplina, você estudará os princípios<br/>de controle e automação, aprendendo como sistemas inteligentes podem monitorar e controlar processos industriais e<br/>sistemas complexos. É como descobrir como a tecnologia pode otimizar o funcionamento de máquinas e processos.",
 		"workload": 15
 	},
 	{
 		"id": "ca2539d1-0a0f-4c94-a198-0703a7db5374",
 		"ufsm_code": "UFSM00045",
 		"name": "Introdução à Mecânica dos Sólidos",
-		"description": ".",
+		"description": "Se você é fascinado pelo comportamento dos materiais e estruturas, a disciplina de Introdução à Mecânica<br/>dos Sólidos é como uma exploração das forças que moldam o mundo físico. Nessa disciplina, você aprenderá<br/>os conceitos fundamentais da mecânica que permitem analisar como sólidos se deformam e respondem a cargas.<br/>É como entrar no mundo das estruturas, resistência dos materiais e projetos de engenharia.",
 		"workload": 60
 	},
 	{
 		"id": "0981f331-1e02-445d-87e2-b33992bbde7e",
 		"ufsm_code": "DPADI0173",
 		"name": "Introdução à Redes de Computadores",
-		"description": ".",
+		"description": "Se você está curioso sobre como a internet e as redes funcionam, a disciplina de Introdução à Redes de Computadores<br/>é como uma introdução ao mundo da conectividade digital. Nessa disciplina, você estudará os princípios das redes de<br/>computadores, aprendendo como os dados são transmitidos e compartilhados entre dispositivos em todo o mundo. É como<br/>entender os bastidores da comunicação digital.",
 		"workload": 75
 	},
 	{
 		"id": "29459278-c41c-476c-99a9-bac5226449b2",
 		"ufsm_code": "ELC1075",
 		"name": "Introdução à Sistemas de Informação",
-		"description": ".",
+		"description": "Se você está interessado em como a tecnologia da informação é usada para gerenciar dados e apoiar as operações<br/>das organizações, a disciplina de Introdução à Sistemas de Informação é como uma porta de entrada para esse campo.<br/>Nessa disciplina, você explorará os conceitos fundamentais dos sistemas de informação, aprendendo como eles são<br/>projetados e implementados para atender às necessidades empresariais. É como descobrir como a tecnologia pode<br/>impulsionar os negócios.",
 		"workload": 30
 	},
 	{
 		"id": "d6d4b154-f8cf-4a8d-b0b2-74d73972025b",
 		"ufsm_code": "DPEE1093",
 		"name": "Laboratório Integrado 1",
-		"description": ".",
+		"description": "O Laboratório Integrado 1 é uma oportunidade para colocar em prática os conceitos e habilidades aprendidos<br/>em várias disciplinas. Nesse laboratório, você participará de experiências práticas e projetos que ajudarão<br/>a solidificar seu conhecimento e a desenvolver suas habilidades práticas.",
 		"workload": 15
 	},
 	{
 		"id": "407bda55-20b5-4b98-82dd-37ea99e397d6",
 		"ufsm_code": "DPEE1095",
 		"name": "Laboratório Integrado 2",
-		"description": ".",
+		"description": "Continuando a jornada iniciada no Laboratório Integrado 1, o Laboratório Integrado 2 oferece a oportunidade de<br/>aprofundar sua compreensão e experiência prática em áreas específicas da engenharia ou ciência da computação.",
 		"workload": 30
 	},
 	{
 		"id": "dc0cfc8c-30ed-446c-a2dd-ac5538258005",
 		"ufsm_code": "DPEE1097",
 		"name": "Laboratório Integrado 3",
-		"description": ".",
+		"description": "No Laboratório Integrado 3, você ampliará ainda mais seu conjunto de habilidades por meio de projetos práticos e<br/>experimentos que podem estar relacionados a disciplinas específicas de seu curso.",
 		"workload": 30
 	},
 	{
 		"id": "138ea498-ec39-4b6d-a49e-ff37ac1790b3",
 		"ufsm_code": "DPEE1099",
 		"name": "Laboratório Integrado 4",
-		"description": ".",
+		"description": "O Laboratório Integrado 4 é o culminar de suas experiências práticas no curso, permitindo que você<br/>aplique seu conhecimento e habilidades em projetos mais avançados e desafiadores. É uma oportunidade<br/>emocionante para consolidar seu aprendizado e se preparar para desafios futuros na engenharia ou na<br/>ciência da computação.",
 		"workload": 30
 	},
 	{
 		"id": "d3bd3ec4-b8f5-47e4-bb75-ec8edd177754",
 		"ufsm_code": "DLSC813",
 		"name": "Laboratório de Orientação a Objetos",
-		"description": ".",
+		"description": "Nesta cadeira, você terá a oportunidade de aplicar os conceitos de programação orientada a objetos em projetos práticos.<br/>Você irá criar programas que usam abstração, encapsulamento, herança e polimorfismo para resolver problemas do mundo real,<br/>ganhando uma compreensão mais profunda dos princípios de programação.",
 		"workload": 60
 	},
 	{
 		"id": "eb9e3b99-a673-47e4-99ee-04ce7bc4913b",
 		"ufsm_code": "ELC1065",
 		"name": "Laboratório de Programação 1",
-		"description": ".",
+		"description": "Este laboratório é uma introdução à programação prática. Você aprenderá a escrever código de computador e<br/>resolver problemas de programação simples. O curso proporciona uma base sólida em algoritmos e estruturas<br/>de dados, preparando você para desafios mais complexos no futuro.",
 		"workload": 60
 	},
 	{
 		"id": "e940d8a7-a498-40d9-8fa3-ced74c642bab",
 		"ufsm_code": "ELC1067",
 		"name": "Laboratório de Programação 2",
-		"description": ".",
+		"description": "laboratório de programação 2, aprofunda suas habilidades de programação.<br/>Você trabalhará em projetos mais avançados, abordando tópicos como estruturas de dados avançadas como listas pilhas, filas e grafos em C,<br/>algoritmos de busca e ordenação, e a criação de programas mais complexos e eficientes.",
 		"workload": 60
 	},
 	{
 		"id": "dbfe1f18-814a-4bc6-bc99-692e8203ed32",
 		"ufsm_code": "DPADI839",
 		"name": "Laboratório de Sistemas Operacionais",
+		"description": "Em Laboratório de Sistemas Operacionais, você explorará os conceitos e a implementação de sistemas operacionais.<br/>Você terá a oportunidade de estudar e experimentar com sistemas operacionais reais, aprender<br/>sobre gerenciamento de recursos, escalonamento de processos e comunicação entre processos.",
 		"workload": 45
 	},
 	{
 		"id": "18f2d69b-bcf1-46fd-9f9c-30e6a41ef251",
 		"ufsm_code": "EDE1114",
 		"name": "Libras 1",
-		"description": ".",
+		"description": "Esta cadeira oferece uma introdução à Língua Brasileira de Sinais (Libras), uma língua visual utilizada<br/>pela comunidade surda no Brasil. Você aprenderá a se comunicar usando sinais e gestos, abrindo portas<br/>para interações mais inclusivas com pessoas surdas.",
 		"workload": 60
 	},
 	{
 		"id": "46ed5823-ec8a-4a88-bc61-a1af0e5b86ed",
 		"ufsm_code": "EDE1131",
 		"name": "Libras: Bacharelado",
-		"description": ".",
+		"description": "Esta cadeira oferece uma introdução à Língua Brasileira de Sinais (Libras), uma língua visual utilizada<br/>pela comunidade surda no Brasil. Você aprenderá a se comunicar usando sinais e gestos, abrindo portas<br/>para interações mais inclusivas com pessoas surdas.",
 		"workload": 60,
 		"equivalents": [
 			"18f2d69b-bcf1-46fd-9f9c-30e6a41ef251"
@@ -1208,7 +1209,7 @@
 		"id": "37c213ec-32b6-4c8a-948a-2de1bec7e5dc",
 		"ufsm_code": "MTM198",
 		"name": "Matemática Discreta",
-		"description": ".",
+		"description": "Nesta cadeira, você estudará tópicos fundamentais de matemática discreta, que é essencial na ciência da computação.<br/>Isso inclui lógica proposicional, teoria dos conjuntos, álgebra booleana e teoria dos grafos. A matemática discreta<br/>fornece a base matemática para muitos conceitos em programação e ciência da computação.",
 		"workload": 60,
 		"equivalents": [
 			"9ce75461-d70f-4b2d-9ac4-d2e8727f0609"
@@ -1218,56 +1219,56 @@
 		"id": "9ce75461-d70f-4b2d-9ac4-d2e8727f0609",
 		"ufsm_code": "MTM1040",
 		"name": "Matemática Discreta A",
-		"description": ".",
+		"description": "Nesta cadeira, você estudará tópicos fundamentais de matemática discreta, que é essencial na ciência da computação.<br/>Isso inclui lógica proposicional, teoria dos conjuntos, álgebra booleana e teoria dos grafos. A matemática discreta<br/>fornece a base matemática para muitos conceitos em programação e ciência da computação.",
 		"workload": 60
 	},
 	{
 		"id": "3ea357fa-d0c5-4c50-a346-55b6d6e9e002",
 		"ufsm_code": "DPEE1103",
 		"name": "Materiais e Processos de Fabricação Mecânica",
-		"description": ".",
+		"description": "Esta cadeira é uma exploração abrangente dos materiais usados na fabricação mecânica e dos processos envolvidos<br/>na criação de peças e componentes. Você aprenderá sobre diferentes tipos de materiais, suas propriedades e como<br/>escolher o melhor para aplicações específicas. Além disso, compreenderá os processos de usinagem, fundição e<br/>fabricação que são cruciais na indústria mecânica.",
 		"workload": 60
 	},
 	{
 		"id": "dc04e329-4254-4335-92c3-6415406d20ca",
 		"ufsm_code": "FSC1126",
 		"name": "Mecânica e Eletromagnetismo",
-		"description": ".",
+		"description": "Mecânica e Eletromagnetismo são duas áreas fundamentais da física. Nesta cadeira, você explorará<br/>os princípios que regem o movimento de objetos e a interação das forças na mecânica, bem como os<br/>conceitos relacionados a campos elétricos e magnéticos no eletromagnetismo. Essa compreensão é<br/>fundamental para a engenharia e ciências relacionadas.",
 		"workload": 60
 	},
 	{
 		"id": "0d86dcf4-24bc-4762-8331-e3eb0e282cdc",
 		"ufsm_code": "UFSM00015",
 		"name": "Meio Ambiente e Sustentabilidade na Engenharia",
-		"description": ".",
+		"description": "A sustentabilidade é uma questão crítica no mundo atual. Nesta cadeira, você estudará como os princípios<br/>da engenharia podem ser aplicados para criar soluções ambientalmente conscientes. Você aprenderá sobre a<br/>gestão de recursos naturais, práticas sustentáveis de engenharia e como minimizar o impacto ambiental dos<br/>projetos.",
 		"workload": 30
 	},
 	{
 		"id": "0bf40334-5c24-4c2a-9cda-870b5a020686",
 		"ufsm_code": "ELC1086",
 		"name": "Metodologia de Pesquisa em Informática",
-		"description": ".",
+		"description": "A pesquisa é fundamental na área de informática para impulsionar a inovação e o desenvolvimento de novas tecnologias. Nesta cadeira,<br/>você será introduzido aos métodos de pesquisa utilizados em informática, incluindo coleta de dados, análise estatística e elaboração<br/> de relatórios. Essas habilidades são vitais para quem busca uma carreira na pesquisa ou desenvolvimento de software.",
 		"workload": 60
 	},
 	{
 		"id": "5bb8f522-04f3-47c3-b25a-8522901051a7",
 		"ufsm_code": "ELC1077",
 		"name": "Metodologia de Pesquisa em Sistemas de Informação",
-		"description": ".",
+		"description": "Esta cadeira é semelhante à Metodologia de Pesquisa em Informática, mas com foco específico em sistemas de informação. Você aprenderá a conduzir<br/>pesquisas relevantes para o campo, abordando questões de projeto, usabilidade, segurança e eficiência de sistemas de<br/>informação. Essas habilidades são valiosas para quem deseja melhorar a eficácia dos sistemas tecnológicos nas organizações.",
 		"workload": 60
 	},
 	{
 		"id": "293aebcd-083a-4b52-961a-4225258663f0",
 		"ufsm_code": "UFSM00056",
 		"name": "Microcontroladores",
-		"description": ".",
+		"description": "Os microcontroladores são componentes-chave em uma variedade de dispositivos eletrônicos, desde telefones celulares<br/>até eletrodomésticos. Nesta cadeira, você explorará como os microcontroladores funcionam, aprenderá a programá-los e<br/>a projetar sistemas que os utilizam. Essas habilidades são essenciais para a engenharia eletrônica e de sistemas embarcados.",
 		"workload": 60
 	},
 	{
 		"id": "64f17447-0485-4904-86df-6101e53526a4",
 		"ufsm_code": "ELC1089",
 		"name": "Middleware Para Sistemas Distribuídos",
-		"description": ".",
+		"description": "Sistemas distribuídos são essenciais para muitas aplicações modernas, como redes sociais e sistemas de comércio eletrônico.<br/>Nesta cadeira, você estudará o middleware, que é a camada de software que conecta e coordena os componentes distribuídos.<br/>Você aprenderá sobre protocolos de comunicação, escalabilidade e como criar sistemas distribuídos robustos.",
 		"workload": 60
 	},
 	{
