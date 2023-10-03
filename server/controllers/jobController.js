@@ -12,11 +12,10 @@ jobController.getProgramsComp = async jobID =>
   const programs = await Program.find({});
   const importances = await Importance.find({ job: jobID });
 
-  let totalScore = 0;
-
   programs.forEach(program => 
   {
-    let score = 0;
+    program.score = 0;
+    const courseScores = courses.map(course => { return { id: course.id, score: 0, total: 0 } });
 
     importances.forEach(importance => 
     {
@@ -25,26 +24,43 @@ jobController.getProgramsComp = async jobID =>
       if (programCourse)
       {
         const course = courses.find(course => course.id === importance.course);
-
-        score += importance.value * course.workload;
-
-        if (course.mandatory === false)
-          score *= 0.8;
+        
+        const score = course.mandatory
+        ? importance.value * course.workload
+        : importance.value * course.workload * 0.8
+    
+        courseScores.map(courseScore => 
+        {
+          if (courseScore.id === importance.course)
+          {
+            courseScore.score += score;
+            courseScore.total++;
+          }
+        })
       }
     })
 
-    program.score = Math.round(score / program.courses.length);
-    totalScore += program.score;
+    courseScores.forEach(courseScore => 
+    {
+      if (courseScore.total > 0)
+      {
+        courseScore.avg = courseScore.score / courseScore.total;
+        program.score += courseScore.avg;
+      }
+    })
+
+    const mandatoryTotal = program.courses.filter(course => course.mandatory === true).length;
+    const calculationTotal = (program.courses.length + mandatoryTotal) / 2;
+
+    program.score = Math.round(program.score / calculationTotal);
   })
 
-  const maxScore = Math.max(...programs.map(program => program.score));
-  
   const programsRanked = programs.map(program => 
   { 
     return { 
       id: program.id,
       name: program.name, 
-      score: program.score / maxScore 
+      score: program.score / Math.max(...programs.map(program => program.score))
     } 
   })
 
