@@ -60,3 +60,9 @@ body::-webkit-scrollbar-thumb
 
   animation: ease-in-out 1s forwards fade_in;
 }
+
+.text--hl
+{ 
+  color: $blue-700;
+  font-weight: 600; 
+}

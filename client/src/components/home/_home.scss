@@ -1,0 +1,69 @@
+@import '../../css/variables.scss';
+
+.home
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+
+  width: $w8;
+  margin-inline: auto;
+  margin-block: 128px 96px;
+
+  
+  &__main
+  {
+    align-self: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    &__header
+    {
+      color: $blue-600;
+      font-size: 3rem;
+    }
+
+    &__desc
+    {
+      color: $blue-1000;
+      font-size: 1.8rem;
+      font-weight: 500;
+    }
+  }
+
+  &__about
+  {
+    grid-column: span 2;
+    display: flex;
+    gap: 24px;
+
+    padding: 24px 96px 24px 24px;
+    border-radius: 128px;
+
+    background-color: $blue-100;
+
+    &__header
+    {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      padding: 16px 32px;
+      border-top-left-radius: 88px;
+      border-bottom-left-radius: 88px;
+      
+      color: $blue-600;
+      background-color: $white-light;
+      box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.1);
+
+      font-size: 2.5rem;
+    }
+
+    &__text
+    {
+      font-size: 1.5rem;
+    }
+  }
+}
