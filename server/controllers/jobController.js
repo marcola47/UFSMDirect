@@ -69,7 +69,7 @@ jobController.getProgramsComp = async jobID =>
 
 jobController.getJob = async (req, res) =>
 {
-  try 
+  try  
   {
     const { jobID } = req.params;
     const job = await Job.findOne({ id: jobID }).lean().select('-_id -__v');

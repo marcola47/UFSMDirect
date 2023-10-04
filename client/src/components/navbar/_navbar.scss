@@ -2,12 +2,11 @@
 
 .navbar
 {
-  z-index: 10;
-
   display: flex;
   justify-content: center;
   align-items: center;
 
+  z-index: 10;
   position: fixed;
   width: $w12;
   height: 96px;
@@ -40,8 +39,6 @@
     align-items: center;
     gap: 8px;
 
-    color: $blue-900;
-
     font-size: 1.1rem;
     font-weight: 600;
   }
@@ -56,13 +53,71 @@
     padding: 16px;
     border-radius: $br-s;
 
+    
+    color: $blue-1000;
+
     cursor: pointer;
     @include transition;
 
     &:hover
     {
       color: $blue-50;
-      background-color: $blue-900;
+      background-color: $blue-1000;
     }
   }
+}
+
+@media screen and (max-width: 1200px) 
+{
+  .navbar
+  {
+    justify-content: space-between;
+    padding-inline: 24px 32px;
+
+    &__burger
+    {
+      padding: 12px;
+      border-radius: $br-m;
+      
+      color: $blue-1000;
+      font-size: 1.5rem;
+      
+      cursor: pointer;
+      @include transition;
+
+      &:hover
+      { 
+        color: $white-light;
+        background-color: $blue-1000; 
+      }
+    }
+
+    &__links
+    {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+
+      z-index: 1;
+      position: fixed;
+      top: 96px;
+      right: 0px;
+      height: 100vh;
+      padding: 16px;
+
+      background-color: $white-light;
+      box-shadow: -25px 30px 15px rgba(0, 0, 0, 0.03);
+
+      @include transition;
+
+      .navbar__link
+      { 
+        width: 100%;
+        justify-content: flex-start;
+
+        svg
+        { width: 24px }
+      }
+    }
+  }  
 }
