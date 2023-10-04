@@ -6,9 +6,10 @@
   grid-template-columns: 1fr 1fr;
   gap: 32px;
 
-  width: $w8;
+  max-width: 1400px;
   margin-inline: auto;
   margin-block: 128px 96px;
+  padding-inline: 32px;
 
   
   &__main
@@ -66,4 +67,19 @@
       font-size: 1.5rem;
     }
   }
+}
+
+@media screen and (max-width: 1200px) 
+{
+  .home
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__art
+    {
+      max-width: 512px;
+    }
+  }  
 }
