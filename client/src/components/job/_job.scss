@@ -2,9 +2,10 @@
 
 .job-page
 {
-  width: $w7;
+  max-width: 1200px;
   margin-block: 128px 96px;
   margin-inline: auto;
+  padding-inline: 32px 48px;
 
   &__name
   {
@@ -139,4 +140,33 @@
       }
     }
   }
+}
+
+@media screen and (max-width: 768px) 
+{
+  .job-page__name
+  { font-size: 2.3rem; }
+  
+  .program__name
+  { font-size: 1rem !important; }
+
+  .grid
+  {
+    h2
+    { font-size: 1.8rem !important; }
+
+    &__view
+    {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+  }
+  
+
+}
+
+@media screen and (max-width: 480px) 
+{
+  .program__name
+  { font-size: 0.9rem !important; }
 }

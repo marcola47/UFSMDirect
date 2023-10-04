@@ -182,7 +182,7 @@
   max-width: 1400px;
   margin-inline: auto;
   margin-block: 128px 96px;
-  padding-inline: 32px;
+  padding-inline: 48px;
 }
 .home__main {
   align-self: center;
@@ -222,6 +222,48 @@
 .home__about__text {
   font-size: 1.5rem;
 }
+.home__header {
+  grid-column: span 2;
+  padding-bottom: 8px;
+  margin-top: 32px;
+  border-bottom: 3px solid hsl(220, 70%, 35%);
+  border-radius: 3px;
+  color: hsl(220, 70%, 35%);
+  text-align: center;
+}
+.home__cards {
+  grid-column: span 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+.home__cards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  width: 304px;
+  padding: 16px;
+  border-radius: 6px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(220, 70%, 35%);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+.home__cards .card:hover {
+  background-color: hsl(220, 75%, 40%);
+}
+.home__cards .card__icon {
+  font-size: 4rem;
+}
+.home__cards .card__header {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
 
 @media screen and (max-width: 1200px) {
   .home {
@@ -230,7 +272,35 @@
     align-items: center;
   }
   .home__art {
-    max-width: 512px;
+    max-width: 480px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home__about {
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 32px 96px 32px;
+  }
+  .home__about__header {
+    width: 100%;
+    border-radius: 88px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .home {
+    padding: 32px;
+  }
+  .home__main__header {
+    font-size: 2rem;
+  }
+  .home__main__desc {
+    font-size: 1.2rem;
+  }
+  .home__art {
+    max-width: 320px;
   }
 }
 @keyframes fade_in {
@@ -250,9 +320,10 @@
   }
 }
 .job-page {
-  width: 58.3333%;
+  max-width: 1200px;
   margin-block: 128px 96px;
   margin-inline: auto;
+  padding-inline: 32px 48px;
 }
 .job-page__name {
   color: hsl(220, 70%, 25%);
@@ -350,6 +421,26 @@
   font-weight: 500;
 }
 
+@media screen and (max-width: 768px) {
+  .job-page__name {
+    font-size: 2.3rem;
+  }
+  .program__name {
+    font-size: 1rem !important;
+  }
+  .grid h2 {
+    font-size: 1.8rem !important;
+  }
+  .grid__view {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .program__name {
+    font-size: 0.9rem !important;
+  }
+}
 @keyframes fade_in {
   from {
     opacity: 0;

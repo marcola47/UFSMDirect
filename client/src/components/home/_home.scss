@@ -9,7 +9,7 @@
   max-width: 1400px;
   margin-inline: auto;
   margin-block: 128px 96px;
-  padding-inline: 32px;
+  padding-inline: 48px;
 
   
   &__main
@@ -63,8 +63,62 @@
     }
 
     &__text
+    { font-size: 1.5rem }
+  }
+
+  &__header
+  {
+    grid-column: span 2;
+
+    padding-bottom: 8px;
+    margin-top: 32px;
+    border-bottom: 3px solid $blue-900;
+    border-radius: $br-s;
+
+    color: $blue-900;
+
+    text-align: center;
+  }
+
+  &__cards
+  {
+    grid-column: span 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+
+    .card
     {
-      font-size: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+
+      width: 304px;
+      padding: 16px;
+      border-radius: $br-m;
+
+      color: $white-light;
+      background-color: $blue-900;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+      text-align: center;
+      cursor: pointer;
+      @include transition;
+
+      &:hover
+      { background-color: $blue-800 }
+
+      &__icon
+      { font-size: 4rem }
+
+      &__header
+      {
+        font-size: 1.3rem;
+        font-weight: 600;
+      }
     }
   }
 }
@@ -79,7 +133,47 @@
 
     &__art
     {
-      max-width: 512px;
+      max-width: 480px;
     }
   }  
+}
+
+@media screen and (max-width: 768px)
+{
+  .home
+  {
+    &__about
+    {
+      flex-direction: column;
+      align-items: center;
+      padding: 32px 32px 96px 32px;
+
+      &__header
+      {
+        width: 100%;
+        border-radius: 88px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px)
+{
+  .home
+  {
+    padding: 32px;
+
+    &__main__header
+    { font-size: 2rem }
+
+    &__main__desc
+    { font-size: 1.2rem }
+
+    &__art
+    { max-width: 320px }
+  }
 }
