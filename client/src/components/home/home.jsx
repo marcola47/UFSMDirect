@@ -1,5 +1,45 @@
+import { useNavigate } from "react-router-dom"
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGraduationCap, faNewspaper, faProjectDiagram, faBriefcase } from '@fortawesome/free-solid-svg-icons';
+
+import List from "../utils/list";
+
 export default function Home()
 {
+  const navigate = useNavigate();
+  const cards = 
+  [
+    { icon: faGraduationCap , header: 'Cursos'            , url: '/programs', desc: 'Conheça os cursos relacionados a computação da UFSM'      },
+    { icon: faProjectDiagram, header: 'Núcleos Formativos', url: '/nuclei'  , desc: 'Conheça os núcleos de conhecimento que compõem os cursos' },
+    { icon: faBriefcase     , header: 'Carreiras'         , url: '/jobs'    , desc: 'Conheça as principais carreiras na área de computação'    },
+  ]
+
+  function HomeCard({ itemData })
+  {
+    return (
+      <div 
+        className="card"
+        onClick={ () => navigate(itemData.url) }
+      >
+        <FontAwesomeIcon 
+          className="card__icon"
+          icon={ itemData.icon }
+        />
+        
+        <div 
+          className="card__header"
+          children={ itemData.header }
+        />
+
+        <div 
+          className="card__desc"
+          children={ itemData.desc }
+        />
+      </div>
+    )
+  }
+
   return (
     <div className="home">
       <div className="home__main">
@@ -34,6 +74,18 @@ export default function Home()
            <span style={{ marginTop: 16 }}><br/>Não sabe o que são esses termos? Aqui no <span className="text--hl">UFSMDirect</span> você descobrirá! </span>
         </p>
       </div>
+
+      <h2 
+        className="home__header"
+        children="CONHEÇA A ÁREA DE COMPUTAÇÃO"
+      />
+
+      <List
+        className="home__cards"
+        ids="home__cards"
+        elements={ cards }
+        ListItem={ HomeCard }
+      />
     </div>
   )
 }
