@@ -18,7 +18,6 @@ async function readTextFile()
         {
           if (!importances.find(subimp => subimp.course === equivalent && subimp.job === importance.job && subimp.user === importance.user))
           {
-            console.log('did not find you bastard')
             equivalents.push(
             { 
               job: importance.job,
