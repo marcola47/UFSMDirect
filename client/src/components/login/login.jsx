@@ -108,6 +108,12 @@ export default function Login()
           onClick={ login }
           children="LOGIN"
         />
+
+        <img 
+          src="img/coat-of-arms.png" 
+          alt="coat-of-arms"
+          className='login__coa' 
+        />
       </div>
     </div>
   )

@@ -39,6 +39,8 @@ $wm: 280px;
     align-items: center;
     gap: 48px;
 
+    overflow: hidden;
+    position: relative;
     width: 512px;
     height: 800px;
     padding-top: 64px;
@@ -128,19 +130,57 @@ $wm: 280px;
     &:hover
     { background-color: $blue-600; }
   }
+
+  &__coa
+  {
+    display: none;
+    position: absolute;
+    bottom: -80px;
+    right: -40px;
+
+    filter: drop-shadow(0px 0px 5px #19418518);
+  }
 }
 
-@media screen and (max-width: 720px) 
+@media screen and (max-width: 1200px) 
 {
-  .login__form
-  { width: 100vw; }
-
-  .login__background
+  .login__logo
   { display: none; }
 
-  .login input,
-  .login__logo,
-  .login__auth, 
-  .login__navigate
-  { max-width: $wm; }
+  .login__coa
+  { display: block; }
+}
+
+@media screen and (max-width: 540px) 
+{
+  .login
+  {
+    &__form
+    {
+      width: 100dvw;
+      height: 100dvh;
+      padding-inline: 32px;
+      border-radius: 0px;
+    } 
+ 
+
+    &__inputs
+    {
+      justify-content: center;
+      width: 100%;
+  
+      &__program
+      { width: 100% }
+  
+      input
+      { width: 100% }
+    }
+  
+    &__auth, &__welcome
+    { width: 100%; }
+  }
+
+
+
+
 }
