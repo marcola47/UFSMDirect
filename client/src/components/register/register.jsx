@@ -5,7 +5,7 @@ import axios, { setResponseError } from '@/utils/axiosConfig';
 import { v4 as uuid } from 'uuid';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faEnvelope, faKey, faAddressCard, faGraduationCap, faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faEnvelope, faKey, faAddressCard, faGraduationCap, faChevronDown, faCircleDown } from '@fortawesome/free-solid-svg-icons';
 
 import List from '../utils/list';
 
@@ -220,6 +220,14 @@ export default function Register()
           onClick={ () => {register('guest')} }
           children="REGISTRAR"
         />
+
+        <a 
+          href="#academic"
+          className="register__indicator"
+        >
+          <span>Deslize para registrar como acadêmico!</span>
+          <FontAwesomeIcon icon={ faCircleDown }/>
+        </a>
       </div>
 
       <div 
@@ -265,14 +273,17 @@ export default function Register()
             />
           </div>
 
-          <div className="register__input register__input__program">
-            <FontAwesomeIcon icon={ faChevronDown }/>
-            <FontAwesomeIcon icon={ faGraduationCap }/>
+          <div 
+            className="register__input register__input__program"
+            onClick={ () => setProgramsListShown(!programsListShown) }
+          >            
             <div 
               className='register__inputs__program'
-              onClick={ () => setProgramsListShown(!programsListShown) }
               children={ selectedProgram?.name || 'Curso' }
             />
+
+            <FontAwesomeIcon icon={ faGraduationCap }/> 
+            <FontAwesomeIcon icon={ faChevronDown }/>
 
             {
               programsListShown && programs.length > 0 &&

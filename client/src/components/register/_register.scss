@@ -10,7 +10,7 @@ $wm: 280px;
   align-items: center;
 
   width: 100vw;
-  height: 100dvh;
+  min-height: 100dvh;
   
   background-color: $blue-50;
 
@@ -229,19 +229,75 @@ $wm: 280px;
 
     filter: drop-shadow(0px 0px 5px #19418518);
   }
+
+  &__indicator
+  {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    display: none;
+    width: 160px;
+    margin-top: auto;
+    margin-bottom: 32px;
+
+    text-align: center;
+    cursor: pointer;
+    @include transition;
+
+    &:hover
+    { color: $blue-200 }
+
+    .fa-circle-down
+    { font-size: 3rem; }
+  }
 }
 
-@media screen and (max-width: 720px) 
+@media screen and (max-width: 1100px) 
 {
-  .register__form
-  { width: 100vw; }
+  .register
+  {
+    flex-direction: column;
+    gap: 16px;
+    padding-block: 32px;
 
-  .register__background
-  { display: none; }
+    #academic, #guest
+    { margin: auto }
 
-  .register input,
-  .register__logo,
-  .register__auth, 
-  .register__navigate
-  { max-width: $wm; }
+    &__indicator
+    { display: flex }
+  }
+}
+
+@media screen and (max-width: 540px) 
+{
+  .register
+  {
+    padding-block: 0px;
+    gap: 0px;
+
+    &__form
+    {
+      width: 100dvw;
+      height: 100dvh;
+      padding-inline: 32px;
+      border-radius: 0px;
+    } 
+
+    &__inputs
+    {
+      justify-content: center;
+      width: 100%;
+
+      &__program
+      { width: 100% }
+
+      input
+      { width: 100% }
+    }
+
+    &__auth, &__welcome
+    { width: 100%; }
+  }
 }
