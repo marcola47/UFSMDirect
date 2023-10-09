@@ -2332,28 +2332,28 @@
 				"description": "Desenvolver scripts e sistemas automatizados para tarefas de rotina, como atualizações de dados."
 			}
 		],
-		"companies": [
-			{
-				"name": "Google",
-				"description": "A Rockstar é conhecida por jogos como Grand Theft Auto (GTA) e Red Dead Redemption."
-			},
-			{
-				"name": "Amazon Web Services (AWS)",
-				"description": "A Valve é responsável pela plataforma Steam e pelos jogos Half-Life, Portal e Counter-Strike."
-			},
-			{
-				"name": "Snowflake",
-				"description": "A Epic Games é a criadora de Fortnite, um dos jogos mais populares do mundo, e do motor gráfico Unreal Engine."
-			},
-			{
-				"name": "IBM",
-				"description": "A Capcom é famosa por séries como Resident Evil, Street Fighter e Monster Hunter."
-			},
-			{
-				"name": "Microsoft Azure",
-				"description": "Esta empresa polonesa é famosa pela série The Witcher e pelo jogo Cyberpunk 2077."
-			}
-		],
+    "companies": [
+      {
+          "name": "Google",
+          "description": "A Google é uma das líderes mundiais em tecnologia e oferece uma ampla gama de serviços, incluindo motor de busca, publicidade online, serviços em nuvem (Google Cloud Platform) e produtos como o Android e o Chrome."
+      },
+      {
+          "name": "Amazon Web Services (AWS)",
+          "description": "A AWS é uma subsidiária da Amazon e é uma das maiores provedoras de serviços de computação em nuvem, oferecendo soluções para armazenamento, processamento de dados, aprendizado de máquina e muito mais."
+      },
+      {
+          "name": "Snowflake",
+          "description": "A Snowflake é uma empresa especializada em armazenamento e análise de dados na nuvem, oferecendo um data warehouse em nuvem altamente escalável e flexível para empresas de todos os tamanhos."
+      },
+      {
+          "name": "IBM",
+          "description": "A IBM é uma empresa global de tecnologia que oferece uma variedade de soluções de engenharia de dados, incluindo software de análise de dados, inteligência artificial e serviços de consultoria em tecnologia."
+      },
+      {
+          "name": "Microsoft Azure",
+          "description": "A Microsoft Azure é a plataforma de computação em nuvem da Microsoft, que fornece uma ampla gama de serviços de engenharia de dados, como armazenamento, análise de dados e aprendizado de máquina."
+      }
+    ],
 		"params": {
 			"high_level_coding": 8,
 			"low_level_coding": 4,

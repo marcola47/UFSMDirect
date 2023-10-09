@@ -119,7 +119,7 @@ export default function Register()
       email: email,
       password: password,
       registration: registration,
-      program: type === 'academic' ? selectedProgram : null
+      program: type === 'academic' ? selectedProgram.id : null
     }
 
     axios.post(`/g/user/create`, newUser)

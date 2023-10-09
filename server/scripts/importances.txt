@@ -1,144 +1,144 @@
-2_Acionamentos Elétricos
+0_Acionamentos Elétricos
 0_Acionamentos Hidráulicos e Pneumáticos
-10_Administração de Sistemas de Redes
-6_Análise e Projeto de Sistemas Orientados a Objetos
-4_Arquitetura e Organização de Computadores 1
-3_Arquitetura e Organização de Computadores 2
-2_Arquitetura e Organização de Computadores 3
+0_Administração de Sistemas de Redes
+9_Análise e Projeto de Sistemas Orientados a Objetos
+6_Arquitetura e Organização de Computadores 1
+5_Arquitetura e Organização de Computadores 2
+4_Arquitetura e Organização de Computadores 3
 0_Aspectos Gerais da Cultura Indígena, Africana e Afro-Brasileira
-7_Atitude em Rede
-5_Bases da Gestão Eletrônica de Documento e Suas Linhas de Pesquisa
-7_CCNA: Módulo 1
-8_CCNA: Switching, Routing And Wireless Essentials
-6_Circuitos Digitais
+0_Atitude em Rede
+0_Bases da Gestão Eletrônica de Documento e Suas Linhas de Pesquisa
+0_CCNA: Módulo 1
+0_CCNA: Switching, Routing And Wireless Essentials
+7_Circuitos Digitais
 0_Circuitos Elétricos 1
 0_Circuitos Elétricos 2
-3_Circuitos Integrados Analógicos
-1_Ciência dos Materiais
-3_Compiladores
-2_Computadores e Sociedade
-0_Computação Gráfica
-0_Computação Gráfica Avançada
-0_Computação Quântica
-5_Comunicação Integrada e Estratégica
-8_Comunicação de Dados
-1_Concepção de Circuitos Integrados
-10_Concepção, Projeto, Implementação e Operação em Redes de Computadores
-2_Construção de Sites
-3_Controle Analógico e Digital
-2_Controle Multivariável
-7_Criptografia Para Segurança de Dados
+0_Circuitos Integrados Analógicos
+3_Ciência dos Materiais
+6_Compiladores
+4_Computadores e Sociedade
+7_Computação Gráfica
+7_Computação Gráfica Avançada
+1_Computação Quântica
+4_Comunicação Integrada e Estratégica
+5_Comunicação de Dados
+0_Concepção de Circuitos Integrados
+0_Concepção, Projeto, Implementação e Operação em Redes de Computadores
+3_Construção de Sites
+2_Controle Analógico e Digital
+0_Controle Multivariável
+3_Criptografia Para Segurança de Dados
 0_Custos A
-5_Cálculo A
-4_Cálculo B
-0_Deep Learning
+7_Cálculo A
+6_Cálculo B
+5_Deep Learning
 0_Desenho Técnico Para Engenharia 1
-0_Desenvolvimento de Software Educacional
-0_Desenvolvimento de Software Para a Web
-0_Design Para Dispositivos Móveis
-9_Eletricidade Básica
-9_Eletricidade e Magnetismo A
-9_Eletromagnetismo 1
-9_Eletromagnetismo 2
-6_Eletrônica 1
-6_Eletrônica 2
-7_Eletrônica Aplicada
-9_Eletrônica Básica
-4_Empreendedorismo de Startup
-2_Engenharia Econômica
+6_Desenvolvimento de Software Educacional
+5_Desenvolvimento de Software Para a Web
+2_Design Para Dispositivos Móveis
+2_Eletricidade Básica
+2_Eletricidade e Magnetismo A
+1_Eletromagnetismo 1
+1_Eletromagnetismo 2
+1_Eletrônica 1
+1_Eletrônica 2
+2_Eletrônica Aplicada
+4_Eletrônica Básica
+5_Empreendedorismo de Startup
+3_Engenharia Econômica
 0_Engenharia de Ontologias
 0_Engenharia de Segurança do Trabalho
-0_Engenharia de Software
-4_Equações Diferenciais 1
-4_Equações Diferenciais 2
-0_Estatística
-0_Estatística Aplicada Para a Engenharia
-6_Estruturas de Dados
-10_Estágio Profissional Supervisionado
+9_Engenharia de Software
+3_Equações Diferenciais 1
+3_Equações Diferenciais 2
+8_Estatística
+3_Estatística Aplicada Para a Engenharia
+10_Estruturas de Dados
+0_Estágio Profissional Supervisionado
 0_Estágio Supervisionado em Engenharia
-9_Fundamentos da Matemática
-6_Fundamentos de Banco de Dados
-7_Fundamentos de Ciência de Dados
-2_Fundamentos de Transferência de Calor
-2_Física Experimental 1
+8_Fundamentos da Matemática
+7_Fundamentos de Banco de Dados
+8_Fundamentos de Ciência de Dados
+3_Fundamentos de Transferência de Calor
+3_Física Experimental 1
 2_Física Experimental 2
-2_Física Experimental 3
-2_Física Geral 1
-2_Física Geral 2
-2_Física Geral 3
-1_Games e Gamificação no Ensino de Línguas
-10_Gerenciamento de Infraestrutura de TI
-0_Gerência de Projetos de Software
+1_Física Experimental 3
+7_Física Geral 1
+6_Física Geral 2
+5_Física Geral 3
+10_Games e Gamificação no Ensino de Línguas
+0_Gerenciamento de Infraestrutura de TI
+6_Gerência de Projetos de Software
 3_Gestão de Pessoas A
-4_Governança de TI
-2_Grafos
-0_Implementação de Banco de Dados
-0_Implementação de Linguagens de Programação
-3_Informática Industrial
-7_Inglês Para a Ciência da Computação 1
-7_Inglês Para a Ciência da Computação 2
-10_Instalações Elétricas Residenciais e Comerciais
-6_Instrumentação Eletrônica
-3_Instrumentação de Processos
-0_Inteligência Artificial
-10_Interconexão de Redes
-2_Interface Humano-Computador
-3_Internet das Coisas
-5_Introdução à Ciência da Informação
-4_Introdução à Computação A
+2_Governança de TI
+9_Grafos
+6_Implementação de Banco de Dados
+5_Implementação de Linguagens de Programação
+0_Informática Industrial
+10_Inglês Para a Ciência da Computação 1
+10_Inglês Para a Ciência da Computação 2
+0_Instalações Elétricas Residenciais e Comerciais
+0_Instrumentação Eletrônica
+0_Instrumentação de Processos
+8_Inteligência Artificial
+3_Interconexão de Redes
+6_Interface Humano-Computador
+4_Internet das Coisas
+8_Introdução à Ciência da Informação
+8_Introdução à Computação A
 0_Introdução à Engenharia
 0_Introdução à Engenharia de Controle e Automação
 0_Introdução à Mecânica dos Sólidos
-4_Introdução à Sistemas de Informação
+8_Introdução à Sistemas de Informação
 0_Laboratório Integrado 1
 0_Laboratório Integrado 2
 0_Laboratório Integrado 3
 0_Laboratório Integrado 4
-4_Laboratório de Orientação a Objetos
-4_Laboratório de Programação 1
-4_Laboratório de Programação 2
-7_Laboratório de Sistemas Operacionais
+8_Laboratório de Orientação a Objetos
+10_Laboratório de Programação 1
+10_Laboratório de Programação 2
+8_Laboratório de Sistemas Operacionais
 0_Libras: Bacharelado
 4_Linguagens Formais A
 5_Linguagens de Marcação Extensíveis
-7_Língua Inglesa Instrumental 1
-7_Língua Inglesa Instrumental 2
-6_Lógica Formal Para Computação
-8_Lógica Matemática
-0_Lógica Para Inteligência Artificial e Games
-7_Lógica e Algorítmo
+9_Língua Inglesa Instrumental 1
+9_Língua Inglesa Instrumental 2
+8_Lógica Formal Para Computação
+10_Lógica Matemática
+10_Lógica Para Inteligência Artificial e Games
+10_Lógica e Algorítmo
 0_Marketing C
-8_Matemática Básica
-3_Matemática Computacional 1
-3_Matemática Computacional 2
-3_Matemática Computacional 3
-3_Matemática Computacional 4
-8_Matemática Discreta
+10_Matemática Básica
+4_Matemática Computacional 1
+4_Matemática Computacional 2
+4_Matemática Computacional 3
+4_Matemática Computacional 4
+7_Matemática Discreta
 0_Materiais e Processos de Fabricação Mecânica
-4_Mecânica e Eletromagnetismo
+0_Mecânica e Eletromagnetismo
 0_Meio Ambiente e Sustentabilidade na Engenharia
-3_Metodologia de Pesquisa em Informática
-3_Metodologia de Pesquisa em Sistemas de Informação
-6_Microcontroladores
-8_Middleware Para Sistemas Distribuídos
-3_Mineração de Dados
-1_Modelagem e Simulação
-0_Modelamento 3D e Desenho Digital
-3_Máquinas Elétricas Para Automação
-3_Métodos Numéricos Computacionais
-5_Números e Funções Complexas
-3_Padrões de Projeto
-5_Paradigmas de Programação
-7_Pesquisa Aplicada
-6_Pesquisa e Ordenação de Dados A
+0_Metodologia de Pesquisa em Informática
+0_Metodologia de Pesquisa em Sistemas de Informação
+0_Microcontroladores
+3_Middleware Para Sistemas Distribuídos
+4_Mineração de Dados
+0_Modelagem e Simulação
+7_Modelamento 3D e Desenho Digital
+0_Máquinas Elétricas Para Automação
+0_Métodos Numéricos Computacionais
+0_Números e Funções Complexas
+6_Padrões de Projeto
+10_Paradigmas de Programação
+6_Pesquisa Aplicada
+10_Pesquisa e Ordenação de Dados A
 0_Planejamento de Projeto Final de Curso
 0_Processamento Digital de Imagens
-7_Processamento Digital de Sinais
-3_Programação Orientada a Objetos Para Web 1
-3_Programação Orientada a Objetos Para Web 2
-4_Programação Para Dispositivos Móveis
-5_Programação Paralela
-6_Programação Python
+0_Processamento Digital de Sinais
+7_Programação Orientada a Objetos Para Web 1
+7_Programação Orientada a Objetos Para Web 2
+2_Programação Para Dispositivos Móveis
+10_Programação Paralela
+4_Programação Python
 0_Projeto Digital com FPGA
 0_Projeto Final de Curso
 0_Projeto Final de Curso
@@ -151,58 +151,58 @@
 0_Projeto Integrador em Engenharia de Computação 2
 0_Projeto Integrador em Engenharia de Computação 3
 0_Projeto Integrador em Engenharia de Computação 4
-10_Projeto de Redes
-6_Projeto de Sistemas Computacionais
-4_Projeto de Sistemas Digitais
-5_Projeto de Sistemas Digitais Integrados
-6_Projeto de Sistemas Embarcados
-6_Projeto de Software 1
-6_Projeto de Software 2
-4_Projeto e Análise de Algoritmos
-5_Projeto e Gerência de Banco de Dados
-9_Protocolos de Aplicação
-8_Prática em Sistemas Operacionais
-8_Pré-Cálculo
-6_Qualidade de Software
+0_Projeto de Redes
+3_Projeto de Sistemas Computacionais
+2_Projeto de Sistemas Digitais
+0_Projeto de Sistemas Digitais Integrados
+0_Projeto de Sistemas Embarcados
+10_Projeto de Software 1
+10_Projeto de Software 2
+8_Projeto e Análise de Algoritmos
+6_Projeto e Gerência de Banco de Dados
+0_Protocolos de Aplicação
+10_Prática em Sistemas Operacionais
+9_Pré-Cálculo
+10_Qualidade de Software
 0_Química Geral Experimental Para Engenharia
 0_Química Geral Teórica Para Engenharia
-10_Redes Aplicadas a Telecomunicações
-10_Redes Industriais
-10_Redes Sem Fio
-10_Redes de Computadores
+0_Redes Aplicadas a Telecomunicações
+0_Redes Industriais
+0_Redes Sem Fio
+0_Redes de Computadores
 0_Robótica Industrial
-10_Segurança em Redes de Computadores
-7_Sistemas Colaborativos
-5_Sistemas Digitais 1
-5_Sistemas Digitais 2
-3_Sistemas Dinâmicos
+3_Segurança em Redes de Computadores
+0_Sistemas Colaborativos
+0_Sistemas Digitais 1
+0_Sistemas Digitais 2
+0_Sistemas Dinâmicos
 6_Sistemas Distribuídos
-2_Sistemas Inteligentes
-1_Sistemas Lógicos Para Automação
-3_Sistemas Microcontrolados
-7_Sistemas Operacionais A
-6_Sistemas Operacionais de Tempo Real
+7_Sistemas Inteligentes
+0_Sistemas Lógicos Para Automação
+2_Sistemas Microcontrolados
+8_Sistemas Operacionais A
+7_Sistemas Operacionais de Tempo Real
 0_Sistemas Scada
-10_Sistemas de Cabeamento Estruturado
-7_Sistemas de Computação Móvel
-10_Sistemas de Comunicação
-6_Sistemas de Informação Distribuidos A
-3_Sistemas de Produção
-9_Tecnologia de Redes Industriais
+0_Sistemas de Cabeamento Estruturado
+0_Sistemas de Computação Móvel
+0_Sistemas de Comunicação
+0_Sistemas de Informação Distribuidos A
+0_Sistemas de Produção
+0_Tecnologia de Redes Industriais
 6_Tecnologias Emergentes
-5_Tecnologias da Informação
+6_Tecnologias da Informação
 0_Tecnologias de Informação e Computação Aplicada em Saúde
-1_Teoria Econômica
-3_Teoria Geral da Administração
-4_Teoria da Computação
+0_Teoria Econômica
+0_Teoria Geral da Administração
+7_Teoria da Computação
 3_Trabalho de Conclusão de Curso 1
 3_Trabalho de Conclusão de Curso 2
-10_Trabalho de Conclusão de Curso A
-10_Trabalho de Conclusão de Curso B
-5_Trabalho de Graduação em Ciência da Computação
-5_Trabalho de Graduação em Sistemas de Informação
-4_Técnicas de Comando Numérico
+2_Trabalho de Conclusão de Curso A
+2_Trabalho de Conclusão de Curso B
+10_Trabalho de Graduação em Ciência da Computação
+10_Trabalho de Graduação em Sistemas de Informação
+0_Técnicas de Comando Numérico
 3_Tópicos Avançados em Programação Web
-4_Tópicos Especiais em Linguagens Formais
-3_Tópicos em Física Moderna
-6_Álgebra Linear e Geometria Analítica
+3_Tópicos Especiais em Linguagens Formais
+0_Tópicos em Física Moderna
+7_Álgebra Linear e Geometria Analítica
