@@ -6,7 +6,6 @@ import { config } from 'dotenv';
 config();
 
 const dbHost = process.env.DB_HOST;
-console.log(dbHost);
 mongoose.connect(dbHost);
 
 async function readTextFile() 
@@ -22,11 +21,11 @@ async function readTextFile()
       const [value, name] = line.trim().split('_');
       const course = await Course.findOne({ name }).select('id -_id');
       
-      if (course &&  parseInt(value) !== 0)
+      if (course && parseInt(value) !== 0)
       {
         objects.push(
         { 
-          job: "75113a68-98ad-4399-ac87-28e4f823b1cd",
+          job: "28662722-a323-40d9-991c-abdfb1cdc190",
           course: course.id.toString(),
           user: "5fd423e5-e00c-4589-a8e3-8711b7b38477",
           value: parseInt(value), 

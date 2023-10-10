@@ -6,78 +6,16 @@ import Importance from '../db/models/Importance.js'
 
 const jobController = {};
 
-jobController.getJobs = async (req, res) => {
-  try {
-    const jobs = await Job.find({ active: true }).select('-_id -__v');
-    const courses = await Course.find({});
-    const programs = await Program.find({}).lean().select('-_id -__v');
-    const importances = await Importance.find({});
-
-    const jobPromises = jobs.map(async (job) => 
-    {
-      const jobImportances = importances.filter(importance => importance.job === job.id);
-      const programsCopy = structuredClone(programs);
-
-      programsCopy.forEach((program) => 
-      {
-        let score = 0;
-
-        jobImportances.forEach((importance) => 
-        {
-          const programCourse = program.courses.find((course) => course.id === importance.course);
-
-          if (programCourse) 
-          {
-            const course = courses.find((course) => course.id === importance.course);
-
-            score += importance.value * course.workload;
-
-            if (course.mandatory === false) score *= 0.8;
-          }
-        });
-
-        program.score = Math.round(score / program.courses.length);
-      });
-
-      const maxScore = Math.max(...programsCopy.map(program => program.score));
-      programsCopy.forEach(program => program.compatibility = program.score / maxScore);
-
-      job.programs = programsCopy.map(program => 
-      { 
-        return { 
-          id: program.id, 
-          name: program.name, 
-          compatibility: program.compatibility 
-        } 
-      });
-      
-      return job;
-    });
-
-    const populatedJobs = await Promise.all(jobPromises);
-    res.status(200).send(populatedJobs);
-  } 
-  
-  catch (error) 
-  {
-    console.error(error);
-    res.status(500).send("Internal Server Error");
-  }
-};
-
-
-jobController.rankPrograms = async (req, res) =>
+jobController.getProgramsComp = async jobID => 
 {
-  const { jobID } = req.params;
   const courses = await Course.find({});
   const programs = await Program.find({});
   const importances = await Importance.find({ job: jobID });
 
-  let totalScore = 0;
-
   programs.forEach(program => 
   {
-    let score = 0;
+    program.score = 0;
+    const courseScores = courses.map(course => { return { id: course.id, score: 0, total: 0 } });
 
     importances.forEach(importance => 
     {
@@ -86,19 +24,88 @@ jobController.rankPrograms = async (req, res) =>
       if (programCourse)
       {
         const course = courses.find(course => course.id === importance.course);
-
-        score += importance.value * course.workload;
-
-        if (course.mandatory === false)
-          score *= 0.8;
+        
+        const score = course.mandatory
+        ? importance.value * course.workload
+        : importance.value * course.workload * 0.8
+    
+        courseScores.map(courseScore => 
+        {
+          if (courseScore.id === importance.course)
+          {
+            courseScore.score += score;
+            courseScore.total++;
+          }
+        })
       }
     })
 
-    program.score = Math.round(score / program.courses.length);
-    totalScore += program.score;
+    courseScores.forEach(courseScore => 
+    {
+      if (courseScore.total > 0)
+      {
+        courseScore.avg = courseScore.score / courseScore.total;
+        program.score += courseScore.avg;
+      }
+    })
+
+    const mandatoryTotal = program.courses.filter(course => course.mandatory === true).length;
+    const calculationTotal = (program.courses.length + mandatoryTotal) / 2;
+
+    program.score = Math.round(program.score / calculationTotal);
   })
 
-  res.status(200).send(programs.map(program => { return { name: program.name, score: program.score } }).sort((a, b) => b.score - a.score));
+  const programsRanked = programs.map(program => 
+  { 
+    return { 
+      id: program.id,
+      name: program.name, 
+      score: program.score / Math.max(...programs.map(program => program.score))
+    } 
+  })
+
+  return programsRanked.sort((a, b) => b.score - a.score);
+}
+
+jobController.getJob = async (req, res) =>
+{
+  try  
+  {
+    const { jobID } = req.params;
+    const job = await Job.findOne({ id: jobID }).lean().select('-_id -__v');
+    const rankedPrograms = await jobController.getProgramsComp(jobID);
+
+    job.programs = rankedPrograms;
+    res.status(200).send(job);
+  }
+
+  catch (error)
+  {
+    console.log(error);
+    res.sendStatus(500);
+  }
+}
+
+jobController.getJobs = async (_, res) =>
+{
+  try 
+  {
+    const jobs = await Job.find({}).lean().select('-_id -__v');
+    res.status(200).send(jobs);
+  }
+
+  catch (error)
+  {
+    console.log(error);
+    res.sendStatus(500);
+  }
+}
+
+jobController.rankPrograms = async (req, res) =>
+{
+  const { jobID } = req.params;
+  const programsRanked = await jobController.getProgramsComp(jobID);
+  res.status(200).send(programsRanked);
 }
 
 export default jobController;

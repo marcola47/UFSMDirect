@@ -4,6 +4,7 @@ import axios from '@/utils/axiosConfig';
 
 import '@/css/app.css';
 
+import JobPage from './pages/job';
 import FormPage from './pages/form';
 import HomePage from './pages/home';
 import JobsPage from './pages/jobs';
@@ -74,6 +75,7 @@ export default function App()
             <Route path="/profile" element={ <ProfilePage/> }/>
             <Route path="/programs" element={ <ProgramsPage/> }/>
             <Route path="/register" element={ <RegisterPage/> }/>
+            <Route path="/job/:jobID" element={ <JobPage/> }/>
             <Route path="*" element={ <Error404Page/> }/>
           </Routes>
         </div>

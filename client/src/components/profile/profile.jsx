@@ -5,11 +5,11 @@ import axios from '@/utils/axiosConfig'
 import Resizer from 'react-image-file-resizer';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleQuestion, faEnvelope, faAddressCard, faMessage } from '@fortawesome/free-solid-svg-icons';
+import { faCircleQuestion, faEnvelope, faAddressCard, faMessage, faArrowRightToBracket } from '@fortawesome/free-solid-svg-icons';
 
 export default function Profile()
 {
-  const { user } = useContext(UserContext);
+  const { user, setUser } = useContext(UserContext);
   const [selectedImage, setSelectedImage] = useState(null);
   const [resizedImage, setResizedImage] = useState(null);
 
@@ -30,6 +30,14 @@ export default function Profile()
       console.error('Error resizing image:', error);
     }
   };
+
+  function logout()
+  {
+    setUser(null);
+    localStorage.removeItem("accessToken");
+    localStorage.removeItem("refreshToken");
+    navigate('/login');
+  }
 
   function AltProfilePicture()
   {
@@ -54,6 +62,15 @@ export default function Profile()
           className="activities__list"
           children="Nada para ver aqui."
         />
+      </div>
+    )
+  }
+
+  if (!user)
+  {
+    return (
+      <div>
+        carregando
       </div>
     )
   }
@@ -95,7 +112,10 @@ export default function Profile()
           : <AltProfilePicture/>
         }
 
-        <div className="profile__box profile__chat">
+        <div 
+          className="profile__box profile__btn profile__chat"
+          onClick={ () => {navigate(`/user/${user.id}/chats`)} }
+        >
           <FontAwesomeIcon icon={ faMessage }/>
           <span>MENSAGENS</span>
         </div>
@@ -106,10 +126,21 @@ export default function Profile()
             <span className="content">{ user?.email }</span>
           </div>
 
-          <div className="profile__registration">
-            <span className="label"><FontAwesomeIcon icon={ faAddressCard }/> Matrícula: </span>
-            <span className="content">{ user?.registration }</span>
-          </div>
+          {
+            user.registration &&
+            <div className="profile__registration">
+              <span className="label"><FontAwesomeIcon icon={ faAddressCard }/> Matrícula: </span>
+              <span className="content">{ user?.registration }</span>
+            </div>
+          }
+        </div>
+
+        <div 
+          className="profile__box profile__btn profile__logout"
+          onClick={ logout }
+        >
+          <FontAwesomeIcon icon={ faArrowRightToBracket }/>
+          <span>SAIR</span>
         </div>
       </div>
 
@@ -120,11 +151,14 @@ export default function Profile()
             children={ user?.name }
           />
 
-          <div 
-            onClick={ () => navigate(`/program/${user?.program.id}`) }
-            className="profile__program"
-            children={ user?.program.name }
-          />
+          {
+            user.program &&
+            <div 
+              onClick={ () => navigate(`/program/${user?.program.id}`) }
+              className="profile__program"
+              children={ user.program.name }
+            />
+          }
 
           {
             user?.job &&

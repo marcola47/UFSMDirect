@@ -4,7 +4,7 @@
     "active": false,
 		"name": "Administrador de Bancos de Dados",
 		"description": "Um administrador de bancos de dados, muitas vezes chamado de DBA (Database Administrator), é um profissional responsável por gerenciar e manter bancos de dados de maneira eficiente, segura e confiável. Eles desempenham um papel fundamental na organização, armazenamento e recuperação de dados para garantir que as informações sejam acessíveis quando necessárias.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Sistemas de Gerenciamento de Conteúdo (CMS)",
 				"description": "Administrar o banco de dados de um CMS usado para criar e gerenciar sites."
@@ -123,7 +123,7 @@
     "active": true,
 		"name": "Administrador de Sistemas",
 		"description": "Um administrador de sistemas, também conhecido como administrador de redes ou administrador de TI, é um profissional responsável por gerenciar e manter a infraestrutura de tecnologia da informação (TI) de uma organização. O papel do administrador de sistemas é garantir que os sistemas de computadores, servidores, redes e serviços funcionem de forma eficiente, segura e confiável para atender às necessidades da empresa. Eles desempenham um papel fundamental na manutenção da integridade e disponibilidade dos recursos de TI, além de implementar medidas de segurança e solucionar problemas técnicos.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Implantação de Servidores",
 				"description": "Configurar e implantar servidores para hospedar sites, aplicativos ou serviços internos da empresa."
@@ -242,7 +242,7 @@
     "active": false,
 		"name": "Analista de Segurança de Software",
 		"description": "Um analista de segurança de software é um profissional especializado em proteger sistemas de software contra ameaças cibernéticas e garantir que eles sejam seguros contra vulnerabilidades e ataques. Eles desempenham um papel crucial na proteção de dados confidenciais e na prevenção de danos a sistemas e informações.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Teste de Segurança de Aplicativos",
 				"description": "Realizar testes de segurança em aplicativos da web, móveis e desktop para identificar vulnerabilidades e garantir que eles sejam resistentes a ataques."
@@ -361,7 +361,7 @@
     "active": false,
 		"name": "Arquiteto de Hardware",
 		"description": "Um Arquiteto de Hardware é um profissional que projeta e planeja os componentes físicos de dispositivos eletrônicos, como computadores, smartphones, tablets, sistemas embarcados e outros dispositivos eletrônicos. Eles são responsáveis por determinar como os diferentes componentes de hardware de um dispositivo se comunicam entre si e como funcionarão em conjunto para executar as funções desejadas.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Desenvolvimento de Computadores",
 				"description": "Projetar os componentes internos de um computador, como a placa-mãe, processador, memória RAM e placas de vídeo."
@@ -476,7 +476,7 @@
     "active": false,
 		"name": "Arquiteto/Engenheiro Cloud",
 		"description": "Um arquiteto ou engenheiro cloud é um profissional especializado em projetar, implementar e gerenciar soluções de computação em nuvem para empresas e organizações. Sua principal responsabilidade é ajudar as empresas a migrar para a nuvem, otimizar suas operações e garantir que os recursos em nuvem atendam às necessidades de negócios.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Desenvolvimento de Aplicativos em Nuvem",
 				"description": "Projetar e implementar aplicativos nativos em nuvem que sejam escaláveis e acessíveis de qualquer lugar."
@@ -595,7 +595,7 @@
     "active": true,
 		"name": "Cientista de Dados",
 		"description": "Um cientista de dados é um profissional especializado em coletar, analisar e interpretar grandes volumes de dados para obter insights valiosos que ajudem as empresas a tomar decisões informadas. Eles desempenham um papel crucial na extração de conhecimento a partir de dados brutos e na transformação desses insights em ações estratégicas.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Previsão de Demanda",
 				"description": "Utilizar dados históricos de vendas para prever a demanda futura de produtos, permitindo um planejamento de estoque mais eficiente."
@@ -741,7 +741,7 @@
         "importance": 10
       }
     ],
-    "roles": [
+    "creations": [
 			{
 				"name": "Desenvolvimento de Aplicativos Empresariais",
 				"description": "Criar sistemas de software de desktop para empresas que ajudem a gerenciar processos internos, como contabilidade, recursos humanos e gestão de estoque."
@@ -860,7 +860,7 @@
     "active": true,
 		"name": "Desenvolvedor Backend Mobile",
 		"description": "Um desenvolvedor backend para mobile é um profissional de tecnologia que desempenha um papel fundamental no desenvolvimento de aplicativos móveis. Sua principal responsabilidade é criar e manter a infraestrutura que permite que os aplicativos móveis funcionem de maneira eficiente e se conectem a servidores e bancos de dados.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Aplicativos de Redes Sociais",
 				"description": "Desenvolver a infraestrutura de backend para aplicativos de redes sociais, permitindo que os usuários compartilhem conteúdo, se conectem com amigos e acessem feeds de notícias."
@@ -979,7 +979,7 @@
     "active": true,
 		"name": "Desenvolvedor Backend Web",
 		"description": "Um desenvolvedor backend para web é um profissional de tecnologia da informação responsável por criar e manter a parte \"invisível\" dos sites e aplicativos web. Enquanto os desenvolvedores de frontend se concentram na parte visual e interativa que os usuários veem e interagem, os desenvolvedores backend trabalham nos bastidores, lidando com o processamento de dados, o armazenamento em bancos de dados, a lógica do servidor e a segurança. Sua principal função é garantir que um site ou aplicativo funcione de maneira eficiente e segura, processando solicitações dos usuários e entregando conteúdo dinâmico.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Plataforma de Comércio Eletrônico",
 				"description": "Em um site de comércio eletrônico, o desenvolvedor backend gerencia o catálogo de produtos, processa pedidos, lida com o pagamento online e mantém um sistema de gerenciamento de estoque."
@@ -1098,7 +1098,7 @@
     "active": true,
 		"name": "Desenvolvedor Frontend Desktop",
 		"description": "Um desenvolvedor frontend para desktop é alguém que cria a parte visual e interativa de aplicativos de computador que são executados em desktops, como laptops ou PCs. Eles se concentram em tornar a interface do usuário (UI) desses aplicativos atraente, funcional e fácil de usar para os usuários finais.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Desenvolvimento de Aplicativos de Produtividade",
 				"description": "Criar aplicativos de produtividade para desktop, como processadores de texto, planilhas, aplicativos de e-mail e software de apresentação."
@@ -1217,7 +1217,7 @@
     "active": true,
 		"name": "Desenvolvedor Frontend Mobile",
 		"description": "Um desenvolvedor frontend para mobile é alguém que cria a parte visual e interativa de aplicativos móveis, como os que você usa em smartphones e tablets. Eles se concentram em tornar a interface do usuário (UI) desses aplicativos atraente, funcional e fácil de usar para os usuários finais.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Aplicativos de Redes Sociais",
 				"description": "Desenvolver a interface de usuário de aplicativos como Facebook, Instagram e Twitter, tornando a experiência de navegação e interação agradável para os usuários."
@@ -1336,7 +1336,7 @@
     "active": true,
 		"name": "Desenvolvedor Frontend Web",
 		"description": "Um desenvolvedor frontend para web é alguém que cria a parte visual e interativa de sites da internet. Eles são responsáveis por tornar os sites atraentes, funcionais e fáceis de usar para os visitantes.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Sites de Comércio Eletrônico",
 				"description": "Desenvolver a interface de lojas online, onde os usuários podem navegar por produtos, adicionar itens ao carrinho e efetuar compras."
@@ -1455,7 +1455,7 @@
     "active": true,
 		"name": "Desenvolvedor Fullstack Desktop",
 		"description": "Um Desenvolvedor Fullstack para Desktop é um profissional de tecnologia que cria aplicativos de software para computadores pessoais e desktops. Eles são responsáveis por todo o ciclo de vida do desenvolvimento de software, desde a concepção e design até a implementação e manutenção. A palavra 'Fullstack' significa que eles têm habilidades tanto na parte do 'front-end' (a interface do usuário) quanto no 'back-end' (a lógica de funcionamento do aplicativo).",
-		"roles": [
+		"creations": [
 			{
 				"name": "Desenvolvimento de Software Empresarial",
 				"description": "Criar aplicativos de gerenciamento de negócios, como sistemas de contabilidade, gestão de estoque e ferramentas de colaboração para uso em ambientes de escritório."
@@ -1574,7 +1574,7 @@
     "active": true,
 		"name": "Desenvolvedor Fullstack Mobile",
 		"description": "Um Desenvolvedor Fullstack para Mobile é um profissional de tecnologia que projeta, desenvolve e mantém aplicativos móveis para dispositivos como smartphones e tablets. Esses desenvolvedores são responsáveis por criar a experiência completa do aplicativo, desde a interface do usuário (parte visível) até a lógica de funcionamento (parte invisível) e a integração com serviços externos.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Aplicativos de Redes Sociais",
 				"description": "Desenvolver aplicativos como Facebook, Instagram e Twitter, que oferecem recursos de mídia social em dispositivos móveis."
@@ -1693,7 +1693,7 @@
     "active": true,
 		"name": "Desenvolvedor Fullstack Web",
 		"description": "Um Desenvolvedor Fullstack para Web é um profissional de tecnologia que cria aplicativos e sites para a internet. Esses desenvolvedores têm habilidades tanto no 'front-end' (a parte visível de um site ou aplicativo) quanto no 'back-end' (a parte invisível que lida com o funcionamento e os dados por trás da interface).",
-		"roles": [
+		"creations": [
 			{
 				"name": "Websites Corporativos",
 				"description": "Desenvolver sites para empresas e organizações que fornecem informações sobre produtos, serviços e contato."
@@ -1812,7 +1812,7 @@
     "active": false,
 		"name": "Desenvolvedor de Firmware",
 		"description": "Um Desenvolvedor de Firmware é um profissional de tecnologia que cria e mantém o software incorporado em dispositivos eletrônicos. Esse software, conhecido como firmware, está intimamente ligado ao hardware do dispositivo e é responsável por controlar suas funções e operações.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Automóveis Inteligentes",
 				"description": "Desenvolver firmware para controlar sistemas de segurança, entretenimento e controle do motor em veículos modernos."
@@ -1931,7 +1931,7 @@
     "active": true,
 		"name": "Desenvolvedor de Jogos",
 		"description": "Um Desenvolvedor de Jogos é um profissional que cria, projeta e programa jogos eletrônicos. Essa profissão envolve a aplicação de habilidades técnicas e criativas para criar experiências interativas de entretenimento. Os desenvolvedores de jogos trabalham em equipes multidisciplinares e são responsáveis por diferentes aspectos do processo de desenvolvimento de jogos, desde a programação até o design de personagens e a narrativa. Geralmente quem almeja trabalhar em jogos começa como desenvolvedor, mas com o tempo pode se especializar em uma área específica como design de jogos, arte ou programação.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Desenvolvimento de Jogos para Dispositivos Móveis",
 				"description": "Criar jogos para smartphones e tablets que podem ser baixados em lojas de aplicativos."
@@ -2050,7 +2050,7 @@
     "active": true,
 		"name": "Designer UI/UX",
 		"description": "Um designer UI/UX é alguém que projeta a aparência e a experiência geral que os usuários têm ao interagir com um produto digital, como um site, aplicativo móvel ou software. Essa profissão se concentra em tornar a interface do usuário (UI) atraente, funcional e fácil de usar, enquanto proporciona uma experiência do usuário (UX) satisfatória.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Desenvolvimento de Sites",
 				"description": "Projetar a interface e a experiência do usuário para sites, garantindo que a navegação seja fácil e que a aparência seja atraente."
@@ -2169,7 +2169,7 @@
     "active": true,
 		"name": "Designer de Circuitos Integrados",
 		"description": "Um Designer de Circuitos Integrados é um profissional de engenharia eletrônica que projeta e desenvolve circuitos eletrônicos complexos e integrados em um único chip, conhecidos como Circuitos Integrados (CI) ou Chips IC (Integrated Circuits). Esses chips podem ser encontrados em quase todos os dispositivos eletrônicos, desde smartphones e computadores até sistemas automotivos e dispositivos médicos.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Processadores de Computador",
 				"description": "Projetar circuitos integrados para CPUs (Unidades de Processamento Central) usadas em laptops, desktops e servidores."
@@ -2288,7 +2288,7 @@
     "active": true,
 		"name": "Engenheiro de Dados",
 		"description": "Um Engenheiro de Dados é um profissional que desempenha um papel fundamental na coleta, organização e análise de dados em uma empresa. Eles são responsáveis por projetar e construir sistemas e infraestruturas de dados que permitem a captura, o armazenamento e a transformação de grandes volumes de informações. Essa profissão é crucial para ajudar as empresas a tomar decisões informadas, identificar tendências e padrões, e desenvolver soluções baseadas em dados.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Análise de Negócios",
 				"description": "Coletar e analisar dados de vendas, marketing e operações para identificar oportunidades de crescimento e eficiência."
@@ -2332,28 +2332,28 @@
 				"description": "Desenvolver scripts e sistemas automatizados para tarefas de rotina, como atualizações de dados."
 			}
 		],
-		"companies": [
-			{
-				"name": "Google",
-				"description": "A Rockstar é conhecida por jogos como Grand Theft Auto (GTA) e Red Dead Redemption."
-			},
-			{
-				"name": "Amazon Web Services (AWS)",
-				"description": "A Valve é responsável pela plataforma Steam e pelos jogos Half-Life, Portal e Counter-Strike."
-			},
-			{
-				"name": "Snowflake",
-				"description": "A Epic Games é a criadora de Fortnite, um dos jogos mais populares do mundo, e do motor gráfico Unreal Engine."
-			},
-			{
-				"name": "IBM",
-				"description": "A Capcom é famosa por séries como Resident Evil, Street Fighter e Monster Hunter."
-			},
-			{
-				"name": "Microsoft Azure",
-				"description": "Esta empresa polonesa é famosa pela série The Witcher e pelo jogo Cyberpunk 2077."
-			}
-		],
+    "companies": [
+      {
+          "name": "Google",
+          "description": "A Google é uma das líderes mundiais em tecnologia e oferece uma ampla gama de serviços, incluindo motor de busca, publicidade online, serviços em nuvem (Google Cloud Platform) e produtos como o Android e o Chrome."
+      },
+      {
+          "name": "Amazon Web Services (AWS)",
+          "description": "A AWS é uma subsidiária da Amazon e é uma das maiores provedoras de serviços de computação em nuvem, oferecendo soluções para armazenamento, processamento de dados, aprendizado de máquina e muito mais."
+      },
+      {
+          "name": "Snowflake",
+          "description": "A Snowflake é uma empresa especializada em armazenamento e análise de dados na nuvem, oferecendo um data warehouse em nuvem altamente escalável e flexível para empresas de todos os tamanhos."
+      },
+      {
+          "name": "IBM",
+          "description": "A IBM é uma empresa global de tecnologia que oferece uma variedade de soluções de engenharia de dados, incluindo software de análise de dados, inteligência artificial e serviços de consultoria em tecnologia."
+      },
+      {
+          "name": "Microsoft Azure",
+          "description": "A Microsoft Azure é a plataforma de computação em nuvem da Microsoft, que fornece uma ampla gama de serviços de engenharia de dados, como armazenamento, análise de dados e aprendizado de máquina."
+      }
+    ],
 		"params": {
 			"high_level_coding": 8,
 			"low_level_coding": 4,
@@ -2407,7 +2407,7 @@
     "active": false,
 		"name": "Engenheiro de DevOps",
 		"description": "Um Engenheiro de DevOps é um profissional de tecnologia responsável por melhorar a colaboração entre as equipes de desenvolvimento de software (Dev) e operações de infraestrutura (Ops) em uma organização. A principal missão de um Engenheiro de DevOps é automatizar e agilizar o processo de desenvolvimento, teste e implantação de software, garantindo a entrega rápida e confiável de aplicativos.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Implantação Contínua de Aplicativos Web",
 				"description": "Automatizar o processo de implantação de aplicativos da web para garantir atualizações rápidas e sem interrupções de serviço."
@@ -2526,7 +2526,7 @@
     "active": false,
 		"name": "Engenheiro de Hardware de Aviônicos",
 		"description": "Um Engenheiro de Hardware de Aviônicos é um profissional altamente especializado que projeta, desenvolve e mantém componentes eletrônicos e sistemas de controle utilizados em aeronaves e espaçonaves. Esses sistemas incluem instrumentação, comunicação, navegação, sistemas de controle de voo, displays e outros dispositivos eletrônicos críticos para a operação segura e eficiente de aeronaves.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Sistemas de Controle de Voo",
 				"description": "Projeto e manutenção dos sistemas de controle de voo que garantem a estabilidade e a segurança de aeronaves durante o voo."
@@ -2645,7 +2645,7 @@
     "active": false,
 		"name": "Engenheiro de Hardware de Biomedicina",
 		"description": "Um engenheiro de hardware de biomedicina é um profissional que aplica princípios da engenharia à área da medicina e da biologia. Eles trabalham no desenvolvimento e na manutenção de equipamentos médicos e dispositivos biomédicos, garantindo que esses dispositivos sejam seguros, precisos e eficazes para diagnóstico, tratamento e pesquisa médica.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Desenvolvimento de Aparelhos de Imagem Médica",
 				"description": "Projetar equipamentos de ressonância magnética (RM), tomografia computadorizada (TC) e ultrassonografia para diagnóstico médico."
@@ -2764,7 +2764,7 @@
     "active": true,
 		"name": "Engenheiro de Hardware de Computadores",
 		"description": "Um engenheiro de hardware de computadores é um profissional especializado em projetar, desenvolver e testar os componentes físicos de um computador, como processadores, placas-mãe, memória, discos rígidos, placas de vídeo e outros dispositivos. Eles desempenham um papel fundamental na criação dos componentes que tornam os computadores funcionais.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Desenvolvimento de CPUs e GPUs",
 				"description": "Projetar processadores e unidades de processamento gráfico para computadores pessoais e servidores."
@@ -2883,7 +2883,7 @@
     "active": false,
 		"name": "Engenheiro de Hardware de Redes",
 		"description": "Um engenheiro de hardware de redes é um profissional especializado em projetar, implementar e manter o hardware necessário para o funcionamento eficiente de redes de computadores. Essas redes podem variar em escala, desde redes locais (LANs) em empresas até redes de longa distância (WANs) que interconectam locais geograficamente separados. O trabalho desse engenheiro envolve garantir que os componentes físicos da rede, como roteadores, switches, cabos e outros dispositivos, estejam configurados e operando corretamente para fornecer conectividade confiável e segura.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Expansão de Rede Corporativa",
 				"description": "Planejar e implementar a expansão de uma rede corporativa para acomodar um aumento no número de funcionários e dispositivos."
@@ -3002,7 +3002,7 @@
     "active": false,
 		"name": "Engenheiro de Hardware de Telecomunicações",
 		"description": "Um engenheiro de hardware de telecomunicações é um profissional que projeta, desenvolve e mantém o hardware necessário para redes de telecomunicações, sistemas de comunicação e infraestruturas de telefonia. Esses engenheiros desempenham um papel fundamental na criação de dispositivos e equipamentos que possibilitam a transmissão eficiente de voz, dados e vídeo por meio de redes de comunicação. Seu trabalho envolve a pesquisa, projeto, teste e implementação de componentes de hardware de telecomunicações para garantir a qualidade e a confiabilidade das comunicações.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Implantação de Redes 5G",
 				"description": "Participar do projeto e implementação de infraestrutura de hardware para redes 5G, que oferecem velocidades de comunicação muito mais rápidas."
@@ -3121,7 +3121,7 @@
     "active": false,
 		"name": "Engenheiro de Internet das Coisas",
 		"description": "Um engenheiro de Internet das Coisas (IoT) é um profissional responsável por projetar, desenvolver e implementar sistemas e dispositivos que permitem a conexão e a comunicação entre objetos físicos (como eletrodomésticos, veículos, sensores e máquinas) por meio da internet. Essa profissão está na vanguarda da revolução tecnológica, possibilitando a criação de soluções inteligentes e interconectadas para uma variedade de setores, desde a automação residencial até a indústria e a saúde.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Cidades Inteligentes",
 				"description": "Desenvolver sistemas de iluminação pública inteligente que se ajustam automaticamente com base nas condições climáticas e no tráfego."
@@ -3240,7 +3240,7 @@
     "active": false,
 		"name": "Engenheiro de Machine Learning",
 		"description": "Um Engenheiro de Machine Learning é um profissional que se dedica a desenvolver sistemas e aplicações de inteligência artificial (IA) e machine learning. Eles projetam, treinam e implementam algoritmos de aprendizado de máquina para resolver problemas complexos e criar soluções baseadas em dados. Essa profissão desempenha um papel crucial na criação de tecnologias que podem automatizar tarefas, tomar decisões baseadas em dados e melhorar a eficiência em diversos campos.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Recomendação de Conteúdo",
 				"description": "Desenvolver sistemas de recomendação que sugerem produtos, filmes, músicas ou conteúdo personalizado com base no histórico do usuário."
@@ -3357,7 +3357,7 @@
 	{
 		"name": "Engenheiro de QA",
 		"description": "Um Engenheiro de QA, ou Engenheiro de Garantia de Qualidade, é um profissional que desempenha um papel fundamental no processo de desenvolvimento de software. Sua principal responsabilidade é garantir que o software seja de alta qualidade, livre de erros e atenda aos padrões e requisitos estabelecidos pela equipe de desenvolvimento e pelos clientes. Eles desempenham um papel crítico na identificação e correção de problemas antes que o software seja lançado ou implantado.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Desenvolvimento de Aplicativos Móveis",
 				"description": "Testar aplicativos móveis em diferentes dispositivos e plataformas para garantir que funcionem sem problemas."
@@ -3476,7 +3476,7 @@
     "active": false,
 		"name": "Engenheiro de Robótica",
 		"description": "Um engenheiro de robótica é um profissional que projeta, desenvolve e constrói sistemas robóticos autônomos ou controlados remotamente. Esses sistemas são compostos por hardware (mecânica, eletrônica e sensores) e software (algoritmos e programação) que permitem que os robôs realizem tarefas específicas. Essas tarefas podem variar desde a automação de processos industriais até a criação de robôs para exploração espacial, cirurgia assistida por robô e muito mais.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Robôs Industriais",
 				"description": "Projeto e implementação de robôs para linhas de montagem automatizadas em fábricas, que podem montar produtos, realizar inspeções e manusear materiais."
@@ -3595,7 +3595,7 @@
     "active": false,
 		"name": "Engenheiro de Segurança de Software",
 		"description": "Um Engenheiro de Segurança de Software é um profissional especializado em proteger sistemas de software contra ameaças cibernéticas, vulnerabilidades e ataques maliciosos. Sua principal responsabilidade é garantir que os aplicativos e sistemas de software sejam desenvolvidos e mantidos com medidas robustas de segurança para proteger informações sensíveis e garantir o funcionamento seguro de software em diferentes ambientes.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Segurança de Aplicativos Móveis",
 				"description": "Garantir que aplicativos móveis, como aplicativos bancários ou de compras, sejam protegidos contra ameaças, como invasões e roubo de dados."
@@ -3714,7 +3714,7 @@
     "active": false,
 		"name": "Engenheiro de Sistemas Embarcados",
 		"description": "Um engenheiro de sistemas embarcados é um profissional que projeta, desenvolve e mantém sistemas eletrônicos incorporados em dispositivos e produtos cotidianos. Esses sistemas, conhecidos como sistemas embarcados, são essenciais para o funcionamento de uma ampla variedade de dispositivos, desde eletrodomésticos e veículos até equipamentos médicos e eletrônicos de consumo. O papel do engenheiro de sistemas embarcados envolve trabalhar na interseção da eletrônica, software e hardware para criar soluções eficientes e confiáveis.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Sistemas de Controle de Veículos",
 				"description": "Desenvolver sistemas embarcados para controlar funções críticas em veículos, como freios, direção e transmissão."
@@ -3833,7 +3833,7 @@
     "active": false,
 		"name": "Engenheiro de Software de Redes",
 		"description": "Um Engenheiro de Software de Redes é um profissional especializado em projetar, desenvolver e manter o software que controla e gerencia redes de computadores. Sua principal responsabilidade é garantir que as redes funcionem eficientemente, sejam seguras e atendam às necessidades das organizações. Eles desempenham um papel fundamental na conectividade e comunicação de dados em empresas e na Internet em geral.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Redes Definidas por Software (SDN)",
 				"description": "Implementar uma infraestrutura SDN, onde o controle da rede é centralizado em software para maior flexibilidade."
@@ -3952,7 +3952,7 @@
     "active": false,
 		"name": "Gerente de Produto de Software",
 		"description": "Um gerente de produto de software é um profissional que atua como um elo crucial entre a equipe de desenvolvimento de software e os usuários finais. Eles desempenham um papel fundamental no planejamento, desenvolvimento e lançamento de produtos de software.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Desenvolvimento de Aplicativos Móveis",
 				"description": "Gerenciar o desenvolvimento de um aplicativo móvel, desde a ideia inicial até o lançamento, garantindo que atenda às necessidades dos usuários e às metas de negócios."
@@ -4071,7 +4071,7 @@
     "active": false,
 		"name": "Gerente de Projeto de Software",
 		"description": "Um gerente de projeto de software é um profissional responsável por planejar, coordenar e supervisionar todas as etapas do desenvolvimento de um projeto de software, desde a concepção até a entrega final. Eles desempenham um papel crucial na garantia de que os projetos de software sejam concluídos com sucesso, dentro do prazo e do orçamento.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Sistemas de Gestão Empresarial (ERP)",
 				"description": "Coordenar a implementação de um sistema ERP em uma empresa para melhorar a eficiência e a gestão de recursos."
@@ -4186,130 +4186,11 @@
 		}
 	},
 	{
-		"id": "0cbc8c5d-d81b-40b9-a09a-9830d489d09e",
-    "active": false,
-		"name": "Pesquisador de IA",
-		"description": "Um pesquisador de IA é um profissional altamente qualificado que se dedica a avançar no campo da Inteligência Artificial. Sua principal responsabilidade é realizar pesquisas, desenvolver algoritmos e modelos de aprendizado de máquina, e explorar novas técnicas para criar sistemas de IA mais inteligentes e eficazes. Esses pesquisadores estão na vanguarda da inovação tecnológica, trabalhando para resolver problemas complexos e impulsionar o desenvolvimento de aplicativos de IA em várias indústrias.",
-		"roles": [
-			{
-				"name": "Desenvolvimento de Chatbots Inteligentes",
-				"description": "Pesquisadores de IA podem trabalhar no desenvolvimento de chatbots avançados que compreendem a linguagem humana e podem responder a perguntas de forma mais precisa."
-			},
-			{
-				"name": "Visão Computacional",
-				"description": "Contribuir para a pesquisa em visão computacional para aprimorar a capacidade de sistemas de IA em reconhecer objetos, rostos e padrões em imagens e vídeos."
-			},
-			{
-				"name": "Reconhecimento de Voz",
-				"description": "Pesquisar e desenvolver algoritmos de reconhecimento de voz para assistentes de voz e sistemas de transcrição automática."
-			},
-			{
-				"name": "Carros Autônomos",
-				"description": "Contribuir para a pesquisa em sistemas de direção autônoma, incluindo percepção de ambiente, tomada de decisão e controle."
-			},
-			{
-				"name": "Tradução Automática",
-				"description": "Melhorar algoritmos de tradução automática para permitir a tradução mais precisa de idiomas."
-			}
-		],
-		"responsabilities": [
-			{
-				"name": "Pesquisa e Desenvolvimento",
-				"description": "Conduzir pesquisas científicas para criar algoritmos e modelos de IA avançados."
-			},
-			{
-				"name": "Desenvolvimento de Algoritmos",
-				"description": "Projetar algoritmos de aprendizado de máquina e técnicas de processamento de dados para melhorar o desempenho de sistemas de IA."
-			},
-			{
-				"name": "Coleta e Análise de Dados",
-				"description": "Coletar e analisar grandes conjuntos de dados para treinar modelos de IA e validar resultados."
-			},
-			{
-				"name": "Experimentação",
-				"description": "Realizar experimentos para testar novas abordagens e ideias em IA."
-			},
-			{
-				"name": "Treinamento de Modelos de IA",
-				"description": "Treinar modelos de IA usando técnicas de aprendizado de máquina supervisionado e não supervisionado."
-			}
-		],
-		"companies": [
-			{
-				"name": "OpenAI",
-				"description": "A OpenAI é uma organização de pesquisa de IA focada em desenvolver tecnologias de IA avançadas e éticas. Além de desenvolver IA avançada, a OpenAI realiza pesquisas para garantir que a IA seja segura e benéfica para a humanidade."
-			},
-			{
-				"name": "DeepMind",
-				"description": "Uma empresa de pesquisa em IA pertencente à Alphabet (empresa-mãe do Google) que se concentra em resolver problemas complexos de IA."
-			},
-			{
-				"name": "Google AI",
-				"description": "O Google tem uma divisão de pesquisa em IA dedicada a avançar na inteligência artificial e aplicá-la em produtos e serviços."
-			},
-			{
-				"name": "Microsoft Research AI",
-				"description": "A Microsoft possui uma divisão de pesquisa em IA que trabalha em projetos inovadores de IA e aprendizado de máquina."
-			},
-			{
-				"name": "NVIDIA",
-				"description": "A NVIDIA é conhecida por seus avanços em hardware de IA, mas também está envolvida em pesquisa em IA."
-			}
-		],
-		"params": {
-			"high_level_coding": 7,
-			"low_level_coding": 6,
-			"backend": 4,
-			"frontend": 1,
-			"databases": 7,
-			"data_structures": 8,
-			"algorithms": 10,
-			"hardware": 3,
-			"software": 8,
-			"infrastructure": 1,
-			"design": 8,
-			"ui_ux": 1,
-			"mobile": 3,
-			"desktop": 5,
-			"web": 4,
-			"tangible_results": 3,
-			"abstract_results": 9,
-			"theory": 9,
-			"practice": 6,
-			"curiosity": 9,
-			"practicality": 5,
-			"creativity": 8,
-			"logic": 9,
-			"intuition": 5,
-			"experimentation": 10,
-			"methodology": 10,
-			"analysis": 10,
-			"adaptability": 8,
-			"leadership": 3,
-			"communication": 5,
-			"team_work": 6,
-			"individual_work": 8,
-			"management": 4,
-			"business": 3,
-			"finance": 2,
-			"math": 9,
-			"physics": 0,
-			"chemistry": 0,
-			"teaching": 7,
-			"mentoring": 7,
-			"masters_degree": 10,
-			"doctorate_degree": 10,
-			"internship": 4,
-			"apprenticeship": 6,
-			"hiring_potential": 7
-		}
-	},
-	{
 		"id": "54d6d7cc-08b4-44e7-93aa-ca089cda89f4",
     "active": false,
 		"name": "Técnico de Data Centers",
 		"description": "Um Técnico de Data Centers é um profissional responsável por operar, manter e garantir o funcionamento eficiente de um data center, que é um ambiente crítico onde servidores, armazenamento de dados e equipamentos de rede são alojados. A principal função deste profissional é assegurar que todos os sistemas e equipamentos do data center estejam em pleno funcionamento, minimizar interrupções e garantir a segurança e o resfriamento adequado do ambiente.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Atualização de Equipamentos",
 				"description": "Planejar e executar a substituição de servidores mais antigos por novos equipamentos para melhorar o desempenho e a eficiência do data center."
@@ -4428,7 +4309,7 @@
     "active": true,
 		"name": "Técnico de Redes",
 		"description": "Um técnico de redes é um profissional especializado em configurar, manter e solucionar problemas em redes de computadores. Essas redes podem variar de pequenas redes locais em residências e empresas até redes empresariais complexas que abrangem múltiplos locais. A principal responsabilidade de um técnico de redes é garantir que os dispositivos de rede funcionem corretamente e que os usuários possam se conectar e compartilhar informações de maneira eficaz e segura.",
-		"roles": [
+		"creations": [
 			{
 				"name": "Implantação de Redes Empresariais",
 				"description": "Configurar e implantar redes de computadores para empresas, garantindo que todos os dispositivos estejam conectados e funcionando corretamente."

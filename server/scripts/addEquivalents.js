@@ -16,13 +16,16 @@ async function readTextFile()
       {
         course.equivalents.forEach(equivalent => 
         {
-          equivalents.push(
-          { 
-            job: importance.job,
-            course: equivalent,
-            user: importance.user,
-            value: importance.value, 
-          });
+          if (!importances.find(subimp => subimp.course === equivalent && subimp.job === importance.job && subimp.user === importance.user))
+          {
+            equivalents.push(
+            { 
+              job: importance.job,
+              course: equivalent,
+              user: importance.user,
+              value: importance.value, 
+            });
+          }
         })
       }
     })

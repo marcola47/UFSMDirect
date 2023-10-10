@@ -1,0 +1,172 @@
+@import '../../css/variables.scss';
+
+.job-page
+{
+  max-width: 1200px;
+  margin-block: 128px 96px;
+  margin-inline: auto;
+  padding-inline: 32px 48px;
+
+  &__name
+  {
+    color: $blue-1000;
+    font-size: 4rem;
+    font-weight: 800;
+  }
+
+  &__desc
+  {
+    margin-bottom: 32px;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  &__programs
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    margin-bottom: 64px;
+
+    .program
+    {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 4px;
+
+      cursor: pointer;
+
+      &:hover > .program__content > .program__name
+      { color: $blue-500 }
+
+      &__content
+      {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        padding-inline: 12px;
+      }
+
+      &__name
+      {
+        color: $blue-1000;
+        font-size: 1.5rem;
+        font-weight: 600;
+        @include transition;
+      }
+
+      &__progress
+      {
+        display: flex;
+
+        width: 100%;
+        height: 6px;
+        border-radius: 3px;
+
+        background-color: $blue-200;
+
+        span
+        {
+          height: 100%;
+          border-radius: 3px;
+          background-color: $blue-500;
+        }
+      }
+
+      &__comp
+      {
+        width: 32px;
+        color: $blue-1000;
+        font-weight: 600;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .grids
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+
+    .grid
+    {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+  
+      h2
+      {
+        color: $blue-900;
+        font-size: 2.5rem;
+        font-weight: 800;
+      }
+  
+      &__view
+      {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 16px;
+      }
+    
+      &__item
+      {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    
+        padding: 16px;
+        border-radius: $br-m;
+    
+        color: $blue-1000;
+        background-color: $white-light;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    
+        &__name
+        {
+          font-size: 1.6rem;
+          font-weight: 700;
+        }
+    
+        &__desc
+        {
+          font-size: 1.2rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) 
+{
+  .job-page__name
+  { font-size: 2.3rem; }
+  
+  .program__name
+  { font-size: 1rem !important; }
+
+  .grid
+  {
+    h2
+    { font-size: 1.8rem !important; }
+
+    &__view
+    {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+  }
+  
+
+}
+
+@media screen and (max-width: 480px) 
+{
+  .program__name
+  { font-size: 0.9rem !important; }
+}

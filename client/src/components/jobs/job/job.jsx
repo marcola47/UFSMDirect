@@ -1,5 +1,7 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
+import { JobsContext } from '../jobs';
 import { useNavigate } from 'react-router-dom';
+import axios from '@/utils/axiosConfig';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
@@ -9,17 +11,16 @@ import List from '@/components/utils/list';
 function JobProgram({ itemData: program })
 {
   const navigate = useNavigate();
-  
+
   return (
     <div 
       className="program"
       onClick={ () => {navigate(`/program/${program.id}`)  } }
     >
-
       <div className="program__content">
         <div 
           className="program__comp"
-          children={ `${Math.round(program.compatibility * 100)}%` }
+          children={ `${Math.round(program.score * 100)}%` }
         />
 
         <div 
@@ -29,7 +30,7 @@ function JobProgram({ itemData: program })
       </div>
 
       <div className="program__progress">
-        <span style={{ width: `${program.compatibility * 100}%` }} />
+        <span style={{ width: `${program.score * 100}%` }} />
       </div>
     </div>
   )
@@ -51,10 +52,30 @@ function JobListItem({ itemData })
 
 export default function Job({ itemData: job })
 {
+  const { jobs, setJobs } = useContext(JobsContext);
   const [isHidden, setIsHidden] = useState(true)
   const navigate = useNavigate();
 
-  useEffect(() => { console.log(job) }, [job])
+  useEffect(() => 
+  {
+    if (!job.programs && !isHidden)
+    {
+      axios.get(`/g/job/${job.id}/rank-programs`)
+      .then(res => 
+      {
+        const jobsCopy = structuredClone(jobs);
+        jobsCopy.map(listJob => 
+        {
+          if (listJob.id === job.id)
+            listJob.programs = res.data;
+
+          return listJob;
+        })
+
+        setJobs(jobsCopy);
+      })
+    }
+  }, [isHidden])
 
   return (
     <div className='job'>
@@ -77,7 +98,7 @@ export default function Job({ itemData: job })
       </div>
 
       {
-        !isHidden &&
+        !isHidden && job.programs && job.responsabilities && job.companies &&
         <div className="job__sub">
           <div 
             className="job__desc"
