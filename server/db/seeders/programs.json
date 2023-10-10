@@ -2,6 +2,7 @@
   {
     "id": "f1912902-5717-484e-ac19-2c644240df1a",
     "name": "Sistemas de Informação",
+    "type": "bachelor",
     "description": "Sistemas de Informação é uma graduação acadêmica que se concentra na intersecção entre tecnologia da informação e administração de negócios. Os alunos aprendem a projetar, desenvolver e gerenciar softwares/sistemas de informação que coletam, processam e distribuem dados para apoiar a tomada de decisões nas organizações. Isso envolve a aquisição de habilidades técnicas, como programação, gerenciamento de bancos de dados e segurança da informação, bem como a compreensão de como essas tecnologias podem ser aplicadas de forma estratégica para atender às metas e objetivos de uma empresa.<br/>Além disso, os estudantes exploram conceitos de gestão e estratégia de negócios para compreender como a tecnologia da informação pode ser alinhada com os objetivos organizacionais. Eles aprendem a avaliar as necessidades de informações das empresas, a propor soluções tecnológicas eficazes e a tomar decisões informadas com base em dados. Isso significa que os graduados em Sistemas de Informação estão bem preparados para desempenhar papéis essenciais em empresas e instituições, trabalhando para melhorar a eficiência operacional, inovação e competitividade por meio do uso eficaz da tecnologia e informação.<br/>Deste modo, o curso pode abranger tópicos relacionados à análise de dados, inteligência de negócios, gestão de projetos de TI e tendências emergentes, como a transformação digital. No geral, o campo de Sistemas de Informação oferece uma base sólida tanto em tecnologia quanto em princípios de negócios, capacitando os alunos a desempenhar um papel fundamental na era da informação, onde a tecnologia desempenha um papel crucial em todas as facetas das operações empresariais.",
     "courses":
     [
@@ -81,6 +82,7 @@
   {
     "id": "7f76f2cd-bd30-4470-b018-6bef7daa3e7f",
     "name": "Ciência da Computação",
+    "type": "bachelor",
     "description": "A Ciência da Computação é uma área de estudo que se concentra na compreensão e no desenvolvimento de software e hardware de computadores. Os estudantes aprendem a criar programas de computador, a projetar sistemas de software e a entender como os computadores funcionam. Isso envolve aprender linguagens de programação, algoritmos e estruturas de dados.<br/>Além disso, os alunos exploram conceitos avançados, como inteligência artificial, aprendizado de máquina, segurança cibernética e redes de computadores. Eles também podem estudar tópicos relacionados à teoria da computação e resolução de problemas complexos. A Ciência da Computação oferece uma base sólida para carreiras em desenvolvimento de software, análise de dados, pesquisa e muito mais, sendo essencial em uma variedade de setores, desde tecnologia da informação até entretenimento digital.",
     "courses":
     [
@@ -183,6 +185,7 @@
   {
     "id": "7b478448-80d9-4e39-b494-9c0f54fd57fb",
     "name": "Engenharia da Computação",
+    "type": "bachelor",
     "description": "A Engenharia da Computação é um campo de estudo que combina conhecimentos de engenharia elétrica e Ciência da Computação. Os alunos dessa área aprendem a projetar, construir e manter tanto o hardware quanto o software de sistemas computacionais. Isso inclui o desenvolvimento de circuitos eletrônicos para computadores, bem como a criação de programas de software para fazê-los funcionar.<br/>Os estudantes de Engenharia da Computação exploram uma ampla gama de tópicos, desde eletrônica digital, microprocessadores e sistemas embutidos até redes de computadores e sistemas operacionais. Eles também podem se concentrar em áreas como automação industrial, robótica, comunicações sem fio e dispositivos móveis. A Engenharia da Computação prepara os graduados para carreiras em design de hardware, desenvolvimento de sistemas integrados, controle de processos industriais e muitas outras áreas onde a tecnologia computacional desempenha um papel fundamental. É um campo que está na vanguarda da inovação tecnológica e tem um impacto significativo em nossa sociedade moderna.",
     "courses":
     [
@@ -270,6 +273,7 @@
   {
     "id": "f0d2160c-fc18-41fd-a7ff-2695db8e6536",
     "name": "Engenharia de Controle e Automação",
+    "type": "bachelor",
     "description": "A Engenharia de Controle e Automação é uma graduação que se concentra no projeto, desenvolvimento e implementação de sistemas automatizados e sistemas de controle em uma ampla variedade de aplicações. Os estudantes nessa área aprendem a criar sistemas que podem operar de forma independente, controlando máquinas, processos industriais e sistemas complexos.<br/>Este curso abrange tópicos como eletrônica, instrumentação, programação de controladores, robótica e sistemas de automação industrial. Os engenheiros de controle e automação projetam sistemas que otimizam a eficiência, a segurança e a precisão em indústrias como manufatura, energia e até mesmo em veículos autônomos. Eles desempenham um papel fundamental na melhoria de processos industriais e na criação de sistemas autônomos que podem executar tarefas de forma consistente e confiável, tornando-os peças-chave em setores tecnologicamente avançados e altamente automatizados.",
     "courses":
     [
@@ -354,6 +358,7 @@
   {
     "id": "cd1fa9e8-d14b-492b-827c-ebeb94a8ca67",
     "name": "Tecnologia em Sistemas para Internet",
+    "type": "technologist",
     "description": "O curso de Tecnologia em Sistemas para Internet é um tecnólogo voltada para a formação de profissionais capazes de projetar, desenvolver e gerenciar sistemas web e aplicações online. Os alunos aprendem a criar sites, aplicativos web e sistemas que funcionam na internet. Isso envolve o domínio de linguagens de programação web, bancos de dados, design de interfaces e segurança online.<br/>Além disso, os estudantes exploram tópicos relacionados à usabilidade, experiência do usuário e gerenciamento de servidores e máquinas virtuais, visando criar soluções eficazes e eficientes. O curso também aborda a integração de tecnologias emergentes, como computação em nuvem e mobilidade, para desenvolver aplicações modernas e interativas. Com uma base sólida em tecnologia web, os técnicos em Sistemas para Internet estão preparados para carreiras em desenvolvimento web e outras áreas relacionadas à tecnologia online. É um campo dinâmico que desempenha um papel central na nossa vida digital moderna.",
     "courses":
     [
@@ -397,6 +402,7 @@
   {
     "id": "ec17b59d-a7d2-45a7-b9b3-4b57f13202cd",
     "name": "Redes de Computadores",
+    "type": "technologist",
     "description": "O curso de Redes de Computadores é um tecnólogo que se concentra na concepção, construção, manutenção e gestão de sistemas de comunicação de dados. Os estudantes aprendem a criar redes de computadores que permitem a troca de informações e recursos entre dispositivos, sejam eles computadores pessoais, servidores, dispositivos móveis ou outros equipamentos.<br/>Durante o curso, os alunos estudam tópicos como protocolos de rede, segurança cibernética, administração de sistemas, roteamento e comutação, bem como a configuração de hardware de rede. Eles também podem se aprofundar em tecnologias emergentes, como redes sem fio, virtualização de redes e computação em nuvem. A formação em Redes de Computadores prepara os graduados para carreiras em administração de redes, segurança de rede, suporte técnico, design de infraestrutura de rede e muito mais. Este campo é fundamental para a conectividade global, uma vez que as redes de computadores desempenham um papel vital na comunicação e no compartilhamento de informações em todo o mundo.",
     "courses":
     [

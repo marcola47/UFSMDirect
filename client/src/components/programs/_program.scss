@@ -1,0 +1,76 @@
+@import '../../css/variables.scss';
+
+.programs
+{
+  max-width: 1200px;
+  margin-block: 128px 96px;
+  margin-inline: auto;
+
+  &__header
+  {
+    padding: 4px 16px;
+    margin-bottom: 32px;
+    border-bottom: 2px solid $blue-200;
+
+    color: $blue-900;
+    text-align: center;
+  }
+
+  &__infos
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  &__info
+  {
+    display: flex;
+    align-items: center;
+
+    &--left
+    {
+      padding: 32px 32px 32px 96px;
+      border-top-left-radius: 172px;
+      border-bottom-left-radius: 172px;
+
+      background-color: $blue-100;
+    }
+
+    &--right
+    {
+      padding: 32px 96px 32px 32px;
+      border-top-right-radius: 172px;
+      border-bottom-right-radius: 172px;
+
+      background-color: $purple-200;
+    }
+
+    &__title
+    {
+      margin-bottom: 16px;
+      font-size: 3rem;
+      
+      .blue
+      { color: $blue-600 }
+    
+      .purple
+      { color: $purple-600 }
+    }
+
+    &__text
+    { font-size: 1.2rem }
+  }
+}
+
+@media screen and (max-width: 1200px) 
+{
+  .programs__infos
+  { gap: 0px; }
+
+  .programs__info
+  {
+    border-radius: 0px;
+    padding: 32px;
+  }
+}

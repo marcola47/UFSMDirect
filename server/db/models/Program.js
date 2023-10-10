@@ -47,6 +47,14 @@ const programSchema = new mongoose.Schema(
     trim: true
   },
 
+  type:
+  {
+    type: String,
+    enum: ['bachelor', 'technologist'],
+    default: 'bachelor',
+    required: true
+  },
+
   courses:
   {
     type: [programCourseSchema],

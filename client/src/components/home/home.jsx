@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGraduationCap, faNewspaper, faProjectDiagram, faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faGraduationCap, faProjectDiagram, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
 import List from "../utils/list";
 
@@ -56,7 +56,7 @@ export default function Home()
       </div>
 
       <img 
-        src="/img/home__art.png" 
+        src="/img/art__home.png" 
         alt="art"
         className="home__art" 
       />
