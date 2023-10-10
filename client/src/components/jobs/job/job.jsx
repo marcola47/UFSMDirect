@@ -99,53 +99,61 @@ export default function Job({ itemData: job })
 
       {
         !isHidden && job.programs && job.responsabilities && job.companies &&
-        <div className="job__sub">
-          <div 
-            className="job__desc"
-            children={ job.description }
-          />
+        <>
+          <div className="job__sub">
+            <div 
+              className="job__desc"
+              children={ job.description }
+            />
 
-          <div className="job__infos">
-            <div className="job__info job__programs">
-              <div 
-                className="job__info__header"
-                children="CURSOS MAIS COMPATÍVEIS"
-              />
-              <List
-                className='job__info__list programs__list'
-                ids={`${job.id}:programs`}
-                elements={ job.programs }
-                ListItem={ JobProgram }
-              />
-            </div>
+            <div className="job__infos">
+              <div className="job__info job__programs">
+                <div 
+                  className="job__info__header"
+                  children="CURSOS MAIS COMPATÍVEIS"
+                />
+                <List
+                  className='job__info__list programs__list'
+                  ids={`${job.id}:programs`}
+                  elements={ job.programs }
+                  ListItem={ JobProgram }
+                />
+              </div>
 
-            <div className="job__info job__companies">
-              <div 
-                className="job__info__header"
-                children="EMPRESAS NO RAMO"
-              />
-              <List
-                className='job__info__list companies__list'
-                ids={`${job.id}:companies`}
-                elements={ job.companies }
-                ListItem={ JobListItem }
-              />
-            </div>
+              <div className="job__info job__companies">
+                <div 
+                  className="job__info__header"
+                  children="EMPRESAS NO RAMO"
+                />
+                <List
+                  className='job__info__list companies__list'
+                  ids={`${job.id}:companies`}
+                  elements={ job.companies }
+                  ListItem={ JobListItem }
+                />
+              </div>
 
-            <div className="job__info job__responsabilities">
-              <div 
-                className="job__info__header"
-                children="RESPONSABILIDADES"
-              />
-              <List
-                className='job__info__list responsabilities__list'
-                ids={`${job.id}:responsabilities`}
-                elements={ job.responsabilities }
-                ListItem={ JobListItem }
-              />
+              <div className="job__info job__responsabilities">
+                <div 
+                  className="job__info__header"
+                  children="RESPONSABILIDADES"
+                />
+                <List
+                  className='job__info__list responsabilities__list'
+                  ids={`${job.id}:responsabilities`}
+                  elements={ job.responsabilities }
+                  ListItem={ JobListItem }
+                />
+              </div>
             </div>
           </div>
-        </div>
+
+          <button 
+            className="job__more"
+            onClick={() => navigate(`/job/${job.id}`)}
+            children="SABER MAIS"
+          />
+        </>
       }
     </div>
   )

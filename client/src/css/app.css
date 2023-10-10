@@ -511,6 +511,19 @@
   padding: 40px 32px 48px 32px;
   transition: all 0.1s ease-in-out;
 }
+.jobs .job__more {
+  width: 100%;
+  padding: 24px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(220, 85%, 50%);
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+.jobs .job__more:hover {
+  background-color: hsl(220, 90%, 55%);
+}
 .jobs .job__icon {
   font-size: 1.6rem;
 }
