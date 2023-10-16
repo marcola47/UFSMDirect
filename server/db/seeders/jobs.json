@@ -396,6 +396,10 @@
 				"name": "Teste e Depuração",
 				"description": "Realizar testes para identificar problemas e garantir que o hardware funcione corretamente."
 			},
+      {
+        "name": "Simulação de Circuitos",
+        "description": "Utilizar ferramentas e softwares para simular o comportamento de circuitos eletrônicos"
+      },
 			{
 				"name": "Acompanhamento de Tecnologias Emergentes",
 				"description": "Manter-se atualizado sobre as últimas tendências e avanços em tecnologia de hardware para aplicá-los em projetos futuros."
