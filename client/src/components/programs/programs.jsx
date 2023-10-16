@@ -26,6 +26,8 @@ export default function Programs()
 
   function ProgramInfo({ itemData: program })
   {
+    const paragraphs = program.description.split('<br/>');
+
     return (
       <div className="info">
         <div className="info__content">
@@ -35,15 +37,15 @@ export default function Programs()
           />
 
           <p 
-            className="program__desc"
-            children={ program.description }
+            className="info__desc"
+            children={ paragraphs[0] }
           />
 
           <button 
-            className="program__cta"
+            className="info__cta"
             onClick={ () => {navigate(`/program/${program.id}`)} }
           >
-            <span>Saiba Mais</span>
+            <span>SAIBA MAIS</span>
             <FontAwesomeIcon icon={ faArrowRight } />
           </button>
         </div>

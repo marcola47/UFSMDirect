@@ -1104,6 +1104,7 @@
   display: flex;
   align-items: center;
   padding: 32px;
+  margin-bottom: 64px;
   border-radius: 12px;
   background-color: hsl(214, 100%, 90%);
 }
@@ -1118,16 +1119,96 @@
   color: #7F56D9;
 }
 .programs__info__text {
+  color: hsl(214, 70%, 35%);
   font-size: 1.5rem;
+}
+.programs__list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 64px;
+}
+.programs .info {
+  display: flex;
+  gap: 24px;
+  padding: 32px;
+  border-radius: 12px;
+}
+.programs .info:nth-child(odd) {
+  padding-right: 128px;
+  border-top-right-radius: 192px;
+  border-bottom-right-radius: 192px;
+  color: #30235c;
+  background-color: #E9D7FE;
+  box-shadow: 0px 0px 20px hsla(0, 0%, 0%, 0.1);
+}
+.programs .info:nth-child(odd) .info__cta {
+  color: #42307D;
+  border-color: #42307D;
+}
+.programs .info:nth-child(even) {
+  flex-direction: row-reverse;
+  padding-left: 128px;
+  border-top-left-radius: 192px;
+  border-bottom-left-radius: 192px;
+  color: hsl(214, 70%, 25%);
+  background-color: hsl(214, 100%, 90%);
+  box-shadow: 0px 0px 20px hsla(0, 0%, 0%, 0.1);
+}
+.programs .info:nth-child(even) .info__cta {
+  color: hsl(214, 70%, 35%);
+  border-color: hsl(214, 70%, 35%);
+}
+.programs .info__art {
+  max-width: 312px;
+}
+.programs .info__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.programs .info__name {
+  font-size: 2rem;
+}
+.programs .info__desc {
+  font-size: 1.2rem;
+}
+.programs .info__cta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  border: 2px solid #000000;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: all 0.1s ease-in-out;
+}
+.programs .info__cta:hover {
+  gap: 24px;
 }
 
 @media screen and (max-width: 1200px) {
-  .programs__infos {
-    gap: 0px;
-  }
   .programs__info {
-    border-radius: 0px;
-    padding: 32px;
+    border-radius: 0;
+  }
+  .programs .info {
+    padding: 32px !important;
+    border-radius: 0 !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .info {
+    flex-direction: column !important;
+  }
+  .info__art {
+    align-self: flex-end;
+  }
+}
+@media screen and (max-width: 420px) {
+  .info__art {
+    align-self: center;
   }
 }
 @keyframes fade_in {
