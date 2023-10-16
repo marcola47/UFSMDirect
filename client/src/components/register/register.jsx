@@ -34,7 +34,7 @@ export default function Register()
   {
     if (programs.length <= 0)
     {
-      axios.get('/g/program/get-reg-programs')
+      axios.get('/g/program/get-min-programs?type=reg')
       .then(res => setPrograms(res.data))
       .catch(err => setResponseError(err, dispatch))
     }

@@ -16,35 +16,23 @@
     text-align: center;
   }
 
-  &__infos
+  &__subheader
   {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-  }
+    margin-bottom: 32px;
 
+    color: $blue-900;
+    text-align: center;
+  }
+  
   &__info
   {
     display: flex;
     align-items: center;
 
-    &--left
-    {
-      padding: 32px 32px 32px 96px;
-      border-top-left-radius: 172px;
-      border-bottom-left-radius: 172px;
+    padding: 32px;
+    border-radius: $br-g;
 
-      background-color: $blue-100;
-    }
-
-    &--right
-    {
-      padding: 32px 96px 32px 32px;
-      border-top-right-radius: 172px;
-      border-bottom-right-radius: 172px;
-
-      background-color: $purple-200;
-    }
+    background-color: $blue-100;
 
     &__title
     {
@@ -59,7 +47,7 @@
     }
 
     &__text
-    { font-size: 1.2rem }
+    { font-size: 1.5rem }
   }
 }
 
