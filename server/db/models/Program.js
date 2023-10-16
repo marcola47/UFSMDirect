@@ -23,7 +23,7 @@ const programCourseSchema = new mongoose.Schema(
     dafault: true,
     required: true
   }
-});
+}, { _id: false });
 
 const programSchema = new mongoose.Schema(
 {
