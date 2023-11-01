@@ -1083,6 +1083,130 @@
     opacity: 0;
   }
 }
+.program {
+  max-width: 1200px;
+  margin-block: 128px 96px;
+  margin-inline: auto;
+  padding-inline: 32px 48px;
+}
+.program__hero {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+.program__content {
+  display: flex;
+  flex-direction: column;
+}
+.program__name {
+  color: hsl(214, 70%, 35%);
+  font-size: 3rem;
+}
+.program__duration {
+  margin-bottom: 24px;
+  color: hsl(214, 70%, 35%);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.program__duration .hl-blue {
+  color: hsl(214, 90%, 55%);
+}
+.program__desc {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: hsl(214, 70%, 25%);
+  text-align: justify;
+}
+.program__header {
+  padding: 4px 16px;
+  border-bottom: 2px solid hsl(214, 100%, 80%);
+  color: hsl(214, 70%, 35%);
+  text-align: center;
+}
+.program__label {
+  margin-bottom: 8px;
+}
+.program__semester {
+  margin-block: 32px;
+  color: hsl(214, 70%, 35%);
+  font-size: 2rem;
+}
+.program__courses {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.program .course {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 6px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.program .course--optional {
+  background-color: hsl(214, 100%, 90%);
+}
+.program .course__main {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  z-index: 3;
+  padding: 32px 64px 32px 32px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  color: hsl(214, 70%, 25%);
+  cursor: pointer;
+}
+.program .course__sub {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  opacity: 1;
+  z-index: 1;
+  position: relative;
+  top: -8px;
+  padding: 40px 32px 48px 32px;
+  transition: all 0.1s ease-in-out;
+}
+.program .course__name {
+  position: relative;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.program .course__toggle {
+  position: absolute;
+  right: 26px;
+  top: 26px;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+.program .course__desc {
+  grid-column: span 3;
+  font-size: 1.2rem;
+}
+
+@keyframes fade_in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade_out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
 .programs {
   max-width: 1200px;
   margin-block: 128px 96px;

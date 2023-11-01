@@ -92,7 +92,7 @@ export default function Job({ itemData: job })
         <div 
           className="job__toggle"
           style={{ transform: `rotate(${isHidden ? 180 : 0}deg)` }}
-          onClick={ ()=> {setIsHidden(!isHidden)} }
+          onClick={ () => {setIsHidden(!isHidden)} }
           children={ <FontAwesomeIcon icon={ faChevronUp } /> }
         />
       </div>

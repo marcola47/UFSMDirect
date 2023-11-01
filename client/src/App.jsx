@@ -4,17 +4,21 @@ import axios from '@/utils/axiosConfig';
 
 import '@/css/app.css';
 
-import JobPage from './pages/job';
-import FormPage from './pages/form';
-import HomePage from './pages/home';
-import JobsPage from './pages/jobs';
-import LoginPage from './pages/login';
-import NucleiPage from './pages/nuclei';
-import CoursesPage from './pages/courses';
-import ProfilePage from './pages/profile';
-import ProgramsPage from './pages/programs';
-import RegisterPage from './pages/register';
 import Error404Page from './pages/404';
+import HomePage from './pages/home';
+import FormPage from './pages/form';
+
+import LoginPage from './pages/login';
+import RegisterPage from './pages/register';
+import ProfilePage from './pages/profile';
+
+import JobPage from './pages/job';
+import ProgramPage from './pages/program';
+
+import JobsPage from './pages/jobs';
+import CoursesPage from './pages/courses';
+import ProgramsPage from './pages/programs';
+import NucleiPage from './pages/nuclei';
 
 export const UserContext = React.createContext();
 export const ReducerContext = React.createContext();
@@ -76,6 +80,7 @@ export default function App()
             <Route path="/programs" element={ <ProgramsPage/> }/>
             <Route path="/register" element={ <RegisterPage/> }/>
             <Route path="/job/:jobID" element={ <JobPage/> }/>
+            <Route path="/program/:programID" element={ <ProgramPage/> }/>
             <Route path="*" element={ <Error404Page/> }/>
           </Routes>
         </div>

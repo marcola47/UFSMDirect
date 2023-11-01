@@ -47,6 +47,13 @@ const programSchema = new mongoose.Schema(
     trim: true
   },
 
+  duration:
+  {
+    type: Number,
+    default: 8,
+    required: true
+  },
+
   art:
   {
     type: String,

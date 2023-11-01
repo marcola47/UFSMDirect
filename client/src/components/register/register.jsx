@@ -43,7 +43,7 @@ export default function Register()
   function register(type)
   {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    let name, email, password, passwordConfirm, registration, program;
+    let name, email, password, passwordConfirm, registration;
 
     const clientError = 
     {
