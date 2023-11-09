@@ -1,6 +1,7 @@
 @import '../../css/variables.scss';
 
 .program {
+  position: relative;
   max-width: 1200px;
   margin-block: 128px 96px;
   margin-inline: auto;
@@ -117,6 +118,22 @@
 
       font-size: 1.3rem;
       font-weight: 700;
+    }
+
+    &__rate
+    {
+      position: absolute;
+      right: 88px;
+      top: 26px;
+
+      font-size: 2rem;
+      font-weight: 700;
+
+      cursor: pointer;
+      @include transition;
+
+      &:hover 
+      { color: $blue-500 }
     }
 
     &__toggle

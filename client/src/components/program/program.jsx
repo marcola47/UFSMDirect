@@ -1,10 +1,12 @@
-import { useState, useEffect } from 'react';
-import axios, { setResponseError } from '@/utils/axiosConfig'
+import { useState, useEffect, useContext } from 'react';
+import { ReducerContext } from '@/app';
+import axios, { setResponseError } from '@/utils/axiosConfig';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import { faStar } from '@fortawesome/free-regular-svg-icons';
 
-import List from '../utils/list';
+import List from '@/components/utils/list/list'
 
 export default function Program({ programID }) {
   const [program, setProgram] = useState(null);
@@ -17,18 +19,33 @@ export default function Program({ programID }) {
 
   function ProgramCourse({ itemData: course }) {
     const [isHidden, setIsHidden] = useState(true);
+    const { dispatch } = useContext(ReducerContext);
+
+    function openRatingModal() {
+      dispatch({ type: 'toggle_rate_course' });
+      dispatch({ 
+        type: 'set_rate_course_data', 
+        payload: course.id
+      });
+    }
   
     return (
       <div className={`course ${course.mandatory ? '' : 'course--optional'}`}>
         <div 
           className="course__main"
-          onClick={ ()=> {setIsHidden(!isHidden)} }
+          onClick={ () => {setIsHidden(!isHidden)} }
         >        
           <div 
             className="course__name"
             children={ course.name }
           />
   
+          <div 
+            className="course__rate"
+            onClick={ openRatingModal }
+            children={ <FontAwesomeIcon icon={ faStar } /> }
+          />
+
           <div 
             className="course__toggle"
             style={{ transform: `rotate(${isHidden ? 180 : 0}deg)` }}

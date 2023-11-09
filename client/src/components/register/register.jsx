@@ -7,7 +7,7 @@ import { v4 as uuid } from 'uuid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faEnvelope, faKey, faAddressCard, faGraduationCap, faChevronDown, faCircleDown } from '@fortawesome/free-solid-svg-icons';
 
-import List from '../utils/list';
+import List from '@/components/utils/list/list'
 
 export default function Register()
 {

@@ -6,7 +6,7 @@ import axios from '@/utils/axiosConfig';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
-import List from '@/components/utils/list';
+import List from '@/components/utils/list/list'
 
 function JobProgram({ itemData: program })
 {

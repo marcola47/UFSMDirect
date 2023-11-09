@@ -30,13 +30,16 @@ export default function App()
 
   const [state, dispatch] = useReducer(reducer, 
   {
-
+    rateCourseShown: false,
+    rateCourseData: null
   });
       
   function reducer(state, action)
   {
     switch (action.type)
     {
+      case 'toggle_rate_course': return { ...state, rateCourseShown: !state.rateCourseShown };
+      case 'set_rate_course_data': return { ...state, rateCourseData: action.payload };
       default: return state;
     }
   }
