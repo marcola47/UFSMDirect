@@ -5,7 +5,7 @@ import axios from '@/utils/axiosConfig';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-import List from "../utils/list";
+import List from '@/components/utils/list/list'
 
 export default function Programs()
 {

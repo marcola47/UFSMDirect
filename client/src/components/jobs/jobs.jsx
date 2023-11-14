@@ -2,7 +2,7 @@ import React, { useState, useContext, useEffect } from 'react';
 import { ReducerContext } from '@/app';
 import axios, { setResponseError } from '@/utils/axiosConfig'
 
-import List from '@/components/utils/list';
+import List from '@/components/utils/list/list'
 import Job from './job/job';
 
 export const JobsContext = React.createContext();

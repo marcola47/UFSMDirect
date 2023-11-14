@@ -6,7 +6,7 @@ import axios from '@/utils/axiosConfig';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
-import List from '@/components/utils/list';
+import List from '@/components/utils/list/list'
 
 function JobProgram({ itemData: program })
 {
@@ -92,7 +92,7 @@ export default function Job({ itemData: job })
         <div 
           className="job__toggle"
           style={{ transform: `rotate(${isHidden ? 180 : 0}deg)` }}
-          onClick={ ()=> {setIsHidden(!isHidden)} }
+          onClick={ () => {setIsHidden(!isHidden)} }
           children={ <FontAwesomeIcon icon={ faChevronUp } /> }
         />
       </div>

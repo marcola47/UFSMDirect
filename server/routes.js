@@ -27,10 +27,13 @@ guestRouter.get('/form/getAffirmations', formController.getAffirmations);
 guestRouter.get('/course/getCourses', courseController.getCourses);
 
 guestRouter.get('/program/get-min-programs', programController.getMinPrograms);
+guestRouter.get('/program/:programID', programController.getProgram);
 
 guestRouter.get('/job/get-jobs', jobController.getJobs);
 guestRouter.get('/job/:jobID', jobController.getJob);
 guestRouter.get('/job/:jobID/rank-programs', jobController.rankPrograms);
+
+guestRouter.post('/feedback/importance/create', feedbackController.rateCourse);
 
 router.use('/a', authRouter);
 router.use('/g', guestRouter);

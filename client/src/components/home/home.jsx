@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap, faProjectDiagram, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
-import List from "../utils/list";
+import List from '@/components/utils/list/list'
 
 export default function Home()
 {
