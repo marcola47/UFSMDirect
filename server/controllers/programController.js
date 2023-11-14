@@ -1,8 +1,24 @@
 import mongoose from 'mongoose';
 import Program from '../db/models/Program.js';
 import Course from '../db/models/Course.js';
+import Job from '../db/models/Job.js';
 
+import jobController from './jobController.js';
 const programController = {};
+
+programController.rankJobs = async programID => {
+  const jobs = await Job.find({}).lean();
+  const rankedJobs = [];
+
+  for (const job of jobs) {
+    const rankedPrograms = await jobController.getProgramsComp(job.id);
+    const curProgram = rankedPrograms.find(program => program.id === programID);
+
+    rankedJobs.push({ id: job.id, name: job.name, score: curProgram.score });
+  }
+
+  return rankedJobs.filter(job => !isNaN(job.score)).sort((a, b) => b.score - a.score);
+}
 
 programController.getProgram = async (req, res) => {
   try {
@@ -16,6 +32,7 @@ programController.getProgram = async (req, res) => {
     courses.forEach(course => idMap.set(course.id, course));
     const mergedCourses = program.courses.map(course => ({ ...course, ...idMap.get(course.id) }));
     program.courses = mergedCourses;
+    program.jobs = await programController.rankJobs(program.id);
     
     res.status(200).send(program);
   }

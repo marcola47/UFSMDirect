@@ -1,5 +1,5 @@
 import { useState, useEffect, useContext } from 'react';
-import { ReducerContext } from '@/app';
+import { ReducerContext, UserContext } from '@/app';
 import axios, { setResponseError } from '@/utils/axiosConfig';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -15,11 +15,37 @@ export default function Program({ programID }) {
     axios.get(`/g/program/${programID}`)
     .then(res => setProgram(res.data))
     .catch(err => setResponseError(err, dispatch))
-  } ,[])
+  }, [])
+
+  function ProgramJob({ itemData: job }) {
+    return (
+      <div 
+        className="job"
+        onClick={ () => {navigate(`/job/${job.id}`)  } }
+      >
+        <div className="job__content">
+          <div 
+            className="job__comp"
+            children={ `${Math.round(job.score * 100)}%` }
+          />
+
+          <div 
+            className="job__name"
+            children={ job.name }
+          />
+        </div>
+
+        <div className="job__progress">
+          <span style={{ width: `${job.score * 100}%` }} />
+        </div>
+      </div>
+    )
+  }
 
   function ProgramCourse({ itemData: course }) {
     const [isHidden, setIsHidden] = useState(true);
     const { dispatch } = useContext(ReducerContext);
+    const { user } = useContext(UserContext);
 
     function openRatingModal() {
       dispatch({ type: 'toggle_rate_course' });
@@ -40,11 +66,14 @@ export default function Program({ programID }) {
             children={ course.name }
           />
   
-          <div 
-            className="course__rate"
-            onClick={ openRatingModal }
-            children={ <FontAwesomeIcon icon={ faStar } /> }
-          />
+          {
+            user?.id &&
+            <div 
+              className="course__rate"
+              onClick={ openRatingModal }
+              children={ <FontAwesomeIcon icon={ faStar } /> }
+            />
+          }
 
           <div 
             className="course__toggle"
@@ -100,7 +129,6 @@ export default function Program({ programID }) {
   const paragraphs = program.description.split('<br/>');
   const semesterNumbers = Array.from({ length: program.duration }, (_, index) => index + 1);
   semesterNumbers.push(0);
-  
 
   return (
     <div className="program">
@@ -129,9 +157,21 @@ export default function Program({ programID }) {
 
       <h1 
         className="program__header"
-        children="ESTRUTURA CURRICULAR"
+        children="CARREIRAS MAIS COMPATÍVEIS"
       />
 
+      <List 
+        className='program__jobs'
+        ids={`list:program:${program.id}`}
+        elements={ program?.jobs.slice(0, 10) }
+        ListItem={ ProgramJob }
+      />
+  
+      <h1 
+        className="program__header"
+        children="ESTRUTURA CURRICULAR"
+      />
+ 
       {
         semesterNumbers.map(semester => {
           return <SemesterCourses key={ semester } semester={ semester } />

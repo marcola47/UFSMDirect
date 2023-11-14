@@ -65,6 +65,70 @@
     gap: 8px;
   }
 
+  &__jobs {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    margin-block: 24px 48px
+  }
+
+  .job 
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+
+    cursor: pointer;
+
+    &:hover > .program__content > .program__name
+    { color: $blue-500 }
+
+    &__content
+    {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      padding-inline: 12px;
+    }
+
+    &__name
+    {
+      color: $blue-1000;
+      font-size: 1.3rem;
+      font-weight: 600;
+      @include transition;
+    }
+
+    &__progress
+    {
+      display: flex;
+
+      width: 100%;
+      height: 4px;
+      border-radius: 3px;
+
+      background-color: $blue-200;
+
+      span
+      {
+        height: 100%;
+        border-radius: 3px;
+        background-color: $blue-500;
+      }
+    }
+
+    &__comp
+    {
+      width: 40px;
+      color: $blue-1000;
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+  }
+
   .course
   {
     display: flex;

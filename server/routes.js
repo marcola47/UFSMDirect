@@ -33,6 +33,8 @@ guestRouter.get('/job/get-jobs', jobController.getJobs);
 guestRouter.get('/job/:jobID', jobController.getJob);
 guestRouter.get('/job/:jobID/rank-programs', jobController.rankPrograms);
 
+guestRouter.post('/feedback/importance/create', feedbackController.rateCourse);
+
 router.use('/a', authRouter);
 router.use('/g', guestRouter);
 
