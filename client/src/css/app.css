@@ -1083,108 +1083,108 @@
     opacity: 0;
   }
 }
-.program {
+.program-page {
   position: relative;
   max-width: 1200px;
   margin-block: 128px 96px;
   margin-inline: auto;
   padding-inline: 32px 48px;
 }
-.program__hero {
+.program-page__hero {
   display: flex;
   gap: 16px;
   margin-bottom: 32px;
 }
-.program__content {
+.program-page__content {
   display: flex;
   flex-direction: column;
 }
-.program__name {
+.program-page__name {
   color: hsl(214, 70%, 35%);
   font-size: 3rem;
 }
-.program__duration {
+.program-page__duration {
   margin-bottom: 24px;
   color: hsl(214, 70%, 35%);
   font-size: 1.3rem;
   font-weight: 600;
 }
-.program__duration .hl-blue {
+.program-page__duration .hl-blue {
   color: hsl(214, 90%, 55%);
 }
-.program__desc {
+.program-page__desc {
   display: flex;
   flex-direction: column;
   gap: 8px;
   color: hsl(214, 70%, 25%);
   text-align: justify;
 }
-.program__header {
+.program-page__header {
   padding: 4px 16px;
   border-bottom: 2px solid hsl(214, 100%, 80%);
   color: hsl(214, 70%, 35%);
   text-align: center;
 }
-.program__label {
+.program-page__label {
   margin-bottom: 8px;
 }
-.program__semester {
+.program-page__semester {
   margin-block: 32px;
   color: hsl(214, 70%, 35%);
   font-size: 2rem;
 }
-.program__courses {
+.program-page__courses {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
-.program__jobs {
+.program-page__jobs {
   display: flex;
   flex-direction: column;
   gap: 12px;
   margin-block: 24px 48px;
 }
-.program .job {
+.program-page .job {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 4px;
   cursor: pointer;
 }
-.program .job:hover > .program__content > .program__name {
+.program-page .job:hover > .program__content > .program__name {
   color: hsl(214, 90%, 55%);
 }
-.program .job__content {
+.program-page .job__content {
   display: flex;
   align-items: center;
   gap: 12px;
   padding-inline: 12px;
 }
-.program .job__name {
+.program-page .job__name {
   color: hsl(214, 70%, 25%);
   font-size: 1.3rem;
   font-weight: 600;
   transition: all 0.1s ease-in-out;
 }
-.program .job__progress {
+.program-page .job__progress {
   display: flex;
   width: 100%;
   height: 4px;
   border-radius: 3px;
   background-color: hsl(214, 100%, 80%);
 }
-.program .job__progress span {
+.program-page .job__progress span {
   height: 100%;
   border-radius: 3px;
   background-color: hsl(214, 90%, 55%);
 }
-.program .job__comp {
+.program-page .job__comp {
   width: 40px;
   color: hsl(214, 70%, 25%);
   font-weight: 600;
   font-size: 1.2rem;
 }
-.program .course {
+.program-page .course {
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -1195,10 +1195,10 @@
   background-color: hsl(0, 0%, 100%);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
-.program .course--optional {
+.program-page .course--optional {
   background-color: hsl(214, 100%, 90%);
 }
-.program .course__main {
+.program-page .course__main {
   display: flex;
   align-items: center;
   gap: 16px;
@@ -1209,7 +1209,7 @@
   color: hsl(214, 70%, 25%);
   cursor: pointer;
 }
-.program .course__sub {
+.program-page .course__sub {
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -1220,12 +1220,12 @@
   padding: 40px 32px 48px 32px;
   transition: all 0.1s ease-in-out;
 }
-.program .course__name {
+.program-page .course__name {
   position: relative;
   font-size: 1.3rem;
   font-weight: 700;
 }
-.program .course__rate {
+.program-page .course__rate {
   position: absolute;
   right: 88px;
   top: 26px;
@@ -1234,10 +1234,10 @@
   cursor: pointer;
   transition: all 0.1s ease-in-out;
 }
-.program .course__rate:hover {
+.program-page .course__rate:hover {
   color: hsl(214, 90%, 55%);
 }
-.program .course__toggle {
+.program-page .course__toggle {
   position: absolute;
   right: 26px;
   top: 26px;
@@ -1245,7 +1245,7 @@
   cursor: pointer;
   transition: all 0.1s ease-in-out;
 }
-.program .course__desc {
+.program-page .course__desc {
   grid-column: span 3;
   font-size: 1.2rem;
 }
@@ -1709,7 +1709,8 @@
 .rate__input__course::placeholder {
   color: #7dabe8;
 }
-.rate .fa-graduation-cap {
+.rate .fa-briefcase,
+.rate .fa-newspaper {
   z-index: 4;
   position: absolute;
   top: 12px;

@@ -11,7 +11,7 @@ export default function Home()
   const cards = 
   [
     { icon: faGraduationCap , header: 'Cursos'            , url: '/programs', desc: 'Conheça os cursos relacionados a computação da UFSM'      },
-    { icon: faProjectDiagram, header: 'Núcleos Formativos', url: '/nuclei'  , desc: 'Conheça os núcleos de conhecimento que compõem os cursos' },
+    // { icon: faProjectDiagram, header: 'Núcleos Formativos', url: '/nuclei'  , desc: 'Conheça os núcleos de conhecimento que compõem os cursos' },
     { icon: faBriefcase     , header: 'Carreiras'         , url: '/jobs'    , desc: 'Conheça as principais carreiras na área de computação'    },
   ]
 
