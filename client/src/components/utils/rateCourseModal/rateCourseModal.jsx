@@ -3,7 +3,7 @@ import { ReducerContext, UserContext } from "@/app"
 import axios from "@/utils/axiosConfig";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGraduationCap, faChevronDown, faStar as faStarSolid } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faNewspaper, faChevronDown, faStar as faStarSolid } from '@fortawesome/free-solid-svg-icons';
 import { faStar as faStarRegular } from "@fortawesome/free-regular-svg-icons";
 
 import List from "../list/list";
@@ -150,7 +150,7 @@ export default function RateCourseModal() {
               children={ selectedCourse?.name || 'Disciplina' }
             />
 
-            <FontAwesomeIcon icon={ faGraduationCap }/> 
+            <FontAwesomeIcon icon={ faNewspaper }/> 
             <FontAwesomeIcon icon={ faChevronDown }/>
 
             {
@@ -173,7 +173,7 @@ export default function RateCourseModal() {
               children={ selectedJob?.name || 'Carreira' }
             />
 
-            <FontAwesomeIcon icon={ faGraduationCap }/> 
+            <FontAwesomeIcon icon={ faBriefcase }/> 
             <FontAwesomeIcon icon={ faChevronDown }/>
 
             {

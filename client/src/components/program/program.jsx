@@ -100,21 +100,21 @@ export default function Program({ programID }) {
   
   function SemesterCourses({ semester }) {
     return (
-      <div className='program__semester'>
+      <div className='program-page__semester'>
         {
           semester !== 0 
           ? <h3 
-              className='program__label'
+              className='program-page__label'
               children={`${semester}° Semestre`}
             />
 
           : <h3 
-              className='program__label'
+              className='program-page__label'
               children={`Qualquer Semestre`}
             />
         }
         <List
-          className='program__courses'
+          className='program-page__courses'
           ids={`list:program:${semester}`}
           elements={ program.courses.filter(course => course.semester === semester) }
           ListItem={ ProgramCourse }
@@ -131,44 +131,44 @@ export default function Program({ programID }) {
   semesterNumbers.push(0);
 
   return (
-    <div className="program">
-      <div className="program__hero">
+    <div className="program-page">
+      <div className="program-page__hero">
         <img 
           src={`/img/program_arts/${program.art}`} 
           alt="art"
           className="info__art" 
         />
-        <div className="program__content">
+        <div className="program-page__content">
           <h1 
-            className="program__name"
+            className="program-page__name"
             children={ program.name }
           />
-          <div className="program__duration">
+          <div className="program-page__duration">
             <span>Duração: </span>
             <span className='hl-blue'>{ program.duration } Semestres </span>
             <span className='hl-blue'> | { program.duration / 2 } Anos</span>
           </div>
 
-          <p className="program__desc">
+          <p className="program-page__desc">
             { paragraphs.map((paragraph, index) => { return <span className='paragraph' key={ index }>{ paragraph }</span> }) }
           </p>
         </div>
       </div>
 
       <h1 
-        className="program__header"
+        className="program-page__header"
         children="CARREIRAS MAIS COMPATÍVEIS"
       />
 
       <List 
-        className='program__jobs'
+        className='program-page__jobs'
         ids={`list:program:${program.id}`}
         elements={ program?.jobs.slice(0, 10) }
         ListItem={ ProgramJob }
       />
   
       <h1 
-        className="program__header"
+        className="program-page__header"
         children="ESTRUTURA CURRICULAR"
       />
  
