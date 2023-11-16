@@ -136,7 +136,7 @@ export default function Program({ programID }) {
         <img 
           src={`/img/program_arts/${program.art}`} 
           alt="art"
-          className="info__art" 
+          className="program-page__art" 
         />
         <div className="program-page__content">
           <h1 

@@ -42,7 +42,7 @@ export default function Navbar()
     return () => { window.removeEventListener('resize', handleResize) };
   }, []);
 
-  if (screenWidth < 1200)
+  if (screenWidth <= 1200)
   {
     return (
       <div className="navbar">

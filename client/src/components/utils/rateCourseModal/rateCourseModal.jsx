@@ -3,7 +3,7 @@ import { ReducerContext, UserContext } from "@/app"
 import axios from "@/utils/axiosConfig";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase, faNewspaper, faChevronDown, faStar as faStarSolid } from '@fortawesome/free-solid-svg-icons';
+import { faXmark, faBriefcase, faNewspaper, faChevronDown, faStar as faStarSolid } from '@fortawesome/free-solid-svg-icons';
 import { faStar as faStarRegular } from "@fortawesome/free-regular-svg-icons";
 
 import List from "../list/list";
@@ -136,6 +136,12 @@ export default function RateCourseModal() {
         className="rate"
         onClick={e => { e.stopPropagation() }}
       >
+        <FontAwesomeIcon 
+          icon={ faXmark } 
+          className="rate__close"
+          onClick={ ()=> {dispatch({ type: "toggle_rate_course" })} }
+        />
+
         <h1 className="rate__header">
           AVALIE A IMPORTÂNCIA DESTA DISCIPLINA PARA UMA CARREIRA
         </h1>
