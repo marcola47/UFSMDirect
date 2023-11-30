@@ -64,3 +64,16 @@ body::-webkit-scrollbar-thumb
   color: $blue-700;
   font-weight: 600; 
 }
+
+.modal-bg {
+  display: grid;
+  place-items: center;
+
+  z-index: 10;
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100dvh;
+
+  background-color: rgba(0, 0, 0, 0.2);
+}

@@ -27,7 +27,7 @@ const courseSchema = new mongoose.Schema(
     type: String,
     default: 'New Course Description',
     required: true,
-    maxlength: 1024,
+    maxlength: 2048,
     trim: true
   },
 

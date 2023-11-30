@@ -71,6 +71,24 @@
       @include transition;
     }
 
+    &__more
+    {
+      width: 100%;
+      padding: 24px;
+      
+      color: $white-light;
+      background-color: $blue-600;
+
+      font-size: 1.4rem;
+      font-weight: 600;
+
+      cursor: pointer;
+      @include transition;
+
+      &:hover
+      { background-color: $blue-500 }
+    }
+
     &__icon
     { font-size: 1.6rem }
 

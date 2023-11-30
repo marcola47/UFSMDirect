@@ -1,0 +1,277 @@
+@import '../../css/variables.scss';
+
+.program-page {
+  position: relative;
+  max-width: 1200px;
+  margin-block: 128px 96px;
+  margin-inline: auto;
+  padding-inline: 32px 48px;
+
+  &__hero {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__name {
+    color: $blue-900;
+    font-size: 3rem;
+  }
+
+  &__duration {
+    margin-bottom: 24px;
+    color: $blue-900;
+    font-size: 1.3rem;
+    font-weight: 600;
+
+    .hl-blue 
+    { color: $blue-500 }
+  }
+
+  &__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    color: $blue-1000;
+    text-align: justify;
+  }
+
+  &__header
+  {
+    padding: 4px 16px;
+    border-bottom: 2px solid $blue-200;
+    color: $blue-900;
+    text-align: center;
+  }
+
+  &__label 
+  { margin-bottom: 8px }
+
+  &__semester {
+    margin-block: 32px;
+    color: $blue-900;
+    font-size: 2rem;
+  }
+
+  &__courses {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &__jobs {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    margin-block: 24px 48px
+  }
+
+  .job 
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+
+    cursor: pointer;
+
+    &:hover > .program__content > .program__name
+    { color: $blue-500 }
+
+    &__content
+    {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      padding-inline: 12px;
+    }
+
+    &__name
+    {
+      color: $blue-1000;
+      font-size: 1.3rem;
+      font-weight: 600;
+      @include transition;
+    }
+
+    &__progress
+    {
+      display: flex;
+
+      width: 100%;
+      height: 4px;
+      border-radius: 3px;
+
+      background-color: $blue-200;
+
+      span
+      {
+        height: 100%;
+        border-radius: 3px;
+        background-color: $blue-500;
+      }
+    }
+
+    &__comp
+    {
+      width: 40px;
+      color: $blue-1000;
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+  }
+
+  .course
+  {
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+    position: relative;
+    height: fit-content;
+    border-radius: $br-m;
+
+    background-color: $white-light;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+    &--optional
+    { background-color: $blue-100 }
+
+    &__main
+    {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      z-index: 3;
+      padding: 32px 64px 32px 32px;
+      border-radius: $br-m;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+      
+      color: $blue-1000;
+
+      cursor: pointer;
+    }
+
+    &__sub
+    {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      
+      opacity: 1;
+      z-index: 1;
+      position: relative;
+      top: -8px;
+      padding: 40px 32px 48px 32px;
+
+      @include transition;
+    }
+
+    &__name
+    {
+      position: relative;
+
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+
+    &__rate
+    {
+      position: absolute;
+      right: 88px;
+      top: 26px;
+
+      font-size: 2rem;
+      font-weight: 700;
+
+      cursor: pointer;
+      @include transition;
+
+      &:hover 
+      { color: $blue-500 }
+    }
+
+    &__toggle
+    {
+      position: absolute;
+      right: 26px;
+      top: 26px;
+
+      font-size: 2rem;
+      cursor: pointer;
+      @include transition;
+    }
+
+    &__desc
+    {
+      grid-column: span 3;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .program-page {
+    &__hero {
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    &__art {
+      max-width: 100%;
+      height: 400px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .program-page {
+    &__art
+    { height: auto }
+
+    .course {
+      &__name { 
+        max-width: 320px;
+        font-size: 1rem; 
+      }
+
+      &__rate {
+        font-size: 1.5rem;
+        top: 28px;
+        right: 64px
+      }
+
+      &__toggle {
+        font-size: 1.5rem;
+        top: 28px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .program-page {
+    .course {
+      &__name 
+      { max-width: 216px }
+    }
+  
+    .job {
+      &__name, &__comp
+      { font-size: 0.9rem }
+
+      &__comp
+      { width: 32px }
+    }
+  }
+}

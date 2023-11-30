@@ -396,6 +396,10 @@
 				"name": "Teste e Depuração",
 				"description": "Realizar testes para identificar problemas e garantir que o hardware funcione corretamente."
 			},
+      {
+        "name": "Simulação de Circuitos",
+        "description": "Utilizar ferramentas e softwares para simular o comportamento de circuitos eletrônicos"
+      },
 			{
 				"name": "Acompanhamento de Tecnologias Emergentes",
 				"description": "Manter-se atualizado sobre as últimas tendências e avanços em tecnologia de hardware para aplicá-los em projetos futuros."
@@ -1809,7 +1813,7 @@
 	},
 	{
 		"id": "5335d533-4512-4d93-b258-96c0218c7bcb",
-    "active": false,
+    "active": true,
 		"name": "Desenvolvedor de Firmware",
 		"description": "Um Desenvolvedor de Firmware é um profissional de tecnologia que cria e mantém o software incorporado em dispositivos eletrônicos. Esse software, conhecido como firmware, está intimamente ligado ao hardware do dispositivo e é responsável por controlar suas funções e operações.",
 		"creations": [
@@ -2404,7 +2408,7 @@
 	},
 	{
 		"id": "2c5eaa88-c003-4f9a-8b85-fde640f2a5da",
-    "active": false,
+    "active": true,
 		"name": "Engenheiro de DevOps",
 		"description": "Um Engenheiro de DevOps é um profissional de tecnologia responsável por melhorar a colaboração entre as equipes de desenvolvimento de software (Dev) e operações de infraestrutura (Ops) em uma organização. A principal missão de um Engenheiro de DevOps é automatizar e agilizar o processo de desenvolvimento, teste e implantação de software, garantindo a entrega rápida e confiável de aplicativos.",
 		"creations": [

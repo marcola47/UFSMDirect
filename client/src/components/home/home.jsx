@@ -1,9 +1,9 @@
 import { useNavigate } from "react-router-dom"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGraduationCap, faNewspaper, faProjectDiagram, faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faGraduationCap, faProjectDiagram, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
-import List from "../utils/list";
+import List from '@/components/utils/list/list'
 
 export default function Home()
 {
@@ -11,7 +11,7 @@ export default function Home()
   const cards = 
   [
     { icon: faGraduationCap , header: 'Cursos'            , url: '/programs', desc: 'Conheça os cursos relacionados a computação da UFSM'      },
-    { icon: faProjectDiagram, header: 'Núcleos Formativos', url: '/nuclei'  , desc: 'Conheça os núcleos de conhecimento que compõem os cursos' },
+    // { icon: faProjectDiagram, header: 'Núcleos Formativos', url: '/nuclei'  , desc: 'Conheça os núcleos de conhecimento que compõem os cursos' },
     { icon: faBriefcase     , header: 'Carreiras'         , url: '/jobs'    , desc: 'Conheça as principais carreiras na área de computação'    },
   ]
 
@@ -56,7 +56,7 @@ export default function Home()
       </div>
 
       <img 
-        src="/img/home__art.png" 
+        src="/img/art__home.png" 
         alt="art"
         className="home__art" 
       />

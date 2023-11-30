@@ -23,7 +23,7 @@ const programCourseSchema = new mongoose.Schema(
     dafault: true,
     required: true
   }
-});
+}, { _id: false });
 
 const programSchema = new mongoose.Schema(
 {
@@ -45,6 +45,28 @@ const programSchema = new mongoose.Schema(
     required: true,
     maxlength: 2048,
     trim: true
+  },
+
+  duration:
+  {
+    type: Number,
+    default: 8,
+    required: true
+  },
+
+  art:
+  {
+    type: String,
+    required: false,
+    maxlength: 16
+  },
+
+  type:
+  {
+    type: String,
+    enum: ['bachelor', 'technologist'],
+    default: 'bachelor',
+    required: true
   },
 
   courses:

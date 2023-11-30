@@ -3,7 +3,7 @@ import { UserContext, ReducerContext } from '@/app';
 import axios, { setResponseError } from '@/utils/axiosConfig';
 
 import formParams from '@/data/formParams.js'
-import List from '@/components/utils/list'
+import List from '@/components/utils/list/list'
 import Affirmation from './affirmation/affirmation';
 
 export const AffirmationsContext = React.createContext();

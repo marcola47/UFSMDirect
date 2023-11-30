@@ -7,7 +7,7 @@ import { v4 as uuid } from 'uuid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faEnvelope, faKey, faAddressCard, faGraduationCap, faChevronDown, faCircleDown } from '@fortawesome/free-solid-svg-icons';
 
-import List from '../utils/list';
+import List from '@/components/utils/list/list'
 
 export default function Register()
 {
@@ -34,7 +34,7 @@ export default function Register()
   {
     if (programs.length <= 0)
     {
-      axios.get('/g/program/get-reg-programs')
+      axios.get('/g/program/get-min-programs?type=reg')
       .then(res => setPrograms(res.data))
       .catch(err => setResponseError(err, dispatch))
     }
@@ -43,7 +43,7 @@ export default function Register()
   function register(type)
   {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    let name, email, password, passwordConfirm, registration, program;
+    let name, email, password, passwordConfirm, registration;
 
     const clientError = 
     {

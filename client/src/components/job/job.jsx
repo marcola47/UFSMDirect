@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from '@/utils/axiosConfig'
 
 import getTextColor from '@/utils/getTextColor';
-import List from '../utils/list';
+import List from '@/components/utils/list/list'
 
 export default function Job({ jobID })
 {

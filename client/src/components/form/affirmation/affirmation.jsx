@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react';
 import { AffirmationsContext } from '../form';
 
-import List from '@/components/utils/list'; 
+import List from '@/components/utils/list/list'
 
 export const OptionContext = React.createContext();
 

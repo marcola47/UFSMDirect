@@ -42,7 +42,7 @@ export default function Navbar()
     return () => { window.removeEventListener('resize', handleResize) };
   }, []);
 
-  if (screenWidth < 1200)
+  if (screenWidth <= 1200)
   {
     return (
       <div className="navbar">
@@ -64,17 +64,17 @@ export default function Navbar()
           className="navbar__links"
           style={ style }
         >
-          <NavbarLink 
+          {/* <NavbarLink 
             page="/nuclei" 
             icon={ faProjectDiagram } 
             text="Núcleos Formativos"
-          />
+          /> */}
 
-          <NavbarLink 
+          {/* <NavbarLink 
             page="/courses" 
             icon={ faNewspaper } 
             text="Disciplinas"
-          />
+          /> */}
 
           <NavbarLink 
             page="/programs" 
@@ -125,7 +125,7 @@ export default function Navbar()
         </a>
 
         <div className="navbar__links">
-          <NavbarLink 
+          {/* <NavbarLink 
             page="/nuclei" 
             icon={ faProjectDiagram } 
             text="Núcleos Formativos"
@@ -135,7 +135,7 @@ export default function Navbar()
             page="/courses" 
             icon={ faNewspaper } 
             text="Disciplinas"
-          />
+          /> */}
 
           <NavbarLink 
             page="/programs" 
